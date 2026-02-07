@@ -2,7 +2,7 @@
 
 Production-ready boilerplate for AI agent projects using [NodeBench MCP](https://www.npmjs.com/package/nodebench-mcp).
 
-Pre-configured with **132 MCP tools**, quality gates, parallel agent infrastructure, GitHub Actions CI, and Docker.
+Pre-configured with **134 MCP tools**, quality gates, parallel agent infrastructure, GitHub Actions CI, and Docker.
 
 ## What's Included
 
@@ -10,7 +10,7 @@ Pre-configured with **132 MCP tools**, quality gates, parallel agent infrastruct
 |------|---------|
 | `AGENTS.md` | Agent instructions — every AI session starts here |
 | `.mcp.json` | NodeBench MCP server configuration |
-| `package.json` | Pre-wired scripts: `mcp:start`, `mcp:lite`, `mcp:core`, `mcp:full` |
+| `package.json` | Pre-wired scripts: `mcp:start`, `mcp:meta`, `mcp:lite`, `mcp:core`, `mcp:full` |
 | `.github/workflows/ci.yml` | GitHub Actions CI (Node 20 + 22, build, test, lint) |
 | `Dockerfile` | Multi-stage production Docker build |
 | `tsconfig.json` | Strict TypeScript with ESM |
@@ -27,23 +27,35 @@ cd my-project
 # Install
 npm install
 
-# Start NodeBench MCP (132 tools)
+# Start NodeBench MCP (full — 134 tools)
 npm run mcp:start
 
 # Or use presets
-npm run mcp:lite    # 36 tools — lightweight
-npm run mcp:core    # 84 tools — recommended
-npm run mcp:full    # 132 tools — everything
+npm run mcp:meta    #   5 tools — discovery-only front door
+npm run mcp:lite    #  36 tools — lightweight
+npm run mcp:core    #  84 tools — recommended
+npm run mcp:full    # 134 tools — everything
 ```
+
+## Presets
+
+| Preset | Tools | Use Case |
+|--------|-------|----------|
+| `meta` | 5 | Discovery-first / front door — only meta + discovery tools. Agent self-escalates. |
+| `lite` | 36 | Solo dev, standard tasks — fast, low token overhead |
+| `core` | 84 | Team with methodology needs — full flywheel loop |
+| `full` | 134 | Multi-agent / full pipeline — parallel + self-eval + everything |
 
 ## For AI Agents
 
 Once MCP is running, agents should:
 
-1. **`bootstrap_project`** — Register the project (tech stack, architecture, conventions)
-2. **`search_all_knowledge`** — Check past findings before starting work
-3. **`discover_tools("what you want to do")`** — Multi-modal search across 132 tools
-4. **`get_workflow_chain("new_feature")`** — Get step-by-step tool sequences
+1. **`discover_tools("what you want to do")`** — Multi-modal search across 134 tools
+2. **`getMethodology("mandatory_flywheel")`** — Get step-by-step methodology
+3. **`get_workflow_chain("new_feature")`** — Get pre-built tool sequences
+4. **`findTools("keyword")`** — Search loaded tools by keyword
+
+With `--preset meta`, the agent starts with only these 5 tools and discovers what it needs via `discover_tools`, then requests the user escalate to a larger preset.
 
 ### Search Modes
 
@@ -83,6 +95,7 @@ bootstrap_parallel_agents → assign_agent_role → claim_agent_task → [work] 
 | `npm test` | Run tests (Vitest) |
 | `npm run dev` | Watch mode development |
 | `npm run mcp:start` | Launch NodeBench MCP (full preset) |
+| `npm run mcp:meta` | Launch with meta preset (5 tools — discovery only) |
 | `npm run mcp:lite` | Launch with lite preset (36 tools) |
 | `npm run mcp:core` | Launch with core preset (84 tools) |
 
