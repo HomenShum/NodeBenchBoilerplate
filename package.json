@@ -1,0 +1,36 @@
+{
+  "name": "nodebench-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Production-ready boilerplate for AI agent projects using NodeBench MCP. Pre-configured with AGENTS.md, quality gates, parallel agent infra, GitHub Actions CI, and Docker.",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "dev": "tsx watch src/index.ts",
+    "mcp:start": "npx nodebench-mcp",
+    "mcp:lite": "npx nodebench-mcp --preset lite",
+    "mcp:core": "npx nodebench-mcp --preset core",
+    "mcp:full": "npx nodebench-mcp --preset full"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "vitest": "^3.2.0",
+    "tsx": "^4.19.0",
+    "nodebench-mcp": "^2.8.1"
+  },
+  "keywords": [
+    "nodebench",
+    "mcp",
+    "ai-agents",
+    "boilerplate",
+    "template",
+    "quality-gates",
+    "parallel-agents",
+    "verification"
+  ]
+}
