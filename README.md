@@ -1,4 +1,4 @@
-# nodebench-boilerplate
+# NodeBenchBoilerplate
 
 Production-ready boilerplate for AI agent projects using [NodeBench MCP](https://www.npmjs.com/package/nodebench-mcp).
 
@@ -21,7 +21,7 @@ Pre-configured with **134 MCP tools**, quality gates, parallel agent infrastruct
 
 ```bash
 # Clone this template
-gh repo create my-project --template HomenShum/nodebench-boilerplate --clone
+gh repo create my-project --template HomenShum/NodeBenchBoilerplate --clone
 cd my-project
 
 # Install
@@ -78,6 +78,13 @@ Every change should pass through:
 ```
 search_all_knowledge → start_verification_cycle → [phases 1-6] → run_mandatory_flywheel → record_learning
 ```
+
+### Feature Proof Storyboards
+
+Before recording README clips or claiming a feature works, copy
+[`docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md`](docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md)
+to `docs/FEATURE_PROOF_STORYBOARD.md` and bind the demo to concrete commands,
+receipts, screenshots, or external judge output.
 
 ### Parallel Agents
 
