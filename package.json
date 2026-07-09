@@ -15,13 +15,12 @@
     "mcp:core": "npx nodebench-mcp --preset core",
     "mcp:full": "npx nodebench-mcp --preset full"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.7.0",
     "@types/node": "^22.0.0",
-    "vitest": "^3.2.0",
+    "nodebench-mcp": "^3.2.1",
     "tsx": "^4.19.0",
-    "nodebench-mcp": "^2.8.1"
+    "typescript": "^5.7.0",
+    "vitest": "^3.2.0"
   },
   "keywords": [
     "nodebench",
