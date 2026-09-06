@@ -1,0 +1,385 @@
+{
+  "at": "2026-09-06T03:36:03.012142+00:00",
+  "status": "EXTERNAL_FRESH_LOCK_OBSERVED",
+  "beforeSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+  "proposedSha256": "ae858d4a4c1fd2fb9849544e15b73bfe3b9e37748e71353a54e089866f847dd9",
+  "oldPackageRows": 359,
+  "newPackageRows": 422,
+  "added": [
+    "node_modules/@esbuild/aix-ppc64",
+    "node_modules/@esbuild/android-arm",
+    "node_modules/@esbuild/android-arm64",
+    "node_modules/@esbuild/android-x64",
+    "node_modules/@esbuild/darwin-arm64",
+    "node_modules/@esbuild/darwin-x64",
+    "node_modules/@esbuild/freebsd-arm64",
+    "node_modules/@esbuild/freebsd-x64",
+    "node_modules/@esbuild/linux-arm",
+    "node_modules/@esbuild/linux-arm64",
+    "node_modules/@esbuild/linux-ia32",
+    "node_modules/@esbuild/linux-loong64",
+    "node_modules/@esbuild/linux-mips64el",
+    "node_modules/@esbuild/linux-ppc64",
+    "node_modules/@esbuild/linux-riscv64",
+    "node_modules/@esbuild/linux-s390x",
+    "node_modules/@esbuild/linux-x64",
+    "node_modules/@esbuild/netbsd-arm64",
+    "node_modules/@esbuild/netbsd-x64",
+    "node_modules/@esbuild/openbsd-arm64",
+    "node_modules/@esbuild/openbsd-x64",
+    "node_modules/@esbuild/openharmony-arm64",
+    "node_modules/@esbuild/sunos-x64",
+    "node_modules/@esbuild/win32-arm64",
+    "node_modules/@esbuild/win32-ia32",
+    "node_modules/@modelcontextprotocol/sdk/node_modules/ajv",
+    "node_modules/@modelcontextprotocol/sdk/node_modules/json-schema-traverse",
+    "node_modules/@napi-rs/canvas-android-arm64",
+    "node_modules/@napi-rs/canvas-darwin-arm64",
+    "node_modules/@napi-rs/canvas-darwin-x64",
+    "node_modules/@napi-rs/canvas-linux-arm-gnueabihf",
+    "node_modules/@napi-rs/canvas-linux-arm64-gnu",
+    "node_modules/@napi-rs/canvas-linux-arm64-musl",
+    "node_modules/@napi-rs/canvas-linux-riscv64-gnu",
+    "node_modules/@napi-rs/canvas-linux-x64-gnu",
+    "node_modules/@napi-rs/canvas-linux-x64-musl",
+    "node_modules/@napi-rs/lzma-linux-x64-gnu",
+    "node_modules/@rollup/rollup-android-arm-eabi",
+    "node_modules/@rollup/rollup-android-arm64",
+    "node_modules/@rollup/rollup-darwin-arm64",
+    "node_modules/@rollup/rollup-darwin-x64",
+    "node_modules/@rollup/rollup-freebsd-arm64",
+    "node_modules/@rollup/rollup-freebsd-x64",
+    "node_modules/@rollup/rollup-linux-arm-gnueabihf",
+    "node_modules/@rollup/rollup-linux-arm-musleabihf",
+    "node_modules/@rollup/rollup-linux-arm64-gnu",
+    "node_modules/@rollup/rollup-linux-arm64-musl",
+    "node_modules/@rollup/rollup-linux-loong64-gnu",
+    "node_modules/@rollup/rollup-linux-loong64-musl",
+    "node_modules/@rollup/rollup-linux-ppc64-gnu",
+    "node_modules/@rollup/rollup-linux-ppc64-musl",
+    "node_modules/@rollup/rollup-linux-riscv64-gnu",
+    "node_modules/@rollup/rollup-linux-riscv64-musl",
+    "node_modules/@rollup/rollup-linux-s390x-gnu",
+    "node_modules/@rollup/rollup-linux-x64-gnu",
+    "node_modules/@rollup/rollup-linux-x64-musl",
+    "node_modules/@rollup/rollup-openbsd-x64",
+    "node_modules/@rollup/rollup-openharmony-arm64",
+    "node_modules/@rollup/rollup-win32-arm64-msvc",
+    "node_modules/@rollup/rollup-win32-ia32-msvc",
+    "node_modules/ajv-formats/node_modules/ajv",
+    "node_modules/ajv-formats/node_modules/json-schema-traverse",
+    "node_modules/duplexer2/node_modules/readable-stream",
+    "node_modules/duplexer2/node_modules/safe-buffer",
+    "node_modules/duplexer2/node_modules/string_decoder",
+    "node_modules/fsevents",
+    "node_modules/negotiator/node_modules/content-type",
+    "node_modules/node-fetch"
+  ],
+  "removed": [
+    "node_modules/bl/node_modules/readable-stream",
+    "node_modules/eslint/node_modules/ajv",
+    "node_modules/eslint/node_modules/json-schema-traverse",
+    "node_modules/tar-stream/node_modules/readable-stream",
+    "node_modules/tesseract.js/node_modules/node-fetch"
+  ],
+  "existingVersionChanges": [
+    {
+      "path": "node_modules/playwright",
+      "before": "1.61.1",
+      "after": "1.63.0"
+    },
+    {
+      "path": "node_modules/@esbuild/win32-x64",
+      "before": "0.28.1",
+      "after": "0.28.2"
+    },
+    {
+      "path": "node_modules/wasm-feature-detect",
+      "before": "1.8.0",
+      "after": "1.9.0"
+    },
+    {
+      "path": "node_modules/type-is/node_modules/content-type",
+      "before": "2.0.0",
+      "after": "2.1.0"
+    },
+    {
+      "path": "node_modules/@rollup/rollup-win32-x64-msvc",
+      "before": "4.62.2",
+      "after": "4.63.1"
+    },
+    {
+      "path": "node_modules/body-parser/node_modules/content-type",
+      "before": "2.0.0",
+      "after": "2.1.0"
+    },
+    {
+      "path": "node_modules/@rollup/rollup-win32-x64-gnu",
+      "before": "4.62.2",
+      "after": "4.63.1"
+    },
+    {
+      "path": "node_modules/rollup",
+      "before": "4.62.2",
+      "after": "4.63.1"
+    },
+    {
+      "path": "node_modules/jose",
+      "before": "6.2.3",
+      "after": "6.2.12"
+    },
+    {
+      "path": "node_modules/json-schema-traverse",
+      "before": "1.0.0",
+      "after": "0.4.1"
+    },
+    {
+      "path": "node_modules/string_decoder",
+      "before": "1.1.1",
+      "after": "1.3.0"
+    },
+    {
+      "path": "node_modules/@modelcontextprotocol/sdk",
+      "before": "1.29.0",
+      "after": "1.30.0"
+    },
+    {
+      "path": "node_modules/tsx",
+      "before": "4.23.0",
+      "after": "4.23.13"
+    },
+    {
+      "path": "node_modules/tinyspy",
+      "before": "4.0.4",
+      "after": "4.0.6"
+    },
+    {
+      "path": "node_modules/postcss",
+      "before": "8.5.23",
+      "after": "8.5.28"
+    },
+    {
+      "path": "node_modules/safe-buffer",
+      "before": "5.1.2",
+      "after": "5.2.1"
+    },
+    {
+      "path": "node_modules/ws",
+      "before": "8.21.0",
+      "after": "8.21.3"
+    },
+    {
+      "path": "node_modules/playwright-core",
+      "before": "1.61.1",
+      "after": "1.63.0"
+    },
+    {
+      "path": "node_modules/@jridgewell/sourcemap-codec",
+      "before": "1.5.5",
+      "after": "1.6.0"
+    },
+    {
+      "path": "node_modules/@hono/node-server",
+      "before": "1.19.15",
+      "after": "2.1.1"
+    },
+    {
+      "path": "node_modules/readable-stream",
+      "before": "2.3.8",
+      "after": "3.6.2"
+    },
+    {
+      "path": "node_modules/esbuild",
+      "before": "0.28.1",
+      "after": "0.28.2"
+    },
+    {
+      "path": "node_modules/media-typer",
+      "before": "1.1.0",
+      "after": "1.1.1"
+    },
+    {
+      "path": "node_modules/express-rate-limit",
+      "before": "8.5.2",
+      "after": "8.7.0"
+    },
+    {
+      "path": "node_modules/ip-address",
+      "before": "10.3.1",
+      "after": "10.7.0"
+    },
+    {
+      "path": "node_modules/papaparse",
+      "before": "5.5.4",
+      "after": "5.7.0"
+    },
+    {
+      "path": "node_modules/ajv",
+      "before": "8.20.0",
+      "after": "6.15.0"
+    },
+    {
+      "path": "node_modules/fast-uri",
+      "before": "3.1.6",
+      "after": "3.1.7"
+    },
+    {
+      "path": "node_modules/hono",
+      "before": "4.12.34",
+      "after": "4.13.7"
+    },
+    {
+      "path": "node_modules/negotiator",
+      "before": "1.0.0",
+      "after": "1.1.0"
+    },
+    {
+      "path": "node_modules/@emnapi/runtime",
+      "before": "1.11.2",
+      "after": "1.11.3"
+    },
+    {
+      "path": "node_modules/picomatch",
+      "before": "4.0.5",
+      "after": "4.0.7"
+    },
+    {
+      "path": "node_modules/eventsource-parser",
+      "before": "3.1.0",
+      "after": "3.1.1"
+    }
+  ],
+  "changedExistingRows": [
+    "node_modules/@anthropic-ai/sdk",
+    "node_modules/@babel/runtime",
+    "node_modules/@emnapi/runtime",
+    "node_modules/@esbuild/win32-x64",
+    "node_modules/@hono/node-server",
+    "node_modules/@jridgewell/sourcemap-codec",
+    "node_modules/@modelcontextprotocol/sdk",
+    "node_modules/@napi-rs/canvas",
+    "node_modules/@napi-rs/canvas-win32-x64-msvc",
+    "node_modules/@rollup/rollup-win32-x64-gnu",
+    "node_modules/@rollup/rollup-win32-x64-msvc",
+    "node_modules/@types/chai",
+    "node_modules/@types/deep-eql",
+    "node_modules/@types/estree",
+    "node_modules/@types/node",
+    "node_modules/@vitest/expect",
+    "node_modules/@vitest/mocker",
+    "node_modules/@vitest/pretty-format",
+    "node_modules/@vitest/runner",
+    "node_modules/@vitest/snapshot",
+    "node_modules/@vitest/spy",
+    "node_modules/@vitest/utils",
+    "node_modules/ajv",
+    "node_modules/assertion-error",
+    "node_modules/bmp-js",
+    "node_modules/body-parser/node_modules/content-type",
+    "node_modules/buffer-crc32",
+    "node_modules/cac",
+    "node_modules/chai",
+    "node_modules/check-error",
+    "node_modules/debug",
+    "node_modules/deep-eql",
+    "node_modules/es-module-lexer",
+    "node_modules/esbuild",
+    "node_modules/estree-walker",
+    "node_modules/eventsource-parser",
+    "node_modules/expect-type",
+    "node_modules/express-rate-limit",
+    "node_modules/fast-uri",
+    "node_modules/fd-slicer",
+    "node_modules/fdir",
+    "node_modules/hono",
+    "node_modules/idb-keyval",
+    "node_modules/ip-address",
+    "node_modules/is-url",
+    "node_modules/jose",
+    "node_modules/js-tokens",
+    "node_modules/json-schema-to-ts",
+    "node_modules/json-schema-traverse",
+    "node_modules/loupe",
+    "node_modules/magic-string",
+    "node_modules/media-typer",
+    "node_modules/ms",
+    "node_modules/negotiator",
+    "node_modules/openai",
+    "node_modules/opencollective-postinstall",
+    "node_modules/papaparse",
+    "node_modules/pathe",
+    "node_modules/pathval",
+    "node_modules/pdf-parse",
+    "node_modules/pdfjs-dist",
+    "node_modules/pend",
+    "node_modules/picocolors",
+    "node_modules/picomatch",
+    "node_modules/playwright",
+    "node_modules/playwright-core",
+    "node_modules/postcss",
+    "node_modules/readable-stream",
+    "node_modules/regenerator-runtime",
+    "node_modules/rollup",
+    "node_modules/safe-buffer",
+    "node_modules/siginfo",
+    "node_modules/source-map-js",
+    "node_modules/stackback",
+    "node_modules/std-env",
+    "node_modules/string_decoder",
+    "node_modules/strip-literal",
+    "node_modules/tesseract.js",
+    "node_modules/tesseract.js-core",
+    "node_modules/tinybench",
+    "node_modules/tinyexec",
+    "node_modules/tinyglobby",
+    "node_modules/tinypool",
+    "node_modules/tinyrainbow",
+    "node_modules/tinyspy",
+    "node_modules/tr46",
+    "node_modules/ts-algebra",
+    "node_modules/tsx",
+    "node_modules/type-is/node_modules/content-type",
+    "node_modules/typescript",
+    "node_modules/undici-types",
+    "node_modules/vite",
+    "node_modules/vite-node",
+    "node_modules/vitest",
+    "node_modules/wasm-feature-detect",
+    "node_modules/webidl-conversions",
+    "node_modules/whatwg-url",
+    "node_modules/why-is-node-running",
+    "node_modules/ws",
+    "node_modules/yauzl",
+    "node_modules/zlibjs",
+    "node_modules/zod"
+  ],
+  "missingPlatformRows": {
+    "node_modules/rollup": [],
+    "node_modules/esbuild": []
+  },
+  "sourceAndPrimaryUnchanged": true,
+  "trialHasNodeModules": false,
+  "commands": [
+    {
+      "name": "ordinary-fresh-lock-only-resolution",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "install",
+        "--package-lock-only"
+      ],
+      "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-lock-fresh-20260906\\resolution",
+      "exit": 0,
+      "seconds": 10.625,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        64000
+      ],
+      "survivors": [],
+      "stdout": "ordinary-fresh-lock-only-resolution.stdout",
+      "stderr": "ordinary-fresh-lock-only-resolution.stderr"
+    }
+  ],
+  "sourceTransfer": false,
+  "platformRuntimeProof": false
+}

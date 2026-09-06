@@ -1,0 +1,25 @@
+{
+  "name": "record_learning",
+  "args": {
+    "key": "boilerplate-native-handoff",
+    "content": "SQLite native readback and restart are required; synthetic revision 3",
+    "category": "regression",
+    "tags": [
+      "handoff"
+    ],
+    "sourceCycle": "cycle_1788660984085_xe0cqfv92"
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "success: true\nlearningId: 1\nkey: boilerplate-native-handoff\ncategory: regression\nmessage: Learning recorded. It will surface in future searches.\n_quickRef:\n  nextAction: Learning persisted. It will surface in future search_all_knowledge queries. Add tags for better discoverability.\n  nextTools[2]: search_all_knowledge,list_learnings\n  methodology: learnings\n  tip: Record immediately when you discover something — don't wait until the end."
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 31
+  }
+}

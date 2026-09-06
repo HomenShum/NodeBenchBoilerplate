@@ -1,0 +1,80 @@
+{
+  "family": "ip-address",
+  "root": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+  "fixture": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\ip-address-baseline",
+  "checks": [
+    {
+      "name": "leading-zero IPv4 rejects",
+      "passed": true,
+      "actual": {
+        "error": "AddressError",
+        "message": "Invalid IPv4 address."
+      }
+    },
+    {
+      "name": "host loopback classification ignores wide CIDR mask",
+      "passed": false
+    },
+    {
+      "name": "host private classification ignores wide CIDR mask",
+      "passed": false
+    },
+    {
+      "name": "IPv4-mapped loopback classified as loopback",
+      "passed": false,
+      "actual": {
+        "canonical": "::ffff:7f00:1"
+      }
+    },
+    {
+      "name": "ordinary public IPv4 canonical unchanged",
+      "passed": true
+    },
+    {
+      "name": "no fetch attempted",
+      "passed": true,
+      "actual": 0
+    }
+  ],
+  "observations": {},
+  "fetchAttempts": 0,
+  "sourceBindings": [
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\ip-address.js",
+      "sha256": "3e38a4b349282e67a811aece46e273b1b24abbba2897bea707a00170ebdfc200"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\ipv4.js",
+      "sha256": "1812fa4768e431c77425d90c5d3cd29581a6643636001be22141d86b173299c1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\common.js",
+      "sha256": "5339ca7ec4283cb1a56e3cc3cea6c289e269912ba74b9458fb891522991651bf"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\address-error.js",
+      "sha256": "d0bb8495a78ce2a1e2c1ad231c15b3a8146fec8c8ea32b121fcbe1e032b9cc0e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v4\\constants.js",
+      "sha256": "db6c8d9507342ed5a3ac4ef1ee228388624e341750e4a9091e538d474871c8a1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\ipv6.js",
+      "sha256": "e11657022ac5347ef5e6044a4b6d4bf22d1b8b792fda1c75a75d297df54af116"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v6\\constants.js",
+      "sha256": "3457615e0d9eba7735133c438cc89f6c97730960ff5f1b3a5b0ccd9b1486ce51"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v6\\helpers.js",
+      "sha256": "80660cbe876ed3e7224268638582db8def929a53bc8822c5a5d8a0c321cca50f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v6\\regular-expressions.js",
+      "sha256": "31f99f670ac43ebe9694dc84b6cc9a00eb5af08f90c0ca0d2d8c5c63e5b67415"
+    }
+  ],
+  "status": "FAIL"
+}

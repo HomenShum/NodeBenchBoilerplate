@@ -1,0 +1,1 @@
+{"adapter":"package-local","tables":82,"sqlite":{"version":"3.49.2"},"readback":true}

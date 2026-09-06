@@ -1,0 +1,20 @@
+{
+  "name": "run_quality_gate",
+  "args": {
+    "gateName": "invalid-empty",
+    "rules": []
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "At least one rule is required"
+        }
+      ],
+      "isError": true
+    },
+    "jsonrpc": "2.0",
+    "id": 21
+  }
+}

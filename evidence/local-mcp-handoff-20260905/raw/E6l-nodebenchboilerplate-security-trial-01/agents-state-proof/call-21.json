@@ -1,0 +1,25 @@
+{
+  "name": "run_mandatory_flywheel",
+  "args": {
+    "target": "invalid incomplete fixture",
+    "steps": [
+      {
+        "stepName": "static_analysis",
+        "passed": true
+      }
+    ]
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Missing required steps: happy_path_test, failure_path_test, gap_analysis, fix_and_reverify, deploy_and_document. All 6 steps must be reported."
+        }
+      ],
+      "isError": true
+    },
+    "jsonrpc": "2.0",
+    "id": 22
+  }
+}

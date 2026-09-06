@@ -1,0 +1,40 @@
+[
+  {
+    "name": "ordinary-missing-parent-resolution",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "install",
+      "--package-lock-only"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-lock-rebuilt-20260906\\resolution",
+    "exit": 0,
+    "seconds": 2.218,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      39508
+    ],
+    "survivors": [],
+    "stdout": "ordinary-missing-parent-resolution.stdout",
+    "stderr": "ordinary-missing-parent-resolution.stderr"
+  },
+  {
+    "name": "ordinary-restored-manifest-resolution",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "install",
+      "--package-lock-only"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-lock-rebuilt-20260906\\resolution",
+    "exit": 0,
+    "seconds": 1.078,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      55036
+    ],
+    "survivors": [],
+    "stdout": "ordinary-restored-manifest-resolution.stdout",
+    "stderr": "ordinary-restored-manifest-resolution.stderr"
+  }
+]

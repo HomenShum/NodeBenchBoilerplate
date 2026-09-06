@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-06T00:42:00.868257+00:00",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "C:/nvm4w/nodejs/node_modules/npm/bin/npx-cli.js",
+    "nodebench-mcp"
+  ],
+  "candidate": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+  "error": "JSONDecodeError('Expecting value: line 2 column 1 (char 1)')",
+  "seconds": 13.89,
+  "exitCode": 15,
+  "exitedAfterEof": false,
+  "ownedProcesses": {
+    "66324": 1788655306.9736137,
+    "68112": 1788655307.8056285,
+    "65436": 1788655307.8297296
+  },
+  "observedConnections": [],
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 823,
+    "stderr": 1051
+  },
+  "methodsSent": [
+    "initialize"
+  ],
+  "toolsCalled": 0,
+  "isolationPreflight": "E6l_NODEBENCHBOILERPLATE_MCP_PREFLIGHT.json"
+}

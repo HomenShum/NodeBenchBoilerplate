@@ -1,0 +1,153 @@
+import concurrent.futures
+import hashlib
+import json
+import subprocess
+import urllib.parse
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+P = Path(__file__).resolve().parent
+I = P / 'E6l-platform-lock-resolution-04'
+O = P / 'E6l-platform-lock-independent-01'
+O.mkdir(exist_ok=False)
+(O / 'registry').mkdir()
+
+def sha(data):
+    return hashlib.sha256(data).hexdigest()
+
+def read(path):
+    return json.loads(path.read_text(encoding='utf-8'))
+
+def save(name, value):
+    (O / name).write_text(json.dumps(value, indent=2) + '\n', encoding='utf-8')
+
+def git(repo, *args):
+    return subprocess.run(['git', '--no-optional-locks', '-C', str(repo), *args], capture_output=True, check=True).stdout
+
+def check_source(snapshot):
+    repo = Path(snapshot['path'])
+    assert git(repo, 'rev-parse', 'HEAD').decode().strip() == snapshot['head']
+    assert git(repo, 'status', '--porcelain=v1').decode().strip() == snapshot['status'].strip()
+    index = Path(git(repo, 'rev-parse', '--path-format=absolute', '--git-path', 'index').decode().strip())
+    assert sha(index.read_bytes()) == snapshot['indexSha256']
+    for name, expected in snapshot['files'].items():
+        data = (repo / name).read_bytes()
+        assert {'bytes': len(data), 'sha256': sha(data)} == expected, name
+    return {'files': len(snapshot['files']), 'head': snapshot['head'], 'sourceAndIndexStatusExact': True}
+
+source = read(I / 'source-before.json')
+primary = read(I / 'primary-before.json')
+save('guard-before.json', {'source': check_source(source), 'primary': check_source(primary)})
+inputs = {p.name: {'bytes': p.stat().st_size, 'sha256': sha(p.read_bytes())} for p in I.iterdir() if p.is_file() and p.name != 'environment-policy.json'}
+save('input-bindings.json', inputs)
+old_doc = read(I / 'package-lock.json.before.txt')
+new_doc = read(I / 'package-lock.proposed.json')
+old, new = old_doc['packages'], new_doc['packages']
+parents = ['node_modules/rollup', 'node_modules/esbuild', 'node_modules/@napi-rs/canvas']
+assert len(old) == 359 and len(new) == 418
+assert all(old_doc[k] == new_doc[k] for k in old_doc if k != 'packages')
+assert not set(old) - set(new)
+assert all(old[k].get('version') == new[k].get('version') for k in old)
+changed = sorted(k for k in old if old[k] != new[k])
+assert changed == sorted(parents)
+for name in parents:
+    assert {k: v for k, v in new[name].items() if k not in ['resolved', 'integrity']} == old[name]
+invalid = read(I / 'package-lock.invalidated-input.json')
+assert set(old) - set(invalid['packages']) == set(parents)
+assert len(invalid['packages']) == 356
+assert all(old[k] == v for k, v in invalid['packages'].items())
+assert all(invalid[k] == old_doc[k] for k in old_doc if k != 'packages')
+manifest_bytes = (I / 'package.json.before.txt').read_bytes()
+manifest = json.loads(manifest_bytes)
+temp = read(I / 'package.temporary-constraints.json')
+for name, version in {'rollup': '4.62.2', 'esbuild': '0.28.1', '@napi-rs/canvas': '0.1.80'}.items():
+    assert temp['devDependencies'].pop(name) == version
+assert temp == manifest
+assert new[''] == old['']
+assert new['']['devDependencies'] == manifest['devDependencies']
+assert 'overrides' not in manifest and 'overrides' not in new_doc
+resolution = Path(read(I / 'receipt.json')['commands'][0]['cwd'])
+assert (resolution / 'package.json').read_bytes() == manifest_bytes
+assert (resolution / 'package-lock.json').read_bytes() == (I / 'package-lock.proposed.json').read_bytes()
+added = sorted(set(new) - set(old))
+assert len(added) == 59
+for path in added:
+    assert new[path]['dev'] is True and new[path]['optional'] is True
+    assert not new[path].get('dependencies') and not new[path].get('optionalDependencies')
+cached_dir = P / 'E6l-boilerplate-shared-01'
+cached = {(r['name'], r['version']): r for r in read(cached_dir / 'registry-metadata.json')['rows']}
+
+def metadata(path):
+    package = path.rsplit('node_modules/', 1)[1]
+    version = new[path]['version']
+    url = 'https://registry.npmjs.org/' + urllib.parse.quote(package, safe='') + '/' + version
+    existing = cached.get((package, version))
+    if existing:
+        data = (cached_dir / Path(existing['file'].replace('\\', '/'))).read_bytes()
+        assert sha(data) == existing['sha256']
+        origin = 'exact preserved earlier independent GET'
+    else:
+        req = urllib.request.Request(url, headers={'Accept': 'application/json', 'User-Agent': 'NodeBenchBoilerplate-read-only-lock-review'})
+        with urllib.request.urlopen(req, timeout=25) as response:
+            assert response.status == 200 and response.url == url
+            data = response.read(2_000_001)
+            assert len(data) <= 2_000_000
+        origin = 'new bounded public exact-version GET'
+    name = package.replace('@', '').replace('/', '__') + '-' + version + '.json'
+    (O / 'registry' / name).write_bytes(data)
+    m = json.loads(data)
+    assert m['name'] == package and m['version'] == version
+    lock = new[path]
+    assert lock['integrity'] == m['dist']['integrity'], path
+    assert lock['resolved'] == m['dist']['tarball'], path
+    compared = []
+    for key in ['os', 'cpu', 'engines', 'dependencies', 'optionalDependencies']:
+        assert lock.get(key, {}) == m.get(key, {}), (path, key)
+        compared.append(key)
+    # npm 10 lock rows do not necessarily serialize registry libc; retain it,
+    # rather than falsely claiming identical package/registry object schemas.
+    return {'path': path, 'package': package, 'version': version, 'url': url, 'origin': origin, 'file': 'registry/' + name, 'bytes': len(data), 'sha256': sha(data), 'integrityAndTarballExact': True, 'metadataKeysCompared': compared, 'registryLibc': m.get('libc'), 'lockLibc': lock.get('libc')}
+
+with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+    results = list(pool.map(metadata, sorted(added + parents)))
+save('registry-bindings.json', results)
+
+def resolve(parent, child):
+    # Resolve only package-record addresses, walking actual node_modules ancestors.
+    candidate = parent + '/node_modules/' + child
+    if candidate in new:
+        return candidate
+    current = parent
+    while '/node_modules/' in current:
+        current = current.rsplit('/node_modules/', 1)[0]
+        candidate = current + '/node_modules/' + child
+        if candidate in new:
+            return candidate
+    candidate = 'node_modules/' + child
+    assert candidate in new, (parent, child)
+    return candidate
+
+edges = []
+for parent, value in new.items():
+    for child, spec in value.get('optionalDependencies', {}).items():
+        target = resolve(parent, child)
+        if parent in parents:
+            if spec.startswith('~'):
+                actual = tuple(map(int, new[target]['version'].split('.')))
+                floor = tuple(map(int, spec[1:].split('.')))
+                assert actual >= floor and actual[:2] == floor[:2]
+            else:
+                assert new[target]['version'] == spec
+        if child == 'fsevents':
+            assert spec in ['~2.3.2', '~2.3.3', '2.3.2']
+            assert new[target]['version'] == ('2.3.2' if spec == '2.3.2' else '2.3.3')
+        edges.append({'parent': parent, 'child': child, 'spec': spec, 'target': target, 'version': new[target]['version']})
+save('optional-edge-addresses.json', edges)
+patches = {'@hono/node-server': '1.19.15', '@toon-format/toon': '2.3.1', '@xmldom/xmldom': '0.8.15', 'fast-uri': '3.1.6', 'hono': '4.12.34', 'ip-address': '10.3.1', 'nanoid': '3.3.18', 'postcss': '8.5.23', 'qs': '6.16.0'}
+assert all(new['node_modules/' + n]['version'] == v and new['node_modules/' + n] == old['node_modules/' + n] for n, v in patches.items())
+assert all(inputs[p.name] == {'bytes': p.stat().st_size, 'sha256': sha(p.read_bytes())} for p in I.iterdir() if p.is_file() and p.name != 'environment-policy.json')
+save('guard-after.json', {'source': check_source(source), 'primary': check_source(primary), 'allBoundResolutionInputsExact': True})
+result = {'at': datetime.now(timezone.utc).isoformat(), 'status': 'PASS_BOUNDED_LOCK_METADATA', 'proposedSha256': sha((I / 'package-lock.proposed.json').read_bytes()), 'originalRows': len(old), 'newRows': len(new), 'existingVersionsChanged': 0, 'removed': [], 'existingObjectsIdentical': 356, 'changedExistingRows': changed, 'changedExistingFieldsOnly': ['resolved', 'integrity'], 'added': added, 'addedFamilies': {'rollup': 23, 'esbuild': 25, 'canvas': 9, 'fsevents': 2}, 'all59NewAnd3RebuiltRowsMatchRegistry': True, 'allOptionalDependencyAddressesResolved': len(edges), 'threeParentRangesValidated': True, 'fseventsExactNestedPinPreserved': True, 'nineSecurityRowsExact': True, 'restoredOriginalManifestAndRootEdges': True, 'newPermanentDependenciesOrOverrides': 0, 'source302AndPrimary13Unchanged': True, 'registryLibcSerializationLimit': 'Exact registry libc is retained in raw metadata; npm-generated lock may omit this field. No fabricated field is added.', 'runtime': 'NOT_RUN_BY_JUDGE; root fresh ordinary gates pending separate readback', 'linuxShared': 'ORIGINAL_FAILURE_RETAINED; new commit proof still required'}
+save('report.json', result)
+print(json.dumps({k: v for k, v in result.items() if k != 'added'}))

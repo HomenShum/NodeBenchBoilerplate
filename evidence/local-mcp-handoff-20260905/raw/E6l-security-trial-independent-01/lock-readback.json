@@ -1,0 +1,243 @@
+{
+  "lock": {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\package-lock.json",
+    "bytes": 162440,
+    "sha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c"
+  },
+  "rowCount": 359,
+  "unchangedRows": 350,
+  "changed": [
+    {
+      "path": "node_modules/@hono/node-server",
+      "before": "1.19.14",
+      "after": "1.19.15",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": {
+        "node": ">=18.14.1"
+      },
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@hono\\node-server\\package.json",
+        "bytes": 2633,
+        "sha256": "c301eab2ba9fc731ecc779fda800e19aad5dd6855cf0a97338094fdb0902f7ac"
+      }
+    },
+    {
+      "path": "node_modules/@toon-format/toon",
+      "before": "2.3.0",
+      "after": "2.3.1",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": null,
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@toon-format\\toon\\package.json",
+        "bytes": 945,
+        "sha256": "50001f1b994db02b6c9a76b486831c835b10108660174a5bdaab8684f2b2aaf0"
+      }
+    },
+    {
+      "path": "node_modules/@xmldom/xmldom",
+      "before": "0.8.13",
+      "after": "0.8.15",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": {
+        "node": ">=10.0.0"
+      },
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\package.json",
+        "bytes": 1907,
+        "sha256": "35aecb16da42bf3843ed197db638dff79d178fc23783bfae77070fcfa4d0ae94"
+      }
+    },
+    {
+      "path": "node_modules/fast-uri",
+      "before": "3.1.3",
+      "after": "3.1.6",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": null,
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fast-uri\\package.json",
+        "bytes": 1983,
+        "sha256": "d62cb9be0a111b42131b264efe1fee4638a5f643ff25fe0bc3627675a9b92a8b"
+      }
+    },
+    {
+      "path": "node_modules/hono",
+      "before": "4.12.28",
+      "after": "4.12.34",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": {
+        "node": ">=16.9.0"
+      },
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\package.json",
+        "bytes": 23279,
+        "sha256": "83da95303f0d0e1df8b146d3d12df282e7ba0b28204a83501e8b29ba1bebd131"
+      }
+    },
+    {
+      "path": "node_modules/ip-address",
+      "before": "10.2.0",
+      "after": "10.3.1",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": {
+        "node": ">= 12"
+      },
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\package.json",
+        "bytes": 2118,
+        "sha256": "4a0a3acff34188079b379a63f5752659c83185004febca496c388d1d5ca2ed7c"
+      }
+    },
+    {
+      "path": "node_modules/nanoid",
+      "before": "3.3.15",
+      "after": "3.3.18",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": {
+        "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"
+      },
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\nanoid\\package.json",
+        "bytes": 2283,
+        "sha256": "18673eb0d7ed43dd871d59dc22a5670303f5d4eb9b17783b1f698f5840ce1fff"
+      }
+    },
+    {
+      "path": "node_modules/postcss",
+      "before": "8.5.16",
+      "after": "8.5.23",
+      "fields": [
+        "dependencies",
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": {
+        "node": "^10 || ^12 || >=14"
+      },
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\package.json",
+        "bytes": 2497,
+        "sha256": "df43e035f054943454c49556c89cea8a288d91f5d4b1a6f4e56d48b85c7ebd75"
+      }
+    },
+    {
+      "path": "node_modules/qs",
+      "before": "6.15.3",
+      "after": "6.16.0",
+      "fields": [
+        "integrity",
+        "resolved",
+        "version"
+      ],
+      "engines": {
+        "node": ">=0.6"
+      },
+      "installedManifest": {
+        "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\package.json",
+        "bytes": 3192,
+        "sha256": "69d58ca5abcff9be3f6becc70940caa76d8ec1b72ef7d2d735305c16cb877dca"
+      }
+    }
+  ],
+  "incomingEdges": [
+    {
+      "package": "@hono/node-server",
+      "parent": "node_modules/@modelcontextprotocol/sdk",
+      "kind": "dependencies",
+      "range": "^1.19.9",
+      "version": "1.19.15"
+    },
+    {
+      "package": "@toon-format/toon",
+      "parent": "node_modules/nodebench-mcp",
+      "kind": "dependencies",
+      "range": "^2.1.0",
+      "version": "2.3.1"
+    },
+    {
+      "package": "@xmldom/xmldom",
+      "parent": "node_modules/read-excel-file",
+      "kind": "dependencies",
+      "range": "^0.8.11",
+      "version": "0.8.15"
+    },
+    {
+      "package": "fast-uri",
+      "parent": "node_modules/ajv",
+      "kind": "dependencies",
+      "range": "^3.0.1",
+      "version": "3.1.6"
+    },
+    {
+      "package": "hono",
+      "parent": "node_modules/@modelcontextprotocol/sdk",
+      "kind": "dependencies",
+      "range": "^4.11.4",
+      "version": "4.12.34"
+    },
+    {
+      "package": "ip-address",
+      "parent": "node_modules/express-rate-limit",
+      "kind": "dependencies",
+      "range": "^10.2.0",
+      "version": "10.3.1"
+    },
+    {
+      "package": "nanoid",
+      "parent": "node_modules/postcss",
+      "kind": "dependencies",
+      "range": "^3.3.16",
+      "version": "3.3.18"
+    },
+    {
+      "package": "postcss",
+      "parent": "node_modules/vite",
+      "kind": "dependencies",
+      "range": "^8.5.6",
+      "version": "8.5.23"
+    },
+    {
+      "package": "qs",
+      "parent": "node_modules/body-parser",
+      "kind": "dependencies",
+      "range": "^6.15.2",
+      "version": "6.16.0"
+    },
+    {
+      "package": "qs",
+      "parent": "node_modules/express",
+      "kind": "dependencies",
+      "range": "^6.14.0",
+      "version": "6.16.0"
+    }
+  ],
+  "sourceManifestExact": true
+}

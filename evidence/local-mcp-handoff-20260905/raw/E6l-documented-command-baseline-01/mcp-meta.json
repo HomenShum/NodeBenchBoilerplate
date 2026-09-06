@@ -1,0 +1,28 @@
+{
+  "script": "mcp:meta",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+    "run",
+    "mcp:meta"
+  ],
+  "candidate": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+  "seconds": 0.219,
+  "exitCode": 1,
+  "naturalExit": true,
+  "controllerError": null,
+  "ownedProcesses": {
+    "23368": 1788655997.2560956
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 0,
+    "stderr": 372
+  },
+  "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderrSha256": "dae11b905da4004deeff6a17c4a0d19add13381979ec3243a75a7d27053f62ba",
+  "toolsCalled": 0,
+  "stdin": "closed; no protocol or tool messages sent",
+  "environment": "Exact prior approved isolated child environment; no inherited credential values",
+  "environmentFileSha256": "a706c6eca724a8f2ece266c5d8c4531cf123b3eb95c27fbde08ef466ed72aa21"
+}

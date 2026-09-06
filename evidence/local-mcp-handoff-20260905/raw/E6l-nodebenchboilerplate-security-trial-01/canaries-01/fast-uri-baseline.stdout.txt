@@ -1,0 +1,1 @@
+{"family":"fast-uri","status":"FAIL","checks":6,"failed":["malformed IPv6 reports an error and does not equal itself","nested host encoding stays encoded","userinfo cannot change parsed host"]}

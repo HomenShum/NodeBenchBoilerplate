@@ -1,0 +1,22 @@
+# NodeBenchBoilerplate PR1: shared integration blocked
+
+Builder. A developer cloning this starter on Linux cannot run its tests: the committed dependency lock omits Rollup's Linux native package. **BLOCKED_SHARED_CI_OPTIONAL_PLATFORM_LOCK** at `5b0181dbd82f8261d93af6f69849124e3a069e9f`. The source/publication review remains valid within its recorded Windows scope; this is a real additional platform failure.
+
+**Re your request:** make each repository ready for use and handoff, using planner, worker and judge — the ordinary shared checks were observed and their failure is retained before integration.
+
+All **302 committed blobs** independently match the approved canonical/source and raw-packet identities. The 297-path change has parent `c7f4ec95deca8facdb0872e705084b74838187b7` and tree `2e2a63198b3e4b196d0a54e9ef336374f71e820f`. GitHub's actual test merge `be9f57029662918ff88c31a8e6ed5c14b35785d0` has those base/head parents and the same tree. Both job checkout logs print that test-merge commit. See [committed readback](E6l-boilerplate-shared-01/committed-bindings.json) and [merge metadata](E6l-boilerplate-shared-01/merge-commit.stdout).
+
+The first ordinary [CI run 34009033206](https://github.com/HomenShum/NodeBenchBoilerplate/actions/runs/34009033206) failed:
+
+| Job | Actual project runtime | Install / build | Test | Lint / protocol |
+|---|---|---|---|---|
+| Node 20, 101421448255 | Node 20.20.2, npm 10.8.2 | Both passed | Failed before collecting tests | Both skipped |
+| Node 22, 101421448464 | Node 22.23.2, npm 10.9.8 | Both passed | Also failed before collecting tests | Both skipped |
+
+Node 22's **overall conclusion is cancelled**, while its recorded Test step and raw log independently contain the same missing-module failure. Neither job ran the two test scenarios or the 25-assertion MCP/native-storage proof. A successful native-package installation is not proof that SQLite opened. Actual runner: Ubuntu 24.04, image `20260831.293.1`, runner `20260828.587`. The pinned actions' host-runtime migration warning is separate from the project Node versions. Other retained advisories include prebuild-install deprecation, punycode and **two high dependency audit entries**. [Actual steps](E6l-boilerplate-shared-01/jobs.stdout), [Node 20 log](E6l-boilerplate-shared-01/node20-log.stdout), [Node 22 log](E6l-boilerplate-shared-01/node22-log.stdout).
+
+GitGuardian **succeeded**, explicitly reporting one commit scanned and no secrets found. This is actual secret-scanner coverage, not a dependency-security or whole-product certificate. [Check output](E6l-boilerplate-shared-01/checks-01.json).
+
+Current default branch is `master`; it is unprotected, rulesets are empty, and ordinary merge/squash/rebase methods are enabled. PR1 is non-draft, syntactically mergeable, but reported `unstable`. Those settings do not justify merging a measured failure. The PR body's earlier “shared checks pending” clause should now be updated to this first-attempt failure; its prior local/protocol and remaining-audit scopes otherwise remain bounded. [PR metadata](E6l-boilerplate-shared-01/pr-01.json), [branch](E6l-boilerplate-shared-01/master-01.json), [repository](E6l-boilerplate-shared-01/repository-01.json), [rulesets](E6l-boilerplate-shared-01/rulesets-01.json).
+
+The next repair is an externally generated, version-preserving optional-platform lock closure, followed by fresh ordinary checks and a new shared commit. [Finite diagnosis and plan judgment](E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_PLAN_JUDGE.md). No unchanged workflow rerun, bypass, merge, provider call, install or candidate mutation was performed by this judge. This immutable-commit review is **closed**; root may proceed with the separately bounded external proposal. Deployment, downstream hosts, providers and full readiness grades remain unproved.

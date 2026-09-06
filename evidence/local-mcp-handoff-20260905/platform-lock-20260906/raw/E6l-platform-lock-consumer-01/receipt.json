@@ -1,0 +1,266 @@
+{
+  "status": "FRESH_WINDOWS_PLATFORM_LOCK_CONSUMER_PASS",
+  "at": "2026-09-06T03:45:21.275382+00:00",
+  "lockSha256": "ae1f98f63c6b7a1f33bc62931cfd61e621901a8d8c2f8e2862d63b09cd63233f",
+  "sourceFiles": {
+    ".github/workflows/ci.yml": {
+      "bytes": 854,
+      "sha256": "0b5d5aff94cb206be53dc7ab858e0556eb2c5405d84a4eb534ea8c43ccf3edf8"
+    },
+    ".gitignore": {
+      "bytes": 100,
+      "sha256": "26f4c3e8a6919051f672006a17fef16752963b6f0f4bb06ed17f272fe7e3ac96"
+    },
+    ".mcp.json": {
+      "bytes": 251,
+      "sha256": "450f2c2468472c1054a4d2aea8aae8be1b2ef2ca6ca8f6a29af4bd2175d9cc85"
+    },
+    "AGENTS.md": {
+      "bytes": 4831,
+      "sha256": "8e90661e352628d2f2383725462c90528e7603981b7da7d8fd0783dc31a37757"
+    },
+    "Dockerfile": {
+      "bytes": 338,
+      "sha256": "1b3025d1b803dc2269cc99dc52320576c10969cbc5e7574ac2c2592b84eacadc"
+    },
+    "LICENSE": {
+      "bytes": 1088,
+      "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789"
+    },
+    "README.md": {
+      "bytes": 5832,
+      "sha256": "115222187c4d99fbe0b228ff12377872d8ec1c22669b83b387d369d617972aca"
+    },
+    "docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md": {
+      "bytes": 1489,
+      "sha256": "e7fbd66872ea96adf3c5fec850b56f717c537a5574f769d154b937b77cc24782"
+    },
+    "eslint.config.mjs": {
+      "bytes": 321,
+      "sha256": "869fb0cca73aeaec727fa81f2dde5e970d312c0c4309842ca5166c4c94134802"
+    },
+    "package-lock.json": {
+      "bytes": 191526,
+      "sha256": "ae1f98f63c6b7a1f33bc62931cfd61e621901a8d8c2f8e2862d63b09cd63233f"
+    },
+    "package.json": {
+      "bytes": 1290,
+      "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c"
+    },
+    "scripts/verify-mcp.mjs": {
+      "bytes": 12213,
+      "sha256": "c2ffbe141a3e38cb474dc4224f1bd37e890a5f01781287d0799b19ebd7583727"
+    },
+    "src/index.test.ts": {
+      "bytes": 427,
+      "sha256": "541759ce2a5970ce620bdbc14dd18b6cd666890a14080867ebbff1f3a9adaee9"
+    },
+    "src/index.ts": {
+      "bytes": 595,
+      "sha256": "1cda9aeeccdfe8493373591a7a25273f7b7e31dd1d1dcaf39fffde28937a45cc"
+    },
+    "tsconfig.json": {
+      "bytes": 490,
+      "sha256": "4d781db1f30fe8088c47ee54f90b4c92bcb0e10d2751b3f944977a6d66a6e05a"
+    },
+    "HANDOFF.md": {
+      "bytes": 4933,
+      "sha256": "4e7f789cf8417f9453a72d2840075d584ca7245becdc24bf9ca0f7494ef27403"
+    }
+  },
+  "compiledOutputs": {
+    "dist/index.d.ts": {
+      "bytes": 517,
+      "sha256": "4ec4ac507cb91d470d36f9abd4cea907d0a49a1e6af9aec160b46f08eb811ef6"
+    },
+    "dist/index.d.ts.map": {
+      "bytes": 179,
+      "sha256": "f4954758bc84ccb0c6933af086dc3fd175808eca0ce2e97bb072192e62dff7eb"
+    },
+    "dist/index.js": {
+      "bytes": 612,
+      "sha256": "32121d368c70f18abfa29c39b0e1bbd56f37c2aba82e18b56189b9f3ee1e2273"
+    },
+    "dist/index.js.map": {
+      "bytes": 253,
+      "sha256": "03609f09b947225e0533a4d4c58e32c1cfce7d555462763f943a9dfd8c566499"
+    }
+  },
+  "commands": [
+    {
+      "name": "normal-ci",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "ci"
+      ],
+      "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+      "exit": 0,
+      "seconds": 11.64,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        8668,
+        46072,
+        15816,
+        53336,
+        60912,
+        27708,
+        13896,
+        62368,
+        39972,
+        64272
+      ],
+      "survivors": [],
+      "stdout": "normal-ci.stdout",
+      "stderr": "normal-ci.stderr"
+    },
+    {
+      "name": "normal-build",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "run",
+        "build"
+      ],
+      "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+      "exit": 0,
+      "seconds": 5.437,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        44920,
+        42620,
+        15924
+      ],
+      "survivors": [],
+      "stdout": "normal-build.stdout",
+      "stderr": "normal-build.stderr"
+    },
+    {
+      "name": "normal-test",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "test"
+      ],
+      "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+      "exit": 0,
+      "seconds": 6.875,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        48456,
+        64716,
+        47672,
+        19032,
+        39592,
+        61012,
+        39724,
+        68592,
+        59204,
+        10464,
+        50040,
+        40600,
+        11448,
+        40072,
+        26520,
+        9688,
+        13892,
+        58564,
+        43724,
+        67644,
+        43536,
+        51476,
+        28208,
+        19496,
+        21624,
+        57052,
+        52932,
+        39832,
+        63656,
+        52584,
+        25468,
+        37584,
+        44396,
+        64616,
+        48408,
+        53520,
+        49556,
+        60272
+      ],
+      "survivors": [],
+      "stdout": "normal-test.stdout",
+      "stderr": "normal-test.stderr"
+    },
+    {
+      "name": "normal-lint",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "run",
+        "lint"
+      ],
+      "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+      "exit": 0,
+      "seconds": 38.032,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        56308,
+        19148,
+        5604
+      ],
+      "survivors": [],
+      "stdout": "normal-lint.stdout",
+      "stderr": "normal-lint.stderr"
+    },
+    {
+      "name": "normal-mcp",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "run",
+        "verify:mcp"
+      ],
+      "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+      "exit": 0,
+      "seconds": 19.078,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        54696,
+        40040,
+        22592,
+        22248,
+        20044,
+        5704,
+        58264,
+        35376,
+        59452,
+        13140,
+        49400,
+        9320,
+        27688,
+        36916,
+        58496,
+        68124,
+        43636,
+        52904,
+        4676,
+        57404,
+        60716,
+        29088,
+        39384,
+        6212,
+        7732,
+        53400,
+        39036,
+        24196,
+        55876
+      ],
+      "survivors": [],
+      "stdout": "normal-mcp.stdout",
+      "stderr": "normal-mcp.stderr"
+    }
+  ],
+  "sourceAndPrimaryUnchanged": true,
+  "linuxRuntime": "PENDING_NEW_PR_SOURCE",
+  "old50CallWorkflow": "HISTORICAL_NOT_REPLAYED",
+  "providerCalls": 0
+}

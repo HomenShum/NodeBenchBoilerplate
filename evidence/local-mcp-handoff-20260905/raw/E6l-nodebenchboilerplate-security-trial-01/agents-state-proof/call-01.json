@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap_project",
+  "args": {
+    "projectName": "Owned Boilerplate handoff scenario",
+    "techStack": "TypeScript, Node.js",
+    "buildCommands": "npm run build",
+    "testCommands": "npm test",
+    "conventions": "Synthetic local evidence only; release not approved."
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "projectName: Owned Boilerplate handoff scenario\nstoredFields[5]: project_name,tech_stack,build_commands,test_commands,conventions\ncontext:\n  project_name: Owned Boilerplate handoff scenario\n  tech_stack: \"TypeScript, Node.js\"\n  build_commands: npm run build\n  test_commands: npm test\n  conventions: Synthetic local evidence only; release not approved.\nknowledgeBase:\n  learnings: 0\n  reconSessions: 0\n  verificationCycles: 0\n  resolvedGaps: 0\n_onboarding:\n  message: \"Project registered! This is a fresh install. Here's how to get started:\"\n  nextSteps[5]: \"Call getMethodology(\\\"overview\\\") to see all available development methodologies\",\"Call search_all_knowledge(\\\"your current task\\\") before starting any work\",Call run_recon with your project context to research latest SDK/framework updates,\"As you work, tool responses will guide you to record learnings and findings\",The knowledge base grows automatically — future sessions benefit from past work\n_quickRef:\n  nextAction: \"Project registered. Now call getMethodology('overview') to see all methodologies, then search_all_knowledge for your first task.\"\n  nextTools[3]: search_all_knowledge,run_recon,setup_local_env\n  methodology: reconnaissance"
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 2
+  }
+}

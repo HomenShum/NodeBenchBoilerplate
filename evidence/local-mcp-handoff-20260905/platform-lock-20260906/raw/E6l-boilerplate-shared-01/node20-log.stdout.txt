@@ -1,0 +1,230 @@
+build-and-test (20)	Set up job	﻿2026-09-06T03:27:25.3021116Z Current runner version: '2.337.0'
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3057346Z ##[group]Runner Image Provisioner
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3058749Z Hosted Compute Agent
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3059729Z Version: 20260828.587
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3060841Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3062348Z Build Date: 2026-08-28T16:44:25Z
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3063498Z Worker ID: {32dc30f8-5fbf-4de1-a7d5-847e45ffc666}
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3064984Z Azure Region: eastus
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3066023Z ##[endgroup]
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3068155Z ##[group]Operating System
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3069370Z Ubuntu
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3070331Z 24.04.4
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3071187Z LTS
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3072166Z ##[endgroup]
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3073063Z ##[group]Runner Image
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3074187Z Image: ubuntu-24.04
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3075403Z Version: 20260831.293.1
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3077329Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260831.293/images/ubuntu/Ubuntu2404-Readme.md
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3080322Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260831.293
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3082115Z ##[endgroup]
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3084001Z ##[group]GITHUB_TOKEN Permissions
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3086858Z Contents: read
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3087804Z Metadata: read
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3088870Z ##[endgroup]
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3091762Z Secret source: Actions
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3093640Z Prepare workflow directory
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3566109Z Prepare all required actions
+build-and-test (20)	Set up job	2026-09-06T03:27:25.3636627Z Getting action download info
+build-and-test (20)	Set up job	2026-09-06T03:27:25.5455277Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+build-and-test (20)	Set up job	2026-09-06T03:27:25.6960529Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+build-and-test (20)	Set up job	2026-09-06T03:27:25.8975227Z Complete job name: build-and-test (20)
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	﻿2026-09-06T03:27:25.9662055Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9670928Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9671874Z with:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9672351Z   repository: HomenShum/NodeBenchBoilerplate
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9676521Z   token: ***
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9676956Z   ssh-strict: true
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9677378Z   ssh-user: git
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9677821Z   persist-credentials: true
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9678296Z   clean: true
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9678731Z   sparse-checkout-cone-mode: true
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9679247Z   fetch-depth: 1
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9679672Z   fetch-tags: false
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9680108Z   show-progress: true
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9680544Z   lfs: false
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9680989Z   submodules: false
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9681431Z   set-safe-directory: true
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9681924Z   allow-unsafe-pr-checkout: false
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:25.9683017Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0649827Z Syncing repository: HomenShum/NodeBenchBoilerplate
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0651677Z ##[group]Getting Git version info
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0652596Z Working directory is '/home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate'
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0653740Z [command]/usr/bin/git version
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0780633Z git version 2.55.0
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0833835Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0847251Z Temporarily overriding HOME='/home/runner/work/_temp/bdb11e1a-b00b-4554-9050-b0ad0bb10173' before making global git config changes
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0849600Z Adding repository directory to the temporary git global config as a safe directory
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0852631Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0913151Z Deleting the contents of '/home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate'
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0917210Z ##[group]Initializing the repository
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.0921643Z [command]/usr/bin/git init /home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1057785Z hint: Using 'master' as the name for the initial branch. This default branch name
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1059249Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1061083Z hint: to use in all of your new repositories, which will suppress this warning,
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1062777Z hint: call:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1063742Z hint:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1064912Z hint: 	git config --global init.defaultBranch <name>
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1065935Z hint:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1066977Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1068343Z hint: 'development'. The just-created branch can be renamed via this command:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1069501Z hint:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1070281Z hint: 	git branch -m <name>
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1071115Z hint:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1072200Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1073853Z Initialized empty Git repository in /home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/.git/
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1076904Z [command]/usr/bin/git remote add origin https://github.com/HomenShum/NodeBenchBoilerplate
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1125353Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1126636Z ##[group]Disabling automatic garbage collection
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1128488Z [command]/usr/bin/git config --local gc.auto 0
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1156652Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1157846Z ##[group]Setting up auth
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1162693Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1192893Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1608870Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1639981Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1857334Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.1888165Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.2099733Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.2132428Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.2141529Z ##[group]Fetching the repository
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.2142937Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +be9f57029662918ff88c31a8e6ed5c14b35785d0:refs/remotes/pull/1/merge
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4668412Z From https://github.com/HomenShum/NodeBenchBoilerplate
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4669598Z  * [new ref]         be9f57029662918ff88c31a8e6ed5c14b35785d0 -> pull/1/merge
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4673476Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4674899Z ##[group]Determining the checkout info
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4676598Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4680942Z [command]/usr/bin/git sparse-checkout disable
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4731909Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4766381Z ##[group]Checking out the ref
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4769583Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/1/merge
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4968758Z Note: switching to 'refs/remotes/pull/1/merge'.
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4969651Z 
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4970379Z You are in 'detached HEAD' state. You can look around, make experimental
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4972722Z changes and commit them, and you can discard any commits you make in this
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4974986Z state without impacting any branches by switching back to a branch.
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4976254Z 
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4977057Z If you want to create a new branch to retain commits you create, you may
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4978555Z do so (now or later) by using -c with the switch command. Example:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4979193Z 
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4979454Z   git switch -c <new-branch-name>
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4979825Z 
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4980069Z Or undo this operation with:
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4980541Z 
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4980923Z   git switch -
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4981418Z 
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4982091Z Turn off this advice by setting config variable advice.detachedHead to false
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4982702Z 
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4983374Z HEAD is now at be9f570 Merge 5b0181dbd82f8261d93af6f69849124e3a069e9f into c7f4ec95deca8facdb0872e705084b74838187b7
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.4986038Z ##[endgroup]
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.5019844Z [command]/usr/bin/git log -1 --format=%H
+build-and-test (20)	Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:26.5042004Z be9f57029662918ff88c31a8e6ed5c14b35785d0
+build-and-test (20)	Use Node.js 20	﻿2026-09-06T03:27:26.5419205Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5422162Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5422934Z with:
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5423383Z   node-version: 20
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5423859Z   cache: npm
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5424310Z   always-auth: false
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5424993Z   check-latest: false
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5429085Z   token: ***
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.5429554Z ##[endgroup]
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.6843685Z Attempting to download 20...
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.6952932Z (node:2229) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.6956371Z (Use `node --trace-deprecation ...` to show where the warning was created)
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:26.9883934Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:27.3894555Z Extracting ...
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:27.4009912Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/665d7422-5d11-4115-ad7e-1b5275e07e15 -f /home/runner/work/_temp/aa97c441-50d0-43b2-b3be-5329f1731844
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:28.4388580Z Adding to the cache ...
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.1205594Z ##[group]Environment details
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.3411829Z node: v20.20.2
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.3412394Z npm: 10.8.2
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.3412766Z yarn: 1.22.22
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.3416173Z ##[endgroup]
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.3434563Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.4477750Z /home/runner/.npm
+build-and-test (20)	Use Node.js 20	2026-09-06T03:27:30.5133408Z npm cache is not found
+build-and-test (20)	Install dependencies	﻿2026-09-06T03:27:30.5340812Z ##[group]Run npm ci
+build-and-test (20)	Install dependencies	2026-09-06T03:27:30.5341151Z [36;1mnpm ci[0m
+build-and-test (20)	Install dependencies	2026-09-06T03:27:30.5382118Z shell: /usr/bin/bash -e {0}
+build-and-test (20)	Install dependencies	2026-09-06T03:27:30.5382429Z ##[endgroup]
+build-and-test (20)	Install dependencies	2026-09-06T03:27:32.6439433Z npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9256989Z 
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9257795Z added 332 packages, and audited 333 packages in 7s
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9258128Z 
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9258343Z 104 packages are looking for funding
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9258683Z   run `npm fund` for details
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9288811Z 
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9289414Z 2 high severity vulnerabilities
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9289811Z 
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9290224Z Some issues need review, and may require choosing
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9290892Z a different dependency.
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9291190Z 
+build-and-test (20)	Install dependencies	2026-09-06T03:27:37.9291931Z Run `npm audit` for details.
+build-and-test (20)	Build	﻿2026-09-06T03:27:37.9546680Z ##[group]Run npm run build
+build-and-test (20)	Build	2026-09-06T03:27:37.9547018Z [36;1mnpm run build[0m
+build-and-test (20)	Build	2026-09-06T03:27:37.9584274Z shell: /usr/bin/bash -e {0}
+build-and-test (20)	Build	2026-09-06T03:27:37.9584804Z ##[endgroup]
+build-and-test (20)	Build	2026-09-06T03:27:38.0704759Z 
+build-and-test (20)	Build	2026-09-06T03:27:38.0705336Z > nodebench-boilerplate@0.1.0 build
+build-and-test (20)	Build	2026-09-06T03:27:38.0706084Z > tsc
+build-and-test (20)	Build	2026-09-06T03:27:38.0706236Z 
+build-and-test (20)	Test	﻿2026-09-06T03:27:39.0398523Z ##[group]Run npm test
+build-and-test (20)	Test	2026-09-06T03:27:39.0398816Z [36;1mnpm test[0m
+build-and-test (20)	Test	2026-09-06T03:27:39.0434436Z shell: /usr/bin/bash -e {0}
+build-and-test (20)	Test	2026-09-06T03:27:39.0434992Z ##[endgroup]
+build-and-test (20)	Test	2026-09-06T03:27:39.1532830Z 
+build-and-test (20)	Test	2026-09-06T03:27:39.1533616Z > nodebench-boilerplate@0.1.0 test
+build-and-test (20)	Test	2026-09-06T03:27:39.1534060Z > vitest run
+build-and-test (20)	Test	2026-09-06T03:27:39.1534232Z 
+build-and-test (20)	Test	2026-09-06T03:27:39.3089750Z /home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/node_modules/rollup/dist/native.js:121
+build-and-test (20)	Test	2026-09-06T03:27:39.3091341Z 		throw new Error(
+build-and-test (20)	Test	2026-09-06T03:27:39.3091780Z 		      ^
+build-and-test (20)	Test	2026-09-06T03:27:39.3091957Z 
+build-and-test (20)	Test	2026-09-06T03:27:39.3093301Z Error: Cannot find module @rollup/rollup-linux-x64-gnu. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+build-and-test (20)	Test	2026-09-06T03:27:39.3095425Z     at requireWithFriendlyError (/home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/node_modules/rollup/dist/native.js:121:9)
+build-and-test (20)	Test	2026-09-06T03:27:39.3097217Z     at Object.<anonymous> (/home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/node_modules/rollup/dist/native.js:130:76)
+build-and-test (20)	Test	2026-09-06T03:27:39.3098675Z     ... 3 lines matching cause stack trace ...
+build-and-test (20)	Test	2026-09-06T03:27:39.3099511Z     at Module._load (node:internal/modules/cjs/loader:1091:12)
+build-and-test (20)	Test	2026-09-06T03:27:39.3100324Z     at cjsLoader (node:internal/modules/esm/translators:298:15)
+build-and-test (20)	Test	2026-09-06T03:27:39.3101139Z     at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:240:7)
+build-and-test (20)	Test	2026-09-06T03:27:39.3101987Z     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+build-and-test (20)	Test	2026-09-06T03:27:39.3102840Z     at async ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+build-and-test (20)	Test	2026-09-06T03:27:39.3103701Z   [cause]: Error: Cannot find module '@rollup/rollup-linux-x64-gnu'
+build-and-test (20)	Test	2026-09-06T03:27:39.3104293Z   Require stack:
+build-and-test (20)	Test	2026-09-06T03:27:39.3105359Z   - /home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/node_modules/rollup/dist/native.js
+build-and-test (20)	Test	2026-09-06T03:27:39.3106454Z       at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+build-and-test (20)	Test	2026-09-06T03:27:39.3107268Z       at Module._load (node:internal/modules/cjs/loader:1038:27)
+build-and-test (20)	Test	2026-09-06T03:27:39.3108000Z       at Module.require (node:internal/modules/cjs/loader:1289:19)
+build-and-test (20)	Test	2026-09-06T03:27:39.3108742Z       at require (node:internal/modules/helpers:182:18)
+build-and-test (20)	Test	2026-09-06T03:27:39.3110010Z       at requireWithFriendlyError (/home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/node_modules/rollup/dist/native.js:103:10)
+build-and-test (20)	Test	2026-09-06T03:27:39.3111798Z       at Object.<anonymous> (/home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/node_modules/rollup/dist/native.js:130:76)
+build-and-test (20)	Test	2026-09-06T03:27:39.3113077Z       at Module._compile (node:internal/modules/cjs/loader:1521:14)
+build-and-test (20)	Test	2026-09-06T03:27:39.3113926Z       at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+build-and-test (20)	Test	2026-09-06T03:27:39.3114925Z       at Module.load (node:internal/modules/cjs/loader:1266:32)
+build-and-test (20)	Test	2026-09-06T03:27:39.3115699Z       at Module._load (node:internal/modules/cjs/loader:1091:12) {
+build-and-test (20)	Test	2026-09-06T03:27:39.3116309Z     code: 'MODULE_NOT_FOUND',
+build-and-test (20)	Test	2026-09-06T03:27:39.3116725Z     requireStack: [
+build-and-test (20)	Test	2026-09-06T03:27:39.3117600Z       '/home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate/node_modules/rollup/dist/native.js'
+build-and-test (20)	Test	2026-09-06T03:27:39.3118464Z     ]
+build-and-test (20)	Test	2026-09-06T03:27:39.3118772Z   }
+build-and-test (20)	Test	2026-09-06T03:27:39.3119070Z }
+build-and-test (20)	Test	2026-09-06T03:27:39.3119237Z 
+build-and-test (20)	Test	2026-09-06T03:27:39.3119387Z Node.js v20.20.2
+build-and-test (20)	Test	2026-09-06T03:27:39.3198525Z ##[error]Process completed with exit code 1.
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	﻿2026-09-06T03:27:39.3352563Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.3353969Z Post job cleanup.
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4188562Z [command]/usr/bin/git version
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4226634Z git version 2.55.0
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4264520Z Temporarily overriding HOME='/home/runner/work/_temp/f78b60cd-7530-4c31-a2b5-031e6eb2975d' before making global git config changes
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4266873Z Adding repository directory to the temporary git global config as a safe directory
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4270969Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/NodeBenchBoilerplate/NodeBenchBoilerplate
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4308969Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4340903Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4563676Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4590076Z http.https://github.com/.extraheader
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4600320Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4630631Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4846142Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build-and-test (20)	Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262	2026-09-06T03:27:39.4896331Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build-and-test (20)	Complete job	﻿2026-09-06T03:27:39.5242298Z Cleaning up orphan processes
+build-and-test (20)	Complete job	2026-09-06T03:27:39.5503104Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

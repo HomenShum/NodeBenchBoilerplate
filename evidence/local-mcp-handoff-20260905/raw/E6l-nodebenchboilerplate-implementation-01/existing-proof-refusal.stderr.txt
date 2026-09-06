@@ -1,0 +1,17 @@
+node:fs:1370
+  const result = binding.mkdir(
+                         ^
+
+Error: EEXIST: file already exists, mkdir 'D:\ProjectRecovery\nodebenchboilerplate-protocol-20260905-final'
+    at mkdirSync (node:fs:1370:26)
+    at file:///D:/VSCode%20Projects/cafecorner_nodebench/nodebench_ai4/.portfolio-worktrees/nodebenchboilerplate-current-consumer-20260905/scripts/verify-mcp.mjs:16:22
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  errno: -4075,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'D:\\ProjectRecovery\\nodebenchboilerplate-protocol-20260905-final'
+}
+
+Node.js v22.22.2

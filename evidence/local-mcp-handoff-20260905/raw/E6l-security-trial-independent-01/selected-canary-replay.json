@@ -1,0 +1,335 @@
+{
+  "scope": "Four finite changed-library mechanisms, both retained baseline and patched installed libraries; no broad suite/install/MCP rerun.",
+  "cases": [
+    {
+      "name": "toon-baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "toon",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\toon-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 0.078,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "36316": 1788661919.7904325
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-baseline.stdout.txt",
+        "bytes": 110,
+        "sha256": "cd77812c25f388f6dea0070cda27e9f62f7b9d035d5dcd461543b6e94c970856"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-baseline.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "bytes": 10126,
+        "sha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-baseline.result.json",
+        "bytes": 3810,
+        "sha256": "85678c6c8cc2b272731189a4f79375878a3221c763e5a2378412641b627f0ecd"
+      }
+    },
+    {
+      "name": "toon-patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "toon",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\toon-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.078,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "10092": 1788661919.8874254
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-patched.stdout.txt",
+        "bytes": 58,
+        "sha256": "46540bd72ae7a39b74d240e3e352b3493ca373b883b010bea8cb77c17e3a45cf"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-patched.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "bytes": 10126,
+        "sha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\toon-patched.result.json",
+        "bytes": 3630,
+        "sha256": "900ef62f5b0beae5a65d531506ae884b905797760d1723d1074d6e7a7516ffa7"
+      }
+    },
+    {
+      "name": "fast-uri-baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "fast-uri",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\fast-uri-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 0.14,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "63156": 1788661919.9701712
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-baseline.stdout.txt",
+        "bytes": 194,
+        "sha256": "30e84421a344ea7144f55af8691ff92e79464b4f0fde29905253dc926fcbd7dc"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-baseline.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "bytes": 10126,
+        "sha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-baseline.result.json",
+        "bytes": 21614,
+        "sha256": "e316d5b0b8e22d43c26979972179c2a3bc02e56edd1d97a64b97f0000f5edeca"
+      }
+    },
+    {
+      "name": "fast-uri-patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "fast-uri",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\fast-uri-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.141,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "13084": 1788661920.1243176
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-patched.stdout.txt",
+        "bytes": 61,
+        "sha256": "b771e2e0845e26c7af41210055730c7691920b0b376c6c78964fe56badbea09f"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-patched.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "bytes": 10126,
+        "sha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\fast-uri-patched.result.json",
+        "bytes": 17572,
+        "sha256": "2217ce567b329fbdc82b78318968fe9c91fa89fa9c019d6ac63e6db188af6e9f"
+      }
+    },
+    {
+      "name": "xmldom-baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary-xlsx-corrected.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "xmldom",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\xmldom-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 0.203,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "34512": 1788661920.2866547
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-baseline.stdout.txt",
+        "bytes": 409,
+        "sha256": "d971ba46363fb32e520d470838d3c3abd045c8c20b2ce0707a0b34204ff0afdb"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-baseline.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary-xlsx-corrected.mjs",
+        "bytes": 10277,
+        "sha256": "2207912c559d4c7e927641943a5c439d225aa8614467d773e6df619e9331c329"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-baseline.result.json",
+        "bytes": 44181,
+        "sha256": "387081b6a7b85ff3914ebb3531292d487cd90a4c8264dd70f694ce914f1bed79"
+      }
+    },
+    {
+      "name": "xmldom-patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary-xlsx-corrected.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "xmldom",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\xmldom-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.203,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "43072": 1788661920.491168
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-patched.stdout.txt",
+        "bytes": 422,
+        "sha256": "5056198e097c0bfc83ad1defd4dca75a80071c563b16143e69a30a766e6e771c"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-patched.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary-xlsx-corrected.mjs",
+        "bytes": 10277,
+        "sha256": "2207912c559d4c7e927641943a5c439d225aa8614467d773e6df619e9331c329"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\xmldom-patched.result.json",
+        "bytes": 35230,
+        "sha256": "be57a23ed5743e1946c837b94ccee12316d5b40dceae9a0132aa12862015273d"
+      }
+    },
+    {
+      "name": "hono-static-baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "hono-static",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\hono-static-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 0.141,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "2280": 1788661920.6926055
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-baseline.stdout.txt",
+        "bytes": 119,
+        "sha256": "8f44842b87649ba29e609c052acea59730b5e991f3e3d5db06abc18c0c7929a3"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-baseline.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "bytes": 10126,
+        "sha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-baseline.result.json",
+        "bytes": 9008,
+        "sha256": "18ade09b1576482269c1f3e81c0b434eacc5638bf3c2f151f650b921ae18ed0b"
+      }
+    },
+    {
+      "name": "hono-static-patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "hono-static",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\hono-static-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.125,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapped": false,
+      "ownedProcessIdentities": {
+        "41556": 1788661920.8385353
+      },
+      "survivors": [],
+      "stdout": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-patched.stdout.txt",
+        "bytes": 64,
+        "sha256": "a9c3ae0a5bdc2031774c5ff8845b6ad5e4e96883c2822aa3985a84ceaf9c1e87"
+      },
+      "stderr": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-patched.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\E6l-security-canary.mjs",
+        "bytes": 10126,
+        "sha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06"
+      },
+      "result": {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-trial-independent-01\\hono-static-patched.result.json",
+        "bytes": 7229,
+        "sha256": "30ca91e962895c495a1932f0a474aa8810e65df45579275fc4393f2f796eb31c"
+      }
+    }
+  ],
+  "actualChildren": 8,
+  "patchedPassingAssertions": 48
+}

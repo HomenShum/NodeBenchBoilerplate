@@ -1,0 +1,1 @@
+{"family":"ip-address","status":"FAIL","checks":6,"failed":["host loopback classification ignores wide CIDR mask","host private classification ignores wide CIDR mask","IPv4-mapped loopback classified as loopback"]}

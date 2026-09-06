@@ -1,0 +1,180 @@
+{
+  "at": "2026-09-06T03:41:38.060719+00:00",
+  "mode": "Builder",
+  "reviewer": "provider_ci_closure_judge, reused nonauthor of implementation",
+  "head": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+  "base": "c7f4ec95deca8facdb0872e705084b74838187b7",
+  "tree": "2e2a63198b3e4b196d0a54e9ef336374f71e820f",
+  "rawManifest": {
+    "path": "E6l-boilerplate-shared-01/manifest.json",
+    "bytes": 7453,
+    "sha256": "ef9c05c01d318da10153bcbe93cfff961666a0fae70d66ef7ca589c5f1a49bd9"
+  },
+  "guard": {
+    "status": "CLOSED_IMMUTABLE_REVIEW",
+    "candidateWrites": 0,
+    "indexRefWrites": 0,
+    "remoteMutations": 0,
+    "localInstallRuntimeTestCalls": 0,
+    "unchangedWorkflowReruns": 0
+  },
+  "fullGrades": null,
+  "status": "BLOCKED_SHARED_CI_OPTIONAL_PLATFORM_LOCK",
+  "originalRequest": "Make repositories ready for use and developer/agent handoff using planner-worker-judge",
+  "pr": "https://github.com/HomenShum/NodeBenchBoilerplate/pull/1",
+  "run": {
+    "id": 34009033206,
+    "attempt": 1,
+    "event": "pull_request",
+    "conclusion": "failure"
+  },
+  "testMerge": "be9f57029662918ff88c31a8e6ed5c14b35785d0",
+  "all302CommittedBlobsExact": true,
+  "changedPaths": 297,
+  "jobs": [
+    {
+      "id": 101421448255,
+      "name": "build-and-test (20)",
+      "conclusion": "failure",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Use Node.js 20",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install dependencies",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test",
+          "conclusion": "failure"
+        },
+        {
+          "name": "Lint",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Verify local MCP protocol and native storage",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Use Node.js 20",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 101421448464,
+      "name": "build-and-test (22)",
+      "conclusion": "cancelled",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Use Node.js 22",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install dependencies",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test",
+          "conclusion": "failure"
+        },
+        {
+          "name": "Lint",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Verify local MCP protocol and native storage",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Use Node.js 22",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "actualTestsCollected": 0,
+  "lint": "NOT_RUN",
+  "protocol25": "NOT_RUN",
+  "nativeSqliteRuntimeOnLinux": "NOT_RUN",
+  "scanner": {
+    "name": "GitGuardian Security Checks",
+    "id": 101421449460,
+    "conclusion": "success",
+    "title": "No secrets detected \u2705",
+    "summary": "**1** commit was scanned without uncovering any secrets.\n",
+    "limit": "One-commit secret scan; no dependency or full security certification"
+  },
+  "mergePolicy": {
+    "defaultBranch": "master",
+    "protected": false,
+    "rulesets": [],
+    "mergeMethods": {
+      "allow_merge_commit": true,
+      "allow_squash_merge": true,
+      "allow_rebase_merge": true
+    },
+    "mergeable": true,
+    "mergeableState": "unstable",
+    "normalMergeReady": false
+  },
+  "bodyCorrection": "Replace prior shared-pending wording with actual first-attempt failure; do not alter historical local proof claims.",
+  "md": {
+    "path": "E6l_NODEBENCHBOILERPLATE_SHARED_JUDGE.md",
+    "bytes": 3845,
+    "sha256": "564f0e6d854787563bf11390b6dfec371dc629a595fd754db1300c9d45526c7a"
+  },
+  "plan": {
+    "path": "E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_PLAN_JUDGE.json",
+    "bytes": 9409,
+    "sha256": "849f68b26d6747215a432849e0347a48c35cf35388fe7583ffe4a9a53cf25bbc"
+  },
+  "retainedHolds": [
+    "Two high dependency audit entries",
+    "Linux test/lint/protocol acceptance",
+    "Provider/downstream/Docker/global hosts",
+    "Deployment and full readiness grades"
+  ]
+}

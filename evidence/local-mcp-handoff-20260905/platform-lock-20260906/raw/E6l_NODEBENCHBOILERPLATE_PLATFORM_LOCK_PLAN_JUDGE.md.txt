@@ -1,0 +1,30 @@
+# Restore platform resolution without changing reviewed runtime versions
+
+Builder. A Linux maintainer needs the same starter that passed locally to collect its tests. The lock names native dependencies but omits their package records (an incomplete optional-platform dependency graph). **Approve the bounded external resolution plan, not source promotion or runtime acceptance.**
+
+**Re your request:** make each repository usable and suitable for handoff — repair the earliest owned dependency record, while retaining the original failure and existing reviewed versions.
+
+Exact public registry manifests match the committed parent optional maps. The parent rows themselves are identical in base `c7f4ec9` and head `5b0181d`; the earlier nine security-version corrections did not introduce these missing maps/rows.
+
+| Parent | Version | Declared / present / absent | Meaning |
+|---|---|---|---|
+| Rollup | 4.62.2 | 26 / 2 / 24 | Only two Windows rows. Missing Linux x64 GNU is the actual CI startup failure. The absent total also includes Darwin-only fsevents. |
+| esbuild | 0.28.1 | 26 / 1 / 25 | Only Windows x64. Linux native entry missing; no separate esbuild runtime failure is claimed. |
+| @napi-rs/canvas | 0.1.80 | 10 / 1 / 9 | Only Windows x64. Latent optional PDF-runtime gap through MCP → pdf-parse → pdfjs-dist. |
+| Sharp | 0.34.5 | 24 / 24 / 0 | Its platform graph is already present. The two high Sharp/MCP audit entries remain a separate issue. |
+
+[Exact registry JSON, URLs, hashes, engines and Linux CPU/OS/libc records](E6l-boilerplate-shared-01/registry-metadata.json) and [independent map comparison](E6l-boilerplate-shared-01/platform-closure-summary.json). Other fsevents declarations include exact 2.3.2 and compatible 2.3.3 ranges; let the ordinary resolver choose valid placement instead of manufacturing a deduplication rule. Better-sqlite3 uses its installation mechanism, not a missing platform-package family; Linux protocol execution is still pending.
+
+The recorded shape is consistent with [npm's incomplete optional-lock issue](https://github.com/npm/cli/issues/4828). The historical command that produced this repository's lock is **not observed**, so that issue explains a plausible mechanism rather than proving its history. npm documents lock-only resolution separately from installed dependencies. [Official npm command contract](https://docs.npmjs.com/cli/v10/commands/npm-install/#package-lock-only).
+
+I read the [initial root plan](E6l_OPTIONAL_PLATFORM_LOCK_PLAN.md), [fresh-lock amendment](E6l-platform-lock-fresh-plan.md) and [temporary exact-constraint amendment](E6l-platform-lock-constrained-plan.md). Their sequence is legitimate and bounded:
+
+1. Preserve head/lock, all 279 raw payloads, and the first failed CI logs. Record the resolver's actual version and empty owned directory/profile. Installed local npm metadata is **10.9.7**; actual CI was npm **10.8.2 / 10.9.8**, not an assumed common version.
+2. Retain the first ordinary current-lock/no-node_modules attempt: exit zero, **lock unchanged**, no closure. Its receipt records the command at 1.625 seconds. [Attempt 01](E6l-platform-lock-resolution-01/receipt.json).
+3. Retain and reject manifest-only clean resolution: 422 rows, **33 existing-version changes and five removed paths**. This demonstrates full resolution but exceeds the approved scope. [Attempt 02](E6l-platform-lock-resolution-02/receipt.json).
+4. In a third separate directory, constrain only the three existing parent versions temporarily, perform the named ordinary npm lock update, preserve intermediate files, restore exact original package.json, and run ordinary npm reconciliation. This is approval to inspect an external candidate; success is not assumed.
+5. Require all original 359 package-path versions and nine security fixes unchanged; inspect every new/removed row and changed flag/edge. Added rows must be the real registry-derived optional closure. Verify the restored root edges, normal ownership/dev/optional flags, compatible ranges and no surviving temporary direct dependencies. Reject unrelated changes. Do not splice integrity data, add permanent overrides/dependencies, or replace native loading with a CI workaround.
+6. Only an independently accepted lock may receive normal fresh install/build/tests/lint/25-assertion protocol proof and a new ordinary shared run on both Linux Node versions. Metadata completeness cannot certify execution. Do not repeat the unchanged failure or relax deadlines/gates.
+7. Publish truthful successor source bindings and current handoff after acceptance; preserve historical source identities and all prior payload bytes. No broader package, workflow, provider or product redesign is needed.
+
+The CI source is immutable and this read-only guard is **closed**. Root owns the external trial and subsequent source transfer. No source repair is accepted yet; the third attempt remains an unobserved proposal in this judgment. Full product, provider, host and deployment readiness remain held.

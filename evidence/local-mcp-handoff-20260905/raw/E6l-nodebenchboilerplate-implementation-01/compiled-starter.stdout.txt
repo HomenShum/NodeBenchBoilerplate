@@ -1,0 +1,1 @@
+Hello, World! Starter ran. Connect NodeBench MCP with npm run mcp:start.

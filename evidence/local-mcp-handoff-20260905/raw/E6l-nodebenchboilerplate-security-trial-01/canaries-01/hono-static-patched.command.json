@@ -1,0 +1,32 @@
+{
+  "name": "hono-static-patched",
+  "family": "hono-static",
+  "lane": "patched",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=128",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+    "hono-static",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-static-patched.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\hono-static-patched"
+  ],
+  "exitCode": 0,
+  "seconds": 0.5,
+  "budgetSeconds": 5,
+  "timedOut": false,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "53268": 1788661186.552142
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 64,
+    "stderr": 0
+  },
+  "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "stdoutSha256": "a9c3ae0a5bdc2031774c5ff8845b6ad5e4e96883c2822aa3985a84ceaf9c1e87",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-static-patched.result.json",
+  "resultSha256": "9ccf2005e9c9a54af5266ee2a49b78d09276903aa48abf531c60e8d285ec7e38"
+}

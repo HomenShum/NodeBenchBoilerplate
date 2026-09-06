@@ -1,0 +1,116 @@
+[
+  {
+    "name": "configured",
+    "args": [
+      "./node_modules/nodebench-mcp/dist/index.js",
+      "--stdio",
+      "--no-embedding",
+      "--preset",
+      "core"
+    ],
+    "flags": {
+      "requestedPreset": "core",
+      "enableAdminRuntime": false,
+      "enableDashboards": false,
+      "enableWatchdog": false,
+      "enableEmbedding": false,
+      "enableEngine": false,
+      "enableProfiling": false
+    }
+  },
+  {
+    "name": "mcp:start",
+    "args": [
+      "./node_modules/nodebench-mcp/dist/index.js",
+      "--stdio",
+      "--no-embedding",
+      "--preset",
+      "core"
+    ],
+    "flags": {
+      "requestedPreset": "core",
+      "enableAdminRuntime": false,
+      "enableDashboards": false,
+      "enableWatchdog": false,
+      "enableEmbedding": false,
+      "enableEngine": false,
+      "enableProfiling": false
+    }
+  },
+  {
+    "name": "mcp:core",
+    "args": [
+      "./node_modules/nodebench-mcp/dist/index.js",
+      "--stdio",
+      "--no-embedding",
+      "--preset",
+      "core"
+    ],
+    "flags": {
+      "requestedPreset": "core",
+      "enableAdminRuntime": false,
+      "enableDashboards": false,
+      "enableWatchdog": false,
+      "enableEmbedding": false,
+      "enableEngine": false,
+      "enableProfiling": false
+    }
+  },
+  {
+    "name": "mcp:full",
+    "args": [
+      "./node_modules/nodebench-mcp/dist/index.js",
+      "--stdio",
+      "--no-embedding",
+      "--preset",
+      "full"
+    ],
+    "flags": {
+      "requestedPreset": "full",
+      "enableAdminRuntime": false,
+      "enableDashboards": false,
+      "enableWatchdog": false,
+      "enableEmbedding": false,
+      "enableEngine": false,
+      "enableProfiling": false
+    }
+  },
+  {
+    "name": "mcp:starter",
+    "args": [
+      "./node_modules/nodebench-mcp/dist/index.js",
+      "--stdio",
+      "--no-embedding",
+      "--preset",
+      "starter"
+    ],
+    "flags": {
+      "requestedPreset": "starter",
+      "enableAdminRuntime": false,
+      "enableDashboards": false,
+      "enableWatchdog": false,
+      "enableEmbedding": false,
+      "enableEngine": false,
+      "enableProfiling": false
+    }
+  },
+  {
+    "name": "invalid",
+    "args": [
+      "./node_modules/nodebench-mcp/dist/index.js",
+      "--stdio",
+      "--no-embedding",
+      "--preset",
+      "boilerplate-invalid"
+    ],
+    "flags": {
+      "requestedPreset": "boilerplate-invalid",
+      "enableAdminRuntime": false,
+      "enableDashboards": false,
+      "enableWatchdog": false,
+      "enableEmbedding": false,
+      "enableEngine": false,
+      "enableProfiling": false
+    }
+  }
+]

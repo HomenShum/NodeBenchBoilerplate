@@ -1,0 +1,16 @@
+# Fresh-lock resolution amendment
+
+The first bounded trial completed successfully but left lock446e byte-identical:
+24 Rollup optional targets (including fsevents) and 25 esbuild targets remain
+missing. No node_modules existed and no source file changed. Do not repeat it.
+
+Use a second empty owned directory containing only the exact current manifest.
+Run ordinary npm install --package-lock-only once. This removes no user's file
+and obtains all lock metadata through npm's resolver. Compare every existing
+package version, every prior security-patch row and all added/removed rows.
+Unexpected version or dependency-policy drift rejects promotion and requires
+inspection. A fresh lock's exit zero is still not a Linux runtime pass.
+
+Keep both trial outputs and exact source/primary guards. Source, workflow,
+published packet and PR remain unchanged during resolution. The initial plan's
+normal fresh-consumer and new Linux CI proof requirements remain in force.

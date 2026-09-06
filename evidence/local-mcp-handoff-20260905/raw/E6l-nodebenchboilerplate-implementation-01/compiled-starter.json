@@ -1,0 +1,21 @@
+{
+  "at": "2026-09-06T01:44:10.109543+00:00",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "dist/index.js"
+  ],
+  "exitCode": 0,
+  "seconds": 0.078,
+  "ownedProcesses": {
+    "54620": 1788659050.0320811
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 73,
+    "stderr": 0
+  },
+  "stdoutSha256": "56236ae6074b24096622d816037bd66a5aad5d54592f09f6ed428160793bf250",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "environmentFileSha256": "a706c6eca724a8f2ece266c5d8c4531cf123b3eb95c27fbde08ef466ed72aa21",
+  "timeoutSeconds": 120
+}

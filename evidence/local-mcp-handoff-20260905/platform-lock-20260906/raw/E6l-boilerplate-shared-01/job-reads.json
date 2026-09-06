@@ -1,0 +1,58 @@
+[
+  {
+    "name": "jobs",
+    "argv": [
+      "gh",
+      "api",
+      "repos/HomenShum/NodeBenchBoilerplate/actions/runs/34009033206/jobs?filter=all&per_page=100"
+    ],
+    "exit": 0,
+    "stdoutSha256": "59022a7446b947c8fab229794a3c62285426e73ca965d06c42fbc31d921d156f",
+    "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "merge-commit",
+    "argv": [
+      "gh",
+      "api",
+      "repos/HomenShum/NodeBenchBoilerplate/git/commits/be9f57029662918ff88c31a8e6ed5c14b35785d0"
+    ],
+    "exit": 0,
+    "stdoutSha256": "fab9a9baf7504130faab96e86cc3f7eaca4503687220b3cc6abc534ac4aa3666",
+    "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "node20-log",
+    "argv": [
+      "gh",
+      "run",
+      "view",
+      "34009033206",
+      "--repo",
+      "HomenShum/NodeBenchBoilerplate",
+      "--job",
+      "101421448255",
+      "--log"
+    ],
+    "exit": 0,
+    "stdoutSha256": "21e683e54d07b67e90389302bc0accd18c8fc8baec2d5f496660b29ac8e965af",
+    "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "node22-log",
+    "argv": [
+      "gh",
+      "run",
+      "view",
+      "34009033206",
+      "--repo",
+      "HomenShum/NodeBenchBoilerplate",
+      "--job",
+      "101421448464",
+      "--log"
+    ],
+    "exit": 0,
+    "stdoutSha256": "9a19d7b54c8ee496e941c35ecc673de81df1579019d95b23c60dbe071d1871d6",
+    "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

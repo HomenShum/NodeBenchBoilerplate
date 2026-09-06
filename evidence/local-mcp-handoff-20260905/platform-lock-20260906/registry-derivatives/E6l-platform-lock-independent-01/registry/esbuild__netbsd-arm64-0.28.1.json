@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild/netbsd-arm64",
+  "version": "0.28.1",
+  "os": [
+    "netbsd"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.1.tgz",
+    "integrity": "sha512-oks0DYbLwWMmaakTsCb+zL4E+aHRVLom9IJZOAthMQEPiQmydXHkziYEsGYRx0uNV/IjEKGAV941JzH02pflqw=="
+  }
+}

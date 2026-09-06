@@ -1,0 +1,49 @@
+# Boilerplate local entrypoint repair
+
+The developer can now run the compiled starter, connect the installed local MCP
+server, and verify native persistence without provider credentials. The greeting
+gives the next command instead of asserting an untested connection. ESLint is a
+real blocking check, and CI now targets both master and main.
+
+**Scope:** ten authored owners, 15 current source files, five unchanged
+protected originals. Primary source, candidate/primary HEAD, refs and index are
+unchanged. Working changes remain unstaged. No commit, push or deployment.
+
+**Freeze:** `freeze.json`, source digest `282a50761f81c74009a8ce21078a9a437d69963ceb7fdf439f8dd3e5dbb33ec6`. The raw tracked diff
+is `candidate-tracked.diff`; `after/` contains exact bytes including both new files.
+
+Normal installation, build, two greeting tests, lint, compiled starter and the
+final 25-assertion native protocol/storage proof passed.
+Actual tools/prompts were starter 20/14, core 273/14 and full 567/14.
+Concurrent list IDs, eight repeated reads, unknown-method recovery, invalid
+preset, missing local installation and restart were observed. SQLite insert
+asserted changes=1 and a second native process reopened the stored value.
+
+The separate owned-state journey made 50 tool calls and passed
+16 assertions. `sqlite-readback.json` independently reads the
+actual SQLite file: 81 tables, six actual command result rows, eight distinct
+history rows and one learning after eight updates. Failed review/release records
+and phase six remain failed across restart. These are evidence records, not an
+approval or proof that the tool ran a compiler itself.
+
+Native dependency resolution added 112 lint/SQLite rows, removed none, and kept
+every old version/resolved/integrity. Five old optional flags changed because
+those packages are now required. The full audit still fails with 11 findings
+(4 moderate, 7 high). Advisory remediation, shared CI, provider behavior, Docker,
+global IDE setup and application grades remain open.
+
+The first external gate recorder expected JSON content; actual MCP text was
+TOON. Its failed response and owned database are preserved. The corrected
+external reader uses the installed format decoder. All original setup/protocol
+failures and intentional negative checks are retained; see
+`implementation-notes.json` and the command records in `freeze.json`.
+
+Replay from the candidate root: `npm ci`, `npm run build`, `npm test`,
+`npm run lint`, `node dist/index.js`, `npm run verify:mcp`. Use a new output
+directory for each retained protocol run. The isolated external gate scenario
+and raw command/SQLite records are operator evidence, indexed in
+`external-proof-inventory.json`. No existing proof directory is overwritten.
+
+**Re the original request:** make each repository ready for developer and
+coding-agent handoff — this fixes and verifies the local starter/MCP contract.
+It does not claim complete product readiness from a lower-layer check.

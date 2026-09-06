@@ -1,0 +1,30 @@
+{
+  "name": "run_quality_gate",
+  "args": {
+    "gateName": "code_review",
+    "target": "Worker local evidence awaiting independent review",
+    "rules": [
+      {
+        "name": "actual_build_lint_test_protocol",
+        "passed": true
+      },
+      {
+        "name": "independent_review",
+        "passed": false
+      }
+    ]
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "gateRunId: gate_1788660984116_hkwxg7gi1\ngateName: code_review\npassed: false\nscore: 0.5\ntotalRules: 2\npassedCount: 1\nfailures[1]: independent_review\nruleResults:\n  actual_build_lint_test_protocol: true\n  independent_review: false\n_quickRef:\n  nextAction: Gate evaluated. Fix any failures before proceeding. Record patterns with record_learning.\n  nextTools[3]: record_learning,get_gate_history,run_mandatory_flywheel\n  methodology: quality_gates\n  tip: \"Use get_gate_preset for built-in rule sets: engagement, code_review, deploy_readiness, ui_ux_qa.\""
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 26
+  }
+}

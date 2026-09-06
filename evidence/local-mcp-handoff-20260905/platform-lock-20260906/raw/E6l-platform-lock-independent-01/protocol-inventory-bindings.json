@@ -1,0 +1,44 @@
+[
+  {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\configured.inventory.json",
+    "bytes": 367615,
+    "sha256": "9d3cf89fc89304c2659851c9541a63f6c546b2b86d4438c5411224ed16b70400",
+    "tools": 273,
+    "prompts": 14
+  },
+  {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\npm-start.inventory.json",
+    "bytes": 367615,
+    "sha256": "9d3cf89fc89304c2659851c9541a63f6c546b2b86d4438c5411224ed16b70400",
+    "tools": 273,
+    "prompts": 14
+  },
+  {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\npm-starter.inventory.json",
+    "bytes": 46600,
+    "sha256": "8d44ece5a9e0a6a70f7a0f820c762f80a120b17b3a2a63addaeaeaec6ce1ad92",
+    "tools": 20,
+    "prompts": 14
+  },
+  {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\npm-core.inventory.json",
+    "bytes": 367615,
+    "sha256": "9d3cf89fc89304c2659851c9541a63f6c546b2b86d4438c5411224ed16b70400",
+    "tools": 273,
+    "prompts": 14
+  },
+  {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\npm-full.inventory.json",
+    "bytes": 843424,
+    "sha256": "3eac1a7f8c944a70e38a0efbe18dc7a7f12fe89626ec3700f3657c40d65c6373",
+    "tools": 567,
+    "prompts": 14
+  },
+  {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\configured-restart.inventory.json",
+    "bytes": 367615,
+    "sha256": "9d3cf89fc89304c2659851c9541a63f6c546b2b86d4438c5411224ed16b70400",
+    "tools": 273,
+    "prompts": 14
+  }
+]

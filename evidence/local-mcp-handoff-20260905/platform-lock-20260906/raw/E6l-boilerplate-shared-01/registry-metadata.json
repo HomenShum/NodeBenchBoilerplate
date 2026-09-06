@@ -1,0 +1,268 @@
+{
+  "at": "2026-09-06T03:32:08.220807+00:00",
+  "rows": [
+    {
+      "name": "rollup",
+      "version": "4.62.2",
+      "url": "https://registry.npmjs.org/rollup/4.62.2",
+      "status": 200,
+      "file": "registry\\rollup-4.62.2.json",
+      "bytes": 12017,
+      "sha256": "be8151f89c8c7a1e420b80f80fc69b300d214f4397602c5054f95eb11f399118",
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "engines": {
+        "npm": ">=8.0.0",
+        "node": ">=18.0.0"
+      },
+      "optionalDependencies": {
+        "fsevents": "~2.3.2",
+        "@rollup/rollup-darwin-x64": "4.62.2",
+        "@rollup/rollup-freebsd-x64": "4.62.2",
+        "@rollup/rollup-openbsd-x64": "4.62.2",
+        "@rollup/rollup-darwin-arm64": "4.62.2",
+        "@rollup/rollup-android-arm64": "4.62.2",
+        "@rollup/rollup-freebsd-arm64": "4.62.2",
+        "@rollup/rollup-linux-x64-gnu": "4.62.2",
+        "@rollup/rollup-win32-x64-gnu": "4.62.2",
+        "@rollup/rollup-linux-x64-musl": "4.62.2",
+        "@rollup/rollup-win32-x64-msvc": "4.62.2",
+        "@rollup/rollup-linux-arm64-gnu": "4.62.2",
+        "@rollup/rollup-linux-ppc64-gnu": "4.62.2",
+        "@rollup/rollup-linux-s390x-gnu": "4.62.2",
+        "@rollup/rollup-win32-ia32-msvc": "4.62.2",
+        "@rollup/rollup-android-arm-eabi": "4.62.2",
+        "@rollup/rollup-linux-arm64-musl": "4.62.2",
+        "@rollup/rollup-linux-ppc64-musl": "4.62.2",
+        "@rollup/rollup-win32-arm64-msvc": "4.62.2",
+        "@rollup/rollup-linux-loong64-gnu": "4.62.2",
+        "@rollup/rollup-linux-riscv64-gnu": "4.62.2",
+        "@rollup/rollup-openharmony-arm64": "4.62.2",
+        "@rollup/rollup-linux-loong64-musl": "4.62.2",
+        "@rollup/rollup-linux-riscv64-musl": "4.62.2",
+        "@rollup/rollup-linux-arm-gnueabihf": "4.62.2",
+        "@rollup/rollup-linux-arm-musleabihf": "4.62.2"
+      },
+      "distIntegrity": "sha512-RFnrW4lhXA3s3eqHDZvN654g8OTjzRfqpIRJYczCGB6HzphckVAi/Qh4tbPUbRuDi7s1Llv8g/NspLkttY3gTA=="
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.1",
+      "url": "https://registry.npmjs.org/esbuild/0.28.1",
+      "status": 200,
+      "file": "registry\\esbuild-0.28.1.json",
+      "bytes": 4854,
+      "sha256": "4a6cfffbc1389d2f77818c6e7a5a24db69a587e5ad2db8cb4f43afa0e53f53fa",
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "engines": {
+        "node": ">=18"
+      },
+      "optionalDependencies": {
+        "@esbuild/aix-ppc64": "0.28.1",
+        "@esbuild/linux-arm": "0.28.1",
+        "@esbuild/linux-x64": "0.28.1",
+        "@esbuild/sunos-x64": "0.28.1",
+        "@esbuild/win32-x64": "0.28.1",
+        "@esbuild/darwin-x64": "0.28.1",
+        "@esbuild/linux-ia32": "0.28.1",
+        "@esbuild/netbsd-x64": "0.28.1",
+        "@esbuild/win32-ia32": "0.28.1",
+        "@esbuild/android-arm": "0.28.1",
+        "@esbuild/android-x64": "0.28.1",
+        "@esbuild/freebsd-x64": "0.28.1",
+        "@esbuild/linux-arm64": "0.28.1",
+        "@esbuild/linux-ppc64": "0.28.1",
+        "@esbuild/linux-s390x": "0.28.1",
+        "@esbuild/openbsd-x64": "0.28.1",
+        "@esbuild/win32-arm64": "0.28.1",
+        "@esbuild/darwin-arm64": "0.28.1",
+        "@esbuild/netbsd-arm64": "0.28.1",
+        "@esbuild/android-arm64": "0.28.1",
+        "@esbuild/freebsd-arm64": "0.28.1",
+        "@esbuild/linux-loong64": "0.28.1",
+        "@esbuild/linux-riscv64": "0.28.1",
+        "@esbuild/openbsd-arm64": "0.28.1",
+        "@esbuild/linux-mips64el": "0.28.1",
+        "@esbuild/openharmony-arm64": "0.28.1"
+      },
+      "distIntegrity": "sha512-HrJrvZv5ayxBzPfwphOoNzkzOIIlifzk0KJrGK2c8R4+LKpMtpYLQeUdjnwjWv/LZlkH2laZk+4w78pi99D4Vw=="
+    },
+    {
+      "name": "@napi-rs/canvas",
+      "version": "0.1.80",
+      "url": "https://registry.npmjs.org/%40napi-rs%2Fcanvas/0.1.80",
+      "status": 200,
+      "file": "registry\\napi-rs__canvas-0.1.80.json",
+      "bytes": 4550,
+      "sha256": "a7bccd1c4a07cffb54207e61e8ac7d334f1b0cb4918ca1eaab6050afd5f4f65c",
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "engines": {
+        "node": ">= 10"
+      },
+      "optionalDependencies": {
+        "@napi-rs/canvas-darwin-x64": "0.1.80",
+        "@napi-rs/canvas-darwin-arm64": "0.1.80",
+        "@napi-rs/canvas-android-arm64": "0.1.80",
+        "@napi-rs/canvas-linux-x64-gnu": "0.1.80",
+        "@napi-rs/canvas-linux-x64-musl": "0.1.80",
+        "@napi-rs/canvas-win32-x64-msvc": "0.1.80",
+        "@napi-rs/canvas-linux-arm64-gnu": "0.1.80",
+        "@napi-rs/canvas-linux-arm64-musl": "0.1.80",
+        "@napi-rs/canvas-linux-riscv64-gnu": "0.1.80",
+        "@napi-rs/canvas-linux-arm-gnueabihf": "0.1.80"
+      },
+      "distIntegrity": "sha512-DxuT1ClnIPts1kQx8FBmkk4BQDTfI5kIzywAaMjQSXfNnra5UFU9PwurXrl+Je3bJ6BGsp/zmshVVFbCmyI+ww=="
+    },
+    {
+      "name": "sharp",
+      "version": "0.34.5",
+      "url": "https://registry.npmjs.org/sharp/0.34.5",
+      "status": 200,
+      "file": "registry\\sharp-0.34.5.json",
+      "bytes": 9061,
+      "sha256": "c2744c197ceb699bb2fb08f70aadd1c209b738f81c88c5c7dfb41d97012f4926",
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "engines": {
+        "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+      },
+      "optionalDependencies": {
+        "@img/sharp-wasm32": "0.34.5",
+        "@img/sharp-linux-arm": "0.34.5",
+        "@img/sharp-linux-x64": "0.34.5",
+        "@img/sharp-win32-x64": "0.34.5",
+        "@img/sharp-darwin-x64": "0.34.5",
+        "@img/sharp-win32-ia32": "0.34.5",
+        "@img/sharp-linux-arm64": "0.34.5",
+        "@img/sharp-linux-ppc64": "0.34.5",
+        "@img/sharp-linux-s390x": "0.34.5",
+        "@img/sharp-win32-arm64": "0.34.5",
+        "@img/sharp-darwin-arm64": "0.34.5",
+        "@img/sharp-linux-riscv64": "0.34.5",
+        "@img/sharp-linuxmusl-x64": "0.34.5",
+        "@img/sharp-linuxmusl-arm64": "0.34.5",
+        "@img/sharp-libvips-linux-arm": "1.2.4",
+        "@img/sharp-libvips-linux-x64": "1.2.4",
+        "@img/sharp-libvips-darwin-x64": "1.2.4",
+        "@img/sharp-libvips-linux-arm64": "1.2.4",
+        "@img/sharp-libvips-linux-ppc64": "1.2.4",
+        "@img/sharp-libvips-linux-s390x": "1.2.4",
+        "@img/sharp-libvips-darwin-arm64": "1.2.4",
+        "@img/sharp-libvips-linux-riscv64": "1.2.4",
+        "@img/sharp-libvips-linuxmusl-x64": "1.2.4",
+        "@img/sharp-libvips-linuxmusl-arm64": "1.2.4"
+      },
+      "distIntegrity": "sha512-Ou9I5Ft9WNcCbXrU9cMgPBcCK8LiwLqcbywW3t4oDV37n1pzpuNLsYiAV8eODnjbtQlSDwZ2cUEeQz4E54Hltg=="
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.62.2",
+      "url": "https://registry.npmjs.org/%40rollup%2Frollup-linux-x64-gnu/4.62.2",
+      "status": 200,
+      "file": "registry\\rollup__rollup-linux-x64-gnu-4.62.2.json",
+      "bytes": 1833,
+      "sha256": "70b446a33f7dee74d6417fea71435b6aeb92bf9e012dcb0f2c33907359b114d0",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": [
+        "glibc"
+      ],
+      "engines": null,
+      "optionalDependencies": {},
+      "distIntegrity": "sha512-5BqxR/pshjey51iliyzTD5Xi3EN0aLmQ2lZ3lvefVV9c82BvrLo2/6OT55iifpWBufs6kdwWbuOKS841DrmK9A=="
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.28.1",
+      "url": "https://registry.npmjs.org/%40esbuild%2Flinux-x64/0.28.1",
+      "status": 200,
+      "file": "registry\\esbuild__linux-x64-0.28.1.json",
+      "bytes": 1601,
+      "sha256": "452f9e60e2947cdde5a8fc53b67ff8c06966565324fa13a47920f0a33b0e0299",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "engines": {
+        "node": ">=18"
+      },
+      "optionalDependencies": {},
+      "distIntegrity": "sha512-u/anNYF2mmVOEDwLtnQ1wOr3EZ9sTNGLWrsYGYwHWzGA3Si84IOkHXlbWTD1NB+9/1lcnweYKO54uhxZydNzfA=="
+    },
+    {
+      "name": "@napi-rs/canvas-linux-x64-gnu",
+      "version": "0.1.80",
+      "url": "https://registry.npmjs.org/%40napi-rs%2Fcanvas-linux-x64-gnu/0.1.80",
+      "status": 200,
+      "file": "registry\\napi-rs__canvas-linux-x64-gnu-0.1.80.json",
+      "bytes": 1923,
+      "sha256": "136b58ba0847d21572a5865d17b150a8457986550d30631bbc538df9b608beeb",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": [
+        "glibc"
+      ],
+      "engines": {
+        "node": ">= 10"
+      },
+      "optionalDependencies": {},
+      "distIntegrity": "sha512-BeXAmhKg1kX3UCrJsYbdQd3hIMDH/K6HnP/pG2LuITaXhXBiNdh//TVVVVCBbJzVQaV5gK/4ZOCMrQW9mvuTqA=="
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.2",
+      "url": "https://registry.npmjs.org/fsevents/2.3.2",
+      "status": 200,
+      "file": "registry\\fsevents-2.3.2.json",
+      "bytes": 2873,
+      "sha256": "ae16679c9e35c0f42e8b20c83b1a52d3ab492e8fac19b2457ac8ba43b6ff497e",
+      "os": [
+        "darwin"
+      ],
+      "cpu": null,
+      "libc": null,
+      "engines": {
+        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+      },
+      "optionalDependencies": {},
+      "distIntegrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "url": "https://registry.npmjs.org/fsevents/2.3.3",
+      "status": 200,
+      "file": "registry\\fsevents-2.3.3.json",
+      "bytes": 1959,
+      "sha256": "b9f892b7d399e73de65849e3647094e648ff91c0a03e4460ac0fdcd335df2704",
+      "os": [
+        "darwin"
+      ],
+      "cpu": null,
+      "libc": null,
+      "engines": {
+        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+      },
+      "optionalDependencies": {},
+      "distIntegrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+    }
+  ],
+  "scope": "Public exact-version metadata only; no package download/install/runtime."
+}

@@ -1,0 +1,220 @@
+{
+  "family": "qs",
+  "root": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+  "fixture": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\qs-patched",
+  "checks": [
+    {
+      "name": "bracket-comma array obeys configured limit",
+      "passed": true,
+      "actual": {
+        "error": "RangeError",
+        "message": "Array limit exceeded. Only 2 elements allowed in an array."
+      }
+    },
+    {
+      "name": "normal repeated query semantics preserved",
+      "passed": true
+    },
+    {
+      "name": "benign non-callable isBuffer-shaped value does not crash",
+      "passed": true,
+      "actual": {
+        "returned": "value%5Bconstructor%5D%5BisBuffer%5D=true&value%5Bnote%5D=owned"
+      }
+    },
+    {
+      "name": "no fetch attempted",
+      "passed": true,
+      "actual": 0
+    }
+  ],
+  "observations": {},
+  "fetchAttempts": 0,
+  "sourceBindings": [
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\index.js",
+      "sha256": "8f4e02eef6ccc43f2b7448c18ae209281c8e9af9807cad491df67450e3817a95"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\stringify.js",
+      "sha256": "96d17e8ad2c6fdf124f6a3a2a50b43412acbc67f0343b4ea782623cbf4de3253"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel\\index.js",
+      "sha256": "54f0fec2ecb069f39b17455cc77a86e5ad135138a6e6ab5f7b33dc44ed157e86"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\type.js",
+      "sha256": "c71b2f41c15edb3824f50dd24df900495c8caaba5b6e9a80851b82bb2309827b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\object-inspect\\index.js",
+      "sha256": "9aad508be54fbe29d82145d54352e7a19c01e19b70e1202b0123449fe9afcde6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\object-inspect\\util.inspect.js",
+      "sha256": "bb49299375c82d8d22983b76f6c25cd9ac923dc61cd25fffe9b3f71dad26dc40"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel-list\\index.js",
+      "sha256": "5d7ba64286b290cc1ebc2a04fba4c3f1cb319b3e174cc9d5e3ae5a1d9bec170b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel-map\\index.js",
+      "sha256": "0d3a0ec34cd376a23fa4a2a159913f527f990b5541fbd513212615e910ae2ba7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-intrinsic\\index.js",
+      "sha256": "c3bc7278af37cede0da2db32724fa0b89a07c44205c44c4f5db0e4d8d497d49c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-object-atoms\\index.js",
+      "sha256": "44ee7a57ed1c50c4c5fd2a6fcaee8772f4b7d0869326eed0aadcef87bc305212"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\index.js",
+      "sha256": "28fee350e89561019cf27ea37a313b4b4995f521fd087198fa235a8f135962de"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\eval.js",
+      "sha256": "d3161a97f162b483206e9849e41bb17fd54166810c76ebaa1df068133e54caae"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\range.js",
+      "sha256": "e376220f3a0226bd5b09b6d5a1411bbac274db8d2d9f7eb723142b7e676374be"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\ref.js",
+      "sha256": "31945f1740a0a2143fb8c38943afc6cce5de5ba6fab7af42d17b7874a19a0900"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\syntax.js",
+      "sha256": "56574ecd3eb54c06efd319080cc8923992791e430c914520b85e92c2f5e373f5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\uri.js",
+      "sha256": "e1e5591bde037a2ffeda822fa03fac22ff7c93c7b269ed9adf1cbea0e21614b0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\abs.js",
+      "sha256": "276961e4323370f3632410c6da81dda018b78c0cfb2a83ea72d48c80a3eaaeb1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\floor.js",
+      "sha256": "ea904c30b45d6fbbc1780f4db7d78c360bbecf98ecd789f0c817156102714c3f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\max.js",
+      "sha256": "92326f3eab1e40148bd68fb65a85d2c3f18fc32a03be27353b2054ba27ba7409"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\min.js",
+      "sha256": "b78c68ab96cb2764df12ff8038f5b05b05376b4c39608a7a25b3b0b168e7c2e2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\pow.js",
+      "sha256": "8dd625bd4c7b31b7656ab99babc9fea1617f36c35f5dbd339ebdc2d0f4bd97d2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\round.js",
+      "sha256": "1d4794c5869d554732cdc82208f954df348e4035f3cbd09ab758c553a207dc1e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\sign.js",
+      "sha256": "aef51335e4671ddd0f55a81e2e4395b1d96afee20102b50e33e2b485f7cd2598"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\isNaN.js",
+      "sha256": "1aa84179527aef8df84457dd8d4e828d76d58fd9170e7a9893ee7e0e774534e8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\gopd\\index.js",
+      "sha256": "8f8092ee3aaa2932a71e9f264a9b273dc33f7c52f4cdb0815956fccf80230d8c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\gopd\\gOPD.js",
+      "sha256": "48a04dcb3fb5cccb6c8541a3a8227b8d9f881ea3ffef3177ac4bb0338556b839"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-define-property\\index.js",
+      "sha256": "92d23d0217808c68692a1881369c207db1a35fc09dd24b98dd5f1a07d6bb3ed0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\has-symbols\\index.js",
+      "sha256": "fd9bef8dd0d913bc8beac3156a0019d1a83a6e091498d1af1cbdbd536776e189"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\has-symbols\\shams.js",
+      "sha256": "41277ab2db4a31094dc6f4ca2c3cbbe5576da5e5bddac4bda6c1f0d9c0e0c417"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-proto\\index.js",
+      "sha256": "ee310261ff252b6d90c1a9fc4b9eceb63ddb963e7eec5125631cf169daad38c1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-proto\\Reflect.getPrototypeOf.js",
+      "sha256": "bab0332997a67c0eb3d2ab24ee9ae5d106d275a8ef5bde2a711faa1c96899c59"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-proto\\Object.getPrototypeOf.js",
+      "sha256": "66d51243588d269eb28f5bc8236e111a9a36e010e9b5b9b496be2963882a9e28"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\dunder-proto\\get.js",
+      "sha256": "9671388b2fa2cbce2f4b8645cc1dedae2f182113a78c93dd142d987c2517dacf"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\index.js",
+      "sha256": "6a7ff51e964c2f1e24e3f3a90f41895bec230f07c3001eb29f45741ff99d7a83"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\function-bind\\index.js",
+      "sha256": "12fa1b92429db25599f6fe118cbbb877f7f62b83cb9bfe2fc896b2d6a8110647"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\function-bind\\implementation.js",
+      "sha256": "5c52eb40601e0716dafff9759cf28d8d4af3e2fc2e2c96384f43dbfd0f7370b5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\functionCall.js",
+      "sha256": "22d50c812748973250e9aa1994882a880c6e3bfc90d45e41f609cab97beee3fe"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\actualApply.js",
+      "sha256": "1cbe921bb00b03294815ff0ece4212f276870466961773ce238802bc71474540"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\functionApply.js",
+      "sha256": "6170e997fbe03c6f8ff48946ada7d54c7aadc01531509af81f0edfdb7be00e27"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\reflectApply.js",
+      "sha256": "e3ee45fb4c54bdb5f76ad4ef42780da004412ddb6d668993de4b9014efe246ff"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hasown\\index.js",
+      "sha256": "8f875520f41a3d711566013882af290c840969316cc72cd6b35f7e81d7dfc6d2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bound\\index.js",
+      "sha256": "aaf524d09b5a4f8f732a516aa1c81e6e8c5d65ae3d01bce392e8fc1ac55c14ff"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel-weakmap\\index.js",
+      "sha256": "4421d4533c6e1585d01da3ad592c53dd427b0367f81474c59590b6153f119010"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\utils.js",
+      "sha256": "d1d1d5c915493d399388b8ea340a412e87c8421514c6a0d5b45dc07fcebe86ef"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\formats.js",
+      "sha256": "d4e3de8b5a4c94865d8acd6f1c7538144732d466769661160bc0bf6ec9db3f4f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\parse.js",
+      "sha256": "e78105814d5f66b4ce1d874b4d7bbb3a4c8c2b4cd7bcc8df3d761b4ab076673c"
+    }
+  ],
+  "status": "PASS"
+}

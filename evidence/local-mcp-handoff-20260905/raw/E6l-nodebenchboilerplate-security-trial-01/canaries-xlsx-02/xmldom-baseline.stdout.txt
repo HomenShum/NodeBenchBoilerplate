@@ -1,0 +1,4 @@
+{"stage":"loading-xmldom"}
+{"stage":"loading-xlsx-reader","checks":[{"name":"invalid entity name rejects well-formed serialization","passed":false,"actual":{"returned":"<root>&x;<probe/>;</root>"}},{"name":"ordinary Unicode XML remains exact","passed":true}]}
+{"stage":"reading-owned-workbook"}
+{"family":"xmldom","status":"FAIL","checks":4,"failed":["invalid entity name rejects well-formed serialization"]}

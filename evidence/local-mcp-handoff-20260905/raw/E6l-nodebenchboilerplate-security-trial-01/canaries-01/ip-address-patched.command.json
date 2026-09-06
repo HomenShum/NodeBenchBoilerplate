@@ -1,0 +1,32 @@
+{
+  "name": "ip-address-patched",
+  "family": "ip-address",
+  "lane": "patched",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=128",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+    "ip-address",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-patched.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\ip-address-patched"
+  ],
+  "exitCode": 0,
+  "seconds": 0.297,
+  "budgetSeconds": 5,
+  "timedOut": false,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "66944": 1788661185.0031633
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 63,
+    "stderr": 0
+  },
+  "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "stdoutSha256": "dccafb09cdc0e34a82964119205bb3839a6fbd55a9a5caa5a7eee9bc7b1f00ab",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-patched.result.json",
+  "resultSha256": "da00b86628a31bc950f93938c6091ec4c172e46a3b228d21cba3c61a2f53e16c"
+}

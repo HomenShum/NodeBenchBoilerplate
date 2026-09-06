@@ -1,0 +1,650 @@
+{
+  "at": "2026-09-06T02:19:47.838192+00:00",
+  "families": 8,
+  "lanes": [
+    {
+      "name": "toon-baseline",
+      "family": "toon",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "toon",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\toon-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\toon-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 0.063,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "45672": 1788661168.8209553
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 110,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "cd77812c25f388f6dea0070cda27e9f62f7b9d035d5dcd461543b6e94c970856",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\toon-baseline.result.json",
+      "resultSha256": "541f95858a03384c555a1233341b596a39305c674d655b59e26b30ee7625160b"
+    },
+    {
+      "name": "toon-patched",
+      "family": "toon",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "toon",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\toon-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\toon-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.078,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "59612": 1788661168.9040942
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 58,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "46540bd72ae7a39b74d240e3e352b3493ca373b883b010bea8cb77c17e3a45cf",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\toon-patched.result.json",
+      "resultSha256": "1cf4e88197389b8db70bd7a05181fb0b612534b84f70967ecf5e7d42bfed8a2e"
+    },
+    {
+      "name": "fast-uri-baseline",
+      "family": "fast-uri",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "fast-uri",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\fast-uri-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\fast-uri-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 0.125,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "26568": 1788661169.0114453
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 194,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "30e84421a344ea7144f55af8691ff92e79464b4f0fde29905253dc926fcbd7dc",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\fast-uri-baseline.result.json",
+      "resultSha256": "b5b541623af5a320ae80177399a9be166cf9114209c744dd0758f4942ca4170a"
+    },
+    {
+      "name": "fast-uri-patched",
+      "family": "fast-uri",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "fast-uri",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\fast-uri-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\fast-uri-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.125,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "13724": 1788661169.1632662
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 61,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "b771e2e0845e26c7af41210055730c7691920b0b376c6c78964fe56badbea09f",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\fast-uri-patched.result.json",
+      "resultSha256": "2d5897976ed2e2177ca19770907023a6690fe898186fea56d2744ffe808c94a1"
+    },
+    {
+      "name": "postcss-baseline",
+      "family": "postcss",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "postcss",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\postcss-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\postcss-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 1.844,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "28016": 1788661169.31041
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 112,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "b6f8f235ec05d7df025593b15e510fb6cea7a5247786dab74c9288fb5d2f5307",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\postcss-baseline.result.json",
+      "resultSha256": "d93de87d7658a7376e277e77ddf3444c2aca886d725389cbad358f0ba7a588f8"
+    },
+    {
+      "name": "postcss-patched",
+      "family": "postcss",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "postcss",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\postcss-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\postcss-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 1.015,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "62456": 1788661171.161192
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 60,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "6cc720dc76b567e966866971901899f8aa5e614f95ae4a6503e2f6e4c733d992",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\postcss-patched.result.json",
+      "resultSha256": "88ae0cd4f12487f6378000a833818febfcbeac9a8058a1bdbb5b638934f32935"
+    },
+    {
+      "name": "nanoid-negative-baseline",
+      "family": "nanoid-negative",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=64",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "nanoid-negative",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-negative-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\nanoid-negative-baseline"
+      ],
+      "exitCode": 134,
+      "seconds": 0.281,
+      "budgetSeconds": 2,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "49416": 1788661172.207594
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 143,
+        "stderr": 1484
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "22513350b6101edc6d73f8adfb2620e1be53a7fa5b820321f1029a869997fea9",
+      "stderrSha256": "9084f886cc3ece740f0f590135e42fd01662e1d328b79593a590620cb90d898b",
+      "result": null
+    },
+    {
+      "name": "nanoid-negative-patched",
+      "family": "nanoid-negative",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=64",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "nanoid-negative",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-negative-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\nanoid-negative-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.062,
+      "budgetSeconds": 2,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "55656": 1788661172.5098708
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 211,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "1ae0e03efa50c7808b6731b63504040e5536b1d97e38066d7241e436d37197cc",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-negative-patched.result.json",
+      "resultSha256": "d42022aee0d752434401ed331d56b8dccc91f40bc0b321710ba5e3a40e7a6e91"
+    },
+    {
+      "name": "nanoid-zero-baseline",
+      "family": "nanoid-zero",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=64",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "nanoid-zero",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-zero-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\nanoid-zero-baseline"
+      ],
+      "exitCode": 15,
+      "seconds": 2.032,
+      "budgetSeconds": 2,
+      "timedOut": true,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "60616": 1788661172.6030877
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 139,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "694cb34eb9108c6b518bc31633f9df5d7901cc115c15110ca8da3ef109b64629",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": null
+    },
+    {
+      "name": "nanoid-zero-patched",
+      "family": "nanoid-zero",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=64",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "nanoid-zero",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-zero-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\nanoid-zero-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.063,
+      "budgetSeconds": 2,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "41896": 1788661174.6440988
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 203,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "fb93c363b29f6eaecd2c6b07f84ab3161da9609d65fb3bd7361c15fc36fd252b",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-zero-patched.result.json",
+      "resultSha256": "ae6b7889bb416a4491375bb2e4c9ad4a84e72a9d1dd8dab7010aa164008eef3b"
+    },
+    {
+      "name": "xmldom-baseline",
+      "family": "xmldom",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "xmldom",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\xmldom-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\xmldom-baseline"
+      ],
+      "exitCode": 15,
+      "seconds": 5.031,
+      "budgetSeconds": 5,
+      "timedOut": true,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "51552": 1788661174.7338006
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 0,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": null
+    },
+    {
+      "name": "xmldom-patched",
+      "family": "xmldom",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "xmldom",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\xmldom-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\xmldom-patched"
+      ],
+      "exitCode": 1,
+      "seconds": 2.719,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "3732": 1788661179.7968197
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 125,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "c96ae4f5f1bd3aad982d97ad0e9c8feb5ccacd1ff465c6845a0bfbe3cd30fc37",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\xmldom-patched.result.json",
+      "resultSha256": "83f592132f6393096c11ce054dd61e374e1cfbeeedabb74531eb29a16454c5be"
+    },
+    {
+      "name": "qs-baseline",
+      "family": "qs",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "qs",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\qs-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\qs-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 1.453,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "67536": 1788661182.5184247
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 158,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "94d33068087815bd7246e4ea4add63465bdb106577f793242d90781936af16ff",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\qs-baseline.result.json",
+      "resultSha256": "232182d26228a928cf2a7d1826508272fc01d91979f65da7ab931770b68c7e8d"
+    },
+    {
+      "name": "qs-patched",
+      "family": "qs",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "qs",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\qs-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\qs-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.516,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "39888": 1788661183.9919724
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 55,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "31396edaa4dd1afe4ae89c21fb952dc958da886e382715c8f3de9d19e5d61986",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\qs-patched.result.json",
+      "resultSha256": "d1b59b50b9a715461951f83cf56cd7d1d6993b08da9adfd2113bb67aac5864e1"
+    },
+    {
+      "name": "ip-address-baseline",
+      "family": "ip-address",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "ip-address",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\ip-address-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 0.437,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "34820": 1788661184.5404568
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 215,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "f0ddc579e416d61f3b3d1211017ed6cae90c913e7a4f456643ae4269d6dfefab",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-baseline.result.json",
+      "resultSha256": "cc690aba5847a6e78a01068f39c2bfcee6111849b890d39a980d9f5f1a6e91b2"
+    },
+    {
+      "name": "ip-address-patched",
+      "family": "ip-address",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "ip-address",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\ip-address-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.297,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "66944": 1788661185.0031633
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 63,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "dccafb09cdc0e34a82964119205bb3839a6fbd55a9a5caa5a7eee9bc7b1f00ab",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-patched.result.json",
+      "resultSha256": "da00b86628a31bc950f93938c6091ec4c172e46a3b228d21cba3c61a2f53e16c"
+    },
+    {
+      "name": "hono-static-baseline",
+      "family": "hono-static",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "hono-static",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-static-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\hono-static-baseline"
+      ],
+      "exitCode": 1,
+      "seconds": 1.235,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "63752": 1788661185.306524
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 119,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "8f44842b87649ba29e609c052acea59730b5e991f3e3d5db06abc18c0c7929a3",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-static-baseline.result.json",
+      "resultSha256": "08ee12380b74ce55da6d0e51a719a0824b5186aa11f80796252ac2e49abe7bbc"
+    },
+    {
+      "name": "hono-static-patched",
+      "family": "hono-static",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "hono-static",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-static-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\hono-static-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.5,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "53268": 1788661186.552142
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 64,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "a9c3ae0a5bdc2031774c5ff8845b6ad5e4e96883c2822aa3985a84ceaf9c1e87",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-static-patched.result.json",
+      "resultSha256": "9ccf2005e9c9a54af5266ee2a49b78d09276903aa48abf531c60e8d285ec7e38"
+    },
+    {
+      "name": "hono-cors-baseline",
+      "family": "hono-cors",
+      "lane": "baseline",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "hono-cors",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-cors-baseline.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\hono-cors-baseline"
+      ],
+      "exitCode": 0,
+      "seconds": 0.578,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "17312": 1788661187.0754733
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 252,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "8aaccfa3addb8732340abe385fa838862c0bcb20777f8140cc1e68fbb1e0ecc3",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-cors-baseline.result.json",
+      "resultSha256": "9350161fd4d82405a63382afa9ed46e7b11f3cfa583da498ae1bc12cf4f18054"
+    },
+    {
+      "name": "hono-cors-patched",
+      "family": "hono-cors",
+      "lane": "patched",
+      "args": [
+        "C:/nvm4w/nodejs/node.exe",
+        "--max-old-space-size=128",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+        "hono-cors",
+        "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-cors-patched.result.json",
+        "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\hono-cors-patched"
+      ],
+      "exitCode": 0,
+      "seconds": 0.156,
+      "budgetSeconds": 5,
+      "timedOut": false,
+      "streamCapExceeded": false,
+      "ownedProcesses": {
+        "6772": 1788661187.6675355
+      },
+      "survivors": [],
+      "streamBytes": {
+        "stdout": 252,
+        "stderr": 0
+      },
+      "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+      "stdoutSha256": "8aaccfa3addb8732340abe385fa838862c0bcb20777f8140cc1e68fbb1e0ecc3",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\hono-cors-patched.result.json",
+      "resultSha256": "a6f04bd352e466d2f4958d822bb1b94945186485a640366aeb2d7c72cb2c428e"
+    }
+  ],
+  "patchedPass": false,
+  "limits": [
+    "Baseline timeouts and failed assertions are observed failures, not successful patched results.",
+    "No listener or provider was started; HTTP cases use in-process requests.",
+    "Hono deadline observations are not a latency benchmark.",
+    "Static path case is a noncanonical Windows separator read, not proof of outside-root disclosure."
+  ]
+}

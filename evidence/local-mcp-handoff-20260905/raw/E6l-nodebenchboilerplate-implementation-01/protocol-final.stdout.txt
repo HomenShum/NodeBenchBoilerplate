@@ -1,0 +1,5 @@
+
+> nodebench-boilerplate@0.1.0 verify:mcp
+> node scripts/verify-mcp.mjs D:/ProjectRecovery/nodebenchboilerplate-protocol-20260905-final
+
+{"status":"PASS","checks":25,"output":"D:\\ProjectRecovery\\nodebenchboilerplate-protocol-20260905-final"}

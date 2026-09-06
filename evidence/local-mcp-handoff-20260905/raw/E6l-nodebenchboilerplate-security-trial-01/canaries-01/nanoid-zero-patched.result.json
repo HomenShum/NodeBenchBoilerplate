@@ -1,0 +1,36 @@
+{
+  "family": "nanoid-zero",
+  "root": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+  "fixture": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\nanoid-zero-patched",
+  "checks": [
+    {
+      "name": "64 normal IDs are unique and bounded",
+      "passed": true
+    },
+    {
+      "name": "nonpositive requested size returns empty without looping",
+      "passed": true,
+      "actual": {
+        "result": ""
+      }
+    },
+    {
+      "name": "no fetch attempted",
+      "passed": true,
+      "actual": 0
+    }
+  ],
+  "observations": {},
+  "fetchAttempts": 0,
+  "sourceBindings": [
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\nanoid\\index.cjs",
+      "sha256": "d345287b9f05a55b79c4e74b9a0f0d87e3acad5b01160e307b3345ad0e654918"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\nanoid\\url-alphabet\\index.cjs",
+      "sha256": "fdb8efafe73e611c45d1fffb25360888e139d5be3ab7982783db22aba2f21518"
+    }
+  ],
+  "status": "PASS"
+}

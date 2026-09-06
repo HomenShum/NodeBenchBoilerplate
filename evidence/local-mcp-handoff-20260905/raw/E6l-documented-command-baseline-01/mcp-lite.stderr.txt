@@ -1,0 +1,1 @@
+Unknown preset: lite. Available: default, starter, power, admin, core, web_dev, research, data, devops, mobile, academic, multi_agent, content, founder, banker, operator, researcher, cursor, hackathon, delta, full

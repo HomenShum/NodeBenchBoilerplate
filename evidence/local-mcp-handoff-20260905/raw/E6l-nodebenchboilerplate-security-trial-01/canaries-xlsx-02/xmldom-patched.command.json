@@ -1,0 +1,32 @@
+{
+  "name": "xmldom-patched",
+  "family": "xmldom",
+  "lane": "patched",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=128",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary-xlsx-corrected.mjs",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+    "xmldom",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-xlsx-02\\xmldom-patched.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-xlsx-02\\xmldom-patched"
+  ],
+  "exitCode": 0,
+  "seconds": 0.187,
+  "budgetSeconds": 5,
+  "timedOut": false,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "64888": 1788661273.7418444
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 422,
+    "stderr": 0
+  },
+  "sourceSha256": "2207912c559d4c7e927641943a5c439d225aa8614467d773e6df619e9331c329",
+  "stdoutSha256": "5056198e097c0bfc83ad1defd4dca75a80071c563b16143e69a30a766e6e771c",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-xlsx-02\\xmldom-patched.result.json",
+  "resultSha256": "eaa19b15dc37820ec62f378e868af1aefcfa411203ba9ba6ca1ee7cdf2419fa5"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "xmldom-baseline",
+  "family": "xmldom",
+  "lane": "baseline",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=128",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+    "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "xmldom",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\xmldom-baseline.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\xmldom-baseline"
+  ],
+  "exitCode": 15,
+  "seconds": 5.031,
+  "budgetSeconds": 5,
+  "timedOut": true,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "51552": 1788661174.7338006
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 0,
+    "stderr": 0
+  },
+  "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result": null
+}

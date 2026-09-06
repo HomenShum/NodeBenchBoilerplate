@@ -1,0 +1,218 @@
+[
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\commands.json",
+      "bytes": 3512,
+      "sha256": "51521659fc92073bebb45221daaf8575b96afd2420cf7bf24861a6eadde0ea15"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\commands.json",
+      "bytes": 3512,
+      "sha256": "51521659fc92073bebb45221daaf8575b96afd2420cf7bf24861a6eadde0ea15"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-build.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-build.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-build.stdout",
+      "bytes": 44,
+      "sha256": "01c7440f712c9658fe51ea15d697422ffa942c9a8710a7304ed7694cacf9fa14"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-build.stdout",
+      "bytes": 44,
+      "sha256": "01c7440f712c9658fe51ea15d697422ffa942c9a8710a7304ed7694cacf9fa14"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-ci.stderr",
+      "bytes": 358,
+      "sha256": "da370bd608ea0f37ee2141f76cc040fe073f2665c7130ec0d3eb441b3a077804"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-ci.stderr",
+      "bytes": 358,
+      "sha256": "da370bd608ea0f37ee2141f76cc040fe073f2665c7130ec0d3eb441b3a077804"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-ci.stdout",
+      "bytes": 258,
+      "sha256": "7cc6eae5f2a1dddf346d72bc38499e6e220d1b5d2f3f9febf57caa6a880871dd"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-ci.stdout",
+      "bytes": 258,
+      "sha256": "7cc6eae5f2a1dddf346d72bc38499e6e220d1b5d2f3f9febf57caa6a880871dd"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-lint.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-lint.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-lint.stdout",
+      "bytes": 48,
+      "sha256": "6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-lint.stdout",
+      "bytes": 48,
+      "sha256": "6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-mcp.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-mcp.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-mcp.stdout",
+      "bytes": 217,
+      "sha256": "536abc025b84c85f50dc206b41e77d8fd946ba4427adc1b5a509737697d09ea8"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-mcp.stdout",
+      "bytes": 217,
+      "sha256": "536abc025b84c85f50dc206b41e77d8fd946ba4427adc1b5a509737697d09ea8"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-test.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-test.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\normal-test.stdout",
+      "bytes": 676,
+      "sha256": "6e579217bc0458268f76f6cbffdb2e0bdeb6e7fc10e4465134ab277014fd602b"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\normal-test.stdout",
+      "bytes": 676,
+      "sha256": "6e579217bc0458268f76f6cbffdb2e0bdeb6e7fc10e4465134ab277014fd602b"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\receipt.json",
+      "bytes": 7068,
+      "sha256": "e29f60188bec2a7773b9bf83a072196efd25a9c5aa8848357407ad7d511b82b1"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\receipt.json",
+      "bytes": 7068,
+      "sha256": "e29f60188bec2a7773b9bf83a072196efd25a9c5aa8848357407ad7d511b82b1"
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-consumer-01\\trial-source.json",
+      "bytes": 2489,
+      "sha256": "8b4cc94455e79161d6face0900ef1704f6877a1ad84cf3e68976d52e06ffded5"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\trial-source.json",
+      "bytes": 2489,
+      "sha256": "8b4cc94455e79161d6face0900ef1704f6877a1ad84cf3e68976d52e06ffded5"
+    }
+  },
+  {
+    "source": {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\report.json",
+      "bytes": 10812,
+      "sha256": "6175f006527f3e3327efaabed7a589742a8cede2cce14895e4e7c89a72ebe363"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\protocol-report.json",
+      "bytes": 10812,
+      "sha256": "6175f006527f3e3327efaabed7a589742a8cede2cce14895e4e7c89a72ebe363"
+    }
+  },
+  {
+    "source": {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\native-write.stdout.txt",
+      "bytes": 86,
+      "sha256": "c3d2248819a235aefbb7d231ed0e66941d1813660faf8b6c8ac0be43fb305349"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\protocol-native-write.stdout.txt",
+      "bytes": 86,
+      "sha256": "c3d2248819a235aefbb7d231ed0e66941d1813660faf8b6c8ac0be43fb305349"
+    }
+  },
+  {
+    "source": {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\native-write.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\protocol-native-write.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "source": {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\native-reopen.stdout.txt",
+      "bytes": 86,
+      "sha256": "72a78c7e19400d37950c43d3f540ef09815296f6aa1bc6d8ed1ac9f8f85a5f50"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\protocol-native-reopen.stdout.txt",
+      "bytes": 86,
+      "sha256": "72a78c7e19400d37950c43d3f540ef09815296f6aa1bc6d8ed1ac9f8f85a5f50"
+    }
+  },
+  {
+    "source": {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg\\native-reopen.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "copy": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-platform-lock-independent-01\\consumer-readback\\protocol-native-reopen.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

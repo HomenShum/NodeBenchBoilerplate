@@ -1,0 +1,20 @@
+{
+  "name": "@napi-rs/canvas-linux-arm64-gnu",
+  "version": "0.1.80",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "libc": [
+    "glibc"
+  ],
+  "engines": {
+    "node": ">= 10"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@napi-rs/canvas-linux-arm64-gnu/-/canvas-linux-arm64-gnu-0.1.80.tgz",
+    "integrity": "sha512-qwA63t8A86bnxhuA/GwOkK3jvb+XTQaTiVML0vAWoHyoZYTjNs7BzoOONDgTnNtr8/yHrq64XXzUoLqDzU+Uuw=="
+  }
+}

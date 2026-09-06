@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild/linux-mips64el",
+  "version": "0.28.1",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "mips64el"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.28.1.tgz",
+    "integrity": "sha512-mRObBZeHh2OxcBFPWE/FjylkRgZdYuiTR3vaTozquCGOH14iP9oN4x4Ge81CoIDYQrXmIxpFumJBu5MtZpnQJQ=="
+  }
+}

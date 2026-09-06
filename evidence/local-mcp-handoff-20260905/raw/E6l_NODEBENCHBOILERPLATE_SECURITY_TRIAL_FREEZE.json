@@ -1,0 +1,42 @@
+{
+  "at": "2026-09-06T02:24:43.956203+00:00",
+  "status": "SCOPED_EXTERNAL_PASS_WITH_TWO_HIGH_FINDINGS_OPEN",
+  "externalTrial": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01",
+  "scratch": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+  "freezeSha256": "35a20605ab9281cf85625633a1cb54f7bb1b2ff23f82d3d5a3d37b5ea9ac4abe",
+  "manifestSha256": "fea679ace49466133c73f25da435a98c6497bd3792a348f6e6c52093f29ea126",
+  "sourceDigest": "e206dc63ebb1198bd6ca15a4bd6030603f340b591d969986fd694fce69b8638f",
+  "lockSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+  "payloads": 695,
+  "payloadBytes": 17183483,
+  "proof": {
+    "protocolAssertions": 25,
+    "ownedGateAssertions": 16,
+    "ownedToolCalls": 50,
+    "sqliteTables": 81,
+    "sqliteCommandRows": 6,
+    "sqliteHistoryRows": 8,
+    "sqliteLearningRowsAfterEightUpdates": 1,
+    "canaryFamilies": 8,
+    "canarySubcases": 10,
+    "canaryAssertions": 71
+  },
+  "audit": {
+    "exitCode": 1,
+    "metadata": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 2,
+      "critical": 0,
+      "total": 2
+    },
+    "remaining": [
+      "sharp",
+      "nodebench-mcp"
+    ],
+    "reason": "sharp0.35.0 lies outside unchanged MCP3.2.1 optional range ^0.34.5; current trial does not change that upstream contract."
+  },
+  "candidateUnchanged": true,
+  "stageCommitPushTransfer": "NOT_DONE"
+}

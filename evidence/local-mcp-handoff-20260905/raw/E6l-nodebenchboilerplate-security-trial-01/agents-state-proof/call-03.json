@@ -1,0 +1,20 @@
+{
+  "name": "search_all_knowledge",
+  "args": {
+    "query": "Boilerplate handoff",
+    "limit": 5
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "query: Boilerplate handoff\ntotalResults: 0\nlearnings: []\nreconFindings: []\ngaps: []\n_contributeBack:\n  instruction: \"If you discover new information while working, record it so future agents benefit:\"\n  actions[2]: \"record_learning — for edge cases, gotchas, patterns, conventions\",\"log_recon_finding — for SDK changes, breaking changes, best practices\"\n_quickRef:\n  nextAction: \"Review all matches across learnings, recon findings, and resolved gaps. Apply relevant past findings to current task.\"\n  nextTools[3]: record_learning,run_recon,start_verification_cycle\n  methodology: learnings\n  tip: ALWAYS call this before starting any new work. Past findings prevent repeating mistakes."
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 4
+  }
+}

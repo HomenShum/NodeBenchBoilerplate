@@ -1,0 +1,4 @@
+{"stage":"loading-xmldom"}
+{"stage":"loading-xlsx-reader","checks":[{"name":"invalid entity name rejects well-formed serialization","passed":true,"actual":{"error":"Error","message":"Invalid state: The entity reference name \"x;<probe/>\" is not a valid XML Name"}},{"name":"ordinary Unicode XML remains exact","passed":true}]}
+{"stage":"reading-owned-workbook"}
+{"family":"xmldom","status":"PASS","checks":4,"failed":[]}

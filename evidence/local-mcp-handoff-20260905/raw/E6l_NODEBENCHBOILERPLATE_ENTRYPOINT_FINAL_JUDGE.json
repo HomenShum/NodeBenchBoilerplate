@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "mode": "Builder",
+  "status": "APPROVED_SCOPED_LOCAL_ENTRYPOINT_REPAIR",
+  "createdAt": "2026-09-06T02:09:55.046815+00:00",
+  "requestTrace": "Make each repo ready for developer/coding-agent usage and handoff, using planner-worker-judge and honest evidence rather than a greeting or boolean record as proof.",
+  "reviewer": "Reused portfolio nonauthor judge. Did not author these ten product owners; authored only central review/replay controllers and synthetic owned proof records.",
+  "inputFreeze": {
+    "path": "E6l_NODEBENCHBOILERPLATE_ENTRYPOINT_FINAL_FREEZE.json",
+    "bytes": 5563,
+    "sha256": "a072d942c2ce5728c1539535324672e30a607f9c6a4de5d28dc8ae1d94410352"
+  },
+  "approvedPlan": {
+    "path": "E6l_NODEBENCHBOILERPLATE_ENTRYPOINT_PLAN_FINAL_JUDGE.json",
+    "bytes": 6736,
+    "sha256": "11b53c7012a8e543cdc13f113765ea7d0431eaf0b5e5cdfc91c659490f1457ea"
+  },
+  "candidate": {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "head": "c7f4ec95deca8facdb0872e705084b74838187b7",
+    "branch": "codex/nodebenchboilerplate-current-handoff-20260905",
+    "effectiveSourceDigest": "193ba3feda6209e843dce8c20ed4ff456b95ac1f1d8787b3479508975997dad4",
+    "owners": [
+      ".github/workflows/ci.yml",
+      ".mcp.json",
+      "AGENTS.md",
+      "README.md",
+      "package-lock.json",
+      "package.json",
+      "src/index.test.ts",
+      "src/index.ts",
+      "eslint.config.mjs",
+      "scripts/verify-mcp.mjs"
+    ],
+    "source": [
+      {
+        "path": ".github/workflows/ci.yml",
+        "bytes": 854,
+        "sha256": "0b5d5aff94cb206be53dc7ab858e0556eb2c5405d84a4eb534ea8c43ccf3edf8",
+        "rawGitBlob": "83fc2474890804afab4c02badd24f978bbb8176f"
+      },
+      {
+        "path": ".gitignore",
+        "bytes": 100,
+        "sha256": "26f4c3e8a6919051f672006a17fef16752963b6f0f4bb06ed17f272fe7e3ac96",
+        "rawGitBlob": "80f73d855ac7c29ce719213f51e1b672087ae06a"
+      },
+      {
+        "path": ".mcp.json",
+        "bytes": 251,
+        "sha256": "450f2c2468472c1054a4d2aea8aae8be1b2ef2ca6ca8f6a29af4bd2175d9cc85",
+        "rawGitBlob": "2725cb57d2023c0f0c0ec4e4a12d20954b8c3ad4"
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 4831,
+        "sha256": "8e90661e352628d2f2383725462c90528e7603981b7da7d8fd0783dc31a37757",
+        "rawGitBlob": "1c9472152b90a042fa053bb9924b99cb4aa528cd"
+      },
+      {
+        "path": "Dockerfile",
+        "bytes": 338,
+        "sha256": "1b3025d1b803dc2269cc99dc52320576c10969cbc5e7574ac2c2592b84eacadc",
+        "rawGitBlob": "5ec234511f46ce57ba6fa0fa424e637b85636594"
+      },
+      {
+        "path": "LICENSE",
+        "bytes": 1088,
+        "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789",
+        "rawGitBlob": "42daf5141a040f4dc5e680fd43782c14c59c90ef"
+      },
+      {
+        "path": "README.md",
+        "bytes": 5429,
+        "sha256": "b15fe1c0a1f22940d97e3564f7ac31273e615752da9381f69fe1a9b04e08e682",
+        "rawGitBlob": "3252909150a231c6659466813a39ce4ee149873c"
+      },
+      {
+        "path": "docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md",
+        "bytes": 1489,
+        "sha256": "e7fbd66872ea96adf3c5fec850b56f717c537a5574f769d154b937b77cc24782",
+        "rawGitBlob": "cbdb5038cace293d7f0714c3465d5b6cbfc81092"
+      },
+      {
+        "path": "eslint.config.mjs",
+        "bytes": 321,
+        "sha256": "869fb0cca73aeaec727fa81f2dde5e970d312c0c4309842ca5166c4c94134802",
+        "rawGitBlob": "99c17c4e461845a3f80c24117fbd0919eaa43644"
+      },
+      {
+        "path": "package-lock.json",
+        "bytes": 161851,
+        "sha256": "ba3cde2b48ccef8973046720afd9cf9166de427c6a8728d0d80d33d6117e9c45",
+        "rawGitBlob": "d9dd3d4347dcf3900b736d47bd011f95201765a2"
+      },
+      {
+        "path": "package.json",
+        "bytes": 1290,
+        "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+        "rawGitBlob": "ba5249dc47c40218922731039c7e8043225b3eec"
+      },
+      {
+        "path": "scripts/verify-mcp.mjs",
+        "bytes": 12213,
+        "sha256": "c2ffbe141a3e38cb474dc4224f1bd37e890a5f01781287d0799b19ebd7583727",
+        "rawGitBlob": "df69e886ba8f720efb9227a829f9364c229be168"
+      },
+      {
+        "path": "src/index.test.ts",
+        "bytes": 427,
+        "sha256": "541759ce2a5970ce620bdbc14dd18b6cd666890a14080867ebbff1f3a9adaee9",
+        "rawGitBlob": "f6030a08fe65658a34fb4181198a7d67610be1d9"
+      },
+      {
+        "path": "src/index.ts",
+        "bytes": 595,
+        "sha256": "1cda9aeeccdfe8493373591a7a25273f7b7e31dd1d1dcaf39fffde28937a45cc",
+        "rawGitBlob": "097a1ff37c0790afe5948d12be834120faf7ea46"
+      },
+      {
+        "path": "tsconfig.json",
+        "bytes": 490,
+        "sha256": "4d781db1f30fe8088c47ee54f90b4c92bcb0e10d2751b3f944977a6d66a6e05a",
+        "rawGitBlob": "999e1b7892b743086bb09e027767ad322d373551"
+      }
+    ],
+    "staged": false
+  },
+  "claimChecks": [
+    {
+      "id": "SOURCE_SCOPE",
+      "status": "PASS",
+      "evidence": "initial-custody.json; actual-source-diff.stdout; source-freeze-closure.json",
+      "detail": "Exactly ten authorized owners, five protected originals and fifteen effective source files; README 24→25 addendum is explicitly bound. No MCP fork, new storage layer or extra source owner."
+    },
+    {
+      "id": "LOCAL_COMMANDS",
+      "status": "PASS",
+      "evidence": "replay-commands.json; normal-tests.stdout.txt; normal-lint.stdout.txt; isolated-output-build.command.json",
+      "detail": "Independent ordinary lint and two Vitest tests pass. Same compiler/config with external outDir passes, emitted JS/declarations match current dist; no shared dist rebuilt. Worker normal npm ci/build results are separately raw-hash verified."
+    },
+    {
+      "id": "PROTOCOL_AND_STORAGE",
+      "status": "PASS",
+      "evidence": "replay-summary.json; runtime-source-and-flags.json; independent-runtime-inventory.json",
+      "detail": "Actual npm verify:mcp in fresh owned profiles passes 25 assertions; config/start/core/full expose required methods, starter exposes 20 tools, core 273, full 567 and 14 prompts. Lists, correlated concurrency, eight repetitions, unknown input, explicit missing install, clean EOF/restart and native insert/reopen observed. No tools/call in this shipped verifier."
+    },
+    {
+      "id": "DURABLE_GATE_RECORDS",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "worker-sqlite-readback.json; independent-sqlite-readback.json",
+      "detail": "Independent fresh 50-call replay passes 16 assertions. Read-only SQLite checks both worker and fresh DBs: 81 tables, six exact command-linked result rows, eight distinct history rows and one learning after eight same-key updates; review/release/phase six remain false across restart. This is persistence and aggregation evidence, not a human approval or proof all recorded commands ran inside MCP."
+    },
+    {
+      "id": "CI_CAUSAL_REPAIR",
+      "status": "PASS_SOURCE_ONLY_SHARED_PENDING",
+      "evidence": "actual-source-diff.stdout; official-checkout-v4.stdout.json; official-setup-node-v4.stdout.json",
+      "detail": "Default master is now included alongside main, existing Node20/22 matrix retained, lint continue-on-error removed, verifier added, read-only contents and finite job. Official current v4 refs match both pinned actions. Linux/Node20 execution has not yet been observed."
+    },
+    {
+      "id": "DEPENDENCY_CLOSURE",
+      "status": "PASS_NARROW_INSTALL_BOUNDARY",
+      "evidence": "lock-analysis.json; final-observations.json; runtime-source-and-flags.json",
+      "detail": "112 added dependency rows for approved lint/native adapter closure; no removed row or old version/resolved/integrity change. Five old optional flags become required; root package declaration adds the four approved exact dev dependencies. Native binary and seven unchanged MCP runtime modules are bound."
+    },
+    {
+      "id": "HONEST_HANDOFF",
+      "status": "PASS_SCOPED",
+      "evidence": "source/README.md; source/AGENTS.md; compiled-starter.stdout.txt",
+      "detail": "Greeting no longer claims connection; docs bind stdio/core/no-embedding/local installation, actual gate argument shapes and persistent booleans. Loaded inventory is not tool coverage. The audit, Docker, provider, host integration and product-grade limits remain explicit."
+    },
+    {
+      "id": "AUDIT",
+      "status": "FAIL_RETAINED_OUTSIDE_REPAIR",
+      "evidence": "final-observations.json; original audit-final.stdout.txt",
+      "detail": "Actual full audit exit1 persists with 11 findings: four moderate and seven high. Not waived by dev labels or a production-only audit."
+    }
+  ],
+  "independentReplay": {
+    "commands": [
+      {
+        "name": "node-version",
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "--version"
+        ],
+        "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "exitCode": 0,
+        "seconds": 0.078,
+        "timedOut": false,
+        "outputLimitExceeded": false,
+        "ownedPidCreationTimes": {
+          "48332": 1788660117.9863832,
+          "59384": 1788660117.9988923
+        },
+        "survivors": [],
+        "stdout": {
+          "path": "node-version.stdout.txt",
+          "bytes": 10,
+          "sha256": "99149e35f76aa1efc846f029c3d2733b3541fe76ac97b74d33883481c0ce8dd9"
+        },
+        "stderr": {
+          "path": "node-version.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "name": "normal-lint",
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "C:\\nvm4w\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+          "run",
+          "lint"
+        ],
+        "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "exitCode": 0,
+        "seconds": 1.813,
+        "timedOut": false,
+        "outputLimitExceeded": false,
+        "ownedPidCreationTimes": {
+          "38612": 1788660118.0816145,
+          "16444": 1788660118.0903344,
+          "22108": 1788660118.2733705,
+          "31576": 1788660118.3003712
+        },
+        "survivors": [],
+        "stdout": {
+          "path": "normal-lint.stdout.txt",
+          "bytes": 48,
+          "sha256": "6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585"
+        },
+        "stderr": {
+          "path": "normal-lint.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "name": "normal-tests",
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "C:\\nvm4w\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+          "test"
+        ],
+        "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "exitCode": 0,
+        "seconds": 1.281,
+        "timedOut": false,
+        "outputLimitExceeded": false,
+        "ownedPidCreationTimes": {
+          "63536": 1788660119.892891,
+          "7600": 1788660119.9038415,
+          "41160": 1788660120.082383,
+          "18548": 1788660120.11229,
+          "57792": 1788660120.257346,
+          "7232": 1788660120.2720609,
+          "23476": 1788660120.4644675,
+          "34876": 1788660120.4808705,
+          "24888": 1788660120.4879682,
+          "17640": 1788660120.4948213,
+          "52728": 1788660120.5016167,
+          "47836": 1788660120.509333,
+          "13472": 1788660120.5163212,
+          "52616": 1788660120.5235696,
+          "53208": 1788660120.5341997,
+          "19376": 1788660120.5453205,
+          "67496": 1788660120.5567677,
+          "24792": 1788660120.5681062,
+          "40700": 1788660120.5786383,
+          "38892": 1788660120.5877612,
+          "30792": 1788660120.5980988,
+          "45756": 1788660120.6099503,
+          "8108": 1788660120.6201108,
+          "14292": 1788660120.6317027,
+          "43724": 1788660120.643874,
+          "32840": 1788660120.6536968,
+          "62200": 1788660120.664565,
+          "49168": 1788660120.6788187,
+          "42756": 1788660120.6880515,
+          "42348": 1788660120.6989584,
+          "40788": 1788660120.709708,
+          "7792": 1788660120.7216132,
+          "51660": 1788660120.731043,
+          "28960": 1788660120.7403395,
+          "26764": 1788660120.756714,
+          "48960": 1788660120.7720397,
+          "26660": 1788660120.785674,
+          "53896": 1788660120.8959117,
+          "32680": 1788660120.918429,
+          "14100": 1788660120.9281464,
+          "42996": 1788660120.987141
+        },
+        "survivors": [],
+        "stdout": {
+          "path": "normal-tests.stdout.txt",
+          "bytes": 505,
+          "sha256": "7c7a6c1fabaae45d5bc8d65e42e9b6531998f773c8bfc1caaa177389885bfdf8"
+        },
+        "stderr": {
+          "path": "normal-tests.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "name": "isolated-output-build",
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\typescript\\bin\\tsc",
+          "--outDir",
+          "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\compiled"
+        ],
+        "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "exitCode": 0,
+        "seconds": 0.61,
+        "timedOut": false,
+        "outputLimitExceeded": false,
+        "ownedPidCreationTimes": {
+          "7440": 1788660121.2010393,
+          "38276": 1788660121.2119746
+        },
+        "survivors": [],
+        "stdout": {
+          "path": "isolated-output-build.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "isolated-output-build.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "name": "compiled-starter",
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\compiled\\index.js"
+        ],
+        "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "exitCode": 0,
+        "seconds": 0.078,
+        "timedOut": false,
+        "outputLimitExceeded": false,
+        "ownedPidCreationTimes": {
+          "20708": 1788660121.8014877,
+          "3616": 1788660121.8112662
+        },
+        "survivors": [],
+        "stdout": {
+          "path": "compiled-starter.stdout.txt",
+          "bytes": 73,
+          "sha256": "56236ae6074b24096622d816037bd66a5aad5d54592f09f6ed428160793bf250"
+        },
+        "stderr": {
+          "path": "compiled-starter.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "name": "native-protocol",
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "C:\\nvm4w\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+          "run",
+          "verify:mcp",
+          "--",
+          "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\protocol"
+        ],
+        "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "exitCode": 0,
+        "seconds": 4.312,
+        "timedOut": false,
+        "outputLimitExceeded": false,
+        "ownedPidCreationTimes": {
+          "14588": 1788660121.8822663,
+          "49580": 1788660121.8980613,
+          "59724": 1788660122.0941136,
+          "45828": 1788660122.1139915,
+          "23060": 1788660122.168128,
+          "43608": 1788660122.2576773,
+          "24612": 1788660122.3513856,
+          "29672": 1788660122.35976,
+          "5448": 1788660122.4369276,
+          "33108": 1788660122.4450655,
+          "44476": 1788660122.8213494,
+          "44536": 1788660122.833414,
+          "16228": 1788660123.0427089,
+          "21736": 1788660123.0757568,
+          "29924": 1788660123.4874544,
+          "35192": 1788660123.4954047,
+          "53472": 1788660123.6976058,
+          "60632": 1788660123.7275012,
+          "35184": 1788660124.114502,
+          "66356": 1788660124.1222992,
+          "48780": 1788660124.3310127,
+          "59324": 1788660124.3550236,
+          "1496": 1788660124.7611256,
+          "49024": 1788660124.769052,
+          "36064": 1788660124.9659724,
+          "64060": 1788660124.9917889,
+          "56748": 1788660125.473868,
+          "19536": 1788660125.480746,
+          "61312": 1788660125.8094573,
+          "26104": 1788660125.8172958,
+          "48948": 1788660126.0915864,
+          "57232": 1788660126.0973732
+        },
+        "survivors": [],
+        "stdout": {
+          "path": "native-protocol.stdout.txt",
+          "bytes": 263,
+          "sha256": "8e47aadf58c8935bc83e1db067cd9cb209919b7e46834bafc0e690fd3acea4c8"
+        },
+        "stderr": {
+          "path": "native-protocol.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "name": "owned-gates",
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-implementation-01\\agents-proof-02.mjs",
+          "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\gates"
+        ],
+        "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+        "exitCode": 0,
+        "seconds": 1.031,
+        "timedOut": false,
+        "outputLimitExceeded": false,
+        "ownedPidCreationTimes": {
+          "65884": 1788660126.2087867,
+          "59524": 1788660126.21786,
+          "16344": 1788660126.2757268,
+          "8736": 1788660126.2844117,
+          "17752": 1788660126.7811573,
+          "33112": 1788660126.7872577
+        },
+        "survivors": [],
+        "stdout": {
+          "path": "owned-gates.stdout.txt",
+          "bytes": 114,
+          "sha256": "7daa152e57fdbac98594c834b6d868bb805358b20256e9aba958f0dad855dcd6"
+        },
+        "stderr": {
+          "path": "owned-gates.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    ],
+    "nativeProtocolAssertions": 25,
+    "gateAssertions": 16,
+    "gateToolCalls": 50,
+    "actualModelProviderCalls": 0,
+    "nativeWriteScope": "Fresh owned test database only; both final readbacks used SQLite mode=ro&immutable=1 after no nonempty WAL.",
+    "tests": "Two existing greeting cases; broader meaningful scenarios are in protocol/storage/gates. No new trivial tests added by judge.",
+    "buildLimit": "Independent tsc had only output destination changed to avoid candidate dist writes; ordinary worker npm build logs verified separately.",
+    "evidenceRecordLimit": "Replayed external gate recorder records earlier real worker command receipts; it does not silently relabel them as the independent commands."
+  },
+  "causalClosure": [
+    {
+      "before": "No-argument installed MCP prints help rather than protocol initialization.",
+      "rootCause": "Starter/config scripts omitted explicit stdio and trusted registry/cache resolution.",
+      "correction": "Exact local installed bin with --stdio --no-embedding and supported presets.",
+      "observedAfter": "25-assertion real npm/config protocol replay passes; invalid preset and missing-install paths still fail."
+    },
+    {
+      "before": "Core/full can enable embedding even with no provider key.",
+      "rootCause": "Installed runtime preset defaults enable an optional subsystem.",
+      "correction": "Explicit --no-embedding in every baseline script/config.",
+      "observedAfter": "Five current exact argument sets resolve all optional enable flags false; server inventories remain usable."
+    },
+    {
+      "before": "Native database module absent; getDb falls back to a no-op adapter while gate calls can return IDs.",
+      "rootCause": "MCP declares better-sqlite3 as its own dev dependency, not an installed consumer runtime dependency.",
+      "correction": "Explicit compatible exact better-sqlite3 11.10.0 in this development-tooling template plus actual constructor/insert/reopen proof.",
+      "observedAfter": "Fresh native insert changes1 and retained value; actual tool-return IDs map to durable rows in independent readbacks."
+    },
+    {
+      "before": "Lint command unavailable and CI marked it continue-on-error; workflow omitted actual default master.",
+      "rootCause": "No installed linter/config and permissive workflow at wrong branch boundary.",
+      "correction": "Approved ESLint/TypeScript config and dependencies, blocking lint, master+main and native proof in normal CI.",
+      "observedAfter": "Independent local lint/tests/compile/protocol pass; intentional unused-variable knockout remains retained. Shared Linux run is pending."
+    },
+    {
+      "before": "Greeting unconditionally claims MCP ready.",
+      "rootCause": "Static text was used as a connection claim.",
+      "correction": "Starter states only that it ran and supplies next command.",
+      "observedAfter": "Actual compiled output matches corrected text; connection demonstrated separately."
+    }
+  ],
+  "backendReliability": [
+    {
+      "point": "BOUND",
+      "result": "SCOPED_PASS",
+      "detail": "Verifier pending Map cap8, 2MiB frame/incomplete-frame and 8MiB aggregate per session; predetermined finite session/request set. No assertion about all loaded MCP collections."
+    },
+    {
+      "point": "HONEST_STATUS",
+      "result": "SCOPED_PASS",
+      "detail": "Invalid/missing install fail nonzero, failed checks set process.exitCode1, existing output refused, incomplete gates retained false."
+    },
+    {
+      "point": "HONEST_SCORES",
+      "result": "SCOPED_PASS",
+      "detail": "Boolean assertions have no numeric floor; synthetic gates labelled as fixtures, pending review/release never upgraded. Full grade remains null."
+    },
+    {
+      "point": "TIMEOUT",
+      "result": "SCOPED_PASS",
+      "detail": "25s protocol +5s EOF/forced-cleanup deadlines and child termination; independent outer120s plus PID/create-time closure. No outbound fetch added, so AbortController is not the local-process cancellation mechanism."
+    },
+    {
+      "point": "SSRF",
+      "result": "NOT_APPLICABLE_TO_THIS_CHANGE",
+      "detail": "No URL fetch or network endpoint added in these owners; loaded provider tools were not audited or exercised."
+    },
+    {
+      "point": "BOUND_READ",
+      "result": "SCOPED_PASS",
+      "detail": "Verifier bounds external child streams/frames. Fixed local config/package files read directly; no arbitrary external body handler introduced."
+    },
+    {
+      "point": "ERROR_BOUNDARY",
+      "result": "SCOPED_PASS",
+      "detail": "Child process and stdin error handlers, pending rejection, try/finally stream/report retention and cleanup; no new HTTP route."
+    },
+    {
+      "point": "DETERMINISTIC",
+      "result": "SCOPED_LIMIT",
+      "detail": "Inventory digest compares repeated concrete JSON result order; it is not sorted-key CAS and is not advertised as CAS. Artifact custody uses exact SHA256 bytes. No CAS contract introduced."
+    }
+  ],
+  "preservedFailures": [
+    "Original no-args MCP help, unsupported lite and missing meta command.",
+    "Original no-op SQLite resolution precondition and embedding-default evidence.",
+    "First external gate recorder expected JSON; actual content was TOON. Failed raw response/DB retained, corrected reader uses installed decoder.",
+    "Intentional unused-lint, invalid preset, missing installation and existing-proof-output refusal.",
+    "Worker LF/custody reader failures and final count24→25 addendum remain explicit.",
+    "Independent reader path/PowerShell issues retained as harness artifacts; no app failure or hidden passing substitute.",
+    "Actual full audit remains failed."
+  ],
+  "publicationAndIntegration": "Source guard is closed. Root may prepare a bounded portable handoff/evidence publication and normal shared CI; this report does not certify future publication byte custody, remote integration, provider execution or deployment.",
+  "remainingHolds": [
+    "11 dependency findings (4 moderate,7 high)",
+    "Actual shared Linux Node20/22 CI",
+    "Global/third-party MCP host activation",
+    "Docker execution",
+    "Provider, embedding and background subsystems",
+    "Downstream generated app behavior and all full product/visual/responsive grades"
+  ],
+  "fullDimensionScores": null,
+  "sourceGuard": {
+    "status": "CLOSED_UNCHANGED",
+    "sourceFiles": 15,
+    "primaryFiles": 13,
+    "protectedOriginalFiles": 5,
+    "installedManifestFiles": 348,
+    "distFiles": 4,
+    "unchangedNamedMcpRuntimeModules": 7,
+    "primaryCandidateHeadRefsIndexStatusUnchanged": true,
+    "allNewOwnedRuntimeProcessesClosed": true,
+    "workerOperatorArtifactsVerified": 143,
+    "workerExternalArtifactsVerified": 936
+  },
+  "evidence": {
+    "directory": "E6l-nodebenchboilerplate-final-independent-02",
+    "manifest": {
+      "bytes": 16912,
+      "sha256": "0f0e985789d02c225e439aca7939426f17c1c348cd0f4d2a1a62ba7ae6b2d9d2"
+    },
+    "files": 112,
+    "bytes": 864744,
+    "newOwnedProof": "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01",
+    "newOwnedProofFiles": 490,
+    "controllers": {
+      "E6l-independent-source-custody.py": {
+        "bytes": 5430,
+        "sha256": "5f5660c618e3028bb044663c35d087d66d5864f0537b144fff8a9257ae21cbd6"
+      },
+      "E6l-independent-replay.py": {
+        "bytes": 4642,
+        "sha256": "ebbf34258220505e4d26778cdc97deb2526e70806640be3baa9f699e296a2b51"
+      },
+      "E6l-independent-final-observations.py": {
+        "bytes": 6299,
+        "sha256": "b440f9602194b1b82a33af07f7df93d46b9ea292cc69e32c1c25d85eb4a3e3b5"
+      },
+      "E6l-independent-runtime-source.mjs": {
+        "bytes": 2074,
+        "sha256": "b28ffaf5bdc80c4a935c5b98336e81594edfda88ca857899fe06e123d2487311"
+      }
+    }
+  }
+}

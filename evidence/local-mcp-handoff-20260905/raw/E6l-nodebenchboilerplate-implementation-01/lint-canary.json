@@ -1,0 +1,24 @@
+[
+  {
+    "name": "unused",
+    "args": [
+      "./node_modules/eslint/bin/eslint.js",
+      "--stdin",
+      "--stdin-filename",
+      "src/owned-lint-scenario.ts"
+    ],
+    "input": "const unusedScenarioValue = 1;\nexport {};\n",
+    "exitCode": 1
+  },
+  {
+    "name": "corrected",
+    "args": [
+      "./node_modules/eslint/bin/eslint.js",
+      "--stdin",
+      "--stdin-filename",
+      "src/owned-lint-scenario.ts"
+    ],
+    "input": "export const scenarioValue = 1;\n",
+    "exitCode": 0
+  }
+]

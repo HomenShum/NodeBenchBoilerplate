@@ -1,0 +1,20 @@
+{
+  "name": "get_gate_history",
+  "args": {
+    "gateName": "owned-history",
+    "limit": 8
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "gateName: owned-history\nruns[8]:\n  - gateRunId: gate_1788660984132_dy4wa1743\n    passed: true\n    score: 1\n    failures: []\n    createdAt: \"2026-09-06 02:16:24\"\n  - gateRunId: gate_1788660984133_1osdow8uh\n    passed: false\n    score: 0\n    failures[1]: fixture_expected\n    createdAt: \"2026-09-06 02:16:24\"\n  - gateRunId: gate_1788660984134_0ise9jefk\n    passed: true\n    score: 1\n    failures: []\n    createdAt: \"2026-09-06 02:16:24\"\n  - gateRunId: gate_1788660984135_3s1p5bg6o\n    passed: false\n    score: 0\n    failures[1]: fixture_expected\n    createdAt: \"2026-09-06 02:16:24\"\n  - gateRunId: gate_1788660984136_u7vh8ccys\n    passed: true\n    score: 1\n    failures: []\n    createdAt: \"2026-09-06 02:16:24\"\n  - gateRunId: gate_1788660984137_98zlyooht\n    passed: false\n    score: 0\n    failures[1]: fixture_expected\n    createdAt: \"2026-09-06 02:16:24\"\n  - gateRunId: gate_1788660984138_917q9vafz\n    passed: true\n    score: 1\n    failures: []\n    createdAt: \"2026-09-06 02:16:24\"\n  - gateRunId: gate_1788660984140_78wcp1zop\n    passed: false\n    score: 0\n    failures[1]: fixture_expected\n    createdAt: \"2026-09-06 02:16:24\"\ntrend:\n  totalRuns: 8\n  passRate: 0.5\n_quickRef:\n  nextAction: \"Review pass/fail trends. If quality is dropping, investigate with start_verification_cycle.\"\n  nextTools[2]: run_quality_gate,start_verification_cycle\n  methodology: quality_gates"
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 46
+  }
+}

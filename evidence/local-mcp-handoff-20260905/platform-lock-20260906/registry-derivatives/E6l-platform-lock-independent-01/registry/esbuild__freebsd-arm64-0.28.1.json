@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild/freebsd-arm64",
+  "version": "0.28.1",
+  "os": [
+    "freebsd"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.1.tgz",
+    "integrity": "sha512-wG2EA8ENdEI0qhkSZMjfqrdY+ziCYCPMmtZjjIwOmXFjmyzEHn+UUxk5of+SYsjtfs3VpnlC7QLzSI5hY/rOAw=="
+  }
+}

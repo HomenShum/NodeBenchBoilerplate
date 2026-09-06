@@ -1,0 +1,405 @@
+{
+  "version": "3.2.1",
+  "output": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\protocol-proof",
+  "checks": [
+    {
+      "name": "native write",
+      "passed": true
+    },
+    {
+      "name": "native reopen",
+      "passed": true
+    },
+    {
+      "name": "configured unique nonempty tools/prompts",
+      "passed": true
+    },
+    {
+      "name": "configured AGENTS methods",
+      "passed": true
+    },
+    {
+      "name": "npm-start unique nonempty tools/prompts",
+      "passed": true
+    },
+    {
+      "name": "npm-start AGENTS methods",
+      "passed": true
+    },
+    {
+      "name": "npm-starter unique nonempty tools/prompts",
+      "passed": true
+    },
+    {
+      "name": "unknown method rejects",
+      "passed": true
+    },
+    {
+      "name": "sustained read 0",
+      "passed": true
+    },
+    {
+      "name": "sustained read 1",
+      "passed": true
+    },
+    {
+      "name": "sustained read 2",
+      "passed": true
+    },
+    {
+      "name": "sustained read 3",
+      "passed": true
+    },
+    {
+      "name": "sustained read 4",
+      "passed": true
+    },
+    {
+      "name": "sustained read 5",
+      "passed": true
+    },
+    {
+      "name": "sustained read 6",
+      "passed": true
+    },
+    {
+      "name": "sustained read 7",
+      "passed": true
+    },
+    {
+      "name": "npm-core unique nonempty tools/prompts",
+      "passed": true
+    },
+    {
+      "name": "npm-core AGENTS methods",
+      "passed": true
+    },
+    {
+      "name": "npm-full unique nonempty tools/prompts",
+      "passed": true
+    },
+    {
+      "name": "npm-full AGENTS methods",
+      "passed": true
+    },
+    {
+      "name": "configured-restart unique nonempty tools/prompts",
+      "passed": true
+    },
+    {
+      "name": "configured-restart AGENTS methods",
+      "passed": true
+    },
+    {
+      "name": "restart schema identity",
+      "passed": true
+    },
+    {
+      "name": "invalid preset fails",
+      "passed": true
+    },
+    {
+      "name": "missing local install fails without npx/cache/global fallback",
+      "passed": true
+    }
+  ],
+  "sessions": [
+    {
+      "name": "native-write",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "--input-type=module",
+        "-e",
+        "import assert from 'node:assert/strict';\n    import { getDb, getOptionalDatabaseCtorSource } from \"file:///D:/ProjectRecovery/nodebenchboilerplate-security-trial-20260905/node_modules/nodebench-mcp/dist/db.js\";\n    const db = getDb();\n    const tables = db.prepare(\"SELECT name FROM sqlite_master WHERE type='table'\").all();\n    assert(tables.length > 0, 'Native MCP tables required; noop is not storage');\n    db.exec('CREATE TABLE IF NOT EXISTS handoff_probe (id INTEGER PRIMARY KEY, value TEXT NOT NULL)');\n    if (process.argv[1] === 'write') {\n      const result = db.prepare('INSERT INTO handoff_probe VALUES (?, ?)').run(1, 'retained test value');\n      assert.equal(result.changes, 1);\n    }\n    assert.equal(db.prepare('SELECT value FROM handoff_probe WHERE id=1').get().value, 'retained test value');\n    console.log(JSON.stringify({ adapter:getOptionalDatabaseCtorSource(), tables:tables.length, sqlite:db.prepare('SELECT sqlite_version() AS version').get(), readback:true }));\n    db.close();",
+        "write"
+      ],
+      "pid": 65252,
+      "requests": [],
+      "exitCode": 0,
+      "signal": null,
+      "streamBytes": 86,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "native-reopen",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "--input-type=module",
+        "-e",
+        "import assert from 'node:assert/strict';\n    import { getDb, getOptionalDatabaseCtorSource } from \"file:///D:/ProjectRecovery/nodebenchboilerplate-security-trial-20260905/node_modules/nodebench-mcp/dist/db.js\";\n    const db = getDb();\n    const tables = db.prepare(\"SELECT name FROM sqlite_master WHERE type='table'\").all();\n    assert(tables.length > 0, 'Native MCP tables required; noop is not storage');\n    db.exec('CREATE TABLE IF NOT EXISTS handoff_probe (id INTEGER PRIMARY KEY, value TEXT NOT NULL)');\n    if (process.argv[1] === 'write') {\n      const result = db.prepare('INSERT INTO handoff_probe VALUES (?, ?)').run(1, 'retained test value');\n      assert.equal(result.changes, 1);\n    }\n    assert.equal(db.prepare('SELECT value FROM handoff_probe WHERE id=1').get().value, 'retained test value');\n    console.log(JSON.stringify({ adapter:getOptionalDatabaseCtorSource(), tables:tables.length, sqlite:db.prepare('SELECT sqlite_version() AS version').get(), readback:true }));\n    db.close();",
+        "reopen"
+      ],
+      "pid": 54696,
+      "requests": [],
+      "exitCode": 0,
+      "signal": null,
+      "streamBytes": 86,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "configured",
+      "command": "node",
+      "args": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "pid": 21656,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/list"
+        },
+        {
+          "id": 3,
+          "method": "prompts/list"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "tools": 273,
+      "prompts": 14,
+      "inventoryDigest": "b1fca6ecde118d313b4553266139dbd6b05a75af37376cab4b773220dec1cd9b",
+      "streamBytes": 208839,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "npm-start",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\hshum\\AppData\\Local\\nvm\\v22.22.2\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "--silent",
+        "mcp:start"
+      ],
+      "pid": 26860,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/list"
+        },
+        {
+          "id": 3,
+          "method": "prompts/list"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "tools": 273,
+      "prompts": 14,
+      "inventoryDigest": "b1fca6ecde118d313b4553266139dbd6b05a75af37376cab4b773220dec1cd9b",
+      "streamBytes": 208839,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "npm-starter",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\hshum\\AppData\\Local\\nvm\\v22.22.2\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "--silent",
+        "mcp:starter"
+      ],
+      "pid": 4572,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/list"
+        },
+        {
+          "id": 3,
+          "method": "prompts/list"
+        },
+        {
+          "id": 4,
+          "method": "boilerplate/unknown-method"
+        },
+        {
+          "id": 5,
+          "method": "tools/list"
+        },
+        {
+          "id": 6,
+          "method": "tools/list"
+        },
+        {
+          "id": 7,
+          "method": "tools/list"
+        },
+        {
+          "id": 8,
+          "method": "tools/list"
+        },
+        {
+          "id": 9,
+          "method": "tools/list"
+        },
+        {
+          "id": 10,
+          "method": "tools/list"
+        },
+        {
+          "id": 11,
+          "method": "tools/list"
+        },
+        {
+          "id": 12,
+          "method": "tools/list"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "tools": 20,
+      "prompts": 14,
+      "inventoryDigest": "ad7e4ffbfa3c4d3db3587c3668424e152b75da28a611da938fd756293cab088f",
+      "streamBytes": 187897,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "npm-core",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\hshum\\AppData\\Local\\nvm\\v22.22.2\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "--silent",
+        "mcp:core"
+      ],
+      "pid": 23728,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/list"
+        },
+        {
+          "id": 3,
+          "method": "prompts/list"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "tools": 273,
+      "prompts": 14,
+      "inventoryDigest": "b1fca6ecde118d313b4553266139dbd6b05a75af37376cab4b773220dec1cd9b",
+      "streamBytes": 208839,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "npm-full",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\hshum\\AppData\\Local\\nvm\\v22.22.2\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "--silent",
+        "mcp:full"
+      ],
+      "pid": 62232,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/list"
+        },
+        {
+          "id": 3,
+          "method": "prompts/list"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "tools": 567,
+      "prompts": 14,
+      "inventoryDigest": "0a65965b1fe28e90d8d6250e1065f7024a668a5f268bbc12e8656d1fbc99a7ac",
+      "streamBytes": 495472,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "configured-restart",
+      "command": "node",
+      "args": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "pid": 33220,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/list"
+        },
+        {
+          "id": 3,
+          "method": "prompts/list"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "tools": 273,
+      "prompts": 14,
+      "inventoryDigest": "b1fca6ecde118d313b4553266139dbd6b05a75af37376cab4b773220dec1cd9b",
+      "streamBytes": 208839,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "invalid-preset",
+      "command": "node",
+      "args": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "boilerplate-invalid"
+      ],
+      "pid": 62584,
+      "requests": [],
+      "exitCode": 1,
+      "signal": null,
+      "streamBytes": 229,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "missing-local-install",
+      "command": "node",
+      "args": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "pid": 45728,
+      "requests": [],
+      "exitCode": 1,
+      "signal": null,
+      "streamBytes": 926,
+      "pendingAtClose": 0
+    }
+  ],
+  "status": "PASS"
+}

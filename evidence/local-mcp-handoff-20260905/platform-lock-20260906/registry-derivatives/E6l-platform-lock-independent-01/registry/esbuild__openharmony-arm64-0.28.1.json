@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild/openharmony-arm64",
+  "version": "0.28.1",
+  "os": [
+    "openharmony"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.1.tgz",
+    "integrity": "sha512-ge+Z7EXFNt2BO1oAMsVpiQ8EwndV9i1xXerAeTIK7AtPs3bKFXQM7nlRxDSIUIMeueR1CNXxqztLzdNeReKBJg=="
+  }
+}

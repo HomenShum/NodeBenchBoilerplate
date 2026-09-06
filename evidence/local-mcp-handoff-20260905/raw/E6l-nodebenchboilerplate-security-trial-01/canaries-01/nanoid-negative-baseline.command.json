@@ -1,0 +1,31 @@
+{
+  "name": "nanoid-negative-baseline",
+  "family": "nanoid-negative",
+  "lane": "baseline",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=64",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+    "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "nanoid-negative",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-negative-baseline.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\nanoid-negative-baseline"
+  ],
+  "exitCode": 134,
+  "seconds": 0.281,
+  "budgetSeconds": 2,
+  "timedOut": false,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "49416": 1788661172.207594
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 143,
+    "stderr": 1484
+  },
+  "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "stdoutSha256": "22513350b6101edc6d73f8adfb2620e1be53a7fa5b820321f1029a869997fea9",
+  "stderrSha256": "9084f886cc3ece740f0f590135e42fd01662e1d328b79593a590620cb90d898b",
+  "result": null
+}

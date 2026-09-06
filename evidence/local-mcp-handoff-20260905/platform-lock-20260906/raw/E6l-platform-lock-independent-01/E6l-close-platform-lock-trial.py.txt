@@ -1,0 +1,108 @@
+import hashlib
+import json
+import re
+import shutil
+import subprocess
+from datetime import datetime, timezone
+from pathlib import Path
+
+P = Path(__file__).resolve().parent
+O = P / 'E6l-platform-lock-independent-01'
+I = P / 'E6l-platform-lock-consumer-01'
+
+def sha(b):
+    return hashlib.sha256(b).hexdigest()
+
+def read(p):
+    return json.loads(p.read_text(encoding='utf-8'))
+
+def binding(p):
+    b = p.read_bytes()
+    return {'path': str(p), 'bytes': len(b), 'sha256': sha(b)}
+
+def save(name, value):
+    p = O / name
+    assert not p.exists()
+    p.write_text(json.dumps(value, indent=2) + '\n', encoding='utf-8')
+
+def git(repo, *args):
+    return subprocess.run(['git', '--no-optional-locks', '-C', str(repo), *args], capture_output=True, check=True).stdout
+
+consumer = read(I / 'receipt.json')
+assert consumer['status'] == 'FRESH_WINDOWS_PLATFORM_LOCK_CONSUMER_PASS'
+assert consumer['lockSha256'] == 'ae1f98f63c6b7a1f33bc62931cfd61e621901a8d8c2f8e2862d63b09cd63233f'
+assert len(consumer['commands']) == 5
+assert all(c['exit'] == 0 and not c['survivors'] and not c['timedOutOrOutputCapped'] for c in consumer['commands'])
+trial = Path(consumer['commands'][0]['cwd'])
+for name, expected in {**consumer['sourceFiles'], **consumer['compiledOutputs']}.items():
+    data = (trial / name).read_bytes()
+    assert {'bytes': len(data), 'sha256': sha(data)} == expected, name
+assert len(consumer['sourceFiles']) == 16 and len(consumer['compiledOutputs']) == 4
+ansi = re.compile(r'\x1b\[[0-9;]*m')
+tests = ansi.sub('', (I / 'normal-test.stdout').read_text(encoding='utf-8'))
+assert 'Tests  2 passed (2)' in tests and 'Test Files  1 passed (1)' in tests
+mcp_line = next(line for line in (I / 'normal-mcp.stdout').read_text(encoding='utf-8').splitlines() if line.startswith('{'))
+mcp_summary = json.loads(mcp_line)
+assert mcp_summary['status'] == 'PASS' and mcp_summary['checks'] == 25
+proof = Path(mcp_summary['output'])
+actual = read(proof / 'report.json')
+assert actual['status'] == 'PASS' and actual['version'] == '3.2.1'
+assert len(actual['checks']) == 25 and all(c['passed'] for c in actual['checks'])
+assert len(actual['sessions']) == 10
+assert all(s['pendingAtClose'] == 0 for s in actual['sessions'])
+methods = {r['method'] for s in actual['sessions'] for r in s['requests']}
+assert 'tools/call' not in methods
+inventories = []
+for session in actual['sessions']:
+    name = session['name']
+    expected_exit = 1 if name in ['invalid-preset', 'missing-local-install'] else 0
+    assert session['exitCode'] == expected_exit
+    if 'tools' not in session:
+        continue
+    p = proof / (name + '.inventory.json')
+    inventory = read(p)
+    assert len(inventory['tools']['result']['tools']) == session['tools']
+    assert len(inventory['prompts']['result']['prompts']) == session['prompts'] == 14
+    assert session['tools'] == (20 if name == 'npm-starter' else 567 if name == 'npm-full' else 273)
+    inventories.append({**binding(p), 'tools': session['tools'], 'prompts': session['prompts']})
+native = {}
+for mode in ['write', 'reopen']:
+    data = read(proof / ('native-' + mode + '.stdout.txt'))
+    assert data['adapter'] == 'package-local' and data['readback'] is True
+    assert data['sqlite']['version'] == '3.49.2'
+    assert data['tables'] == (81 if mode == 'write' else 82)
+    native[mode] = data
+raw = O / 'consumer-readback'
+raw.mkdir(exist_ok=False)
+copies = []
+for p in sorted(I.iterdir()):
+    if p.is_file() and p.name not in ['environment-policy.json', 'source-before.json', 'primary-before.json', 'exit-custody.json']:
+        target = raw / p.name
+        shutil.copyfile(p, target)
+        assert p.read_bytes() == target.read_bytes()
+        copies.append({'source': binding(p), 'copy': binding(target)})
+for name in ['report.json', 'native-write.stdout.txt', 'native-write.stderr.txt', 'native-reopen.stdout.txt', 'native-reopen.stderr.txt']:
+    p = proof / name
+    target = raw / ('protocol-' + name)
+    shutil.copyfile(p, target)
+    assert p.read_bytes() == target.read_bytes()
+    copies.append({'source': binding(p), 'copy': binding(target)})
+guard = {}
+for label in ['source', 'primary']:
+    snap = read(I / (label + '-before.json'))
+    repo = Path(snap['path'])
+    assert git(repo, 'rev-parse', 'HEAD').decode().strip() == snap['head']
+    assert git(repo, 'status', '--porcelain=v1').decode().strip() == snap['status'].strip()
+    refs = git(repo, 'for-each-ref', '--format=%(refname) %(objectname)').decode().splitlines()
+    assert sorted(refs) == sorted(snap['refs'])
+    assert git(repo, 'worktree', 'list', '--porcelain').decode() == snap['worktrees']
+    index = Path(git(repo, 'rev-parse', '--path-format=absolute', '--git-path', 'index').decode().strip())
+    assert sha(index.read_bytes()) == snap['indexSha256']
+    for name, expected in snap['files'].items():
+        data = (repo / name).read_bytes()
+        assert {'bytes': len(data), 'sha256': sha(data)} == expected
+    guard[label] = {'head': snap['head'], 'files': len(snap['files']), 'rawIndexRefsWorktreesStatusAndSourcesExact': True}
+save('consumer-copy-map.json', copies)
+save('protocol-inventory-bindings.json', inventories)
+save('consumer-readback.json', {'at': datetime.now(timezone.utc).isoformat(), 'status': 'PASS_RAW_CONSUMER_READBACK', 'commands': consumer['commands'], 'source16AndDist4Exact': True, 'vitest': {'files': 1, 'tests': 2, 'status': 'PASS'}, 'lint': 'PASS', 'mcp': {'checks': 25, 'sessions': 10, 'status': 'PASS', 'observedMethods': sorted(methods), 'rpcToolCalls': 0, 'native': native}, 'inventories': inventories, 'guard': guard, 'old50ToolWorkflow': 'HISTORICAL_NOT_REPLAYED', 'judgeRuntimeCalls': 0, 'linux': 'PENDING_NEW_COMMIT_SHARED_RUN'})
+print(json.dumps({'status': 'PASS_RAW_CONSUMER_READBACK', 'checks': 25, 'tests': 2, 'rawCopies': len(copies), 'inventories': len(inventories), 'guard': guard}))

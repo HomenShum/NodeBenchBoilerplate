@@ -1,0 +1,92 @@
+{
+  "at": "2026-09-06T03:34:27.311550+00:00",
+  "status": "EXTERNAL_RESOLUTION_OBSERVED",
+  "beforeSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+  "proposedSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+  "oldPackageRows": 359,
+  "newPackageRows": 359,
+  "added": [],
+  "removed": [],
+  "existingVersionChanges": [],
+  "changedExistingRows": [],
+  "missingPlatformRows": {
+    "node_modules/rollup": [
+      "@rollup/rollup-android-arm-eabi",
+      "@rollup/rollup-android-arm64",
+      "@rollup/rollup-darwin-arm64",
+      "@rollup/rollup-darwin-x64",
+      "@rollup/rollup-freebsd-arm64",
+      "@rollup/rollup-freebsd-x64",
+      "@rollup/rollup-linux-arm-gnueabihf",
+      "@rollup/rollup-linux-arm-musleabihf",
+      "@rollup/rollup-linux-arm64-gnu",
+      "@rollup/rollup-linux-arm64-musl",
+      "@rollup/rollup-linux-loong64-gnu",
+      "@rollup/rollup-linux-loong64-musl",
+      "@rollup/rollup-linux-ppc64-gnu",
+      "@rollup/rollup-linux-ppc64-musl",
+      "@rollup/rollup-linux-riscv64-gnu",
+      "@rollup/rollup-linux-riscv64-musl",
+      "@rollup/rollup-linux-s390x-gnu",
+      "@rollup/rollup-linux-x64-gnu",
+      "@rollup/rollup-linux-x64-musl",
+      "@rollup/rollup-openbsd-x64",
+      "@rollup/rollup-openharmony-arm64",
+      "@rollup/rollup-win32-arm64-msvc",
+      "@rollup/rollup-win32-ia32-msvc",
+      "fsevents"
+    ],
+    "node_modules/esbuild": [
+      "@esbuild/aix-ppc64",
+      "@esbuild/android-arm",
+      "@esbuild/android-arm64",
+      "@esbuild/android-x64",
+      "@esbuild/darwin-arm64",
+      "@esbuild/darwin-x64",
+      "@esbuild/freebsd-arm64",
+      "@esbuild/freebsd-x64",
+      "@esbuild/linux-arm",
+      "@esbuild/linux-arm64",
+      "@esbuild/linux-ia32",
+      "@esbuild/linux-loong64",
+      "@esbuild/linux-mips64el",
+      "@esbuild/linux-ppc64",
+      "@esbuild/linux-riscv64",
+      "@esbuild/linux-s390x",
+      "@esbuild/linux-x64",
+      "@esbuild/netbsd-arm64",
+      "@esbuild/netbsd-x64",
+      "@esbuild/openbsd-arm64",
+      "@esbuild/openbsd-x64",
+      "@esbuild/openharmony-arm64",
+      "@esbuild/sunos-x64",
+      "@esbuild/win32-arm64",
+      "@esbuild/win32-ia32"
+    ]
+  },
+  "sourceAndPrimaryUnchanged": true,
+  "trialHasNodeModules": false,
+  "commands": [
+    {
+      "name": "ordinary-lock-only-resolution",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "install",
+        "--package-lock-only"
+      ],
+      "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-lock-20260906\\resolution",
+      "exit": 0,
+      "seconds": 1.625,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        2124
+      ],
+      "survivors": [],
+      "stdout": "ordinary-lock-only-resolution.stdout",
+      "stderr": "ordinary-lock-only-resolution.stderr"
+    }
+  ],
+  "sourceTransfer": false,
+  "platformRuntimeProof": false
+}

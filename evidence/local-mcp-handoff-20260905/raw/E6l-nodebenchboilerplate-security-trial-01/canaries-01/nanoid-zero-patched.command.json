@@ -1,0 +1,32 @@
+{
+  "name": "nanoid-zero-patched",
+  "family": "nanoid-zero",
+  "lane": "patched",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=64",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+    "nanoid-zero",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-zero-patched.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\nanoid-zero-patched"
+  ],
+  "exitCode": 0,
+  "seconds": 0.063,
+  "budgetSeconds": 2,
+  "timedOut": false,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "41896": 1788661174.6440988
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 203,
+    "stderr": 0
+  },
+  "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "stdoutSha256": "fb93c363b29f6eaecd2c6b07f84ab3161da9609d65fb3bd7361c15fc36fd252b",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\nanoid-zero-patched.result.json",
+  "resultSha256": "ae6b7889bb416a4491375bb2e4c9ad4a84e72a9d1dd8dab7010aa164008eef3b"
+}

@@ -1,0 +1,172 @@
+{
+  "family": "toon",
+  "root": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+  "fixture": "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\toon-baseline",
+  "checks": [
+    {
+      "name": "prototype key is own data, not an inherited object",
+      "passed": false,
+      "actual": {
+        "input": "__proto__:\n  ownedCanary: true",
+        "own": false,
+        "inherited": true,
+        "prototypeIsNormal": false,
+        "globalUnchanged": true
+      }
+    },
+    {
+      "name": "global prototype is unchanged",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 0",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 1",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 2",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 3",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 4",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 5",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 6",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 7",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 8",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 9",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 10",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 11",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 12",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 13",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 14",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 15",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 16",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 17",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 18",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 19",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 20",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 21",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 22",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 23",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 24",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 25",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 26",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 27",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 28",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 29",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 30",
+      "passed": true
+    },
+    {
+      "name": "ordinary TOON roundtrip 31",
+      "passed": true
+    },
+    {
+      "name": "no fetch attempted",
+      "passed": true,
+      "actual": 0
+    }
+  ],
+  "observations": {
+    "prototype": {
+      "input": "__proto__:\n  ownedCanary: true",
+      "own": false,
+      "inherited": true,
+      "prototypeIsNormal": false,
+      "globalUnchanged": true
+    }
+  },
+  "fetchAttempts": 0,
+  "sourceBindings": [
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@toon-format\\toon\\dist\\index.mjs",
+      "sha256": "f9af24dd26cb728a40e0b21aad73d0e6a9fad9f64580f6b3264971a5ea3c085c"
+    }
+  ],
+  "status": "FAIL"
+}

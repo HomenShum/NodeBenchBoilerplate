@@ -1,0 +1,5 @@
+
+> nodebench-boilerplate@0.1.0 verify:mcp
+> node scripts/verify-mcp.mjs C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6l-nodebenchboilerplate-security-trial-01/protocol-proof
+
+{"status":"PASS","checks":25,"output":"C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\protocol-proof"}

@@ -1,0 +1,9 @@
+{
+  "cause": "Actual installed MCP emits TOON in text content; JSON-RPC envelope remains JSON. Decode only using the already installed matching format owner. No product or arguments changed.",
+  "original": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-implementation-01\\agents-proof.mjs",
+  "beforeSha256": "95d086e80d50b948ac255cfffff57cb4a1d5f0ede96cc90fb9c1cffc96e2fc80",
+  "after": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-implementation-01\\agents-proof-02.mjs",
+  "afterSha256": "3eb597eaf1c3ad4d91d93b1b0afe50511dcd969c217f9a48bc31eb266ed6b74e",
+  "decoder": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@toon-format\\toon\\dist\\index.mjs",
+  "decoderSha256": "f9af24dd26cb728a40e0b21aad73d0e6a9fad9f64580f6b3264971a5ea3c085c"
+}

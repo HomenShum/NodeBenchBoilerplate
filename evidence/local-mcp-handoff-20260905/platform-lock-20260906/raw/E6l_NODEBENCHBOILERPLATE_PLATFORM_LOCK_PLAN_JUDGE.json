@@ -1,0 +1,256 @@
+{
+  "at": "2026-09-06T03:41:38.060719+00:00",
+  "mode": "Builder",
+  "reviewer": "provider_ci_closure_judge, reused nonauthor of implementation",
+  "head": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+  "base": "c7f4ec95deca8facdb0872e705084b74838187b7",
+  "tree": "2e2a63198b3e4b196d0a54e9ef336374f71e820f",
+  "rawManifest": {
+    "path": "E6l-boilerplate-shared-01/manifest.json",
+    "bytes": 7453,
+    "sha256": "ef9c05c01d318da10153bcbe93cfff961666a0fae70d66ef7ca589c5f1a49bd9"
+  },
+  "guard": {
+    "status": "CLOSED_IMMUTABLE_REVIEW",
+    "candidateWrites": 0,
+    "indexRefWrites": 0,
+    "remoteMutations": 0,
+    "localInstallRuntimeTestCalls": 0,
+    "unchangedWorkflowReruns": 0
+  },
+  "fullGrades": null,
+  "status": "APPROVE_BOUNDED_EXTERNAL_RESOLUTION_ONLY",
+  "sourcePromotionApproved": false,
+  "md": {
+    "path": "E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_PLAN_JUDGE.md",
+    "bytes": 5023,
+    "sha256": "fee5ebff40ba74b430dd5c91b7934a667f6606af579c6130840cb8b0163705bc"
+  },
+  "inputPlans": [
+    {
+      "path": "E6l_OPTIONAL_PLATFORM_LOCK_PLAN.md",
+      "bytes": 2747,
+      "sha256": "0d403a91d4113a1e877d6c3a58e0bccf77f929f532171d0ec47d580d2e6b683a"
+    },
+    {
+      "path": "E6l-platform-lock-fresh-plan.md",
+      "bytes": 964,
+      "sha256": "e7cf683cda4d332374f76b9321abdb5ade10936d141f920524d857254cd4ff51"
+    },
+    {
+      "path": "E6l-platform-lock-constrained-plan.md",
+      "bytes": 1610,
+      "sha256": "be0ff9c759459e507428ad02d70ab0fd0198adc406863b53ee8e51c38d4d252d"
+    }
+  ],
+  "attempts": [
+    {
+      "receipt": {
+        "path": "E6l-platform-lock-resolution-01/receipt.json",
+        "bytes": 3029,
+        "sha256": "0e3f88e9165e18508d428f69d4986483e562eaea89c8aa3d3460161f42279f30"
+      },
+      "disposition": "NO_CLOSURE_LOCK_UNCHANGED"
+    },
+    {
+      "receipt": {
+        "path": "E6l-platform-lock-resolution-02/receipt.json",
+        "bytes": 12082,
+        "sha256": "0b1ca8e0d0474ee78e6d9025d6af646847cfc2f788bce33eeed75eee3a9c3e56"
+      },
+      "disposition": "REJECT_VERSION_AND_TOPOLOGY_DRIFT",
+      "changedExistingVersions": 33,
+      "removedPaths": 5
+    }
+  ],
+  "topology": {
+    "at": "2026-09-06T03:38:16.584112+00:00",
+    "lockSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+    "oldRows": 247,
+    "currentRows": 359,
+    "parents": [
+      {
+        "name": "rollup",
+        "version": "4.62.2",
+        "metadataUrl": "https://registry.npmjs.org/rollup/4.62.2",
+        "metadataSha256": "be8151f89c8c7a1e420b80f80fc69b300d214f4397602c5054f95eb11f399118",
+        "baseParentRowIdentical": true,
+        "optionalMapMatchesRegistry": true,
+        "declaredCount": 26,
+        "presentCount": 2,
+        "missingCount": 24,
+        "present": [
+          "@rollup/rollup-win32-x64-gnu",
+          "@rollup/rollup-win32-x64-msvc"
+        ],
+        "missing": [
+          "fsevents",
+          "@rollup/rollup-darwin-x64",
+          "@rollup/rollup-freebsd-x64",
+          "@rollup/rollup-openbsd-x64",
+          "@rollup/rollup-darwin-arm64",
+          "@rollup/rollup-android-arm64",
+          "@rollup/rollup-freebsd-arm64",
+          "@rollup/rollup-linux-x64-gnu",
+          "@rollup/rollup-linux-x64-musl",
+          "@rollup/rollup-linux-arm64-gnu",
+          "@rollup/rollup-linux-ppc64-gnu",
+          "@rollup/rollup-linux-s390x-gnu",
+          "@rollup/rollup-win32-ia32-msvc",
+          "@rollup/rollup-android-arm-eabi",
+          "@rollup/rollup-linux-arm64-musl",
+          "@rollup/rollup-linux-ppc64-musl",
+          "@rollup/rollup-win32-arm64-msvc",
+          "@rollup/rollup-linux-loong64-gnu",
+          "@rollup/rollup-linux-riscv64-gnu",
+          "@rollup/rollup-openharmony-arm64",
+          "@rollup/rollup-linux-loong64-musl",
+          "@rollup/rollup-linux-riscv64-musl",
+          "@rollup/rollup-linux-arm-gnueabihf",
+          "@rollup/rollup-linux-arm-musleabihf"
+        ]
+      },
+      {
+        "name": "esbuild",
+        "version": "0.28.1",
+        "metadataUrl": "https://registry.npmjs.org/esbuild/0.28.1",
+        "metadataSha256": "4a6cfffbc1389d2f77818c6e7a5a24db69a587e5ad2db8cb4f43afa0e53f53fa",
+        "baseParentRowIdentical": true,
+        "optionalMapMatchesRegistry": true,
+        "declaredCount": 26,
+        "presentCount": 1,
+        "missingCount": 25,
+        "present": [
+          "@esbuild/win32-x64"
+        ],
+        "missing": [
+          "@esbuild/aix-ppc64",
+          "@esbuild/linux-arm",
+          "@esbuild/linux-x64",
+          "@esbuild/sunos-x64",
+          "@esbuild/darwin-x64",
+          "@esbuild/linux-ia32",
+          "@esbuild/netbsd-x64",
+          "@esbuild/win32-ia32",
+          "@esbuild/android-arm",
+          "@esbuild/android-x64",
+          "@esbuild/freebsd-x64",
+          "@esbuild/linux-arm64",
+          "@esbuild/linux-ppc64",
+          "@esbuild/linux-s390x",
+          "@esbuild/openbsd-x64",
+          "@esbuild/win32-arm64",
+          "@esbuild/darwin-arm64",
+          "@esbuild/netbsd-arm64",
+          "@esbuild/android-arm64",
+          "@esbuild/freebsd-arm64",
+          "@esbuild/linux-loong64",
+          "@esbuild/linux-riscv64",
+          "@esbuild/openbsd-arm64",
+          "@esbuild/linux-mips64el",
+          "@esbuild/openharmony-arm64"
+        ]
+      },
+      {
+        "name": "@napi-rs/canvas",
+        "version": "0.1.80",
+        "metadataUrl": "https://registry.npmjs.org/%40napi-rs%2Fcanvas/0.1.80",
+        "metadataSha256": "a7bccd1c4a07cffb54207e61e8ac7d334f1b0cb4918ca1eaab6050afd5f4f65c",
+        "baseParentRowIdentical": true,
+        "optionalMapMatchesRegistry": true,
+        "declaredCount": 10,
+        "presentCount": 1,
+        "missingCount": 9,
+        "present": [
+          "@napi-rs/canvas-win32-x64-msvc"
+        ],
+        "missing": [
+          "@napi-rs/canvas-darwin-x64",
+          "@napi-rs/canvas-darwin-arm64",
+          "@napi-rs/canvas-android-arm64",
+          "@napi-rs/canvas-linux-x64-gnu",
+          "@napi-rs/canvas-linux-x64-musl",
+          "@napi-rs/canvas-linux-arm64-gnu",
+          "@napi-rs/canvas-linux-arm64-musl",
+          "@napi-rs/canvas-linux-riscv64-gnu",
+          "@napi-rs/canvas-linux-arm-gnueabihf"
+        ]
+      },
+      {
+        "name": "sharp",
+        "version": "0.34.5",
+        "metadataUrl": "https://registry.npmjs.org/sharp/0.34.5",
+        "metadataSha256": "c2744c197ceb699bb2fb08f70aadd1c209b738f81c88c5c7dfb41d97012f4926",
+        "baseParentRowIdentical": true,
+        "optionalMapMatchesRegistry": true,
+        "declaredCount": 24,
+        "presentCount": 24,
+        "missingCount": 0,
+        "present": [
+          "@img/sharp-wasm32",
+          "@img/sharp-linux-arm",
+          "@img/sharp-linux-x64",
+          "@img/sharp-win32-x64",
+          "@img/sharp-darwin-x64",
+          "@img/sharp-win32-ia32",
+          "@img/sharp-linux-arm64",
+          "@img/sharp-linux-ppc64",
+          "@img/sharp-linux-s390x",
+          "@img/sharp-win32-arm64",
+          "@img/sharp-darwin-arm64",
+          "@img/sharp-linux-riscv64",
+          "@img/sharp-linuxmusl-x64",
+          "@img/sharp-linuxmusl-arm64",
+          "@img/sharp-libvips-linux-arm",
+          "@img/sharp-libvips-linux-x64",
+          "@img/sharp-libvips-darwin-x64",
+          "@img/sharp-libvips-linux-arm64",
+          "@img/sharp-libvips-linux-ppc64",
+          "@img/sharp-libvips-linux-s390x",
+          "@img/sharp-libvips-darwin-arm64",
+          "@img/sharp-libvips-linux-riscv64",
+          "@img/sharp-libvips-linuxmusl-x64",
+          "@img/sharp-libvips-linuxmusl-arm64"
+        ],
+        "missing": []
+      }
+    ],
+    "runtime": {
+      "localNpmVersionFromInstalledPackage": "10.9.7",
+      "node20Ci": {
+        "node": "20.20.2",
+        "npm": "10.8.2"
+      },
+      "node22Ci": {
+        "node": "22.23.2",
+        "npm": "10.9.8"
+      },
+      "runner": {
+        "os": "Ubuntu 24.04",
+        "image": "20260831.293.1",
+        "runner": "20260828.587"
+      }
+    },
+    "actualFailure": "Rollup Linux x64 GNU missing during Vitest startup in both job logs",
+    "latentOnly": [
+      "esbuild platform rows",
+      "optional PDF canvas platform rows",
+      "Darwin fsevents"
+    ],
+    "historicalGeneratorSequence": "NOT_OBSERVED",
+    "noNewInstallOrRuntime": true
+  },
+  "constraints": [
+    "All original 359 package-path versions and nine security fixes preserved",
+    "Temporary exact three-parent root constraints removed and reconciled by npm",
+    "Full declared platform closure; source manifests, metadata, integrity and flags checked",
+    "No manual integrity rows, override, forced upgrade, added permanent direct dependency or CI workaround",
+    "Independent source proposal review plus ordinary fresh local gates and new real Linux Node20/22 shared checks"
+  ],
+  "causalLimit": "Missing Rollup Linux module is observed; original lock generation is unknown. esbuild/canvas/fsevents omissions are metadata gaps, not reproduced runtime failures.",
+  "remaining": [
+    "Third external resolution outcome not yet judged",
+    "Two high Sharp/MCP audit entries",
+    "Provider/host/deployment/full-product proof not claimed"
+  ]
+}

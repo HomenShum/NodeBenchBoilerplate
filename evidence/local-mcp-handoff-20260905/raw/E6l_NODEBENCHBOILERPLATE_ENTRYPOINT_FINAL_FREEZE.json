@@ -1,0 +1,123 @@
+{
+  "status": "FROZEN_FOR_INDEPENDENT_REVIEW",
+  "at": "2026-09-06T01:55:55.357242+00:00",
+  "baseFreeze": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-implementation-01\\freeze.json",
+  "baseFreezeSha256": "d52025bc93cf56ebcf7be5d8b5652c6959a063ccab0579f2705d817bc0834f18",
+  "baseManifest": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-implementation-01\\manifest.json",
+  "baseManifestSha256": "49576b56e202d35d2356cb33fc6e27b56f377b1d6bf423b8901e96124c1af3eb",
+  "correction": "README count24\u219225 matches actual final protocol check array. Original freeze/raw README and all proof remain unchanged; no runtime owner changed or gate rerun. This is the effective source binding for independent review.",
+  "source": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 854,
+      "sha256": "0b5d5aff94cb206be53dc7ab858e0556eb2c5405d84a4eb534ea8c43ccf3edf8",
+      "rawGitBlob": "83fc2474890804afab4c02badd24f978bbb8176f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 100,
+      "sha256": "26f4c3e8a6919051f672006a17fef16752963b6f0f4bb06ed17f272fe7e3ac96",
+      "rawGitBlob": "80f73d855ac7c29ce719213f51e1b672087ae06a"
+    },
+    {
+      "path": ".mcp.json",
+      "bytes": 251,
+      "sha256": "450f2c2468472c1054a4d2aea8aae8be1b2ef2ca6ca8f6a29af4bd2175d9cc85",
+      "rawGitBlob": "2725cb57d2023c0f0c0ec4e4a12d20954b8c3ad4"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4831,
+      "sha256": "8e90661e352628d2f2383725462c90528e7603981b7da7d8fd0783dc31a37757",
+      "rawGitBlob": "1c9472152b90a042fa053bb9924b99cb4aa528cd"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 338,
+      "sha256": "1b3025d1b803dc2269cc99dc52320576c10969cbc5e7574ac2c2592b84eacadc",
+      "rawGitBlob": "5ec234511f46ce57ba6fa0fa424e637b85636594"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1088,
+      "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789",
+      "rawGitBlob": "42daf5141a040f4dc5e680fd43782c14c59c90ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5429,
+      "sha256": "b15fe1c0a1f22940d97e3564f7ac31273e615752da9381f69fe1a9b04e08e682",
+      "rawGitBlob": "3252909150a231c6659466813a39ce4ee149873c"
+    },
+    {
+      "path": "docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md",
+      "bytes": 1489,
+      "sha256": "e7fbd66872ea96adf3c5fec850b56f717c537a5574f769d154b937b77cc24782",
+      "rawGitBlob": "cbdb5038cace293d7f0714c3465d5b6cbfc81092"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 321,
+      "sha256": "869fb0cca73aeaec727fa81f2dde5e970d312c0c4309842ca5166c4c94134802",
+      "rawGitBlob": "99c17c4e461845a3f80c24117fbd0919eaa43644"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 161851,
+      "sha256": "ba3cde2b48ccef8973046720afd9cf9166de427c6a8728d0d80d33d6117e9c45",
+      "rawGitBlob": "d9dd3d4347dcf3900b736d47bd011f95201765a2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1290,
+      "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "rawGitBlob": "ba5249dc47c40218922731039c7e8043225b3eec"
+    },
+    {
+      "path": "scripts/verify-mcp.mjs",
+      "bytes": 12213,
+      "sha256": "c2ffbe141a3e38cb474dc4224f1bd37e890a5f01781287d0799b19ebd7583727",
+      "rawGitBlob": "df69e886ba8f720efb9227a829f9364c229be168"
+    },
+    {
+      "path": "src/index.test.ts",
+      "bytes": 427,
+      "sha256": "541759ce2a5970ce620bdbc14dd18b6cd666890a14080867ebbff1f3a9adaee9",
+      "rawGitBlob": "f6030a08fe65658a34fb4181198a7d67610be1d9"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 595,
+      "sha256": "1cda9aeeccdfe8493373591a7a25273f7b7e31dd1d1dcaf39fffde28937a45cc",
+      "rawGitBlob": "097a1ff37c0790afe5948d12be834120faf7ea46"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 490,
+      "sha256": "4d781db1f30fe8088c47ee54f90b4c92bcb0e10d2751b3f944977a6d66a6e05a",
+      "rawGitBlob": "999e1b7892b743086bb09e027767ad322d373551"
+    }
+  ],
+  "sourceDigest": "193ba3feda6209e843dce8c20ed4ff456b95ac1f1d8787b3479508975997dad4",
+  "sourceDigestFormula": "SHA256 UTF-8 JSON of sorted {relativePath:rawSha256}, separators comma/colon, no extra whitespace",
+  "readmeCopy": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-final-binding-addendum-01\\README.md.txt",
+  "readmeSha256": "b15fe1c0a1f22940d97e3564f7ac31273e615752da9381f69fe1a9b04e08e682",
+  "protocolAssertions": 25,
+  "gateAssertions": 16,
+  "sourceFiles": 15,
+  "owners": [
+    ".github/workflows/ci.yml",
+    ".mcp.json",
+    "AGENTS.md",
+    "README.md",
+    "package-lock.json",
+    "package.json",
+    "src/index.test.ts",
+    "src/index.ts",
+    "eslint.config.mjs",
+    "scripts/verify-mcp.mjs"
+  ],
+  "recorderFailures": "External custody reader failed before completed freeze on an absent baseline primary key, Python3.11 missing Path.is_junction, and comparing primary raw bytes to candidate rather than root retained primaryFiles. Final closing guard uses exact preserved primaryFiles and Windows reparse attribute. LF preflight correctly found three CRLF owners; before bytes preserved, normalized only line endings, normal build/test/lint rerun. None was an application failure.",
+  "runtimeClosed": true,
+  "noStageCommitPush": true
+}

@@ -1,0 +1,41 @@
+{
+  "name": "run_closed_loop",
+  "args": {
+    "cycleId": "cycle_1788660984085_xe0cqfv92",
+    "steps": [
+      {
+        "step": "compile",
+        "passed": true,
+        "output": "Synthetic negative aggregation fixture; not actual command outcome."
+      },
+      {
+        "step": "lint",
+        "passed": false,
+        "output": "Synthetic negative aggregation fixture; not actual command outcome."
+      },
+      {
+        "step": "test",
+        "passed": true,
+        "output": "Synthetic negative aggregation fixture; not actual command outcome."
+      },
+      {
+        "step": "self_debug",
+        "passed": true,
+        "output": "Synthetic negative aggregation fixture; not actual command outcome."
+      }
+    ]
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "gateRunId: gate_1788660984114_m5fbkueiy\nallPassed: false\nfirstFailure: lint\nscore: 0.75\nguidance: \"Fix the 'lint' failure, then re-run from that step. Do not proceed until green.\"\n_quickRef:\n  nextAction: \"Loop result recorded. If any step failed, fix and re-run from the failed step. Never present work without a green loop.\"\n  nextTools[2]: log_test_result,run_mandatory_flywheel\n  methodology: closed_loop"
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 24
+  }
+}

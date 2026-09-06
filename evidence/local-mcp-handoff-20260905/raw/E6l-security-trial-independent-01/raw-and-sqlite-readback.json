@@ -1,0 +1,219 @@
+{
+  "manifestFiles": 695,
+  "bytes": 17183483,
+  "commandStreams": [
+    {
+      "name": "resolve-exact",
+      "exitCode": 0,
+      "seconds": 1.812
+    },
+    {
+      "name": "reconcile-root",
+      "exitCode": 0,
+      "seconds": 0.875
+    },
+    {
+      "name": "normal-ci",
+      "exitCode": 0,
+      "seconds": 10.656
+    },
+    {
+      "name": "audit",
+      "exitCode": 1,
+      "seconds": 1.0
+    },
+    {
+      "name": "build",
+      "exitCode": 0,
+      "seconds": 4.687
+    },
+    {
+      "name": "tests",
+      "exitCode": 0,
+      "seconds": 6.188
+    },
+    {
+      "name": "lint",
+      "exitCode": 0,
+      "seconds": 36.187
+    },
+    {
+      "name": "protocol",
+      "exitCode": 0,
+      "seconds": 18.204
+    },
+    {
+      "name": "lint-knockout",
+      "exitCode": 0,
+      "seconds": 1.672
+    },
+    {
+      "name": "compiled-starter",
+      "exitCode": 0,
+      "seconds": 0.062
+    },
+    {
+      "name": "agents",
+      "exitCode": 0,
+      "seconds": 1.25
+    }
+  ],
+  "canaryCases": [
+    {
+      "family": "toon",
+      "lane": "baseline",
+      "exitCode": 1,
+      "timedOut": false
+    },
+    {
+      "family": "toon",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "fast-uri",
+      "lane": "baseline",
+      "exitCode": 1,
+      "timedOut": false
+    },
+    {
+      "family": "fast-uri",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "postcss",
+      "lane": "baseline",
+      "exitCode": 1,
+      "timedOut": false
+    },
+    {
+      "family": "postcss",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "nanoid-negative",
+      "lane": "baseline",
+      "exitCode": 134,
+      "timedOut": false
+    },
+    {
+      "family": "nanoid-negative",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "nanoid-zero",
+      "lane": "baseline",
+      "exitCode": 15,
+      "timedOut": true
+    },
+    {
+      "family": "nanoid-zero",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "xmldom",
+      "lane": "baseline",
+      "exitCode": 1,
+      "timedOut": false
+    },
+    {
+      "family": "xmldom",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "qs",
+      "lane": "baseline",
+      "exitCode": 1,
+      "timedOut": false
+    },
+    {
+      "family": "qs",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "ip-address",
+      "lane": "baseline",
+      "exitCode": 1,
+      "timedOut": false
+    },
+    {
+      "family": "ip-address",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "hono-static",
+      "lane": "baseline",
+      "exitCode": 1,
+      "timedOut": false
+    },
+    {
+      "family": "hono-static",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "hono-cors",
+      "lane": "baseline",
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "family": "hono-cors",
+      "lane": "patched",
+      "exitCode": 0,
+      "timedOut": false
+    }
+  ],
+  "patchedAssertions": 71,
+  "db": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\agents-state-proof\\agents-state\\data\\nodebench.db",
+    "bytes": 1003520,
+    "sha256": "ef5f5f1fbea6395251a0bf822e45bdcb9315e6bfc894d8c45f08ea427608ea18"
+  },
+  "dbUnchanged": true,
+  "nativeTables": 81,
+  "commandRows": 6,
+  "historyRows": 8,
+  "singleLearningAfter8Updates": true,
+  "reviewAndReleaseRemainFalse": [
+    {
+      "id": "gate_1788660984113_xyyfl2fot",
+      "gate_name": "owned-negative",
+      "passed": 0
+    },
+    {
+      "id": "gate_1788660984116_hkwxg7gi1",
+      "gate_name": "code_review",
+      "passed": 0
+    },
+    {
+      "id": "gate_1788660984117_yg1acds9l",
+      "gate_name": "mandatory_flywheel",
+      "passed": 0
+    }
+  ],
+  "protocolChecks": 25,
+  "gateChecks": 16,
+  "toolCalls": 50,
+  "auditExit": 1,
+  "remainingHigh": [
+    "sharp",
+    "nodebench-mcp"
+  ]
+}

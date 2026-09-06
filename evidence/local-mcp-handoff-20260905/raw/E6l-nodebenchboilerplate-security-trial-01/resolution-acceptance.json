@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "exactChangedRows": 9,
+  "addedRows": 0,
+  "removedRows": 0,
+  "rootManifestRestored": true,
+  "oldOtherIdentitiesExact": 350,
+  "lockSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c"
+}

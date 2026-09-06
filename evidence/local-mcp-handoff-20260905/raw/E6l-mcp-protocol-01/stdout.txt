@@ -1,0 +1,20 @@
+
+  NodeBench AI — The trust layer for agents
+
+  Quick start
+    $ npx nodebench-mcp discover              Show available tools
+    $ npx nodebench-mcp demo                   Run a live demo (no keys needed)
+    $ npx nodebench-mcp quickref research       Get research workflow guide
+    $ npx nodebench-mcp --explain run_recon     Deep-dive on any tool
+
+  Connect to your IDE
+    $ claude mcp add nodebench -- npx nodebench-mcp --stdio
+    $ npx nodebench-mcp --sync-configs          Auto-write to Claude/Cursor/Windsurf
+
+  Start the MCP server
+    $ npx nodebench-mcp --stdio                 Default preset
+    $ npx nodebench-mcp --preset research       Research workflows
+    $ npx nodebench-mcp --auto-preset           Detect from your project
+
+  566 tools · 77 domains · Progressive discovery · Agent-as-a-Graph
+

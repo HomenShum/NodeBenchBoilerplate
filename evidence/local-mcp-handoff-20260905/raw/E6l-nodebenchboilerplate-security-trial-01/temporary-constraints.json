@@ -1,0 +1,16 @@
+{
+  "targets": {
+    "@hono/node-server": "1.19.15",
+    "@toon-format/toon": "2.3.1",
+    "@xmldom/xmldom": "0.8.15",
+    "fast-uri": "3.1.6",
+    "hono": "4.12.34",
+    "ip-address": "10.3.1",
+    "nanoid": "3.3.18",
+    "postcss": "8.5.23",
+    "qs": "6.16.0"
+  },
+  "manifestSha256": "a648dc34ff114cd89fc68b475b7f96210cda7c1f8dc52c8fc295e457f7369ff9",
+  "restoreSource": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\before\\package.json",
+  "noRuntimeInstallUntilRestored": true
+}

@@ -1,0 +1,54 @@
+{
+  "historicalPublication": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+  "historicalFiles": [
+    {
+      "path": "HANDOFF.md",
+      "historicalCommit": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+      "copy": "historical-5b0181d/HANDOFF.md.txt",
+      "bytes": 4933,
+      "sha256": "4e7f789cf8417f9453a72d2840075d584ca7245becdc24bf9ca0f7494ef27403",
+      "rawGitBlob": "2e0a350d37b7f52f3dc4a71b0c8f9af6174c3ae3",
+      "committedBytes": 4933,
+      "committedSha256": "4e7f789cf8417f9453a72d2840075d584ca7245becdc24bf9ca0f7494ef27403",
+      "committedGitBlob": "2e0a350d37b7f52f3dc4a71b0c8f9af6174c3ae3"
+    },
+    {
+      "path": "evidence/local-mcp-handoff-20260905/source-bindings.json",
+      "historicalCommit": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+      "copy": "historical-5b0181d/source-bindings.json.txt",
+      "bytes": 13731,
+      "sha256": "d25c1252201226e875d3aac1fb138f643411181d2c5d1aa059696bf70ef1cc4d",
+      "rawGitBlob": "869024749bdf05ea24b4eb1d78828afa6371a55a",
+      "committedBytes": 13731,
+      "committedSha256": "d25c1252201226e875d3aac1fb138f643411181d2c5d1aa059696bf70ef1cc4d",
+      "committedGitBlob": "869024749bdf05ea24b4eb1d78828afa6371a55a"
+    },
+    {
+      "path": "evidence/local-mcp-handoff-20260905/manifest.json",
+      "historicalCommit": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+      "copy": "historical-5b0181d/manifest.json.txt",
+      "bytes": 77756,
+      "sha256": "75dd986041c5ccd4c1267c8d3a2dc5ad9d266e3897e7c1d497f4825a65a58a6d",
+      "rawGitBlob": "bbde09d6bd1f93498c382453ebd24b16cde25234",
+      "committedBytes": 77756,
+      "committedSha256": "75dd986041c5ccd4c1267c8d3a2dc5ad9d266e3897e7c1d497f4825a65a58a6d",
+      "committedGitBlob": "bbde09d6bd1f93498c382453ebd24b16cde25234"
+    }
+  ],
+  "originalLockSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+  "proposedLockSha256": "ae1f98f63c6b7a1f33bc62931cfd61e621901a8d8c2f8e2862d63b09cd63233f",
+  "originalRawCopiesUnchanged": 279,
+  "historical50CallWorkflow": "NOT_REPLAYED_BY_PLATFORM_TRIAL",
+  "currentSourceRule": "The optional current source check uses the proposed lock and current HANDOFF. Historical source/binding copies remain evidence of 5b0181d.",
+  "linuxRuntime": "First shared failure retained; successor shared execution requires a new receipt.",
+  "registryEvidence": {
+    "originalProposalSha256": "0dae7635136f0dc40cb488323032a61b78da2052623f247a184d7574f7a6e506",
+    "contactFindingSha256": "4916a7af18db74749628ca26dfb06a297a5b82a0ec8d34a3c09b53e90ced2f16",
+    "derivativeMap": "raw-copy-map.json",
+    "initialPublicationHoldSha256": "862289f5afc908217691d4683c46fd1f5ebb94573a2a4fadf4ad89b2e38c6527",
+    "exactRawFiles": 66,
+    "registryDerivatives": 63,
+    "allNonRegistryRawPreserved": true,
+    "meaning": "Independent trial judgment read the original registry bytes. This public successor supplies only labelled proof-field derivatives and original hash bindings, not those complete originals."
+  }
+}

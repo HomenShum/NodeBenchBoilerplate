@@ -1,0 +1,25 @@
+# Preserve the reviewed versions while restoring optional platforms
+
+Manifest-only resolution fills platform entries but changes33 existing versions
+and removes5 old paths. That result is rejected, retained externally, and never
+installed or copied to source. The first incomplete lock trial is also retained.
+
+The current lock additionally lacks9 @napi-rs/canvas0.1.80 optional platform
+rows. This is latent metadata evidence through MCP's PDF dependency, separate
+from the actual Rollup failure in CI. The corrected scope is these three native
+package families, including their declared optional dependency closure.
+
+In a third empty owned directory, copy exact current manifest and original
+lock. Temporarily constrain the existing transitive parents as direct dev
+dependencies at rollup4.62.2, esbuild0.28.1 and @napi-rs/canvas0.1.80. Run npm
+update --package-lock-only naming only these parents. Save its actual output
+and intermediate lock, restore the original manifest bytes, then run ordinary
+npm install --package-lock-only to reconcile root edges. This is the same
+temporary exact-constraint approach used in the reviewed security trial.
+
+No permanent dependency, override, manual integrity value, source mutation or
+platform-specific CI workaround is introduced. Compare every old package
+version, all added/removed paths, changed metadata and all declared platform
+edges. Any unrelated version drift still rejects promotion. Subsequent normal
+fresh-consumer and real shared Linux checks are required; metadata is not a
+runtime pass. All existing failure records and protected source bytes remain.

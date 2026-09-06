@@ -1,0 +1,20 @@
+{
+  "name": "get_gate_history",
+  "args": {
+    "gateName": "owned-negative",
+    "limit": 5
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "gateName: owned-negative\nruns[1]:\n  - gateRunId: gate_1788660984113_xyyfl2fot\n    passed: false\n    score: 0.5\n    failures[1]: known_false_fixture\n    createdAt: \"2026-09-06 02:16:24\"\ntrend:\n  totalRuns: 1\n  passRate: 0\n_quickRef:\n  nextAction: \"Review pass/fail trends. If quality is dropping, investigate with start_verification_cycle.\"\n  nextTools[2]: run_quality_gate,start_verification_cycle\n  methodology: quality_gates"
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 36
+  }
+}

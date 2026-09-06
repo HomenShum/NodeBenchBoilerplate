@@ -1,0 +1,636 @@
+{
+  "family": "xmldom",
+  "root": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+  "fixture": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-xlsx-02\\xmldom-patched",
+  "checks": [
+    {
+      "name": "invalid entity name rejects well-formed serialization",
+      "passed": true,
+      "actual": {
+        "error": "Error",
+        "message": "Invalid state: The entity reference name \"x;<probe/>\" is not a valid XML Name"
+      }
+    },
+    {
+      "name": "ordinary Unicode XML remains exact",
+      "passed": true
+    },
+    {
+      "name": "actual installed XLSX reader returns literal account/amount rows",
+      "passed": true,
+      "actual": [
+        {
+          "sheet": "Owned",
+          "data": [
+            [
+              "Account",
+              "Amount"
+            ],
+            [
+              "现金",
+              42
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "no fetch attempted",
+      "passed": true,
+      "actual": 0
+    }
+  ],
+  "observations": {},
+  "fetchAttempts": 0,
+  "sourceBindings": [
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\index.js",
+      "sha256": "9deb4e9d6d730a51c1c2b05238f8684d01e87f72b9861ba2adcad537ffc56586"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\dom.js",
+      "sha256": "eae57ba1588b8c025a71cdbb31edd0a87a4d14c1cb00e19155b2cdba44f7548b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\conventions.js",
+      "sha256": "9ceee011f51db3a4581029a7dce1e9bf1fa5c37ad928b63c3625dda9a907fd55"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\dom-parser.js",
+      "sha256": "03915c54c4bf44cfee38807af253abaabb022c27652918e8a233fae2d92fe1d2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\entities.js",
+      "sha256": "332cda4081c610fdadc0266867ee5ed9f945c99d471ea7234ec61ba00cbf0e40"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\sax.js",
+      "sha256": "b2592fbf6993b04576c7ffbd78d63cecdf6495ff1f7a43c2516a0482e69736e9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\node\\index.cjs",
+      "sha256": "51d9713f1886d4bf2b1bfeb68f2a75deab2b50324289db9b2fd0d4f6ed358c77"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\readXlsxFileNode.js",
+      "sha256": "f875fe32c28f77617e83ee9231c0b37fa9c33b32ebdf66b88e4fc45b238aa1d6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\xml.js",
+      "sha256": "88a54fe68a599c6837cdca1dabea075b3768a7996b167b281abe75a1ca48dd6e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\unpackXlsxFileNode.js",
+      "sha256": "b2dcbf6bfa05636a36ba621540278ff64c0a16857ce6717bba7f951b35fadb8e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\zip\\unzipFromStream.js",
+      "sha256": "53701e0f42f58f3a3704ba6fad7ff995e00e2e1c4963bee7ef91c563b8d66139"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\unzip.js",
+      "sha256": "3fd698ea80132b19fdbe6bbac61f52fd4d82412e2e279428c696d11458cffc1c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parse.js",
+      "sha256": "e216439288d7133d9081956ec5f4556e4d12753c45c2910a98a3b4ed635950ab"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\PullStream.js",
+      "sha256": "d1d2cd0ae31e0b306ca3aad1e40c27fa940e142c4784182d6149e4826837692b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\NoopStream.js",
+      "sha256": "2cdff27c0081f6f069d6f95d61820aee575d8d9eadc01a5d03a3fc27420f2246"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\BufferStream.js",
+      "sha256": "f01dc346966200d0dd48f7f36d6da983dd9b8f2f6412e11310bdc40434081b9c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseExtraField.js",
+      "sha256": "a3143f1fccd98b956d40bdcb78c5d5b422f52fa6bb105ddc9f97aa581768a4c1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseBuffer.js",
+      "sha256": "3e8d4b0ef3488f29315ebbfb3580929f0935d12650e7e5bd09a511d5a1480c65"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseDateTime.js",
+      "sha256": "566d7d51054a62db83a422298c5f4c198b6ae4cab91dc70f97c9e00ab15cfb89"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseOne.js",
+      "sha256": "374d36a72d6827268871addbc381ea5cd0145cef24a8cbe32fda7d91049fcbdb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\duplexer2\\index.js",
+      "sha256": "cd2fd870d088bd543de42fcfc5fed1c9b896409ef4b734a9495b3fe84c0d6421"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\readable.js",
+      "sha256": "a1efa3fa06393aff652f3529ea1b1bc32134d49eb794b23272fb0ba13d214550"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+      "sha256": "216e051224eff89a5d5eec76bef25addac078d9ebd2e88bd0a3d73a0e605091d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\process-nextick-args\\index.js",
+      "sha256": "90ba524851f721e8aced79870d6d6a733cd3939b293a83e2d04417812a8ba330"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\isarray\\index.js",
+      "sha256": "9b8c691372802da788c9c5f4e1ca2f1ed0b88ab8722176c2aea15e38ec86d249"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+      "sha256": "1e7903927df33aadb3659ecce55266c9c851da65ce6c8b723a60a305c1c5422c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\safe-buffer\\index.js",
+      "sha256": "d58af21cb0518864d0c505742d1af71e5b5e1f142f4c0f27353aa0f431a616d4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\core-util-is\\lib\\util.js",
+      "sha256": "7427f16d9bd9185e409baff3e4b1ed6e3d8dfca84d367f4b8b351eb921618652"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\inherits\\inherits.js",
+      "sha256": "bb380f32bef5feb18678f0f45f88073fed5d7a0069a309132cb2080cd553d5c7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+      "sha256": "387991bfee34bbb7938e0c0a3f345c3e5e4c37d5b0cb600e6d432c9995321fa7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+      "sha256": "a59f90daec030125875a6028b32f93e2e2bc9fafd703991dbc36244f5cb21176"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+      "sha256": "e6359ac652ed97f5f328c586c7a6b8f163782a9ca13da476e609a981c75e0469"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\util-deprecate\\node.js",
+      "sha256": "9a86a29fa34a99b861e707345fb1d1e2e55a6c23edb8f992bed57cc607f42d8e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+      "sha256": "fd17d6a92dd9ba004c85f8e364b2771af10d012a83766437447dbae63879fa6b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+      "sha256": "56220d9dd58b976f1739bfc85948b267d79772ba23672ff402d13b6b3fcf4e40"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+      "sha256": "bf61450b1ff5f94fea9d46665e931119642034c903e63cc224b4c96472eed4d4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\extract.js",
+      "sha256": "45894edaa4fb188ed5696501f4618f7187fa3cd4d35ffc79a0987c5132954a02"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\index.js",
+      "sha256": "4967e903b3dc290f2b401b81bfcad8b2d94fd68c1bf4563df63ac082af0e1dae"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\fs\\index.js",
+      "sha256": "62ceb1a4526cf820140c4d7fbf86ca0a330108a1d7929daa3db69e565fd58367"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\universalify\\index.js",
+      "sha256": "83b02adb3872f6c482db4e57c300fa39b5cad65e317fc2f70b9de7d305c035a1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\graceful-fs.js",
+      "sha256": "7da35669b6b6b0e4aafee31674c033f2cebb0c8f9ae010f709dcc185d3f17786"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\polyfills.js",
+      "sha256": "66ea1687ed5edf39d67296d26edccc8da695d9a869303a78d0e580cd770aca27"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\legacy-streams.js",
+      "sha256": "60a6a7ecf7c3e55a3ffaae13433b6cff388b7205bba6daf393c863f77a949e36"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\clone.js",
+      "sha256": "7258eca52e65d69845759503f9fdd66c252f40e5eafb76db5d481172e31ac9ed"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\copy\\index.js",
+      "sha256": "d935e170aa9a282a5fcf796cf2d21306cbeb8822c92c8e7ef73182b9e32b3f82"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\copy\\copy.js",
+      "sha256": "39b3aafebce52106e8e6ec35d401edd6043cf5758045072f317eb0337bcdae73"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\index.js",
+      "sha256": "adcd576e2e3868b94adb1bad6d1e3cf2312ffdfa71e49a57fe6247e116e75ecf"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\make-dir.js",
+      "sha256": "23c7ce8a3d6b39d1c7cf5d16ba6447c1690a6fdaa8c5f41e6b76526b7afe96f3"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\utils.js",
+      "sha256": "5372a36f4b2c5023788c23dbc6639155cb016a1b111e8fc1d6bf97cbaf11b1f8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\path-exists\\index.js",
+      "sha256": "5ce096c95daec0259817248921b39a9e0df4d342db171138ccb62440cc7a0cbe"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\util\\utimes.js",
+      "sha256": "0a9ffc68208394202e5ef3d37a687968b224df07facdbc0b31c1e0679e005979"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\util\\stat.js",
+      "sha256": "7c85bd418d9fe3e2dc8a6925772726ce7538092baf01cade518c7f65aca94a61"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\copy\\copy-sync.js",
+      "sha256": "c842776451f6a4562d0f5867335090e509dbf4fd1dcf8adc13306a64278510c1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\empty\\index.js",
+      "sha256": "1096edcb5ec0ed015b36914beff0826f6cd5d7ce2645ee9dee60c0b272e57856"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\remove\\index.js",
+      "sha256": "0ac7807ffba679e0d8fee03d3879da7f3d99bc16e8db6c6494c8eaf9ec5608b6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\index.js",
+      "sha256": "77ccb9b4d1eab607ce7ba8d3d5bed59b0cb9cc4748d02aa896a2413b71dbfe60"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\file.js",
+      "sha256": "f97c89606abb7c256eefd7acf35fc37a60a002768696125905df3944ac792d07"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\link.js",
+      "sha256": "5da74de6915fee9da90b8c53628f7fad95547d140a6506ee84fe7aa586345549"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink.js",
+      "sha256": "1e41eab4a4a111d3e9a77db76e66aedbb0a68d681d66e98ca4a1a65cdd5e93cd"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink-paths.js",
+      "sha256": "25cdbbe6724088ddd28fe8ac10dfab9f18a93cf6fdb14e7be41fdc29e13767d5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink-type.js",
+      "sha256": "ef80c7221f923205bd4472d166d79d4f75f683dd1f32d342f2fef5ee64fb2796"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\index.js",
+      "sha256": "c5ac6a8005308e5bb36619fed225c987872300d356fa95d0d56878029ebbdc45"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\jsonfile.js",
+      "sha256": "a986ad3c13166f3bf8f30b18140bfc8ea1754760ab3802aa7c8c3780d54f07ba"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\jsonfile\\index.js",
+      "sha256": "ec5a9f1f45014486f1df4a8c11a5b078671e9936c0651e035b67cb5e763954e8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\jsonfile\\utils.js",
+      "sha256": "3a37b4b21c2cd8f75b850f1373f68a39bcaab3ac58d75ab44e62674cdb0d4cad"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\output-json.js",
+      "sha256": "b738aaf8ff9aae265b0512cb2554e1f8ce8605d21dc6230189a9be6980079fc8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\output-file\\index.js",
+      "sha256": "5226ff89a2c66941f0aa322d81c68e199b5d554a99fe71cbd7a740663e541722"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\output-json-sync.js",
+      "sha256": "a68fde22ad1a194755de03e90861805248f883342e05bd685258e76a90e7a6ab"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\move\\index.js",
+      "sha256": "ee7ac772c9ed6ca64adf993498c1199fb72bc9a05b49b7b4b8185ac71dacf930"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\move\\move.js",
+      "sha256": "81fca78408ac2a838f6c7f75c871b5b5b9649b7260addf0c21464eb9d8b32a9b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\move\\move-sync.js",
+      "sha256": "639191af40bebf2a1dc76ee0c5317282d352461ece1d165537bc7096b80818c5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Open\\index.js",
+      "sha256": "96efb25d42199c632d31901560b003d32c49d2c209bb39ba4073a381ef6b5c38"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Open\\directory.js",
+      "sha256": "47c63bcd159d1facc02375aec9916bfee1a3ebfd3ae5338e10f6db2846a16645"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Open\\unzip.js",
+      "sha256": "ff4e158c81ceecfa1c52f93afd9e6c4d257340bda14c51b8ae54e5eb029106ec"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Decrypt.js",
+      "sha256": "f4c0dd7dd7e21071546ce68f9d162516d3c0db2d11910cb24b92f89bd5d1171f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\node-int64\\Int64.js",
+      "sha256": "2fa1049844b05abdc7bf43803089afe9886f8f1f4ce413922ea2ddcede5b51fb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\bluebird.js",
+      "sha256": "f1bd09cb349c59ace5126a4997b35d4e67785cf35886fe6a7112ac7142e526c4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\promise.js",
+      "sha256": "22641fab9aa4c7f2962f21aa652b685ded8a9ec88b0f0915b524948bfa644415"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\util.js",
+      "sha256": "dfd00225b097b2731d9091749be37c18c418e2da59045e54e11d4df80b3ccae5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\es5.js",
+      "sha256": "c510d8dab4de97c1f460d54ea79014c283841625148dc50073981300005dd42d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\async.js",
+      "sha256": "2bd6c88aec3118d1803e85d2df99de5a7218a96a01f094d52c988265422fcf4f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\schedule.js",
+      "sha256": "a3eb3623c5859a27ccf24706b5210c1107dc65aab572a202513bba9a1ebec906"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\queue.js",
+      "sha256": "683aab2037414e069b2a5f48d39fb4ee5e1ab808c97b2b218ec12c2520b10c82"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\errors.js",
+      "sha256": "f1537f1b41673a75a0b9c60a0647c628561eaed4f2fae3d8188bb24abf333edc"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\thenables.js",
+      "sha256": "dbe1c7d0731e45596e20684a0e0ab0309c3cb29f57089169f3a375079affda6d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\promise_array.js",
+      "sha256": "e7440944ec46fb2efcea9fe0a7d7e11d1fc1612e56d5169aebe8d5aa6e77d858"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\context.js",
+      "sha256": "5d8d6bc5941153a0756f61a807e84b1ddf60eb2b9d57227263d12fbca1b70a5e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\debuggability.js",
+      "sha256": "4702ca8443b7989aec697e104c7c8be4a36388d443505e33e24ad5199b9a403c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\finally.js",
+      "sha256": "0e4fc9127e68b0b9d942bef674a0352f73f0874c6f66f3402d05a7a11db67b98"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\catch_filter.js",
+      "sha256": "11da610579c2289aa0b5e59fd772ac8b30d24d748a0092a20753db6d703bb9e0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\nodeback.js",
+      "sha256": "4888e4fe1fd7d1e1eeb7552e5158bec0f7b7ec538180780941289a55aa1172b5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\method.js",
+      "sha256": "f115e74eac654538838eb7fb971bf39d2548b28ae90e25b758c67f16450484f6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\bind.js",
+      "sha256": "027add87d1c0065356c6342a2d13b16379fedc72c8a6c418681be3a6a8b46638"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\cancel.js",
+      "sha256": "ec055832b95e24e25411386a789a4c0f93e7623a118e451e30d1ee5843c689b2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\direct_resolve.js",
+      "sha256": "7dd03025ad5580294f5b8f062f7141ca60fd84817ffa58367ddca53aad185afb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\synchronous_inspection.js",
+      "sha256": "b26a61e1dfe74d2118dbd230071fcd7877b63f987639e00daea43c8a5fdfc50a"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\join.js",
+      "sha256": "4052ccd7ee41d565b3a8944f5f95f0f473c866e649a981804c1cb7f3055b4980"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\call_get.js",
+      "sha256": "4235f9f702503faf32903d2fa0d454279ab01c27497e4d7469720e33df6990a9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\generators.js",
+      "sha256": "ec685635bd9420319eac3959b8f44657f66545fb350d1be402c48c955a57032f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\map.js",
+      "sha256": "9e332673acc9c81d82e75147b8c2f90134c9e59b3dc4d1bb538249751c087ea5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\nodeify.js",
+      "sha256": "045087125fdb791c743850f717a2f64091577cdd658cf89d169921c65fcb1f82"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\promisify.js",
+      "sha256": "26e51d82eb41aaaafef54ca34b350bd00a4e2bd6648417371386e7bc0614895e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\props.js",
+      "sha256": "041f70b6ea4793666240c3e1943e698280ae14bf4ee4145929f426897e2aa1e5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\race.js",
+      "sha256": "524ac44ed8e2f7f767d7ab197296dbb99e99c0497e99b22a296e36e881563168"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\reduce.js",
+      "sha256": "ea786fef0636a22d8936bdde491befb2bcedc61c233ca5c5cde765a44336e24e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\settle.js",
+      "sha256": "dd417954d705db69eac3045f6dfb55e26af071d8dbe5392a7f36cee86f2404d9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\some.js",
+      "sha256": "b098cf5e52f0351dae1c99f60a40c601dee9e28bfde356af1b5454e1f2c36c7d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\timers.js",
+      "sha256": "d75e79fa2a4be7887178ee21462a37bc609ee40105ab2150f48436ece4c2d8af"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\using.js",
+      "sha256": "f36839cef0b9fd56d9a1a2908b475511c4c821e33fff7937ab5704a83f2632eb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\any.js",
+      "sha256": "bbfe88f1a68351302da229bf667fbee8b264c0fd034ac4990507d4482e713161"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\each.js",
+      "sha256": "e5a9bf63cf9e9a81525ee2ae015bed8d66e081c4fceceb60d1791fdcf38a1b14"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\filter.js",
+      "sha256": "5b52d1f2e402abca8e1e203687a3157f4b2c2a2ed1a9bee69b6c51c1b44e4992"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\convertInputToNodeStream.js",
+      "sha256": "66af2c6bc87d630627af496364c44a47c7ea36bfeecfd5a5c1b14495db1594ff"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\convertValuesFromUint8ArraysToStrings.js",
+      "sha256": "74dff5546d623dec5411df8ea535461d8808fc155b3d7591b7c3eb4d38032c48"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fflate\\lib\\node.cjs",
+      "sha256": "befa44cd80a1da830179db9e57930050a2e460ca3df13f0b05f83f52b1491818"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\filterZipArchiveEntry.js",
+      "sha256": "5130c9a0d34827bea44eb8b9b8046017d14c61b86f1a5e1055e79e63761724d7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSpreadsheetContents.js",
+      "sha256": "1289194ac48f794580d74c0971aef1c07981a84841fc0e6a7d2cd85f53c7ba21"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSpreadsheetInfo.js",
+      "sha256": "936399e775c6019f2bb6d559eef737b8809d10c5784db60516bc19e8dfceb00b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\xlsx.js",
+      "sha256": "8fc5fee3e3b5ae6b4564fd9e6e5d704c619242284a698a26b84f4c8906cef736"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\dom.js",
+      "sha256": "96c4656e240cef61714b5b8972fe5eda1198d14a090438f8c870cf58c517515e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseFilePaths.js",
+      "sha256": "53d59c8558d572b7dfc051d76ed8f28df11959816d2b1773fa938cb2137cbe55"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseStyles.js",
+      "sha256": "5f97e1ad52215a799d003d299770b9aba9e5fe1eb3a80c4e80b2c7eadd8c3b8c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSharedStrings.js",
+      "sha256": "ba584c149b8ec84957054e1d243fd2d277ab650d851a835158961fb132dd7403"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSheet.js",
+      "sha256": "d97c02cd371b8ecf1d84ac06d0971b160f88cc23ba6c6f181a3095a04e6d6bb0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCells.js",
+      "sha256": "a3f329f88c57c0d985ae838ec33df4bc0499d1518d9c5a9581104c5fe70cffdf"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCell.js",
+      "sha256": "7f4ee4f639fe7507a35b32d4edf3a0313dd28a012b33f04fad8ae5bd74b03996"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCellValue.js",
+      "sha256": "58ad319fae3ce0a4447c161a44c35378a5186dc2ad63674896ecfd36fb3a3e42"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseExcelDate.js",
+      "sha256": "bbbdbbbea2c5d011e0c0ba9fae24ab1eb176e98a26601ecdfa2ef80249300a80"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\isDateFormatStyle.js",
+      "sha256": "b474329ec0d2ef29dde9c59eb2873ce14f8e2b74ee82627c02d340eb2a34ced5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\isDateFormat.js",
+      "sha256": "207bb94105e06ccd019511879f5cb40547f18cd7488449bef49bc3458a1893e8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCellCoordinates.js",
+      "sha256": "a003c6a696cf8d8d78afe958a984eb6c5c46e717d9f1b73253bda4e9be7655c4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSheetDimensions.js",
+      "sha256": "ff9969e950f83f4443dcf73787dbce92de45d6b7a34d804a290bcf8fbdbdce01"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\reconstructSheetDimensionsFromSheetCells.js",
+      "sha256": "b9f9ae6ae1b3891310ec9d7b2c94cc019edd659ee3de9ebe41efb0bf31107415"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\convertCellsToData2dArray.js",
+      "sha256": "fadf53176130534122f186b9dbe2fd20f662fa885750f620e2bc1e83870a15a1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\dropEmptyRows.js",
+      "sha256": "b60e5c382c9a9b393916d9287f3cc19a31d81c140f7c639f11c087f0a296e9a4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\dropEmptyColumns.js",
+      "sha256": "5dc3fac7bf931fb17a320f9cde335f0dbd5b854ce4a330742aec34809436e946"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\readSheetNode.js",
+      "sha256": "9847d582e1766ee2adc879ea1f84d7aa65efec14582788898b96a6d91f7707b0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\parseSheet.js",
+      "sha256": "6e0852e32dadb906236aa162e7097bd37616477b8dcb4b83efecc5007c247f98"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\parseData.js",
+      "sha256": "8b6e976a147abed9862e766048393abad6f90a67d88ff1bef9775a4147c087d6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Number.js",
+      "sha256": "2b776b393cf3fa7e5e22a8dd42b24b574156b851b57a43842bc6a398762115ba"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\InvalidError.js",
+      "sha256": "0abb50eb10c9cb6d53a19cbd7783b2f2633094009f1c34ead5034edbb878c598"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\String.js",
+      "sha256": "4a8b7f52d60b117edefaba7ff5dad3e9bb970ec0c44a1fb7baa2d3a7fe2c0ef2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Boolean.js",
+      "sha256": "f218314154a17f19ccc4a86f60e72fd67043cce42fb3e8af2728cd27b710a55f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Date.js",
+      "sha256": "a5c1301982532c154b646eabda8ed5b8f48e5594d2443e3e4d334c6f4f1bd95e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\Integer.js",
+      "sha256": "22e8ffaaa93b19af28a4038b29b19a6d990baf2492add2c7ff8949c14cf05a19"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\Email.js",
+      "sha256": "b7f1f620e620d598f8bfaa45d8fcfbf5f79cb5b8df896d4af1370febd477d320"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\URL.js",
+      "sha256": "4c10ac53196960357862ff6b38d5c7c9d789df17455376d5751e175daa3f62bf"
+    }
+  ],
+  "status": "PASS"
+}
