@@ -1,0 +1,779 @@
+[
+  {
+    "parent": "node_modules/@img/sharp-darwin-arm64",
+    "child": "@img/sharp-libvips-darwin-arm64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-darwin-arm64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-darwin-x64",
+    "child": "@img/sharp-libvips-darwin-x64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-darwin-x64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linux-arm",
+    "child": "@img/sharp-libvips-linux-arm",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-arm",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linux-arm64",
+    "child": "@img/sharp-libvips-linux-arm64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-arm64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linux-ppc64",
+    "child": "@img/sharp-libvips-linux-ppc64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-ppc64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linux-riscv64",
+    "child": "@img/sharp-libvips-linux-riscv64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-riscv64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linux-s390x",
+    "child": "@img/sharp-libvips-linux-s390x",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-s390x",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linux-x64",
+    "child": "@img/sharp-libvips-linux-x64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-x64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linuxmusl-arm64",
+    "child": "@img/sharp-libvips-linuxmusl-arm64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linuxmusl-arm64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@img/sharp-linuxmusl-x64",
+    "child": "@img/sharp-libvips-linuxmusl-x64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linuxmusl-x64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-android-arm64",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-android-arm64",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-darwin-arm64",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-darwin-arm64",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-darwin-x64",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-darwin-x64",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-linux-arm-gnueabihf",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-linux-arm-gnueabihf",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-linux-arm64-gnu",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-linux-arm64-gnu",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-linux-arm64-musl",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-linux-arm64-musl",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-linux-riscv64-gnu",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-linux-riscv64-gnu",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-linux-x64-gnu",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-linux-x64-gnu",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-linux-x64-musl",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-linux-x64-musl",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/@napi-rs/canvas",
+    "child": "@napi-rs/canvas-win32-x64-msvc",
+    "spec": "0.1.80",
+    "target": "node_modules/@napi-rs/canvas-win32-x64-msvc",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/aix-ppc64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/aix-ppc64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/android-arm",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/android-arm",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/android-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/android-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/android-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/android-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/darwin-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/darwin-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/darwin-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/darwin-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/freebsd-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/freebsd-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/freebsd-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/freebsd-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-arm",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-arm",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-ia32",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-ia32",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-loong64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-loong64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-mips64el",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-mips64el",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-ppc64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-ppc64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-riscv64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-riscv64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-s390x",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-s390x",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/linux-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/linux-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/netbsd-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/netbsd-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/netbsd-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/netbsd-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/openbsd-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/openbsd-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/openbsd-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/openbsd-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/openharmony-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/openharmony-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/sunos-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/sunos-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/win32-arm64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/win32-arm64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/win32-ia32",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/win32-ia32",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/esbuild",
+    "child": "@esbuild/win32-x64",
+    "spec": "0.28.1",
+    "target": "node_modules/@esbuild/win32-x64",
+    "version": "0.28.1"
+  },
+  {
+    "parent": "node_modules/jsonfile",
+    "child": "graceful-fs",
+    "spec": "^4.1.6",
+    "target": "node_modules/graceful-fs",
+    "version": "4.2.11"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "@anthropic-ai/sdk",
+    "spec": "^0.71.2",
+    "target": "node_modules/@anthropic-ai/sdk",
+    "version": "0.71.2"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "linkedom",
+    "spec": "^0.18.12",
+    "target": "node_modules/linkedom",
+    "version": "0.18.13"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "openai",
+    "spec": "^5.8.2",
+    "target": "node_modules/openai",
+    "version": "5.23.2"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "papaparse",
+    "spec": "^5.5.3",
+    "target": "node_modules/papaparse",
+    "version": "5.5.4"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "pdf-parse",
+    "spec": "^2.4.5",
+    "target": "node_modules/pdf-parse",
+    "version": "2.4.5"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "playwright",
+    "spec": "^1.57.0",
+    "target": "node_modules/playwright",
+    "version": "1.61.1"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "read-excel-file",
+    "spec": "^8.0.3",
+    "target": "node_modules/read-excel-file",
+    "version": "8.0.3"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "sharp",
+    "spec": "^0.34.5",
+    "target": "node_modules/sharp",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "tesseract.js",
+    "spec": "^7.0.0",
+    "target": "node_modules/tesseract.js",
+    "version": "7.0.0"
+  },
+  {
+    "parent": "node_modules/nodebench-mcp",
+    "child": "yauzl",
+    "spec": "^2.10.0",
+    "target": "node_modules/yauzl",
+    "version": "2.10.0"
+  },
+  {
+    "parent": "node_modules/pdfjs-dist",
+    "child": "@napi-rs/canvas",
+    "spec": "^0.1.80",
+    "target": "node_modules/@napi-rs/canvas",
+    "version": "0.1.80"
+  },
+  {
+    "parent": "node_modules/playwright",
+    "child": "fsevents",
+    "spec": "2.3.2",
+    "target": "node_modules/playwright/node_modules/fsevents",
+    "version": "2.3.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-android-arm-eabi",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-android-arm-eabi",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-android-arm64",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-android-arm64",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-darwin-arm64",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-darwin-arm64",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-darwin-x64",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-darwin-x64",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-freebsd-arm64",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-freebsd-arm64",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-freebsd-x64",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-freebsd-x64",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-arm-gnueabihf",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-arm-gnueabihf",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-arm-musleabihf",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-arm-musleabihf",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-arm64-gnu",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-arm64-gnu",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-arm64-musl",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-arm64-musl",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-loong64-gnu",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-loong64-gnu",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-loong64-musl",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-loong64-musl",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-ppc64-gnu",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-ppc64-gnu",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-ppc64-musl",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-ppc64-musl",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-riscv64-gnu",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-riscv64-gnu",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-riscv64-musl",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-riscv64-musl",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-s390x-gnu",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-s390x-gnu",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-x64-gnu",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-x64-gnu",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-linux-x64-musl",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-linux-x64-musl",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-openbsd-x64",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-openbsd-x64",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-openharmony-arm64",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-openharmony-arm64",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-win32-arm64-msvc",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-win32-arm64-msvc",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-win32-ia32-msvc",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-win32-ia32-msvc",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-win32-x64-gnu",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-win32-x64-gnu",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "@rollup/rollup-win32-x64-msvc",
+    "spec": "4.62.2",
+    "target": "node_modules/@rollup/rollup-win32-x64-msvc",
+    "version": "4.62.2"
+  },
+  {
+    "parent": "node_modules/rollup",
+    "child": "fsevents",
+    "spec": "~2.3.2",
+    "target": "node_modules/fsevents",
+    "version": "2.3.3"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-darwin-arm64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-darwin-arm64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-darwin-x64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-darwin-x64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-darwin-arm64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-darwin-arm64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-darwin-x64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-darwin-x64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linux-arm",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-arm",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linux-arm64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-arm64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linux-ppc64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-ppc64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linux-riscv64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-riscv64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linux-s390x",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-s390x",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linux-x64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linux-x64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linuxmusl-arm64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linuxmusl-arm64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-libvips-linuxmusl-x64",
+    "spec": "1.2.4",
+    "target": "node_modules/@img/sharp-libvips-linuxmusl-x64",
+    "version": "1.2.4"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linux-arm",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linux-arm",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linux-arm64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linux-arm64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linux-ppc64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linux-ppc64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linux-riscv64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linux-riscv64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linux-s390x",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linux-s390x",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linux-x64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linux-x64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linuxmusl-arm64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linuxmusl-arm64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-linuxmusl-x64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-linuxmusl-x64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-wasm32",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-wasm32",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-win32-arm64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-win32-arm64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-win32-ia32",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-win32-ia32",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/sharp",
+    "child": "@img/sharp-win32-x64",
+    "spec": "0.34.5",
+    "target": "node_modules/@img/sharp-win32-x64",
+    "version": "0.34.5"
+  },
+  {
+    "parent": "node_modules/tsx",
+    "child": "fsevents",
+    "spec": "~2.3.3",
+    "target": "node_modules/fsevents",
+    "version": "2.3.3"
+  },
+  {
+    "parent": "node_modules/vite",
+    "child": "fsevents",
+    "spec": "~2.3.3",
+    "target": "node_modules/fsevents",
+    "version": "2.3.3"
+  }
+]

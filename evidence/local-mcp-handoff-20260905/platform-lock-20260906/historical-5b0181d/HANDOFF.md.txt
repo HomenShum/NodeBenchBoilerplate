@@ -62,27 +62,6 @@ identity, not a new provider or application test. The recorded local judgments
 approve these bounded changes. Publication, shared CI and host activation need
 their own receipts; this packet is not a substitute for them.
 
-## Native platform lock follow-up
-
-The first shared run at commit `5b0181d` installed and built, then both Linux
-Test steps failed before collection because the lock omitted Rollup's Linux
-package. Node 22 was cancelled overall; lint and protocol were not reached.
-The [dated supplement](evidence/local-mcp-handoff-20260905/platform-lock-20260906/README.md)
-preserves those failures and all four resolution attempts. Only the fourth
-result was accepted: 59 optional/native records added, no existing package-path
-version changed, and only three old parent records gained npm-generated
-resolved/integrity metadata. The manifest and permanent dependency set stayed
-unchanged; the two high Sharp/MCP findings remain open.
-
-The exact corrected lock passed a fresh Windows npm ci, build, two tests, lint
-and 25 protocol assertions, including native SQLite write and reopen. An
-independent review checked the records, raw logs, inventories and four compiled
-outputs. These results do not replay the older 50-call workflow. A new ordinary
-shared Linux Node 20/22 run on the corrected commit is required for Linux
-acceptance; the local result is not a substitute. The active byte verifier now
-binds this handoff and corrected lock, while the supplement preserves the old
-5b0181d source bindings and manifest without rewriting historical proof.
-
 ## Open limits
 
 The retained full audit exits 1 with **two high findings**, Sharp and the MCP

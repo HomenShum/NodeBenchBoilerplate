@@ -1,0 +1,173 @@
+[
+  {
+    "name": "normal-ci",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "ci"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+    "exit": 0,
+    "seconds": 11.64,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      8668,
+      46072,
+      15816,
+      53336,
+      60912,
+      27708,
+      13896,
+      62368,
+      39972,
+      64272
+    ],
+    "survivors": [],
+    "stdout": "normal-ci.stdout",
+    "stderr": "normal-ci.stderr"
+  },
+  {
+    "name": "normal-build",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "run",
+      "build"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+    "exit": 0,
+    "seconds": 5.437,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      44920,
+      42620,
+      15924
+    ],
+    "survivors": [],
+    "stdout": "normal-build.stdout",
+    "stderr": "normal-build.stderr"
+  },
+  {
+    "name": "normal-test",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "test"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+    "exit": 0,
+    "seconds": 6.875,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      48456,
+      64716,
+      47672,
+      19032,
+      39592,
+      61012,
+      39724,
+      68592,
+      59204,
+      10464,
+      50040,
+      40600,
+      11448,
+      40072,
+      26520,
+      9688,
+      13892,
+      58564,
+      43724,
+      67644,
+      43536,
+      51476,
+      28208,
+      19496,
+      21624,
+      57052,
+      52932,
+      39832,
+      63656,
+      52584,
+      25468,
+      37584,
+      44396,
+      64616,
+      48408,
+      53520,
+      49556,
+      60272
+    ],
+    "survivors": [],
+    "stdout": "normal-test.stdout",
+    "stderr": "normal-test.stderr"
+  },
+  {
+    "name": "normal-lint",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "run",
+      "lint"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+    "exit": 0,
+    "seconds": 38.032,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      56308,
+      19148,
+      5604
+    ],
+    "survivors": [],
+    "stdout": "normal-lint.stdout",
+    "stderr": "normal-lint.stderr"
+  },
+  {
+    "name": "normal-mcp",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "run",
+      "verify:mcp"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+    "exit": 0,
+    "seconds": 19.078,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      54696,
+      40040,
+      22592,
+      22248,
+      20044,
+      5704,
+      58264,
+      35376,
+      59452,
+      13140,
+      49400,
+      9320,
+      27688,
+      36916,
+      58496,
+      68124,
+      43636,
+      52904,
+      4676,
+      57404,
+      60716,
+      29088,
+      39384,
+      6212,
+      7732,
+      53400,
+      39036,
+      24196,
+      55876
+    ],
+    "survivors": [],
+    "stdout": "normal-mcp.stdout",
+    "stderr": "normal-mcp.stderr"
+  }
+]

@@ -1,0 +1,25 @@
+# Rebuild the three incomplete parent records through npm
+
+The exact-parent update adds two fsevents rows but leaves the57 platform rows
+missing. Existing versions and source stay unchanged; trial03 is not accepted.
+
+Installed npm10.9.7 Arborist queues the dependents of named updates, and same
+version placement can retain an existing virtual node. Its missing-dependency
+processing only helps a node that is visited. This gives a concrete reason to
+invalidate incomplete parent metadata rather than repeat flags or upgrade npm.
+Relevant local source is @npmcli/arborist/lib/arborist/build-ideal-tree.js,
+queueNamedUpdates644–658, buildDepStep745–833 and problemEdges1146–1182.
+
+In a fourth fresh external copy, retain the original359 lock entries except
+the three incomplete parent records (rollup, esbuild, @napi-rs/canvas). Save the
+exact original and invalidated input. All other356 row objects must remain
+identical. Temporary direct constraints still pin those parents to their
+reviewed versions. Ordinary npm install --package-lock-only must resolve the
+missing parents and their declared optional closure from the public registry.
+Restore original manifest bytes and reconcile through npm, then check every
+original version/row placement, new platform metadata and the nine patches.
+
+This changes only a disposable resolver input. No platform row, integrity or
+resolved URL is hand-authored, no repository file is removed, and no npm/CI
+version or policy changes. Unexpected version drift or incomplete closure
+rejects promotion. Ordinary install and actual Linux tests remain required.

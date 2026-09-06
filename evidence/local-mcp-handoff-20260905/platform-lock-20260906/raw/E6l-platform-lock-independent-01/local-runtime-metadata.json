@@ -1,0 +1,8 @@
+{
+  "nodeExe": "C:/nvm4w/nodejs/node.exe",
+  "nodeProductVersion": "22.22.2",
+  "nodeFileVersion": "22.22.2",
+  "nodeObservation": "PowerShell Get-Item VersionInfo, no executable invocation",
+  "npmVersion": "10.9.7",
+  "npmObservation": "installed npm/package.json"
+}

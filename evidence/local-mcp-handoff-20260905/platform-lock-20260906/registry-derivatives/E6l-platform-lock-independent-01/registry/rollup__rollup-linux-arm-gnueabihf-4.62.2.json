@@ -1,0 +1,17 @@
+{
+  "name": "@rollup/rollup-linux-arm-gnueabihf",
+  "version": "4.62.2",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "libc": [
+    "glibc"
+  ],
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.62.2.tgz",
+    "integrity": "sha512-n1GJHPOvpIfhi3TmrCeh6S6URt9BFCt0KQE3qvexyGCTAKpR4Lg+eWvNZEqu7epxwus/8ElT3hacYEucm49SZg=="
+  }
+}

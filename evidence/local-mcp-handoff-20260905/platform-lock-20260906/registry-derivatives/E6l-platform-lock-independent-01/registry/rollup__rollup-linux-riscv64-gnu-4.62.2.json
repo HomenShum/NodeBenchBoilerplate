@@ -1,0 +1,17 @@
+{
+  "name": "@rollup/rollup-linux-riscv64-gnu",
+  "version": "4.62.2",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "riscv64"
+  ],
+  "libc": [
+    "glibc"
+  ],
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.62.2.tgz",
+    "integrity": "sha512-1SiZbzwdkaDURsew/tSOrooKiYy7EQGT6m8ufavAi9NEyQb/6VuIxFXAL1fqa4iZe3g4NbNk4P7J32z2tw5Mgg=="
+  }
+}

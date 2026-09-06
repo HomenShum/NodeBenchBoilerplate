@@ -1,0 +1,40 @@
+# Complete the native dependency lock for an ordinary Linux checkout
+
+Builder. A new developer's Linux tests cannot start because Rollup's native
+Linux package is absent from the lock. Both first PR jobs installed and built;
+their test logs fail before collecting scenarios. Node 22's overall job was
+cancelled by the matrix after the actual test failure. Lint and protocol checks
+were not reached. Keep those failed logs and do not rerun the unchanged source.
+
+Current lock 446e1c6e has Rollup 4.62.2 with only two Windows platform rows and
+esbuild 0.28.1 with only its Windows x64 row. Their own optional dependency maps
+name the other platforms. Sharp's platform rows are present. Missing portable
+resolution, rather than a failing application test, is the immediate cause.
+The pattern matches [npm's recorded partial-lock issue](https://github.com/npm/cli/issues/4828),
+but that historical upstream report alone does not prove this lock's generation
+sequence. The old branch-filter error kept ordinary shared execution absent.
+
+Named proof: OPTIONAL-PLATFORM-LOCK-01. In an exclusively owned empty directory,
+copy only exact current package.json and package-lock.json; no node_modules.
+Try ordinary npm install --package-lock-only with an empty profile/config and
+bounded public-registry access. Retain before/after and all command outputs.
+Do not edit a source lock yet, invent integrity values, add overrides, force an
+update, disable scripts in actual installation, or install a platform package
+as a CI workaround. Check every existing package version and all prior nine
+security patches; no version drift is accepted. Inspect newly resolved platform
+rows and registry identities rather than accepting exit zero as portability.
+
+If that ordinary resolution leaves missing entries, preserve it and revise the
+external resolution approach from actual npm evidence. Do not repeatedly retry
+the same command or delete the user's lock/node_modules. Normal fresh Windows
+ci/build/tests/lint/protocol then checks the actual corrected trial. The next
+ordinary PR commit must establish both Node 20 and 22 Linux jobs before merge.
+No separate repetition of the unchanged 50-call workflow is planned unless a
+new failure requires it; current runtime versions must remain identical.
+
+After independent lock review, transfer only the accepted lock and truthful
+current handoff/binding deltas. Original 279 raw payloads and failed CI logs stay
+exact. The original 5b0181d commit remains historical source, not the corrected
+lock's test identity. Current source verification must recognize the new lock
+and current handoff while preserving the earlier packet/source identities.
+No branch policy, provider, deployment, global host or full grade changes.

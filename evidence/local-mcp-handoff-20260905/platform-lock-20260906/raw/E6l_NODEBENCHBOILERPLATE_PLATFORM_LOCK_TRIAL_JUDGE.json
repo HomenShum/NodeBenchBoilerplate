@@ -1,0 +1,319 @@
+{
+  "at": "2026-09-06T03:50:34.882627+00:00",
+  "mode": "Builder",
+  "status": "APPROVE_EXACT_LOCK_TRANSFER_SCOPED",
+  "reviewer": "provider_ci_closure_judge; reused implementation nonauthor; independent raw metadata and readback",
+  "lockSha256": "ae1f98f63c6b7a1f33bc62931cfd61e621901a8d8c2f8e2862d63b09cd63233f",
+  "sourceHead": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+  "sourceTree": "2e2a63198b3e4b196d0a54e9ef336374f71e820f",
+  "originalSharedFailure": {
+    "path": "E6l_NODEBENCHBOILERPLATE_SHARED_JUDGE.json",
+    "bytes": 5311,
+    "sha256": "797c3de50c57abf1b938f692102f20bbfbd2b5fa5f956a67c7be8bb915246dba"
+  },
+  "delta": {
+    "originalRows": 359,
+    "newRows": 418,
+    "existingVersionsChanged": 0,
+    "removed": [],
+    "existingObjectsIdentical": 356,
+    "changedExistingRows": [
+      "node_modules/@napi-rs/canvas",
+      "node_modules/esbuild",
+      "node_modules/rollup"
+    ],
+    "changedExistingFieldsOnly": [
+      "resolved",
+      "integrity"
+    ],
+    "addedFamilies": {
+      "rollup": 23,
+      "esbuild": 25,
+      "canvas": 9,
+      "fsevents": 2
+    },
+    "all59NewAnd3RebuiltRowsMatchRegistry": true,
+    "allOptionalDependencyAddressesResolved": 111,
+    "nineSecurityRowsExact": true,
+    "restoredOriginalManifestAndRootEdges": true,
+    "newPermanentDependenciesOrOverrides": 0
+  },
+  "rawManifest": {
+    "path": "E6l-platform-lock-independent-01/manifest.json",
+    "bytes": 19749,
+    "sha256": "1feaa6b82ec2e9632dddcbe7d93175e9af5b549309e611fb9d383fd2bce93af8"
+  },
+  "md": {
+    "path": "E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_TRIAL_JUDGE.md",
+    "bytes": 5178,
+    "sha256": "34684c59d27f7f56ebe5bde3fb33a5699381ba02d340fdcfd7ae8985b47c8ce1"
+  },
+  "operatorInputs": [
+    {
+      "path": "E6l-platform-lock-parent-rebuild-plan.md",
+      "bytes": 1602,
+      "sha256": "19aafdb65ccf5798b918d73ca10d25ddf26abe277c25db2a60d070a260502352"
+    },
+    {
+      "path": "E6l-rebuild-platform-lock-parents.py",
+      "bytes": 5144,
+      "sha256": "c8a78b47dbf9cf763daba7e524f32ca2cdddfb2d064574eb113fb82e101133a6"
+    },
+    {
+      "path": "E6l-platform-lock-resolution-04/receipt.json",
+      "bytes": 4883,
+      "sha256": "3e89f2615153e82d93b66d5cea1a4df3b38d2941e89d193edbdcf01c90e9d766"
+    },
+    {
+      "path": "E6l-platform-lock-consumer-01/receipt.json",
+      "bytes": 7068,
+      "sha256": "e29f60188bec2a7773b9bf83a072196efd25a9c5aa8848357407ad7d511b82b1"
+    },
+    {
+      "path": "E6l-test-rebuilt-platform-lock.py",
+      "bytes": 3895,
+      "sha256": "6afd9b0571309242b2f6fb6672aee1c56fb9581e758823905a06cc1188dbac2c"
+    }
+  ],
+  "localChecks": {
+    "commands": [
+      {
+        "name": "normal-ci",
+        "argv": [
+          "C:/nvm4w/nodejs/node.EXE",
+          "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+          "ci"
+        ],
+        "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+        "exit": 0,
+        "seconds": 11.64,
+        "timedOutOrOutputCapped": false,
+        "ownedPids": [
+          8668,
+          46072,
+          15816,
+          53336,
+          60912,
+          27708,
+          13896,
+          62368,
+          39972,
+          64272
+        ],
+        "survivors": [],
+        "stdout": "normal-ci.stdout",
+        "stderr": "normal-ci.stderr"
+      },
+      {
+        "name": "normal-build",
+        "argv": [
+          "C:/nvm4w/nodejs/node.EXE",
+          "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+          "run",
+          "build"
+        ],
+        "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+        "exit": 0,
+        "seconds": 5.437,
+        "timedOutOrOutputCapped": false,
+        "ownedPids": [
+          44920,
+          42620,
+          15924
+        ],
+        "survivors": [],
+        "stdout": "normal-build.stdout",
+        "stderr": "normal-build.stderr"
+      },
+      {
+        "name": "normal-test",
+        "argv": [
+          "C:/nvm4w/nodejs/node.EXE",
+          "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+          "test"
+        ],
+        "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+        "exit": 0,
+        "seconds": 6.875,
+        "timedOutOrOutputCapped": false,
+        "ownedPids": [
+          48456,
+          64716,
+          47672,
+          19032,
+          39592,
+          61012,
+          39724,
+          68592,
+          59204,
+          10464,
+          50040,
+          40600,
+          11448,
+          40072,
+          26520,
+          9688,
+          13892,
+          58564,
+          43724,
+          67644,
+          43536,
+          51476,
+          28208,
+          19496,
+          21624,
+          57052,
+          52932,
+          39832,
+          63656,
+          52584,
+          25468,
+          37584,
+          44396,
+          64616,
+          48408,
+          53520,
+          49556,
+          60272
+        ],
+        "survivors": [],
+        "stdout": "normal-test.stdout",
+        "stderr": "normal-test.stderr"
+      },
+      {
+        "name": "normal-lint",
+        "argv": [
+          "C:/nvm4w/nodejs/node.EXE",
+          "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+          "run",
+          "lint"
+        ],
+        "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+        "exit": 0,
+        "seconds": 38.032,
+        "timedOutOrOutputCapped": false,
+        "ownedPids": [
+          56308,
+          19148,
+          5604
+        ],
+        "survivors": [],
+        "stdout": "normal-lint.stdout",
+        "stderr": "normal-lint.stderr"
+      },
+      {
+        "name": "normal-mcp",
+        "argv": [
+          "C:/nvm4w/nodejs/node.EXE",
+          "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+          "run",
+          "verify:mcp"
+        ],
+        "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\consumer",
+        "exit": 0,
+        "seconds": 19.078,
+        "timedOutOrOutputCapped": false,
+        "ownedPids": [
+          54696,
+          40040,
+          22592,
+          22248,
+          20044,
+          5704,
+          58264,
+          35376,
+          59452,
+          13140,
+          49400,
+          9320,
+          27688,
+          36916,
+          58496,
+          68124,
+          43636,
+          52904,
+          4676,
+          57404,
+          60716,
+          29088,
+          39384,
+          6212,
+          7732,
+          53400,
+          39036,
+          24196,
+          55876
+        ],
+        "survivors": [],
+        "stdout": "normal-mcp.stdout",
+        "stderr": "normal-mcp.stderr"
+      }
+    ],
+    "vitest": {
+      "files": 1,
+      "tests": 2,
+      "status": "PASS"
+    },
+    "lint": "PASS",
+    "mcp": {
+      "checks": 25,
+      "sessions": 10,
+      "status": "PASS",
+      "observedMethods": [
+        "boilerplate/unknown-method",
+        "initialize",
+        "prompts/list",
+        "tools/list"
+      ],
+      "rpcToolCalls": 0,
+      "native": {
+        "write": {
+          "adapter": "package-local",
+          "tables": 81,
+          "sqlite": {
+            "version": "3.49.2"
+          },
+          "readback": true
+        },
+        "reopen": {
+          "adapter": "package-local",
+          "tables": 82,
+          "sqlite": {
+            "version": "3.49.2"
+          },
+          "readback": true
+        }
+      }
+    },
+    "source16AndDist4Exact": true,
+    "rawInventoryCount": 6,
+    "old50ToolWorkflow": "HISTORICAL_NOT_REPLAYED"
+  },
+  "guard": {
+    "status": "CLOSED",
+    "source": {
+      "head": "5b0181dbd82f8261d93af6f69849124e3a069e9f",
+      "files": 302,
+      "rawIndexRefsWorktreesStatusAndSourcesExact": true
+    },
+    "primary": {
+      "head": "c7f4ec95deca8facdb0872e705084b74838187b7",
+      "files": 13,
+      "rawIndexRefsWorktreesStatusAndSourcesExact": true
+    },
+    "candidateOrGitWrites": 0,
+    "judgeRuntimeInstallSuiteCalls": 0,
+    "registryReadOnly": true
+  },
+  "sourceTransferApproved": true,
+  "publicationMetadataReviewStillRequired": true,
+  "mergeApproved": false,
+  "linuxRuntime": "PENDING_NEW_ORDINARY_SHARED_COMMIT; original failure preserved",
+  "holds": [
+    "Two high dependency findings; prior Sharp/MCP issue remains",
+    "All-OS native runtime not tested",
+    "Provider, Docker, global-host, downstream and deployment not certified",
+    "Full readiness grades remain null"
+  ],
+  "fullGrades": null
+}

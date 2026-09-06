@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild/linux-ia32",
+  "version": "0.28.1",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "ia32"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.28.1.tgz",
+    "integrity": "sha512-d1z4ZuP0ajrfz/FhGT4vv278rX8KnPPJx8i5+AtK7TYbx9Le9F1hyzurZpkEyjkGa9dUGhQow4C1NmeGvqxN2w=="
+  }
+}

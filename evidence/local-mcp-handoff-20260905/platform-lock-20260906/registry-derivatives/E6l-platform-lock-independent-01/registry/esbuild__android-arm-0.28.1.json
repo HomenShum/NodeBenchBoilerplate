@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild/android-arm",
+  "version": "0.28.1",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.28.1.tgz",
+    "integrity": "sha512-0k2F129Xdio1TdJfzJ8sy1Q47vUD2NnwdhiAf7drUN1EBTfPf4hsFCtmMgu/6m8JSzsBrlmVjudMBQqOfG8usQ=="
+  }
+}

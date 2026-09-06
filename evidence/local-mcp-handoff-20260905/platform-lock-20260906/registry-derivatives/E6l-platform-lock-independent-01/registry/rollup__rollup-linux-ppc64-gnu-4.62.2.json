@@ -1,0 +1,17 @@
+{
+  "name": "@rollup/rollup-linux-ppc64-gnu",
+  "version": "4.62.2",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "ppc64"
+  ],
+  "libc": [
+    "glibc"
+  ],
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.62.2.tgz",
+    "integrity": "sha512-Mk5ha2RQSgyFfmYYLkBpPnUk8D8FriBxesO1u9O75X0mHgXL1UQcH5Itl2lurWL2tj0RxV9b9tJgipac0hRY9A=="
+  }
+}

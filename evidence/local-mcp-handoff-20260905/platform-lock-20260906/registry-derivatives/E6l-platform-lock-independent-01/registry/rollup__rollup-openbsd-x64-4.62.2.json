@@ -1,0 +1,14 @@
+{
+  "name": "@rollup/rollup-openbsd-x64",
+  "version": "4.62.2",
+  "os": [
+    "openbsd"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.62.2.tgz",
+    "integrity": "sha512-srjEIxSH3LRnJN6THczDHWQplqEMFiAJrTab0msUryh9kwNpkICf3Ea6q6MN/2cZwRFUNx5w+h6Hpi4QuHS6Zg=="
+  }
+}

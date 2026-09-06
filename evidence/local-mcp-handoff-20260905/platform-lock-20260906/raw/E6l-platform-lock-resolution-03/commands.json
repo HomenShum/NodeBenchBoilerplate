@@ -1,0 +1,43 @@
+[
+  {
+    "name": "constrained-native-family-update",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "update",
+      "--package-lock-only",
+      "rollup",
+      "esbuild",
+      "@napi-rs/canvas"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-lock-constrained-20260906\\resolution",
+    "exit": 0,
+    "seconds": 1.953,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      60932
+    ],
+    "survivors": [],
+    "stdout": "constrained-native-family-update.stdout",
+    "stderr": "constrained-native-family-update.stderr"
+  },
+  {
+    "name": "ordinary-restored-manifest-resolution",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "install",
+      "--package-lock-only"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-lock-constrained-20260906\\resolution",
+    "exit": 0,
+    "seconds": 1.14,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      20772
+    ],
+    "survivors": [],
+    "stdout": "ordinary-restored-manifest-resolution.stdout",
+    "stderr": "ordinary-restored-manifest-resolution.stderr"
+  }
+]

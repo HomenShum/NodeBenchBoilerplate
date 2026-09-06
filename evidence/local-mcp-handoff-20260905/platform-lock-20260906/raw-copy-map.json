@@ -1,0 +1,4620 @@
+{
+  "scope": "97 selected non-registry origins map to 66 exact raw files. 71 registry origins map to 63 explicitly labelled proof-field derivatives; their originals remain operator-local.",
+  "originRoot": "Retained portfolio operator packet; paths are provenance, not commands.",
+  "files": [
+    {
+      "origin": "E6l-boilerplate-shared-01/job-reads.json",
+      "destination": "raw/E6l-boilerplate-shared-01/job-reads.json",
+      "bytes": 1620,
+      "sha256": "5fe4a221aa95f6c9d06e227a2591fa168fb95958f9c7ad9f6bfc5e93205f9d5d",
+      "rawGitBlob": "3931bc3d79d10a13819c42ec613b0ec82f0d81ba",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/node20-log.stdout",
+      "destination": "raw/E6l-boilerplate-shared-01/node20-log.stdout.txt",
+      "bytes": 31437,
+      "sha256": "21e683e54d07b67e90389302bc0accd18c8fc8baec2d5f496660b29ac8e965af",
+      "rawGitBlob": "8a683885cbe7911cb80993e7be76b1cd04dde29c",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/node22-log.stdout",
+      "destination": "raw/E6l-boilerplate-shared-01/node22-log.stdout.txt",
+      "bytes": 31096,
+      "sha256": "9a19d7b54c8ee496e941c35ecc673de81df1579019d95b23c60dbe071d1871d6",
+      "rawGitBlob": "c8dfbdbff727a8018cd5b87d63475b7139137fbb",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/optional-platform-static.json",
+      "destination": "raw/E6l-boilerplate-shared-01/optional-platform-static.json",
+      "bytes": 14489,
+      "sha256": "14e29c373be2f92943b3dda1e4549444b2d61c428e29b126ec99d16c4a618ea7",
+      "rawGitBlob": "178900dc399799e70b403a603623a91d4a5c539d",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/platform-closure-summary.json",
+      "destination": "raw/E6l-boilerplate-shared-01/platform-closure-summary.json",
+      "bytes": 5955,
+      "sha256": "e1905bd7bb7c41f714c654539633b6e91c34c538ca172a0a456defff45957d45",
+      "rawGitBlob": "bd78abcd9c74bb2b919147d6a0e1c9693774cc34",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry-metadata.json",
+      "destination": "raw/E6l-boilerplate-shared-01/registry-metadata.json",
+      "bytes": 10031,
+      "sha256": "35bc1dad98fedcb1d5b675d6a2da9aa5085edfdc79bb9e3ebdbbb9603f590261",
+      "rawGitBlob": "c5824ba2472a3be300b5b9cc2ac5ec4ed598b783",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-constrained-plan.md",
+      "destination": "raw/E6l-platform-lock-constrained-plan.md.txt",
+      "bytes": 1610,
+      "sha256": "be0ff9c759459e507428ad02d70ab0fd0198adc406863b53ee8e51c38d4d252d",
+      "rawGitBlob": "9f8bb2b0d93b514a4579b1335219fbbffa72b243",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/commands.json",
+      "destination": "raw/E6l-platform-lock-consumer-01/commands.json",
+      "bytes": 3512,
+      "sha256": "51521659fc92073bebb45221daaf8575b96afd2420cf7bf24861a6eadde0ea15",
+      "rawGitBlob": "770239a1463fdbba0d1b3d763566f4f05b295a7c",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-build.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-build.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stdout.txt",
+      "bytes": 44,
+      "sha256": "01c7440f712c9658fe51ea15d697422ffa942c9a8710a7304ed7694cacf9fa14",
+      "rawGitBlob": "3dca72030e3b79298acee2ea9fb25b932a55c840",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-ci.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-ci.stderr.txt",
+      "bytes": 358,
+      "sha256": "da370bd608ea0f37ee2141f76cc040fe073f2665c7130ec0d3eb441b3a077804",
+      "rawGitBlob": "b399e319566314b2ad1fafd10ff4fb56ff5c68fc",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-ci.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-ci.stdout.txt",
+      "bytes": 258,
+      "sha256": "7cc6eae5f2a1dddf346d72bc38499e6e220d1b5d2f3f9febf57caa6a880871dd",
+      "rawGitBlob": "9314a4b053f7d670ad78a79036bf70f9cdcdca43",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-lint.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-lint.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-lint.stdout.txt",
+      "bytes": 48,
+      "sha256": "6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585",
+      "rawGitBlob": "a0fe55a6fa710631908f5ff405d5e7d164e0bd2b",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-mcp.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-mcp.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-mcp.stdout.txt",
+      "bytes": 217,
+      "sha256": "536abc025b84c85f50dc206b41e77d8fd946ba4427adc1b5a509737697d09ea8",
+      "rawGitBlob": "c3b16b307094d6de273f4d2a8dc7f1b9d77f714a",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-test.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/normal-test.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-test.stdout.txt",
+      "bytes": 676,
+      "sha256": "6e579217bc0458268f76f6cbffdb2e0bdeb6e7fc10e4465134ab277014fd602b",
+      "rawGitBlob": "9f31c9802e25211cfc4b1c925e2ef41b04057994",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/receipt.json",
+      "destination": "raw/E6l-platform-lock-consumer-01/receipt.json",
+      "bytes": 7068,
+      "sha256": "e29f60188bec2a7773b9bf83a072196efd25a9c5aa8848357407ad7d511b82b1",
+      "rawGitBlob": "1762c5dfa381c47fbe800da6411fdac24e36dadd",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-consumer-01/trial-source.json",
+      "destination": "raw/E6l-platform-lock-consumer-01/trial-source.json",
+      "bytes": 2489,
+      "sha256": "8b4cc94455e79161d6face0900ef1704f6877a1ad84cf3e68976d52e06ffded5",
+      "rawGitBlob": "513424cc207638f7504a439eb435b036eff743e1",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-fresh-plan.md",
+      "destination": "raw/E6l-platform-lock-fresh-plan.md.txt",
+      "bytes": 964,
+      "sha256": "e7cf683cda4d332374f76b9321abdb5ade10936d141f920524d857254cd4ff51",
+      "rawGitBlob": "3fe8d9fa1ba80717e7302ffebbd7d5b5bff6f69b",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/E6l-close-platform-lock-trial.py.txt",
+      "destination": "raw/E6l-platform-lock-independent-01/E6l-close-platform-lock-trial.py.txt",
+      "bytes": 5839,
+      "sha256": "0c3e6e14b5cbd5c21947f3ba87a90ac309c388c3fa7640dd98b2655128673ed2",
+      "rawGitBlob": "1ed004282346215802c8e134ab31b76686f3b0e0",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/E6l-judge-platform-lock.py.txt",
+      "destination": "raw/E6l-platform-lock-independent-01/E6l-judge-platform-lock.py.txt",
+      "bytes": 9178,
+      "sha256": "b61017b4e2a7b140b0a5ef0f26815363619ec0da049911021b00783de76a43df",
+      "rawGitBlob": "cf41f6be5a318de2d9d2901e4953665188cc0ad2",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-copy-map.json",
+      "destination": "raw/E6l-platform-lock-independent-01/consumer-copy-map.json",
+      "bytes": 11128,
+      "sha256": "64c0541449726731d0d5398317bff34681ba6b2de7bcb0ca9a582579492b4b21",
+      "rawGitBlob": "d39837da19092233df7542356a868065721776e3",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback.json",
+      "destination": "raw/E6l-platform-lock-independent-01/consumer-readback.json",
+      "bytes": 7093,
+      "sha256": "3cf727a237695b70c62b3670facc55789b324013e5f1a9da9ac3c4c3e2e0b613",
+      "rawGitBlob": "ee96f76e510e93ef06a9e0a8a15e08f676241b3b",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/commands.json",
+      "destination": "raw/E6l-platform-lock-consumer-01/commands.json",
+      "bytes": 3512,
+      "sha256": "51521659fc92073bebb45221daaf8575b96afd2420cf7bf24861a6eadde0ea15",
+      "rawGitBlob": "770239a1463fdbba0d1b3d763566f4f05b295a7c",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-build.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-build.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stdout.txt",
+      "bytes": 44,
+      "sha256": "01c7440f712c9658fe51ea15d697422ffa942c9a8710a7304ed7694cacf9fa14",
+      "rawGitBlob": "3dca72030e3b79298acee2ea9fb25b932a55c840",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-ci.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-ci.stderr.txt",
+      "bytes": 358,
+      "sha256": "da370bd608ea0f37ee2141f76cc040fe073f2665c7130ec0d3eb441b3a077804",
+      "rawGitBlob": "b399e319566314b2ad1fafd10ff4fb56ff5c68fc",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-ci.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-ci.stdout.txt",
+      "bytes": 258,
+      "sha256": "7cc6eae5f2a1dddf346d72bc38499e6e220d1b5d2f3f9febf57caa6a880871dd",
+      "rawGitBlob": "9314a4b053f7d670ad78a79036bf70f9cdcdca43",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-lint.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-lint.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-lint.stdout.txt",
+      "bytes": 48,
+      "sha256": "6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585",
+      "rawGitBlob": "a0fe55a6fa710631908f5ff405d5e7d164e0bd2b",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-mcp.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-mcp.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-mcp.stdout.txt",
+      "bytes": 217,
+      "sha256": "536abc025b84c85f50dc206b41e77d8fd946ba4427adc1b5a509737697d09ea8",
+      "rawGitBlob": "c3b16b307094d6de273f4d2a8dc7f1b9d77f714a",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-test.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/normal-test.stdout",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-test.stdout.txt",
+      "bytes": 676,
+      "sha256": "6e579217bc0458268f76f6cbffdb2e0bdeb6e7fc10e4465134ab277014fd602b",
+      "rawGitBlob": "9f31c9802e25211cfc4b1c925e2ef41b04057994",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/protocol-native-reopen.stderr.txt",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/protocol-native-reopen.stdout.txt",
+      "destination": "raw/E6l-platform-lock-independent-01/consumer-readback/protocol-native-reopen.stdout.txt",
+      "bytes": 86,
+      "sha256": "72a78c7e19400d37950c43d3f540ef09815296f6aa1bc6d8ed1ac9f8f85a5f50",
+      "rawGitBlob": "e889ac6bd5e998cb8c2d767c25908fd8f92ff83c",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/protocol-native-write.stderr.txt",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/protocol-native-write.stdout.txt",
+      "destination": "raw/E6l-platform-lock-independent-01/consumer-readback/protocol-native-write.stdout.txt",
+      "bytes": 86,
+      "sha256": "c3d2248819a235aefbb7d231ed0e66941d1813660faf8b6c8ac0be43fb305349",
+      "rawGitBlob": "e556cc659d07658b3c592ee86044c8d1ca94e2a8",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/protocol-report.json",
+      "destination": "raw/E6l-platform-lock-independent-01/consumer-readback/protocol-report.json",
+      "bytes": 10812,
+      "sha256": "6175f006527f3e3327efaabed7a589742a8cede2cce14895e4e7c89a72ebe363",
+      "rawGitBlob": "cd40a6968bdd1e647994304f3fa14713783d85e9",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/receipt.json",
+      "destination": "raw/E6l-platform-lock-consumer-01/receipt.json",
+      "bytes": 7068,
+      "sha256": "e29f60188bec2a7773b9bf83a072196efd25a9c5aa8848357407ad7d511b82b1",
+      "rawGitBlob": "1762c5dfa381c47fbe800da6411fdac24e36dadd",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/consumer-readback/trial-source.json",
+      "destination": "raw/E6l-platform-lock-consumer-01/trial-source.json",
+      "bytes": 2489,
+      "sha256": "8b4cc94455e79161d6face0900ef1704f6877a1ad84cf3e68976d52e06ffded5",
+      "rawGitBlob": "513424cc207638f7504a439eb435b036eff743e1",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/guard-after.json",
+      "destination": "raw/E6l-platform-lock-independent-01/guard-after.json",
+      "bytes": 319,
+      "sha256": "dcd9f97ae00ae073b573ef64bb6313f0e3ed1828d44875aeb02ef66018c3cb21",
+      "rawGitBlob": "c4c439b647a01e1dc4c2ca694fa0f218db5a66c0",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/guard-before.json",
+      "destination": "raw/E6l-platform-lock-independent-01/guard-before.json",
+      "bytes": 277,
+      "sha256": "1bd58e5bc98bde80c4d060d0bacdd4500a8ab1260f1c6371dfb4f026548cd507",
+      "rawGitBlob": "738300c79810e78d4abe8f53b386aa89660a2796",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/input-bindings.json",
+      "destination": "raw/E6l-platform-lock-independent-01/input-bindings.json",
+      "bytes": 2189,
+      "sha256": "bbc79b4c09e7620891f23f54eddc5b90843e3d72086f429c77040ff17140d806",
+      "rawGitBlob": "980e9a8ceacba76357f44657e8d0b3c5c5df92d9",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/local-runtime-metadata.json",
+      "destination": "raw/E6l-platform-lock-independent-01/local-runtime-metadata.json",
+      "bytes": 277,
+      "sha256": "f2216ce3fa82250407a15d8402604248b3f7309c86b831ce06a28365b2b1e651",
+      "rawGitBlob": "6e041f6764ba469f97e85326dba72e338dfe08e5",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/manifest.json",
+      "destination": "raw/E6l-platform-lock-independent-01/manifest.json",
+      "bytes": 19749,
+      "sha256": "1feaa6b82ec2e9632dddcbe7d93175e9af5b549309e611fb9d383fd2bce93af8",
+      "rawGitBlob": "b549040aebe613700fa863c8b5b7025c4af1eab0",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/optional-edge-addresses.json",
+      "destination": "raw/E6l-platform-lock-independent-01/optional-edge-addresses.json",
+      "bytes": 21926,
+      "sha256": "fba1917917a0b881a375832f5192816cfa935ae9ae4014b9699e9d2a9891aa1b",
+      "rawGitBlob": "126189939ef592dcc9d7aaf5f3d2f9b293d47d77",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/protocol-inventory-bindings.json",
+      "destination": "raw/E6l-platform-lock-independent-01/protocol-inventory-bindings.json",
+      "bytes": 1807,
+      "sha256": "8d9f824089baaca08545351a0413b913043265035319c7c4163ed94329509be9",
+      "rawGitBlob": "899e19fab0c565d7f8a9b5e0a50d16716c6278f0",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry-bindings.json",
+      "destination": "raw/E6l-platform-lock-independent-01/registry-bindings.json",
+      "bytes": 41282,
+      "sha256": "bf801c4dc4d131907f2414e121167224579616b1bb87744f7c4057df93fc9959",
+      "rawGitBlob": "d38ea3cb26e5322701a296ed1bf088dac89e04e2",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/report.json",
+      "destination": "raw/E6l-platform-lock-independent-01/report.json",
+      "bytes": 4127,
+      "sha256": "addd4a0d04c1741ad9f47713bf89d4b708ce700e6cc7403057dcbf8ed17a1bad",
+      "rawGitBlob": "6cafc5551b3806aefdfa0e5ae5e43956b71df076",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-parent-rebuild-plan.md",
+      "destination": "raw/E6l-platform-lock-parent-rebuild-plan.md.txt",
+      "bytes": 1602,
+      "sha256": "19aafdb65ccf5798b918d73ca10d25ddf26abe277c25db2a60d070a260502352",
+      "rawGitBlob": "025c929e0501aa05d08ed8033b11f71dfd522a54",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-01/commands.json",
+      "destination": "raw/E6l-platform-lock-resolution-01/commands.json",
+      "bytes": 565,
+      "sha256": "2e3b93b7942754672fa0ba7f173e3a0b1e2573560e04f994e837a5b09c9f4222",
+      "rawGitBlob": "5a903bed014a216cdfecbfb7aa67bb3b03736101",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-01/ordinary-lock-only-resolution.stderr",
+      "destination": "raw/E6l-platform-lock-resolution-01/ordinary-lock-only-resolution.stderr.txt",
+      "bytes": 208,
+      "sha256": "3c1a1c66d72b342f55ef0823c9431c5bd2d76356829adc72eed5e5172d3ad240",
+      "rawGitBlob": "abae71632e4d2d341702a82f1569ba9730a2187f",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-01/ordinary-lock-only-resolution.stdout",
+      "destination": "raw/E6l-platform-lock-resolution-01/ordinary-lock-only-resolution.stdout.txt",
+      "bytes": 245,
+      "sha256": "00a752a99bdcc8a35ed27c70b0f09c3adff95a0853548737efb00605a5f327e8",
+      "rawGitBlob": "4b76a9287aa664ba4f5b4e00dd1e3cd21fd140fd",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-01/package-lock.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package-lock.json.before.txt",
+      "bytes": 162440,
+      "sha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+      "rawGitBlob": "9323746ce7363ab144a8412c04be2fd32b80a89f",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-01/package-lock.proposed.json",
+      "destination": "raw/E6l-platform-lock-resolution-01/package-lock.json.before.txt",
+      "bytes": 162440,
+      "sha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+      "rawGitBlob": "9323746ce7363ab144a8412c04be2fd32b80a89f",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-01/package.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package.json.before.txt",
+      "bytes": 1290,
+      "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "rawGitBlob": "ba5249dc47c40218922731039c7e8043225b3eec",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-01/receipt.json",
+      "destination": "raw/E6l-platform-lock-resolution-01/receipt.json",
+      "bytes": 3029,
+      "sha256": "0e3f88e9165e18508d428f69d4986483e562eaea89c8aa3d3460161f42279f30",
+      "rawGitBlob": "67dda58bdf650143245c2de09c090fcd44ee856c",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-02/commands.json",
+      "destination": "raw/E6l-platform-lock-resolution-02/commands.json",
+      "bytes": 591,
+      "sha256": "204d82e50aa13018a9490a922d393b34e1dad3ed20c5dc9ed999d0209831539c",
+      "rawGitBlob": "940a4028c23b5f91a06237b4383c2b372d30a7c1",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-02/ordinary-fresh-lock-only-resolution.stderr",
+      "destination": "raw/E6l-platform-lock-resolution-01/ordinary-lock-only-resolution.stderr.txt",
+      "bytes": 208,
+      "sha256": "3c1a1c66d72b342f55ef0823c9431c5bd2d76356829adc72eed5e5172d3ad240",
+      "rawGitBlob": "abae71632e4d2d341702a82f1569ba9730a2187f",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-02/ordinary-fresh-lock-only-resolution.stdout",
+      "destination": "raw/E6l-platform-lock-resolution-02/ordinary-fresh-lock-only-resolution.stdout.txt",
+      "bytes": 246,
+      "sha256": "f22cb0140eca3ee96f9e2acb0b812a2b76e714c6981344107277d237dfb5183c",
+      "rawGitBlob": "9567a0c6a700c0ee34479bfd41d041bff0f5caf8",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-02/package-lock.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package-lock.json.before.txt",
+      "bytes": 162440,
+      "sha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+      "rawGitBlob": "9323746ce7363ab144a8412c04be2fd32b80a89f",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-02/package-lock.proposed.json",
+      "destination": "raw/E6l-platform-lock-resolution-02/package-lock.proposed.json",
+      "bytes": 210211,
+      "sha256": "ae858d4a4c1fd2fb9849544e15b73bfe3b9e37748e71353a54e089866f847dd9",
+      "rawGitBlob": "0861be00c93b6b3f83fbea5b8f349f0e6430b8c4",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-02/package.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package.json.before.txt",
+      "bytes": 1290,
+      "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "rawGitBlob": "ba5249dc47c40218922731039c7e8043225b3eec",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-02/receipt.json",
+      "destination": "raw/E6l-platform-lock-resolution-02/receipt.json",
+      "bytes": 12082,
+      "sha256": "0b1ca8e0d0474ee78e6d9025d6af646847cfc2f788bce33eeed75eee3a9c3e56",
+      "rawGitBlob": "907c221f8e7afa0a9b9f62802921caddadfdeeab",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/commands.json",
+      "destination": "raw/E6l-platform-lock-resolution-03/commands.json",
+      "bytes": 1243,
+      "sha256": "c4ba36a5e6850ea820ec5a0d3d0f530f2fc8250ebc40c44a0dc715fbcb248143",
+      "rawGitBlob": "9532eea22fef0aef58f9efec102e4c20ff6d936a",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/constrained-native-family-update.stderr",
+      "destination": "raw/E6l-platform-lock-resolution-01/ordinary-lock-only-resolution.stderr.txt",
+      "bytes": 208,
+      "sha256": "3c1a1c66d72b342f55ef0823c9431c5bd2d76356829adc72eed5e5172d3ad240",
+      "rawGitBlob": "abae71632e4d2d341702a82f1569ba9730a2187f",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/constrained-native-family-update.stdout",
+      "destination": "raw/E6l-platform-lock-resolution-03/constrained-native-family-update.stdout.txt",
+      "bytes": 245,
+      "sha256": "c9a6ba92ef666f1118535d28cc96c6eb2baa807510377c86c7ee7bd61d13694e",
+      "rawGitBlob": "40583f290876aab3d9ab7f86bd808a56c14cd2ee",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/ordinary-restored-manifest-resolution.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/ordinary-restored-manifest-resolution.stdout",
+      "destination": "raw/E6l-platform-lock-resolution-03/ordinary-restored-manifest-resolution.stdout.txt",
+      "bytes": 248,
+      "sha256": "d8217d22945c181026049c5a371dd51b732ca4669003675905741cfe58a26ebf",
+      "rawGitBlob": "f8977932c2401a492d9ded9e27292adeb88e7713",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/package-lock.intermediate.json",
+      "destination": "raw/E6l-platform-lock-resolution-03/package-lock.intermediate.json",
+      "bytes": 168538,
+      "sha256": "458d97a8d7696cde559c989eb0c10d7a3642ba6f6d5231a245ad6f37115769fc",
+      "rawGitBlob": "f17815d514eaea8445aa879873cad2712f0f4174",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/package-lock.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package-lock.json.before.txt",
+      "bytes": 162440,
+      "sha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+      "rawGitBlob": "9323746ce7363ab144a8412c04be2fd32b80a89f",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/package-lock.proposed.json",
+      "destination": "raw/E6l-platform-lock-resolution-03/package-lock.proposed.json",
+      "bytes": 163414,
+      "sha256": "a62b41dcdb91a8d60e7cd4d1edcc65d4636002e294fb526f262bd7a1853e043b",
+      "rawGitBlob": "bf5aff2f77e7960e9d91e0f742580ba8a1d7ae83",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/package.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package.json.before.txt",
+      "bytes": 1290,
+      "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "rawGitBlob": "ba5249dc47c40218922731039c7e8043225b3eec",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/package.temporary-constraints.json",
+      "destination": "raw/E6l-platform-lock-resolution-03/package.temporary-constraints.json",
+      "bytes": 1415,
+      "sha256": "0ca8fdb3ddd577058168907bb4424cbb3e675002b45de3e5ed2401e75fac9a09",
+      "rawGitBlob": "054eb1ebfb3ed99e4ad4a0b6d58cd74df4e5a844",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-03/receipt.json",
+      "destination": "raw/E6l-platform-lock-resolution-03/receipt.json",
+      "bytes": 4249,
+      "sha256": "6957efb7d1a0cd43306ae2abbc87ceaa9e9c13c179f227bf553eef70ba8510e9",
+      "rawGitBlob": "104628819cf652d831d5ca977173da71507f56db",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/commands.json",
+      "destination": "raw/E6l-platform-lock-resolution-04/commands.json",
+      "bytes": 1182,
+      "sha256": "4cc77bdb1650184d3e3eb047f7b616af889a01a144a145f03b2bc0f009e45a4c",
+      "rawGitBlob": "d37a63bd8abee2c6d54129fb5e7195d4cfeff8a1",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/ordinary-missing-parent-resolution.stderr",
+      "destination": "raw/E6l-platform-lock-resolution-01/ordinary-lock-only-resolution.stderr.txt",
+      "bytes": 208,
+      "sha256": "3c1a1c66d72b342f55ef0823c9431c5bd2d76356829adc72eed5e5172d3ad240",
+      "rawGitBlob": "abae71632e4d2d341702a82f1569ba9730a2187f",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/ordinary-missing-parent-resolution.stdout",
+      "destination": "raw/E6l-platform-lock-resolution-04/ordinary-missing-parent-resolution.stdout.txt",
+      "bytes": 245,
+      "sha256": "c6c3b5b3507ad3b86df25df294c384cc3ed1c5528f3a4f62e4f449808f51b0a3",
+      "rawGitBlob": "967ae555f7e646ca097074a94f0411b2c18aec9e",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/ordinary-restored-manifest-resolution.stderr",
+      "destination": "raw/E6l-platform-lock-consumer-01/normal-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rawGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/ordinary-restored-manifest-resolution.stdout",
+      "destination": "raw/E6l-platform-lock-resolution-04/ordinary-restored-manifest-resolution.stdout.txt",
+      "bytes": 248,
+      "sha256": "ca7f567bae5cbc78995d67a2831c7860b98a839f08cdf7c5be5cd2d1bce10f8b",
+      "rawGitBlob": "6d6577bf12a6de490ce0a9af643792769860a711",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/package-lock.intermediate.json",
+      "destination": "raw/E6l-platform-lock-resolution-04/package-lock.intermediate.json",
+      "bytes": 197556,
+      "sha256": "de0acfac411341c9274c5bb3c69df60cd298ebba26b1e122e7c768d5dfb39787",
+      "rawGitBlob": "eeb02caab24dcff1c93a4fb77555e7731dc52050",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/package-lock.invalidated-input.json",
+      "destination": "raw/E6l-platform-lock-resolution-04/package-lock.invalidated-input.json",
+      "bytes": 163489,
+      "sha256": "051032d4c9ef96ba92b49d8349764fea2f70eab4328a7d9177b921289e5ad536",
+      "rawGitBlob": "19cc6b1b93dba4711b0ee47bf40422730c8f03fa",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/package-lock.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package-lock.json.before.txt",
+      "bytes": 162440,
+      "sha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+      "rawGitBlob": "9323746ce7363ab144a8412c04be2fd32b80a89f",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/package-lock.proposed.json",
+      "destination": "raw/E6l-platform-lock-resolution-04/package-lock.proposed.json",
+      "bytes": 191526,
+      "sha256": "ae1f98f63c6b7a1f33bc62931cfd61e621901a8d8c2f8e2862d63b09cd63233f",
+      "rawGitBlob": "77dddedd370ce21cd839b443a2f86463f93e4242",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/package.json.before.txt",
+      "destination": "raw/E6l-platform-lock-resolution-01/package.json.before.txt",
+      "bytes": 1290,
+      "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "rawGitBlob": "ba5249dc47c40218922731039c7e8043225b3eec",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/package.temporary-constraints.json",
+      "destination": "raw/E6l-platform-lock-resolution-03/package.temporary-constraints.json",
+      "bytes": 1415,
+      "sha256": "0ca8fdb3ddd577058168907bb4424cbb3e675002b45de3e5ed2401e75fac9a09",
+      "rawGitBlob": "054eb1ebfb3ed99e4ad4a0b6d58cd74df4e5a844",
+      "deduplicated": true
+    },
+    {
+      "origin": "E6l-platform-lock-resolution-04/receipt.json",
+      "destination": "raw/E6l-platform-lock-resolution-04/receipt.json",
+      "bytes": 4883,
+      "sha256": "3e89f2615153e82d93b66d5cea1a4df3b38d2941e89d193edbdcf01c90e9d766",
+      "rawGitBlob": "bc9de6b89e9a9f4f665145f196dc0db40df9c21a",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_PLAN_JUDGE.json",
+      "destination": "raw/E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_PLAN_JUDGE.json",
+      "bytes": 9409,
+      "sha256": "849f68b26d6747215a432849e0347a48c35cf35388fe7583ffe4a9a53cf25bbc",
+      "rawGitBlob": "34f1d1d5fe35f529c73653fe15dd09febad93fff",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_PLAN_JUDGE.md",
+      "destination": "raw/E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_PLAN_JUDGE.md.txt",
+      "bytes": 5023,
+      "sha256": "fee5ebff40ba74b430dd5c91b7934a667f6606af579c6130840cb8b0163705bc",
+      "rawGitBlob": "2d0ecab66f88385d03deadec618e28cd7ee5011f",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_TRIAL_JUDGE.json",
+      "destination": "raw/E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_TRIAL_JUDGE.json",
+      "bytes": 8770,
+      "sha256": "5b446586eebeaec209ad073d9a2225178abf53b260bf53ef8fbe0db169ed384a",
+      "rawGitBlob": "1e07d6346e375855d0fe9c75d1ddfa7ae18f3dc5",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_TRIAL_JUDGE.md",
+      "destination": "raw/E6l_NODEBENCHBOILERPLATE_PLATFORM_LOCK_TRIAL_JUDGE.md.txt",
+      "bytes": 5178,
+      "sha256": "34684c59d27f7f56ebe5bde3fb33a5699381ba02d340fdcfd7ae8985b47c8ce1",
+      "rawGitBlob": "93a2497cda494eff30189236d13fafa3835d57b3",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l_NODEBENCHBOILERPLATE_SHARED_JUDGE.json",
+      "destination": "raw/E6l_NODEBENCHBOILERPLATE_SHARED_JUDGE.json",
+      "bytes": 5311,
+      "sha256": "797c3de50c57abf1b938f692102f20bbfbd2b5fa5f956a67c7be8bb915246dba",
+      "rawGitBlob": "8255d20bb4fc759530a31942e743d2dc2e1390c1",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l_NODEBENCHBOILERPLATE_SHARED_JUDGE.md",
+      "destination": "raw/E6l_NODEBENCHBOILERPLATE_SHARED_JUDGE.md.txt",
+      "bytes": 3845,
+      "sha256": "564f0e6d854787563bf11390b6dfec371dc629a595fd754db1300c9d45526c7a",
+      "rawGitBlob": "c4c250cb14928e1f8a6d21eb469523b52826db99",
+      "deduplicated": false
+    },
+    {
+      "origin": "E6l_OPTIONAL_PLATFORM_LOCK_PLAN.md",
+      "destination": "raw/E6l_OPTIONAL_PLATFORM_LOCK_PLAN.md.txt",
+      "bytes": 2747,
+      "sha256": "0d403a91d4113a1e877d6c3a58e0bccf77f929f532171d0ec47d580d2e6b683a",
+      "rawGitBlob": "e72081d9ec795678c64f956d4000a23b3a20fc51",
+      "deduplicated": false
+    }
+  ],
+  "registryDerivatives": [
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/esbuild-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/esbuild-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/esbuild-0.28.1.json",
+      "originalBytes": 4854,
+      "originalSha256": "4a6cfffbc1389d2f77818c6e7a5a24db69a587e5ad2db8cb4f43afa0e53f53fa",
+      "originalRawGitBlob": "7aac6230cd9f25b2e4eb1e087aff7a98800fe7ca",
+      "derivativeBytes": 1319,
+      "derivativeSha256": "728e610dd62d3fa43c24a191ef18e57f3dba1f819bca0cb675a9b3bdd1bdb4a6",
+      "derivativeRawGitBlob": "4428764ed385d57cdaaabf11381897de944adbb4",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "optionalDependencies",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bin",
+        "bugs",
+        "description",
+        "directories",
+        "esbuild.binaryHashes",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/esbuild__linux-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/esbuild__linux-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/esbuild__linux-x64-0.28.1.json",
+      "originalBytes": 1601,
+      "originalSha256": "452f9e60e2947cdde5a8fc53b67ff8c06966565324fa13a47920f0a33b0e0299",
+      "originalRawGitBlob": "0f96f2423fcbc9b226a23084c6ee7f24c17d3b53",
+      "derivativeBytes": 369,
+      "derivativeSha256": "349eef9935ab18f82a5002f474ac6cd481214f7ff6f9937cf5d1dafc8d22db17",
+      "derivativeRawGitBlob": "7a303de7f2d263f8fb7a0e23ac4ce7d3b5ea60c8",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/fsevents-2.3.2.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/fsevents-2.3.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/fsevents-2.3.2.json",
+      "originalBytes": 2873,
+      "originalSha256": "ae16679c9e35c0f42e8b20c83b1a52d3ab492e8fac19b2457ac8ba43b6ff497e",
+      "originalRawGitBlob": "5165d03cf3e76b2bbf4f23c86724d839cc00c13c",
+      "derivativeBytes": 347,
+      "derivativeSha256": "b640a0e39285ca1a586c55280687cca71b9fc2eed6da88a4b396dd8c76968154",
+      "derivativeRawGitBlob": "34d629610c5107c78aaac42f5aca12efbd9f6630",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "contributors",
+        "description",
+        "devDependencies",
+        "directories",
+        "gitHead",
+        "gypfile",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "fileCount",
+        "npm-signature",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".contributors[].email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/fsevents-2.3.3.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/fsevents-2.3.3.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/fsevents-2.3.3.json",
+      "originalBytes": 1959,
+      "originalSha256": "b9f892b7d399e73de65849e3647094e648ff91c0a03e4460ac0fdcd335df2704",
+      "originalRawGitBlob": "2a9110de91be1f84162b086ec92de2ef81faf712",
+      "derivativeBytes": 347,
+      "derivativeSha256": "dfb2f239631855c472118cae61698f0c1566da4400428e8e9ffa77c745ed97f4",
+      "derivativeRawGitBlob": "4b49cdf88984abc490ec8c6d9e369db453373e0f",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "contributors",
+        "description",
+        "devDependencies",
+        "directories",
+        "gitHead",
+        "gypfile",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".contributors[].email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/napi-rs__canvas-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/napi-rs__canvas-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/napi-rs__canvas-0.1.80.json",
+      "originalBytes": 4550,
+      "originalSha256": "a7bccd1c4a07cffb54207e61e8ac7d334f1b0cb4918ca1eaab6050afd5f4f65c",
+      "originalRawGitBlob": "1a24eb740194a42feb92db91fb68d77a751bff11",
+      "derivativeBytes": 823,
+      "derivativeSha256": "cf0c8165ef8e076a3a0fae3a2e951d79780898f486406cdeac73c9302a4d42c4",
+      "derivativeRawGitBlob": "b120e07f0b9cff0faa4cdf4a82d3cab316d7c1cc",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "optionalDependencies",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "ava",
+        "bugs",
+        "description",
+        "devDependencies",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "lint-staged",
+        "main",
+        "maintainers",
+        "napi",
+        "packageManager",
+        "prettier",
+        "publishConfig",
+        "repository",
+        "scripts",
+        "types",
+        "workspaces"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/napi-rs__canvas-linux-x64-gnu-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/napi-rs__canvas-linux-x64-gnu-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/napi-rs__canvas-linux-x64-gnu-0.1.80.json",
+      "originalBytes": 1923,
+      "originalSha256": "136b58ba0847d21572a5865d17b150a8457986550d30631bbc538df9b608beeb",
+      "originalRawGitBlob": "00c314c477eb8b266284d72301fb81ea9102f5f1",
+      "derivativeBytes": 432,
+      "derivativeSha256": "bac3c55c7cc1f1e1f930fa23ead3c6e7884f15cc51d7c77dd18bfada6ab8c3b3",
+      "derivativeRawGitBlob": "ae34563a5d33a88bc4ae93ea30be74012faf898b",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/rollup-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/rollup-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/rollup-4.62.2.json",
+      "originalBytes": 12017,
+      "originalSha256": "be8151f89c8c7a1e420b80f80fc69b300d214f4397602c5054f95eb11f399118",
+      "originalRawGitBlob": "e9eee2120e68922d0a2b2f7879cd59e45417652c",
+      "derivativeBytes": 1626,
+      "derivativeSha256": "4d84bbff1fc9c88c197d02a76a962ed8816a201ac0a3dcddabc0b742314e3668",
+      "derivativeRawGitBlob": "7437b36972dcb48fee7c6b9a49fa162df1186d8a",
+      "includedTopLevelFields": [
+        "dependencies",
+        "dist",
+        "engines",
+        "name",
+        "optionalDependencies",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bin",
+        "bugs",
+        "comments",
+        "description",
+        "devDependencies",
+        "devDependenciesComments",
+        "directories",
+        "exports",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "module",
+        "napi",
+        "overrides",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/rollup__rollup-linux-x64-gnu-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/rollup__rollup-linux-x64-gnu-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/rollup__rollup-linux-x64-gnu-4.62.2.json",
+      "originalBytes": 1833,
+      "originalSha256": "70b446a33f7dee74d6417fea71435b6aeb92bf9e012dcb0f2c33907359b114d0",
+      "originalRawGitBlob": "1cd0ea758be4adf60a0c6942846889edc08e2152",
+      "derivativeBytes": 390,
+      "derivativeSha256": "20817aa0807fdf71f79402747644ef6d583eac68b671663bdd39899f41dc0afb",
+      "derivativeRawGitBlob": "73767c186a7990b560241c4229aa39f7b6b54c7b",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-boilerplate-shared-01/registry/sharp-0.34.5.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/sharp-0.34.5.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/sharp-0.34.5.json",
+      "originalBytes": 9061,
+      "originalSha256": "c2744c197ceb699bb2fb08f70aadd1c209b738f81c88c5c7dfb41d97012f4926",
+      "originalRawGitBlob": "ff6cf48eb10c576c9178b05550a81145b01c4091",
+      "derivativeBytes": 1481,
+      "derivativeSha256": "042a408eeccf306fbab5eacce987c057e469777f2e2cf6c5cabcfb72fcececa4",
+      "derivativeRawGitBlob": "352a8416b43ca0118a1f5802bc5c6f174e32c413",
+      "includedTopLevelFields": [
+        "dependencies",
+        "dist",
+        "engines",
+        "name",
+        "optionalDependencies",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "config",
+        "contributors",
+        "description",
+        "devDependencies",
+        "directories",
+        "funding",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "repository",
+        "scripts",
+        "type",
+        "types"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".author.email",
+        ".contributors[].email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/esbuild-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/esbuild-0.28.1.json",
+      "originalBytes": 4854,
+      "originalSha256": "4a6cfffbc1389d2f77818c6e7a5a24db69a587e5ad2db8cb4f43afa0e53f53fa",
+      "originalRawGitBlob": "7aac6230cd9f25b2e4eb1e087aff7a98800fe7ca",
+      "derivativeBytes": 1319,
+      "derivativeSha256": "728e610dd62d3fa43c24a191ef18e57f3dba1f819bca0cb675a9b3bdd1bdb4a6",
+      "derivativeRawGitBlob": "4428764ed385d57cdaaabf11381897de944adbb4",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "optionalDependencies",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bin",
+        "bugs",
+        "description",
+        "directories",
+        "esbuild.binaryHashes",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__aix-ppc64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__aix-ppc64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__aix-ppc64-0.28.1.json",
+      "originalBytes": 1612,
+      "originalSha256": "0a1b4f7e6fcdb141022128267338e71ede8d8226298bb9002a888fe86b69ed90",
+      "originalRawGitBlob": "f1147c3b95dbf6cf1c58bfb20f09691ad6c69333",
+      "derivativeBytes": 369,
+      "derivativeSha256": "047e6d8a4b73344cecddd69769acd047497ac1e6f94a2ecce2af1beed7e57257",
+      "derivativeRawGitBlob": "edb7354019c72f350406009544634e847e7e556c",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__android-arm-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__android-arm-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__android-arm-0.28.1.json",
+      "originalBytes": 1605,
+      "originalSha256": "9cdc0dd3d9858671fd0c0c0020ed08782bb9d05a76c4684ed50072102fce92c4",
+      "originalRawGitBlob": "831e23902569d201577aaabe3f8a5b7b6f070298",
+      "derivativeBytes": 377,
+      "derivativeSha256": "6ad8786cb9ae8f638243e9c8fcd9110a1f2af0a161fe4435df56b33eb8e365af",
+      "derivativeRawGitBlob": "de8a024804b5b878a38870d522458702444ee005",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__android-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__android-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__android-arm64-0.28.1.json",
+      "originalBytes": 1636,
+      "originalSha256": "5897baf30adedb4d521998c5d7d72a93c51a0a820f637d860a4840c1541b39b1",
+      "originalRawGitBlob": "be4374a69d0c313e3d303be7523c5edff2f04cb6",
+      "derivativeBytes": 385,
+      "derivativeSha256": "bf0ade8a07677d4f4c905317f56803ee7e113ef2866bb1a75b2d0934556e9642",
+      "derivativeRawGitBlob": "7e2d13529c31ddcba6dff0e28df2b9f8d36e2eea",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__android-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__android-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__android-x64-0.28.1.json",
+      "originalBytes": 1603,
+      "originalSha256": "be4c047adca1b6c4cf565be718fd69c7cd7f8e98c980cbfbf343f1d3a7c3978f",
+      "originalRawGitBlob": "8ade739ddb402eb54e4ccb9f6f05f30e82f5ec2b",
+      "derivativeBytes": 377,
+      "derivativeSha256": "1ee2327944c46b417e4b0a47f953bd29139516a4885986c0bdbb3b848bc0691f",
+      "derivativeRawGitBlob": "40b4451bda6bede1914d5d38e6a099e430370d07",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__darwin-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__darwin-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__darwin-arm64-0.28.1.json",
+      "originalBytes": 1626,
+      "originalSha256": "9b03e4268428bf01dd64361b839e52059aebbd6b74499ad7dbb2589543e5c221",
+      "originalRawGitBlob": "a8e1e1f4c1a432afecce03f98d8cb093accfd6a3",
+      "derivativeBytes": 381,
+      "derivativeSha256": "cf842200c4ed1503e5be0017ddb5155ca4212ac702d0dcb761cfb0beaa07f909",
+      "derivativeRawGitBlob": "49ac696c7af03f68433af38ed59bf9c22bbdd4b7",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__darwin-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__darwin-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__darwin-x64-0.28.1.json",
+      "originalBytes": 1607,
+      "originalSha256": "52c7437ce273986b04ee8d4bda4566b2ed783baba6b85d1306d47d6bed11a9e5",
+      "originalRawGitBlob": "badf47eb5471daa5cc3c1671b2ca70c8bea64f03",
+      "derivativeBytes": 373,
+      "derivativeSha256": "419c5835d58c4afcc3331f89ef6feae40080869313fc70189bf0ba701a02f8eb",
+      "derivativeRawGitBlob": "06fe516e081db3432548e9abb64f7196b10189da",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__freebsd-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__freebsd-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__freebsd-arm64-0.28.1.json",
+      "originalBytes": 1635,
+      "originalSha256": "f6bae4b314be2a483aa777223ebbfbb279d725f46b9f749ab65c417082e3de5a",
+      "originalRawGitBlob": "aecca78ae9bc9dd42e5737e91e12de911d31b73b",
+      "derivativeBytes": 385,
+      "derivativeSha256": "e4eb664aec95b6b1edf12597796f605c4d6cece743d6fceeb65d01bb6f7251d9",
+      "derivativeRawGitBlob": "9ab511fbc8af7008350068bed9c84973bcdb1285",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__freebsd-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__freebsd-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__freebsd-x64-0.28.1.json",
+      "originalBytes": 1618,
+      "originalSha256": "9b767552379e0222226b322017fb75b4cd4325523f57868f1ca65c2b293c4f6d",
+      "originalRawGitBlob": "569c6b42cfda5caca8db51f1bb04979d48b9abea",
+      "derivativeBytes": 377,
+      "derivativeSha256": "34f5ce8c7afc5b5afd057560a56265d8e8be6a50a0ccc3796fea3d261848bb2d",
+      "derivativeRawGitBlob": "5b2abbeb66b32e9366cb767e659927b5a13093f9",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-arm-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-arm-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-arm-0.28.1.json",
+      "originalBytes": 1598,
+      "originalSha256": "02a292ef399350c02cca0a7979fcabe91bd10b2efc2238e8713320b30f9029ce",
+      "originalRawGitBlob": "b62e6a0eef12e444c04974925185b267d86ed11a",
+      "derivativeBytes": 369,
+      "derivativeSha256": "409f92f37ed8f53a79342a64ea87225d4b156102da215e01a5cf76ed293102ab",
+      "derivativeRawGitBlob": "c87a7cfa141954b54a4dae658b5834e285f15b64",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-arm64-0.28.1.json",
+      "originalBytes": 1619,
+      "originalSha256": "c49ede6c7e9c6781badb6b05600746c4519f150d8cc2b793895726c7708f8f07",
+      "originalRawGitBlob": "415f7fd68d2d3426987a923393754c1ba8084c0c",
+      "derivativeBytes": 377,
+      "derivativeSha256": "d91c6724651955be9c5fe82f2d53d380cdee90208384c07ecf8c91588f6c95f7",
+      "derivativeRawGitBlob": "8aed78156d30fe175781b1d7e4d227d9a7f5cdb9",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-ia32-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-ia32-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-ia32-0.28.1.json",
+      "originalBytes": 1609,
+      "originalSha256": "d109ec7ab625dfdd2353964c045d75edcf2c7cd9afb6cc070e308d3903626c75",
+      "originalRawGitBlob": "6eb345b090d7bdb8f6da23b6d5469c2bee782b0a",
+      "derivativeBytes": 373,
+      "derivativeSha256": "783dc1508880497eeced535f302ad725803678154dbc73002e6fe96110b0b39c",
+      "derivativeRawGitBlob": "c3520f6297d38a5ae6931b7b763ff01d175d64ee",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-loong64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-loong64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-loong64-0.28.1.json",
+      "originalBytes": 1639,
+      "originalSha256": "345d89f424159bb43f96fff8f3aa2ec320df1d59f2cf44feea11eb06cdcb2b3e",
+      "originalRawGitBlob": "14f5178791825dd62c06deaacfb7ef09fef734b2",
+      "derivativeBytes": 385,
+      "derivativeSha256": "729e9a3316e50ba83e8b7df60acdef5fde5c062dba481f847b1e70920ec85b9d",
+      "derivativeRawGitBlob": "ad44a89ef80c84077352a08e74f9aa3acf8e53f1",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-mips64el-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-mips64el-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-mips64el-0.28.1.json",
+      "originalBytes": 1656,
+      "originalSha256": "a25ec1772a663e5a6e43b5a3a206b8a67b0ebe1e1cd4fceca35960d94fe21e4d",
+      "originalRawGitBlob": "726290401ced3ad7c70940a7f4fe867141950ddc",
+      "derivativeBytes": 389,
+      "derivativeSha256": "e8c1196558626aad3e0783cc54628c31708c94a0e0d7b4b2de12b532c665515c",
+      "derivativeRawGitBlob": "4e2e710f6ebb8e7e32a06cbfabdab296db0f22f5",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-ppc64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-ppc64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-ppc64-0.28.1.json",
+      "originalBytes": 1638,
+      "originalSha256": "cbbe50de6e7aebcc800a4d222c8ebb473938257b9d161ad2af62e484a2120a68",
+      "originalRawGitBlob": "595c8d56da146a8140894e01a87a17f7453145b2",
+      "derivativeBytes": 377,
+      "derivativeSha256": "8d5725197d07f53bad9d76b27ac97cab34daf9de339ab917bbc256e634140c5b",
+      "derivativeRawGitBlob": "607eac13bf8c631ecefda6e8fb81be892bda7853",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-riscv64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-riscv64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-riscv64-0.28.1.json",
+      "originalBytes": 1635,
+      "originalSha256": "e1900c1d3b7eb5b0885e2129b64018d9223724b6f7a099949a9a8f4f3addf842",
+      "originalRawGitBlob": "b5aeadef49174957437198e947665b4ed588f5fd",
+      "derivativeBytes": 385,
+      "derivativeSha256": "e66cb461138a517925e353d7672fcbf33964e50ba45a510c392dcff44e8f8e6e",
+      "derivativeRawGitBlob": "90b7d61de647310d3d031758ec0a38ec92ce6e3d",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-s390x-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__linux-s390x-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__linux-s390x-0.28.1.json",
+      "originalBytes": 1633,
+      "originalSha256": "05a2870a5d72a75710edee15b6cb1011773214d427bd88f3ad9504cbc5418459",
+      "originalRawGitBlob": "2f05c55272c76c0ac6b45f6ddf59cca9e41ddc84",
+      "derivativeBytes": 377,
+      "derivativeSha256": "a0dd72af525c933b48b8c673c161e09466d126cd7976f53488fe0f1f5f0e0c57",
+      "derivativeRawGitBlob": "abfb5bb4200a6944d675643710a1666060a63139",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__linux-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/esbuild__linux-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/esbuild__linux-x64-0.28.1.json",
+      "originalBytes": 1601,
+      "originalSha256": "452f9e60e2947cdde5a8fc53b67ff8c06966565324fa13a47920f0a33b0e0299",
+      "originalRawGitBlob": "0f96f2423fcbc9b226a23084c6ee7f24c17d3b53",
+      "derivativeBytes": 369,
+      "derivativeSha256": "349eef9935ab18f82a5002f474ac6cd481214f7ff6f9937cf5d1dafc8d22db17",
+      "derivativeRawGitBlob": "7a303de7f2d263f8fb7a0e23ac4ce7d3b5ea60c8",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__netbsd-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__netbsd-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__netbsd-arm64-0.28.1.json",
+      "originalBytes": 1627,
+      "originalSha256": "46fc17d1417c5d79e8c0928587c406812ca6ab424de5d9cf86d3addefc569a37",
+      "originalRawGitBlob": "4a013e36e25e4d26fbde290d171cbc0f710311de",
+      "derivativeBytes": 381,
+      "derivativeSha256": "e4a1e896ed8a9860dde6216008e5985e5685e2ac714e258239a654472d88d5b2",
+      "derivativeRawGitBlob": "ac92a856a00f12b9faca8c4abd0005658add3f32",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__netbsd-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__netbsd-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__netbsd-x64-0.28.1.json",
+      "originalBytes": 1585,
+      "originalSha256": "7c3f474181d938a26525594542a0a32b38541ebc24b2d4eb73d3f6a7eb5770af",
+      "originalRawGitBlob": "7ac495eb5314b720ef7c5a297f5181d730c0bae8",
+      "derivativeBytes": 373,
+      "derivativeSha256": "87b0c32d0880f3804c450d412bcca6bd6ab79eeef49221daae61c4d854ae7d4f",
+      "derivativeRawGitBlob": "b3d49d34cdf3e916d1b4f1a024fa93983712619e",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__openbsd-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__openbsd-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__openbsd-arm64-0.28.1.json",
+      "originalBytes": 1635,
+      "originalSha256": "aa164f39fa1ca7a5e091aa45f0b6df34fa1bb54b3f5757636d7f6d2db72f8524",
+      "originalRawGitBlob": "057d17ba0d1719709314d38365612853c847fc53",
+      "derivativeBytes": 385,
+      "derivativeSha256": "7f8a47869e7795589bd0e6031ffcb85bf09bc158e61c6c137cef247947048f96",
+      "derivativeRawGitBlob": "2df961ea27d5bc696a3743653da9752e2dc54faf",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__openbsd-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__openbsd-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__openbsd-x64-0.28.1.json",
+      "originalBytes": 1619,
+      "originalSha256": "5c3b1b26e0b9d139466302c8a545cdae73b6a5c94a8253a52e63bfa9d83638a5",
+      "originalRawGitBlob": "e791bee6e61e6e78655aab700c75f44d349b1b0c",
+      "derivativeBytes": 377,
+      "derivativeSha256": "956dd4ae5236e5d7d02cea159e277b9d749782ce7c9d289a38d9ab247fb414ea",
+      "derivativeRawGitBlob": "847eed4ceed977a2fe40fc10ff469c4e3bd86bc6",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__openharmony-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__openharmony-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__openharmony-arm64-0.28.1.json",
+      "originalBytes": 1649,
+      "originalSha256": "fc6127962b4d2ada6baa28902ceb66e2d23d3268afd34a2072b2fbfaa6490806",
+      "originalRawGitBlob": "f573b3d584323ede661f38cc9e04f00d3972518e",
+      "derivativeBytes": 401,
+      "derivativeSha256": "26ef5bfd5f7799961570ddf0e73f348e234197d66e44f92ef352f34f8e9a7de6",
+      "derivativeRawGitBlob": "7c12a3c4d8fc3fd909bd7088a2cb1b4d3498cdb8",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__sunos-x64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__sunos-x64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__sunos-x64-0.28.1.json",
+      "originalBytes": 1603,
+      "originalSha256": "69f3beeefc4b58f9a6d52875f29ae85f1e3de4e73d3ef425248f830e15c2740c",
+      "originalRawGitBlob": "40c449ada1ee1b3cb1c93e7894b5d3d2721a4a89",
+      "derivativeBytes": 369,
+      "derivativeSha256": "07c724b07d108478be9051e0090d8e27e36347335b40efc088c50a1c1caabd5b",
+      "derivativeRawGitBlob": "e9873704486d43f3f31d3bb3873432e03af27973",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__win32-arm64-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__win32-arm64-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__win32-arm64-0.28.1.json",
+      "originalBytes": 1621,
+      "originalSha256": "81fee1b41d520689588d2a50196e3699163ef63f3f2ce445f83721c2541572cf",
+      "originalRawGitBlob": "d0fbe4a51b5178843e8bd6d087c9cb934462c2ab",
+      "derivativeBytes": 377,
+      "derivativeSha256": "d874379dac2ae247e43c34a4124989c7f1b152d909cf1eb67ff99541ba71f248",
+      "derivativeRawGitBlob": "81f44559fda5c8198a5744a2fab4a6ff82ed44f3",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/esbuild__win32-ia32-0.28.1.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/esbuild__win32-ia32-0.28.1.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/esbuild__win32-ia32-0.28.1.json",
+      "originalBytes": 1610,
+      "originalSha256": "233b3d76d2a275611dbf1261025e811e438de60d2fdf7971f7ed392e971d93d2",
+      "originalRawGitBlob": "56e0cd202e5752150f17f7a1ef871c79602ae7cf",
+      "derivativeBytes": 373,
+      "derivativeSha256": "166edf5487f2f575709fa0361cfc80caa03d17b1a5da88c365b9356b4938711f",
+      "derivativeRawGitBlob": "833e5eee3fc827e3e1339e0a4d6f86004496214a",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "maintainers",
+        "preferUnplugged",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/fsevents-2.3.2.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/fsevents-2.3.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/fsevents-2.3.2.json",
+      "originalBytes": 2873,
+      "originalSha256": "ae16679c9e35c0f42e8b20c83b1a52d3ab492e8fac19b2457ac8ba43b6ff497e",
+      "originalRawGitBlob": "5165d03cf3e76b2bbf4f23c86724d839cc00c13c",
+      "derivativeBytes": 347,
+      "derivativeSha256": "b640a0e39285ca1a586c55280687cca71b9fc2eed6da88a4b396dd8c76968154",
+      "derivativeRawGitBlob": "34d629610c5107c78aaac42f5aca12efbd9f6630",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "contributors",
+        "description",
+        "devDependencies",
+        "directories",
+        "gitHead",
+        "gypfile",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "fileCount",
+        "npm-signature",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".contributors[].email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/fsevents-2.3.3.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/fsevents-2.3.3.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/fsevents-2.3.3.json",
+      "originalBytes": 1959,
+      "originalSha256": "b9f892b7d399e73de65849e3647094e648ff91c0a03e4460ac0fdcd335df2704",
+      "originalRawGitBlob": "2a9110de91be1f84162b086ec92de2ef81faf712",
+      "derivativeBytes": 347,
+      "derivativeSha256": "dfb2f239631855c472118cae61698f0c1566da4400428e8e9ffa77c745ed97f4",
+      "derivativeRawGitBlob": "4b49cdf88984abc490ec8c6d9e369db453373e0f",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "contributors",
+        "description",
+        "devDependencies",
+        "directories",
+        "gitHead",
+        "gypfile",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".contributors[].email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/napi-rs__canvas-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/napi-rs__canvas-0.1.80.json",
+      "originalBytes": 4550,
+      "originalSha256": "a7bccd1c4a07cffb54207e61e8ac7d334f1b0cb4918ca1eaab6050afd5f4f65c",
+      "originalRawGitBlob": "1a24eb740194a42feb92db91fb68d77a751bff11",
+      "derivativeBytes": 823,
+      "derivativeSha256": "cf0c8165ef8e076a3a0fae3a2e951d79780898f486406cdeac73c9302a4d42c4",
+      "derivativeRawGitBlob": "b120e07f0b9cff0faa4cdf4a82d3cab316d7c1cc",
+      "includedTopLevelFields": [
+        "dist",
+        "engines",
+        "name",
+        "optionalDependencies",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "ava",
+        "bugs",
+        "description",
+        "devDependencies",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "lint-staged",
+        "main",
+        "maintainers",
+        "napi",
+        "packageManager",
+        "prettier",
+        "publishConfig",
+        "repository",
+        "scripts",
+        "types",
+        "workspaces"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-android-arm64-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-android-arm64-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-android-arm64-0.1.80.json",
+      "originalBytes": 1911,
+      "originalSha256": "c811ea0cad1d6ab1d954bccc0ceffafddbfb9b0378c43d3b771be993c166e996",
+      "originalRawGitBlob": "f7fe81c4ad32f9b6f068152ccabf42e19d6005b0",
+      "derivativeBytes": 407,
+      "derivativeSha256": "7d673160e76f160e32fdd2c3fbac0b074f205b308b8441b0eb864805fa7e6dd0",
+      "derivativeRawGitBlob": "c89530ae2bf3efe3652663d448402cbfafed58b5",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-darwin-arm64-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-darwin-arm64-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-darwin-arm64-0.1.80.json",
+      "originalBytes": 1903,
+      "originalSha256": "09b5463ba7f0813fcc80342428f6a02abf470dccd3be9117db4af3aa4483e2c0",
+      "originalRawGitBlob": "4416e63d0a176e51786c9653d96e27e8fb282ee0",
+      "derivativeBytes": 403,
+      "derivativeSha256": "8e8f942d25191b637dd4312a823012c71cc7f45c76c37b5b725439c8f8bbe121",
+      "derivativeRawGitBlob": "43f105c926035d2bac8a637755be3850963024a5",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-darwin-x64-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-darwin-x64-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-darwin-x64-0.1.80.json",
+      "originalBytes": 1887,
+      "originalSha256": "0502233fcb349707b82db806e837a23a934d71e7cbae33fd19621b5bc17f1003",
+      "originalRawGitBlob": "9c91cf5f04f99e0117900648c8334734045579b4",
+      "derivativeBytes": 395,
+      "derivativeSha256": "bac4dc02f257933da2a95d77fe982f1711f2f317e9724573589b6a3072c1ac7c",
+      "derivativeRawGitBlob": "2d8de94b2dd716d96adeab18100370186bd4cc2e",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm-gnueabihf-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm-gnueabihf-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm-gnueabihf-0.1.80.json",
+      "originalBytes": 1950,
+      "originalSha256": "1183ab1730e7a60cf5d7cf7f31a934620947f947722d4d4a5a1f2c99a05f7f3e",
+      "originalRawGitBlob": "ab0b1fdd0b09be01fdba2558d0698906045086f7",
+      "derivativeBytes": 421,
+      "derivativeSha256": "ae8575fa8399f15343bc278525265120ff266be6bc15919b835a7809a915edec",
+      "derivativeRawGitBlob": "2ff78e8b90b6d3df29cf3482aa5ee6084c8341d7",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm64-gnu-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm64-gnu-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm64-gnu-0.1.80.json",
+      "originalBytes": 1940,
+      "originalSha256": "5306947f9a2313d8bfb20855599e5c40e3f63a77c3129314b218f13fd4717b0b",
+      "originalRawGitBlob": "3b627805d231e500cff8b3161b01ede86d4cd451",
+      "derivativeBytes": 440,
+      "derivativeSha256": "6671f669d6e11260da1bd8e2a7958c873ae5584c1b15c1729c2972258d8c48ec",
+      "derivativeRawGitBlob": "d1f83643defa4cac8d3cecc61c2be89519542b1c",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm64-musl-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm64-musl-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-arm64-musl-0.1.80.json",
+      "originalBytes": 1947,
+      "originalSha256": "f9f52c551c17843ae1b2c48e3e8028c70130c36351a8126efcf011f4d8474a65",
+      "originalRawGitBlob": "105c5730eda1a9adc479db56f696bafb665cf047",
+      "derivativeBytes": 442,
+      "derivativeSha256": "8ba19b376257a83811a0ce9869bc8d41151c19d822d7ca598888b81b47e93f20",
+      "derivativeRawGitBlob": "746843aa911e99dea81ba90ac4c84217572b9a64",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-riscv64-gnu-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-riscv64-gnu-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-riscv64-gnu-0.1.80.json",
+      "originalBytes": 1957,
+      "originalSha256": "46afa6e8ce90ed021a56ef6069fd118a45a5c2c743f20822374d01695dd75697",
+      "originalRawGitBlob": "a057f5b1b5bd839d938addc72f682586db95bcf4",
+      "derivativeBytes": 448,
+      "derivativeSha256": "7378606db1722f7afa115b6ec83f592b9c32b0ce12b8dfd7aff6c0f2b14cb4b3",
+      "derivativeRawGitBlob": "4dccafe3a9ffa437343d1921868a3f3d4b037125",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-x64-gnu-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/napi-rs__canvas-linux-x64-gnu-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/napi-rs__canvas-linux-x64-gnu-0.1.80.json",
+      "originalBytes": 1923,
+      "originalSha256": "136b58ba0847d21572a5865d17b150a8457986550d30631bbc538df9b608beeb",
+      "originalRawGitBlob": "00c314c477eb8b266284d72301fb81ea9102f5f1",
+      "derivativeBytes": 432,
+      "derivativeSha256": "bac3c55c7cc1f1e1f930fa23ead3c6e7884f15cc51d7c77dd18bfada6ab8c3b3",
+      "derivativeRawGitBlob": "ae34563a5d33a88bc4ae93ea30be74012faf898b",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-x64-musl-0.1.80.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-x64-musl-0.1.80.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/napi-rs__canvas-linux-x64-musl-0.1.80.json",
+      "originalBytes": 1931,
+      "originalSha256": "84d48a58d78bb23cb9b7d41878d4588a5502de897884e5bf52469d17ac0bb147",
+      "originalRawGitBlob": "e65030749c56810393bed0131f95c6e7b132d71d",
+      "derivativeBytes": 434,
+      "derivativeSha256": "4ccce36475cae81fbcca9ee0e5ca1b8846a29b00d1d0c77287749adb566fa6c8",
+      "derivativeRawGitBlob": "52eea02c610ed4775c76637b5bb0b87967c8897e",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "engines",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "publishConfig",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/rollup-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/rollup-4.62.2.json",
+      "originalBytes": 12017,
+      "originalSha256": "be8151f89c8c7a1e420b80f80fc69b300d214f4397602c5054f95eb11f399118",
+      "originalRawGitBlob": "e9eee2120e68922d0a2b2f7879cd59e45417652c",
+      "derivativeBytes": 1626,
+      "derivativeSha256": "4d84bbff1fc9c88c197d02a76a962ed8816a201ac0a3dcddabc0b742314e3668",
+      "derivativeRawGitBlob": "7437b36972dcb48fee7c6b9a49fa162df1186d8a",
+      "includedTopLevelFields": [
+        "dependencies",
+        "dist",
+        "engines",
+        "name",
+        "optionalDependencies",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bin",
+        "bugs",
+        "comments",
+        "description",
+        "devDependencies",
+        "devDependenciesComments",
+        "directories",
+        "exports",
+        "gitHead",
+        "homepage",
+        "keywords",
+        "license",
+        "main",
+        "maintainers",
+        "module",
+        "napi",
+        "overrides",
+        "repository",
+        "scripts",
+        "types"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-android-arm-eabi-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-android-arm-eabi-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-android-arm-eabi-4.62.2.json",
+      "originalBytes": 1839,
+      "originalSha256": "9f2442247bbb0d07e0cb1b15be7de325e4060a28f559faae70ff1432f4f1be67",
+      "originalRawGitBlob": "8b6e9e2542b5d1eb9ad492222f79039486307508",
+      "derivativeBytes": 372,
+      "derivativeSha256": "a5df73c25630155d15997372181a42d55a6be0b0fcf689a776753e94800f86a5",
+      "derivativeRawGitBlob": "b429167a3898ce49f8b3522979f579f744fb081f",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-android-arm64-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-android-arm64-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-android-arm64-4.62.2.json",
+      "originalBytes": 1820,
+      "originalSha256": "28e0a8cfaa35581e60e75803a2f965adede6fd641ddb5e2ed5ba7b1d19aa0e9b",
+      "originalRawGitBlob": "b600800a298f79cbb12de11b812b023a3f46037d",
+      "derivativeBytes": 365,
+      "derivativeSha256": "dc1a62a4d5493c44c7f33b0058174c26336b749d24ebfd9a77b3cc05ba6ab624",
+      "derivativeRawGitBlob": "0fa2a3271bb5a5df6ad513e20b9025c41a4e3b27",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-darwin-arm64-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-darwin-arm64-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-darwin-arm64-4.62.2.json",
+      "originalBytes": 1812,
+      "originalSha256": "71fc6f34bb04cd1e1d3d5985f90ae4d7e6f3ead5b29e3dcaf407880d5e417ee2",
+      "originalRawGitBlob": "1f8ae1d436d0efc9df89237de38dba7787e8b77f",
+      "derivativeBytes": 361,
+      "derivativeSha256": "c27abb75989061c2a044f1414407eb1519d81946427b728538670e0d96e61ec6",
+      "derivativeRawGitBlob": "ee48ed7140010031cd581a03cebc3413d19a6e15",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-darwin-x64-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-darwin-x64-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-darwin-x64-4.62.2.json",
+      "originalBytes": 1795,
+      "originalSha256": "1ad2dc83b62328d626aea03a345f5afbae48e868ef0afb48c7a5a429ab3b6142",
+      "originalRawGitBlob": "bf9a520c40bd20ef0340be961544b7471bcc239e",
+      "derivativeBytes": 353,
+      "derivativeSha256": "331efb8fc7c4f5b2547d445eed1507151a40dc916230ce68c3ab62b019c3e088",
+      "derivativeRawGitBlob": "3a282ec93e2f0d6f8351fec7ac2264631c1b5568",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-freebsd-arm64-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-freebsd-arm64-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-freebsd-arm64-4.62.2.json",
+      "originalBytes": 1819,
+      "originalSha256": "580bbf22a6cfcf787c20d3e1fe440f11f9ac8062e561bfd394f6a3c74331315a",
+      "originalRawGitBlob": "457adf4b422cc8807adddabf8cda0ef001bbf56a",
+      "derivativeBytes": 365,
+      "derivativeSha256": "300f23fb2e39a3b0e8bcaaca22714a24eefa6b4dad5842cc3861a26333ba2818",
+      "derivativeRawGitBlob": "bf9285a356f472d87da2c08f54484eedc8549667",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-freebsd-x64-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-freebsd-x64-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-freebsd-x64-4.62.2.json",
+      "originalBytes": 1803,
+      "originalSha256": "fe8a92372aeca1c875b61147fdd79faf92966b983c9f7b759264c4661b6ac379",
+      "originalRawGitBlob": "669d71f7244f3b6f6b215fb172d22e888d90ead0",
+      "derivativeBytes": 357,
+      "derivativeSha256": "f173c17385eed3137972a9ab0ca6210d4d15f17e06a5372a66ed2fc52472288e",
+      "derivativeRawGitBlob": "6bf4a207a18679d27b730c58fcf49b9c03453d30",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm-gnueabihf-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm-gnueabihf-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm-gnueabihf-4.62.2.json",
+      "originalBytes": 1875,
+      "originalSha256": "265b3bc9711a9f3c5699a0c0e7968e3bbcdedf71d768661e13d09c0eeed87fca",
+      "originalRawGitBlob": "3311269432154fd72d07058f47575c2a2c79d992",
+      "derivativeBytes": 408,
+      "derivativeSha256": "5c0eba12aedb27f755d6f2d34b6d544cf615f8ad864dabcf38e23a33cc56f013",
+      "derivativeRawGitBlob": "538a0a1de588bad9fafd189ee70723d5ac9a2b97",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm-musleabihf-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm-musleabihf-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm-musleabihf-4.62.2.json",
+      "originalBytes": 1880,
+      "originalSha256": "04b8ac6ef26c92140328426943cf5f9a3feb16e61cba1b106ea582152b1c6fd3",
+      "originalRawGitBlob": "719180084ed79303ee3e03bf961535c8a0f16b41",
+      "derivativeBytes": 410,
+      "derivativeSha256": "38e6b72006e8738e8ad4072f5760b76ccc91e91a438e86172e7bb34f7934e667",
+      "derivativeRawGitBlob": "71f91c0c971a26d67407844f11fdc330c5c887da",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm64-gnu-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm64-gnu-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm64-gnu-4.62.2.json",
+      "originalBytes": 1848,
+      "originalSha256": "c6804d75dad1ddda875fcd43466cc200d208452082b2c98f5b49a117f960595e",
+      "originalRawGitBlob": "519ec803fb1bf3bedec60069e7f1293eb0e9128b",
+      "derivativeBytes": 398,
+      "derivativeSha256": "7320750a725378ba440714689e1ea3b731e181648a15956e26c56f09e7c8ee18",
+      "derivativeRawGitBlob": "503c3fc7718462f8e679bbe1b1b3ad2f142b1c90",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm64-musl-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm64-musl-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-arm64-musl-4.62.2.json",
+      "originalBytes": 1854,
+      "originalSha256": "ce15b2c77b2d4d08e471a117a8833dd7bed2b6c1d376396fdeb3ae52bc412d6d",
+      "originalRawGitBlob": "a753addc26c43f7828505715ad639f430d0d3b6b",
+      "derivativeBytes": 400,
+      "derivativeSha256": "8953728afc210600445b2d5e0dda99680df757ffc3d9622d00362be674061255",
+      "derivativeRawGitBlob": "06cce0fcc7cba6e4d7647d8fe15012f2effd6828",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-loong64-gnu-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-loong64-gnu-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-loong64-gnu-4.62.2.json",
+      "originalBytes": 1864,
+      "originalSha256": "39d8318f94881b683438803cead7d4808f113fcf5288ef0fc77f857456209fe3",
+      "originalRawGitBlob": "3677cdcf299beb3ab76f710832753ed6d1dd00d1",
+      "derivativeBytes": 406,
+      "derivativeSha256": "8afddad5700d99e75bf381e3c3d0c6c25085e47e61ba9467b12c269f5bfa6141",
+      "derivativeRawGitBlob": "60a0f8296a6750deed7803422ed8ebc486379787",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-loong64-musl-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-loong64-musl-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-loong64-musl-4.62.2.json",
+      "originalBytes": 1868,
+      "originalSha256": "71c78048ca85a6b23e0d0769ceabe291d66d5c7f6f0cca7435104d32a4763438",
+      "originalRawGitBlob": "18d8c68f4707fd33b726fe5a599542ca0c59bdd0",
+      "derivativeBytes": 408,
+      "derivativeSha256": "b64fb7c6e66d0ac10697617acf0e1465063d93251d233449445def4cdb3fa69c",
+      "derivativeRawGitBlob": "1224a692ded1c98757a6773ab765d36d0a71a5a1",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-ppc64-gnu-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-ppc64-gnu-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-ppc64-gnu-4.62.2.json",
+      "originalBytes": 1850,
+      "originalSha256": "9c2ed254e0c388b537fc80b305bd45f109d9bada17f8cdf8c32e07ed9d731826",
+      "originalRawGitBlob": "bd8ac9bb9b5ac4d11db8d8de9d903dd6cb5e1acc",
+      "derivativeBytes": 398,
+      "derivativeSha256": "5462aa40ae8b9680719fb3cfdbd970803358f4a8edbdbfab07547c9c039d741a",
+      "derivativeRawGitBlob": "70a59f03f11c1b41dfe97c3ad808822915b2c1d7",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-ppc64-musl-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-ppc64-musl-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-ppc64-musl-4.62.2.json",
+      "originalBytes": 1854,
+      "originalSha256": "6cca4919a8b2bd4484d3247cc87323e1aeb44261e7e07fef66ceb4cbc1a9db11",
+      "originalRawGitBlob": "78797f30bdededc12a6a3035333615df625ac26c",
+      "derivativeBytes": 400,
+      "derivativeSha256": "71332e4d45003fb5e72d14cec3ee85b16604dbe7c9b0914eecbb90624bb45c04",
+      "derivativeRawGitBlob": "a56d633e50daa14217c23dd4e61c0ccca1146df7",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-riscv64-gnu-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-riscv64-gnu-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-riscv64-gnu-4.62.2.json",
+      "originalBytes": 1865,
+      "originalSha256": "3249bc865d6a96ed82f347c6bbae4dd40f73765959b911872bb38e1b485285f9",
+      "originalRawGitBlob": "70a0f34c5ea29c8e7e08ec4c554102bfb0a544ff",
+      "derivativeBytes": 406,
+      "derivativeSha256": "e6b39c5219d9b12bf92176d56caec8d539844859f0a4c9116c5c5d2772b25000",
+      "derivativeRawGitBlob": "144aceaa356d088f8a3655c719839229f572a97e",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-riscv64-musl-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-riscv64-musl-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-riscv64-musl-4.62.2.json",
+      "originalBytes": 1870,
+      "originalSha256": "28054f80ca62d932048a623b87655f3bcee68a5c6d66615843b133c99fabb1dc",
+      "originalRawGitBlob": "ac9713640cc7ea1efae1960a5bab6d40ce73bc1a",
+      "derivativeBytes": 408,
+      "derivativeSha256": "17e63507a21db37646f853e2814378c5a016e33c1506939f688cdf6da24e0d95",
+      "derivativeRawGitBlob": "169aef3c4d799ae3d9fc1bb16fa02d76b5992bcd",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-s390x-gnu-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-s390x-gnu-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-s390x-gnu-4.62.2.json",
+      "originalBytes": 1849,
+      "originalSha256": "94a1114a703369534a034bc87fccaca1c3dc9b1486d6ed25cc75e6b5ff243d84",
+      "originalRawGitBlob": "2a742c65ac9317856e09a6aafb09d6243174f327",
+      "derivativeBytes": 398,
+      "derivativeSha256": "c8bc9854aa11ece9f944939c51a61dbf3f5898fd94e5fbe644cfdc2607b33d6d",
+      "derivativeRawGitBlob": "34b6d8275a716cc5e40a624721d5a79ec41c25ba",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-x64-gnu-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-boilerplate-shared-01/registry/rollup__rollup-linux-x64-gnu-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-boilerplate-shared-01/registry/rollup__rollup-linux-x64-gnu-4.62.2.json",
+      "originalBytes": 1833,
+      "originalSha256": "70b446a33f7dee74d6417fea71435b6aeb92bf9e012dcb0f2c33907359b114d0",
+      "originalRawGitBlob": "1cd0ea758be4adf60a0c6942846889edc08e2152",
+      "derivativeBytes": 390,
+      "derivativeSha256": "20817aa0807fdf71f79402747644ef6d583eac68b671663bdd39899f41dc0afb",
+      "derivativeRawGitBlob": "73767c186a7990b560241c4229aa39f7b6b54c7b",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-linux-x64-musl-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-x64-musl-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-linux-x64-musl-4.62.2.json",
+      "originalBytes": 1838,
+      "originalSha256": "82acb235d6e8868c4db023f265cf28d473b5bdf6cd29f107ecaa888f5562c5a8",
+      "originalRawGitBlob": "ecb9b940248d74253e0f15f5b5e5c0faa2d52bbd",
+      "derivativeBytes": 392,
+      "derivativeSha256": "559a6d4c5cb1dc9cc05fe8d3b98deec51f0810e4ea68aa7676875856f9d6b057",
+      "derivativeRawGitBlob": "249276145e2dea08e10631f4a1e1f801a714b738",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "libc",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-openbsd-x64-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-openbsd-x64-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-openbsd-x64-4.62.2.json",
+      "originalBytes": 1803,
+      "originalSha256": "be3216d1a1f6e6965541bcfeb0792a3d4b9ee114134fccd7f55347efe6611008",
+      "originalRawGitBlob": "fbb29b9057963a3aac3b76c2992e4069454366d8",
+      "derivativeBytes": 357,
+      "derivativeSha256": "64ca110ecdb25b4b8e580b76abce14a5276d994ae04b8226e43531bccb0e963f",
+      "derivativeRawGitBlob": "7310883e5f5f64aa909027139c3a9c2c5e4d7176",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-openharmony-arm64-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-openharmony-arm64-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-openharmony-arm64-4.62.2.json",
+      "originalBytes": 1852,
+      "originalSha256": "f5503e87a641b9b537bc556f423ef099263ed7d0465bc35a58cd849009fdb651",
+      "originalRawGitBlob": "9e5204a9977e4699d79cdbce8295a7568842a466",
+      "derivativeBytes": 381,
+      "derivativeSha256": "b1e187830a0ed01c8561a5c2c3211b0a8f6f930bcfbb6d3d953158762ca26b83",
+      "derivativeRawGitBlob": "e1e00168eb4982b17397f08e60f9f83359f2ae2a",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-win32-arm64-msvc-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-win32-arm64-msvc-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-win32-arm64-msvc-4.62.2.json",
+      "originalBytes": 1839,
+      "originalSha256": "3b0ce42414c5c8bf2aa4c603d97bdfcbd099cb20033fee8473aad13074594f64",
+      "originalRawGitBlob": "00e48509b78751fc34cb1c51a0584cfdd9609e35",
+      "derivativeBytes": 372,
+      "derivativeSha256": "b2f7c056b972793cbb3adc621dddf16209bd6610993d7c4a63bdec402ccb25e4",
+      "derivativeRawGitBlob": "da6e8130353b394c312874d6c41e4ff848ae95a1",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    },
+    {
+      "origin": "E6l-platform-lock-independent-01/registry/rollup__rollup-win32-ia32-msvc-4.62.2.json",
+      "originalRegistryPath": "raw/E6l-platform-lock-independent-01/registry/rollup__rollup-win32-ia32-msvc-4.62.2.json",
+      "kind": "REGISTRY_PROOF_FIELD_DERIVATIVE",
+      "destination": "registry-derivatives/E6l-platform-lock-independent-01/registry/rollup__rollup-win32-ia32-msvc-4.62.2.json",
+      "originalBytes": 1830,
+      "originalSha256": "d7289cadb2a6bfb7e5fdf0b1936ac3ce3da385865c50d3be718cdfc3a1923cac",
+      "originalRawGitBlob": "a78ec7219f34f4eb2906829ed2b22bff0fd01ee0",
+      "derivativeBytes": 368,
+      "derivativeSha256": "2c5c2882bf5af130945cf7a6255c534481aae3364ff238eca1ddcec6052dbfad",
+      "derivativeRawGitBlob": "56410937f2ec71c7c189ff2e557baa9ca42b6326",
+      "includedTopLevelFields": [
+        "cpu",
+        "dist",
+        "name",
+        "os",
+        "version"
+      ],
+      "includedDistFields": [
+        "integrity",
+        "tarball"
+      ],
+      "omittedTopLevelFields": [
+        "_hasShrinkwrap",
+        "_id",
+        "_nodeVersion",
+        "_npmOperationalInternal",
+        "_npmUser",
+        "_npmVersion",
+        "author",
+        "bugs",
+        "description",
+        "directories",
+        "gitHead",
+        "homepage",
+        "license",
+        "main",
+        "maintainers",
+        "repository"
+      ],
+      "omittedDistFields": [
+        "attestations",
+        "fileCount",
+        "shasum",
+        "signatures",
+        "unpackedSize"
+      ],
+      "listedContactFieldPathsOmitted": [
+        "._npmUser.email",
+        ".maintainers[].email"
+      ]
+    }
+  ],
+  "registryPolicy": {
+    "allowedTopLevelFields": [
+      "name",
+      "version",
+      "os",
+      "cpu",
+      "libc",
+      "engines",
+      "dependencies",
+      "optionalDependencies",
+      "dist"
+    ],
+    "allowedDistFields": [
+      "tarball",
+      "integrity"
+    ],
+    "exactRawRegistryCopies": 0,
+    "contactsCopied": false,
+    "fieldsReproducedWithoutChanges": true,
+    "originalProposalSha256": "0dae7635136f0dc40cb488323032a61b78da2052623f247a184d7574f7a6e506",
+    "findingSha256": "4916a7af18db74749628ca26dfb06a297a5b82a0ec8d34a3c09b53e90ced2f16"
+  }
+}

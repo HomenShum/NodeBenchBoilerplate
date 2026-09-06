@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild/android-x64",
+  "version": "0.28.1",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dist": {
+    "tarball": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.28.1.tgz",
+    "integrity": "sha512-dbwY7ltSMDWsRatcRpCnES4F+im88OCUgGZjy52shC7GqHRE/cYlxNbB4Z4UpJswpcc4Qxd2oE/ufM0p61IKng=="
+  }
+}

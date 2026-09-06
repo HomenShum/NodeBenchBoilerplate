@@ -1,0 +1,5 @@
+
+> nodebench-boilerplate@0.1.0 verify:mcp
+> node scripts/verify-mcp.mjs
+
+{"status":"PASS","checks":25,"output":"D:\\ProjectRecovery\\nodebenchboilerplate-platform-consumer-20260906\\temp\\nodebench-mcp-proof-RCpYEg"}

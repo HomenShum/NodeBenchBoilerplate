@@ -1,0 +1,21 @@
+[
+  {
+    "name": "ordinary-lock-only-resolution",
+    "argv": [
+      "C:/nvm4w/nodejs/node.EXE",
+      "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+      "install",
+      "--package-lock-only"
+    ],
+    "cwd": "D:\\ProjectRecovery\\nodebenchboilerplate-platform-lock-20260906\\resolution",
+    "exit": 0,
+    "seconds": 1.625,
+    "timedOutOrOutputCapped": false,
+    "ownedPids": [
+      2124
+    ],
+    "survivors": [],
+    "stdout": "ordinary-lock-only-resolution.stdout",
+    "stderr": "ordinary-lock-only-resolution.stderr"
+  }
+]

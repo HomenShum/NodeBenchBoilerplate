@@ -1,0 +1,40 @@
+{
+  "name": "nodebench-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Small TypeScript starter with a local NodeBench MCP connection and verifiable development checks.",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "dev": "tsx watch src/index.ts",
+    "mcp:start": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset core",
+    "mcp:core": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset core",
+    "mcp:full": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset full",
+    "mcp:starter": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset starter",
+    "verify:mcp": "node scripts/verify-mcp.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "^22.0.0",
+    "better-sqlite3": "11.10.0",
+    "eslint": "10.10.0",
+    "nodebench-mcp": "^3.2.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "8.69.0",
+    "vitest": "^3.2.0"
+  },
+  "keywords": [
+    "nodebench",
+    "mcp",
+    "ai-agents",
+    "boilerplate",
+    "template",
+    "quality-gates",
+    "parallel-agents",
+    "verification"
+  ]
+}
