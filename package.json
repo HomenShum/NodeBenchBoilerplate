@@ -3,23 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Production-ready boilerplate for AI agent projects using NodeBench MCP. Pre-configured with AGENTS.md, quality gates, parallel agent infra, GitHub Actions CI, and Docker.",
+  "description": "Small TypeScript starter with a local NodeBench MCP connection and verifiable development checks.",
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",
     "dev": "tsx watch src/index.ts",
-    "mcp:start": "npx nodebench-mcp",
-    "mcp:lite": "npx nodebench-mcp --preset lite",
-    "mcp:core": "npx nodebench-mcp --preset core",
-    "mcp:full": "npx nodebench-mcp --preset full"
+    "mcp:start": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset core",
+    "mcp:core": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset core",
+    "mcp:full": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset full",
+    "mcp:starter": "node ./node_modules/nodebench-mcp/dist/index.js --stdio --no-embedding --preset starter",
+    "verify:mcp": "node scripts/verify-mcp.mjs"
   },
   "devDependencies": {
+    "@eslint/js": "10.0.1",
     "@types/node": "^22.0.0",
+    "better-sqlite3": "11.10.0",
+    "eslint": "10.10.0",
     "nodebench-mcp": "^3.2.1",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
+    "typescript-eslint": "8.69.0",
     "vitest": "^3.2.0"
   },
   "keywords": [

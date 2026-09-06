@@ -1,0 +1,88 @@
+{
+  "git": {
+    "candidate": {
+      "head": "9afd38fef5428be751fd3a5d1f12af17251b5f35164b753bea8f38abf2c242a4",
+      "refs": "73257ed6d4d070ee4136f537b8245a3089e882b6780c9b056f1b06e960c58e9b",
+      "index": "e8df3e59056d31074daa9e820bee71f0cf19bf0c1a08c6d9505364662afc2c76",
+      "status": "9c63154f64ac9854601ddc47b619b571d0e1483704c6caac8fa4ed94a8a986e4"
+    },
+    "primary": {
+      "head": "9afd38fef5428be751fd3a5d1f12af17251b5f35164b753bea8f38abf2c242a4",
+      "refs": "73257ed6d4d070ee4136f537b8245a3089e882b6780c9b056f1b06e960c58e9b",
+      "index": "e8df3e59056d31074daa9e820bee71f0cf19bf0c1a08c6d9505364662afc2c76",
+      "status": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "candidateSourceDigest": "193ba3feda6209e843dce8c20ed4ff456b95ac1f1d8787b3479508975997dad4",
+  "trialSourceDigest": "e206dc63ebb1198bd6ca15a4bd6030603f340b591d969986fd694fce69b8638f",
+  "primary": [
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\.github\\workflows\\ci.yml",
+      "bytes": 673,
+      "sha256": "683b02b64556064d37c0d424bd49836b07dc1f7485e56eb908e288c560cee15d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\.gitignore",
+      "bytes": 100,
+      "sha256": "26f4c3e8a6919051f672006a17fef16752963b6f0f4bb06ed17f272fe7e3ac96"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\.mcp.json",
+      "bytes": 133,
+      "sha256": "cd976c264012b8c899e1a439090ed3d42d93f98096440ffab4b6fba80adc18ed"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\AGENTS.md",
+      "bytes": 2322,
+      "sha256": "40526a25d0759255ead70e62424322d9b2dda65ee4e8a2221d980f6e07464553"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\Dockerfile",
+      "bytes": 338,
+      "sha256": "1b3025d1b803dc2269cc99dc52320576c10969cbc5e7574ac2c2592b84eacadc"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\LICENSE",
+      "bytes": 1088,
+      "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\README.md",
+      "bytes": 4690,
+      "sha256": "c6568bcf33b43c22d6350d5f961984974727ad9e074e95e0b0be2b79cfdc2025"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\docs\\FEATURE_PROOF_STORYBOARD_TEMPLATE.md",
+      "bytes": 1438,
+      "sha256": "891700509274c6155b32eacfb864a0423005d5b6667e46b40187d1c321f36a74"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\package-lock.json",
+      "bytes": 109851,
+      "sha256": "9b18b89d0129bd302e955f6f89e2622d231b3631173cb2b4405165e0e908f6b8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\package.json",
+      "bytes": 996,
+      "sha256": "69a13c272410736c3061cf8910676e4f412ae811893bab6ffcd72b0cf6357d5b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\src\\index.test.ts",
+      "bytes": 369,
+      "sha256": "43cf3b5d1b0b1f32cbdc06248108006ed60465a0d12e5f623f772615573e1b5d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\src\\index.ts",
+      "bytes": 586,
+      "sha256": "f130567efdd8cabcdd8313f8bea5b8cdb9c2387d5360d67ec29c359690306a57"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\NodeBenchBoilerplate\\tsconfig.json",
+      "bytes": 490,
+      "sha256": "4d781db1f30fe8088c47ee54f90b4c92bcb0e10d2751b3f944977a6d66a6e05a"
+    }
+  ],
+  "candidateInstalled": 348,
+  "trialInstalled": 348,
+  "canaryLoadedBindings": 684
+}

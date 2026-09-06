@@ -1,0 +1,126 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { createHash } from 'node:crypto';
+import { createRequire } from 'node:module';
+import { join, resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
+
+const [root, family, output, fixture] = process.argv.slice(2);
+const require = createRequire(join(root, 'package.json'));
+const checks = [], observations = {}, explicitImports = [];
+let fetchAttempts = 0;
+globalThis.fetch = () => { fetchAttempts++; throw new Error('External fetch forbidden in local canary'); };
+const check = (name, passed, actual) => checks.push({ name, passed: Boolean(passed), actual });
+const sha = (b) => createHash('sha256').update(b).digest('hex');
+const equal = (a,b) => JSON.stringify(a) === JSON.stringify(b);
+const emit = (value) => process.stdout.write(JSON.stringify(value) + '\n');
+const attempt = (fn) => { try { return { returned: fn() }; } catch (e) { return { error: e.name, message: e.message }; } };
+try {
+  if (family === 'toon') {
+    const path = join(root,'node_modules/@toon-format/toon/dist/index.mjs');
+    explicitImports.push(path);
+    const { encode, decode } = await import(pathToFileURL(path).href);
+    const input = '__proto__:\n  ownedCanary: true';
+    const value = decode(input);
+    observations.prototype = { input, own: Object.hasOwn(value,'__proto__'), inherited: value.ownedCanary, prototypeIsNormal: Object.getPrototypeOf(value) === Object.prototype, globalUnchanged: Object.prototype.ownedCanary === undefined };
+    check('prototype key is own data, not an inherited object', Object.hasOwn(value,'__proto__') && Object.getPrototypeOf(value) === Object.prototype && value.ownedCanary === undefined, observations.prototype);
+    check('global prototype is unchanged', Object.prototype.ownedCanary === undefined);
+    for(let i=0;i<32;i++) {
+      const data={title:'现金 / Καλημέρα '+i, count:i, approved:false, rows:[{id:'a',amount:0},{id:'b',amount:42}]};
+      check('ordinary TOON roundtrip '+i, equal(decode(encode(data)),data));
+    }
+  } else if (family === 'fast-uri') {
+    const uri=require('fast-uri');
+    const malformed='http://[fc00::not-hex]/private';
+    const parsed=uri.parse(malformed);
+    check('malformed IPv6 reports an error and does not equal itself', Boolean(parsed.error) && uri.equal(malformed,malformed)===false,{parsed,normalized:uri.normalize(malformed)});
+    const nested='http://%256c%256f%2563%2561%256c%2568%256f%2573%2574/';
+    check('nested host encoding stays encoded',uri.normalize(nested)===nested,uri.normalize(nested));
+    const serialized=uri.serialize({scheme:'http',userinfo:'attacker.example/',host:'trusted.example',path:'/'});
+    check('userinfo cannot change parsed host',uri.parse(serialized).host==='trusted.example',serialized);
+    check('ordinary HTTPS URL preserved',uri.normalize('https://example.test/a?x=1')==='https://example.test/a?x=1');
+    observations.backslash=attempt(()=>uri.parse('http://trusted.example\\@other.example/path'));
+    const Ajv=require('ajv'); const ajv=new Ajv();
+    const validate=ajv.compile({type:'object',properties:{count:{$ref:'#/$defs/count'}},required:['count'],additionalProperties:false,$defs:{count:{type:'integer',minimum:0}}});
+    check('actual AJV local schema accepts valid and rejects invalid input',validate({count:0})&&!validate({count:'0'}));
+  } else if (family === 'postcss') {
+    const target=join(fixture,'sentinel.map');
+    fs.writeFileSync(target,JSON.stringify({version:3,file:'input.css',sources:['original.css'],names:[],mappings:'AAAA',sourcesContent:['a{color:red}']}));
+    let reads=0; const original=fs.readFileSync;
+    fs.readFileSync=function(path,...args){if(typeof path==='string' && resolve(path)===resolve(target))reads++;return original.call(this,path,...args);};
+    try {
+      const postcss=require('postcss');
+      const css='a{color:red}\n/*# sourceMappingURL='+target.replaceAll('\\','/')+' */';
+      const result=postcss.parse(css);
+      check('absent CSS origin performs zero map sentinel reads',reads===0,{reads,hasPreviousMap:!!result.source.input.map?.text});
+      reads=0;
+      const known=postcss.parse('a{color:red}\n/*# sourceMappingURL=sentinel.map */',{from:join(fixture,'input.css')});
+      check('explicit same-directory map still reads once',reads===1&&!!known.source.input.map?.text,{reads});
+      check('ordinary CSS value survives',known.first.first.value==='red');
+    } finally {fs.readFileSync=original;}
+  } else if (family.startsWith('nanoid-')) {
+    const api=family==='nanoid-negative'?require('nanoid/non-secure'):require('nanoid');
+    const ids=Array.from({length:64},()=>api.nanoid(12));
+    check('64 normal IDs are unique and bounded',new Set(ids).size===64&&ids.every(x=>/^[\w-]{12}$/.test(x)));
+    emit({stage:'before-bounded-edge-call',family,normalChecks:checks});
+    const result=family==='nanoid-negative'?api.nanoid(-1):api.customAlphabet('abc',0)();
+    check('nonpositive requested size returns empty without looping',result==='',{result});
+  } else if (family === 'xmldom') {
+    emit({stage:'loading-xmldom'});
+    const {DOMImplementation,DOMParser,XMLSerializer}=require('@xmldom/xmldom');
+    const doc=new DOMImplementation().createDocument(null,'root',null);
+    const entity=doc.createEntityReference('safe');entity.nodeName='x;<probe/>';doc.documentElement.appendChild(entity);
+    const result=attempt(()=>new XMLSerializer().serializeToString(doc,false,null,{requireWellFormed:true}));
+    check('invalid entity name rejects well-formed serialization',!!result.error,result);
+    const normal=new DOMParser().parseFromString('<root><label>现金 &amp; notes</label></root>','text/xml');
+    check('ordinary Unicode XML remains exact',new XMLSerializer().serializeToString(normal)==='<root><label>现金 &amp; notes</label></root>');
+    emit({stage:'loading-xlsx-reader',checks});
+    const read=require('read-excel-file/node');
+    emit({stage:'reading-owned-workbook'});
+    const rows=await read(join(fixture,'owned.xlsx'));
+    check('actual installed XLSX reader returns literal account/amount rows',equal(rows,[{sheet:'Owned',data:[['Account','Amount'],['现金',42]]}]),rows);
+  } else if (family === 'qs') {
+    const qs=require('qs');
+    const limited=attempt(()=>qs.parse('a[]=1,2,3,4',{comma:true,arrayLimit:2,throwOnLimitExceeded:true}));
+    check('bracket-comma array obeys configured limit',limited.error==='RangeError',limited);
+    check('normal repeated query semantics preserved',equal(qs.parse('a=1&a=2&name=%E7%8E%B0%E9%87%91'),{a:['1','2'],name:'现金'}));
+    const shaped=attempt(()=>qs.stringify({value:{constructor:{isBuffer:true},note:'owned'}}));
+    check('benign non-callable isBuffer-shaped value does not crash',!shaped.error,shaped);
+  } else if (family === 'ip-address') {
+    const {Address4,Address6}=require('ip-address');
+    const leading=attempt(()=>new Address4('0177.0.0.1'));
+    check('leading-zero IPv4 rejects',!!leading.error,leading.error?leading:{canonical:leading.returned.correctForm()});
+    check('host loopback classification ignores wide CIDR mask',new Address4('127.0.0.1/0').isLoopback());
+    check('host private classification ignores wide CIDR mask',new Address4('10.1.2.3/0').isPrivate());
+    const mapped=new Address6('::ffff:127.0.0.1');
+    check('IPv4-mapped loopback classified as loopback',mapped.isLoopback(),{canonical:mapped.correctForm()});
+    check('ordinary public IPv4 canonical unchanged',new Address4('192.0.2.4').correctForm()==='192.0.2.4');
+  } else if (family === 'hono-static') {
+    const {Hono}=require('hono'); const {serveStatic}=require('@hono/node-server/serve-static');
+    const folder=join(fixture,'public');fs.mkdirSync(join(folder,'nested'),{recursive:true});fs.writeFileSync(join(folder,'nested','fixture.txt'),'owned-static-sentinel');
+    const app=new Hono(); app.use('*',serveStatic({root:folder}));
+    const ordinary=await app.request('http://owned.test/nested/fixture.txt');
+    check('ordinary owned static path returns expected content',ordinary.status===200&&(await ordinary.text())==='owned-static-sentinel');
+    const noncanonical=await app.request('http://owned.test/nested%5Cfixture.txt');
+    const body=await noncanonical.text();
+    check('encoded Windows backslash cannot read static sentinel',noncanonical.status===404&&!body.includes('owned-static-sentinel'),{status:noncanonical.status,body});
+  } else if (family === 'hono-cors') {
+    const {Hono}=require('hono'); const {cors}=require('hono/cors');
+    const app=new Hono();app.use('*',cors());
+    const request=async(headers)=>app.request('http://owned.test/',{method:'OPTIONS',headers:{Origin:'https://example.test','Access-Control-Request-Headers':headers}});
+    const ordinary=await request('x-one, x-two');
+    check('ordinary CORS request header trim preserved',ordinary.headers.get('access-control-allow-headers')==='x-one,x-two',{status:ordinary.status,allow:ordinary.headers.get('access-control-allow-headers')});
+    const input='x-one'+ ' '.repeat(40000)+'x-two';
+    emit({stage:'before-bounded-whitespace-call',length:input.length,normalChecks:checks});
+    const start=performance.now();const large=await request(input);
+    check('finite whitespace input completes and preserves header',large.headers.get('access-control-allow-headers')===input,{milliseconds:performance.now()-start,status:large.status});
+  } else throw new Error('Unknown family '+family);
+  check('no fetch attempted',fetchAttempts===0,fetchAttempts);
+} catch(e) {observations.fatal={name:e.name,message:e.message,stack:e.stack};process.exitCode=1;}
+finally {
+  const imported=[...new Set([...Object.keys(require.cache),...explicitImports])].filter(p=>p.replaceAll('\\','/').startsWith(root.replaceAll('\\','/')+'/'));
+  const report={family,root,fixture,checks,observations,fetchAttempts,sourceBindings:imported.map(path=>({path,sha256:sha(fs.readFileSync(path))})),status:!observations.fatal&&checks.every(x=>x.passed)?'PASS':'FAIL'};
+  fs.writeFileSync(output,JSON.stringify(report,null,2)+'\n',{flag:'wx'});
+  if(report.status!=='PASS')process.exitCode=1;
+  emit({family,status:report.status,checks:checks.length,failed:checks.filter(x=>!x.passed).map(x=>x.name),fatal:observations.fatal?.message});
+}

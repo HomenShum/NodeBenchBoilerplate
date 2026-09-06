@@ -1,0 +1,20 @@
+{
+  "name": "start_verification_cycle",
+  "args": {
+    "title": "Actual starter and MCP local handoff",
+    "description": "Owned synthetic context for actual local command evidence; independent review and release pending."
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "cycleId: cycle_1788660984085_xe0cqfv92\ntitle: Actual starter and MCP local handoff\ncurrentPhase: 1\nphaseName: context_gathering\ninstructions: \"Phase 1: Context Gathering (Parallel Research)\\nLaunch parallel research into:\\n- SDK/Protocol specs: Latest versions, blogs, announcements, GitHub repos, official SDKs\\n- Implementation audit: Current codebase patterns, inconsistencies, unused code\\n- Dispatcher/backend audit: Function signatures, allowlists, argument shapes\\n- External API research: Check if third-party APIs still work, find known breaking changes\\n\\nGoal: Build a comprehensive picture of \\\"what production looks like\\\" vs \\\"what we have.\\\"\\nTIP: Call search_learnings first to check for known issues related to this work.\"\nallPhases[6]{number,name,status}:\n  1,context_gathering,in_progress\n  2,gap_analysis,pending\n  3,implementation,pending\n  4,testing,pending\n  5,self_verify,pending\n  6,document,pending\n_quickRef:\n  nextAction: \"Cycle started. Now gather context with run_recon or search_all_knowledge, then call log_phase_findings for Phase 1.\"\n  nextTools[3]: search_all_knowledge,run_recon,log_phase_findings\n  methodology: verification\n  tip: Always search_all_knowledge first to avoid repeating past mistakes."
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 6
+  }
+}

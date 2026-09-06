@@ -1,0 +1,324 @@
+{
+  "version": "3.2.1",
+  "output": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\agents-state-proof",
+  "checks": [
+    {
+      "name": "bootstrap persisted readback",
+      "passed": true
+    },
+    {
+      "name": "unfinished cycle remains unfinished",
+      "passed": true
+    },
+    {
+      "name": "run_quality_gate rejects invalid input",
+      "passed": true
+    },
+    {
+      "name": "run_mandatory_flywheel rejects invalid input",
+      "passed": true
+    },
+    {
+      "name": "one false rule denies",
+      "passed": true
+    },
+    {
+      "name": "one false closed-loop step denies",
+      "passed": true
+    },
+    {
+      "name": "actual local closed loop records pass",
+      "passed": true
+    },
+    {
+      "name": "code review stays held",
+      "passed": true
+    },
+    {
+      "name": "actual flywheel preserves pending release",
+      "passed": true
+    },
+    {
+      "name": "burst receives both independent replies",
+      "passed": true
+    },
+    {
+      "name": "eight history rows remain distinct",
+      "passed": true
+    },
+    {
+      "name": "project context survives restart",
+      "passed": true
+    },
+    {
+      "name": "failed phase survives restart",
+      "passed": true
+    },
+    {
+      "name": "mandatory_flywheel failed ID survives restart",
+      "passed": true
+    },
+    {
+      "name": "owned-negative failed ID survives restart",
+      "passed": true
+    },
+    {
+      "name": "final learning content survives restart",
+      "passed": true
+    }
+  ],
+  "sessions": [
+    {
+      "name": "agents-write",
+      "command": "node",
+      "args": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "pid": 47848,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/call"
+        },
+        {
+          "id": 3,
+          "method": "tools/call"
+        },
+        {
+          "id": 4,
+          "method": "tools/call"
+        },
+        {
+          "id": 5,
+          "method": "tools/call"
+        },
+        {
+          "id": 6,
+          "method": "tools/call"
+        },
+        {
+          "id": 7,
+          "method": "tools/call"
+        },
+        {
+          "id": 8,
+          "method": "tools/call"
+        },
+        {
+          "id": 9,
+          "method": "tools/call"
+        },
+        {
+          "id": 10,
+          "method": "tools/call"
+        },
+        {
+          "id": 11,
+          "method": "tools/call"
+        },
+        {
+          "id": 12,
+          "method": "tools/call"
+        },
+        {
+          "id": 13,
+          "method": "tools/call"
+        },
+        {
+          "id": 14,
+          "method": "tools/call"
+        },
+        {
+          "id": 15,
+          "method": "tools/call"
+        },
+        {
+          "id": 16,
+          "method": "tools/call"
+        },
+        {
+          "id": 17,
+          "method": "tools/call"
+        },
+        {
+          "id": 18,
+          "method": "tools/call"
+        },
+        {
+          "id": 19,
+          "method": "tools/call"
+        },
+        {
+          "id": 20,
+          "method": "tools/call"
+        },
+        {
+          "id": 21,
+          "method": "tools/call"
+        },
+        {
+          "id": 22,
+          "method": "tools/call"
+        },
+        {
+          "id": 23,
+          "method": "tools/call"
+        },
+        {
+          "id": 24,
+          "method": "tools/call"
+        },
+        {
+          "id": 25,
+          "method": "tools/call"
+        },
+        {
+          "id": 26,
+          "method": "tools/call"
+        },
+        {
+          "id": 27,
+          "method": "tools/call"
+        },
+        {
+          "id": 28,
+          "method": "tools/call"
+        },
+        {
+          "id": 29,
+          "method": "tools/call"
+        },
+        {
+          "id": 30,
+          "method": "tools/call"
+        },
+        {
+          "id": 31,
+          "method": "tools/call"
+        },
+        {
+          "id": 32,
+          "method": "tools/call"
+        },
+        {
+          "id": 33,
+          "method": "tools/call"
+        },
+        {
+          "id": 34,
+          "method": "tools/call"
+        },
+        {
+          "id": 35,
+          "method": "tools/call"
+        },
+        {
+          "id": 36,
+          "method": "tools/call"
+        },
+        {
+          "id": 37,
+          "method": "tools/call"
+        },
+        {
+          "id": 38,
+          "method": "tools/call"
+        },
+        {
+          "id": 39,
+          "method": "tools/call"
+        },
+        {
+          "id": 40,
+          "method": "tools/call"
+        },
+        {
+          "id": 41,
+          "method": "tools/call"
+        },
+        {
+          "id": 42,
+          "method": "tools/call"
+        },
+        {
+          "id": 43,
+          "method": "tools/call"
+        },
+        {
+          "id": 44,
+          "method": "tools/call"
+        },
+        {
+          "id": 45,
+          "method": "tools/call"
+        },
+        {
+          "id": 46,
+          "method": "tools/call"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "streamBytes": 52378,
+      "pendingAtClose": 0
+    },
+    {
+      "name": "agents-restart",
+      "command": "node",
+      "args": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "pid": 22616,
+      "requests": [
+        {
+          "id": 1,
+          "method": "initialize"
+        },
+        {
+          "id": 2,
+          "method": "tools/call"
+        },
+        {
+          "id": 3,
+          "method": "tools/call"
+        },
+        {
+          "id": 4,
+          "method": "tools/call"
+        },
+        {
+          "id": 5,
+          "method": "tools/call"
+        },
+        {
+          "id": 6,
+          "method": "tools/call"
+        }
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "streamBytes": 19721,
+      "pendingAtClose": 0
+    }
+  ],
+  "status": "PASS",
+  "identities": {
+    "cycleId": "cycle_1788660984085_xe0cqfv92",
+    "finalGateId": "gate_1788660984117_yg1acds9l",
+    "failedGateId": "gate_1788660984113_xyyfl2fot",
+    "learningId": 1
+  },
+  "database": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\agents-state-proof\\agents-state\\data\\nodebench.db"
+}

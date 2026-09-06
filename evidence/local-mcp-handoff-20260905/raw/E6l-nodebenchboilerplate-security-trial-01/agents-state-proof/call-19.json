@@ -1,0 +1,19 @@
+{
+  "name": "get_gate_preset",
+  "args": {
+    "preset": "code_review"
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "preset: code_review\nruleCount: 7\nrules[7]{name,description,evaluationHint}:\n  compiles_clean,TypeScript compiles with zero errors (tsc --noEmit),Run tsc --noEmit. FAIL if any errors.\n  no_lint_warnings,Linter passes with zero warnings,Run the project linter. FAIL if any warnings or errors.\n  tests_pass,All existing test suites pass,Run test suite. FAIL if any test fails.\n  no_hardcoded_secrets,\"No API keys, tokens, or passwords in code\",\"Search for patterns like API_KEY=, token=, password=, hardcoded URLs with credentials. FAIL if found.\"\n  error_handling_present,\"Error paths are handled, not swallowed silently\",Check try/catch blocks and promise chains. FAIL if errors are caught but ignored.\n  follows_existing_patterns,New code follows the same patterns as surrounding code,Compare with adjacent files. FAIL if new abstractions or patterns diverge from established conventions.\n  has_regression_test,Every bug fix ships with a test that would have caught it,Check if a test exists for the specific fix. FAIL if no test covers the fixed behavior.\nusage: \"Evaluate each rule against your target, then call run_quality_gate with gateName=\\\"code_review\\\" and the boolean results.\"\n_quickRef:\n  nextAction: Evaluate each rule against your target. Then call run_quality_gate with your boolean results.\n  nextTools[1]: run_quality_gate\n  methodology: quality_gates"
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 20
+  }
+}

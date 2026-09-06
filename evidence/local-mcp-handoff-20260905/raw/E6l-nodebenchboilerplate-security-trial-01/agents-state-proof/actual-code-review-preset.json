@@ -1,0 +1,49 @@
+{
+  "preset": "code_review",
+  "ruleCount": 7,
+  "rules": [
+    {
+      "name": "compiles_clean",
+      "description": "TypeScript compiles with zero errors (tsc --noEmit)",
+      "evaluationHint": "Run tsc --noEmit. FAIL if any errors."
+    },
+    {
+      "name": "no_lint_warnings",
+      "description": "Linter passes with zero warnings",
+      "evaluationHint": "Run the project linter. FAIL if any warnings or errors."
+    },
+    {
+      "name": "tests_pass",
+      "description": "All existing test suites pass",
+      "evaluationHint": "Run test suite. FAIL if any test fails."
+    },
+    {
+      "name": "no_hardcoded_secrets",
+      "description": "No API keys, tokens, or passwords in code",
+      "evaluationHint": "Search for patterns like API_KEY=, token=, password=, hardcoded URLs with credentials. FAIL if found."
+    },
+    {
+      "name": "error_handling_present",
+      "description": "Error paths are handled, not swallowed silently",
+      "evaluationHint": "Check try/catch blocks and promise chains. FAIL if errors are caught but ignored."
+    },
+    {
+      "name": "follows_existing_patterns",
+      "description": "New code follows the same patterns as surrounding code",
+      "evaluationHint": "Compare with adjacent files. FAIL if new abstractions or patterns diverge from established conventions."
+    },
+    {
+      "name": "has_regression_test",
+      "description": "Every bug fix ships with a test that would have caught it",
+      "evaluationHint": "Check if a test exists for the specific fix. FAIL if no test covers the fixed behavior."
+    }
+  ],
+  "usage": "Evaluate each rule against your target, then call run_quality_gate with gateName=\"code_review\" and the boolean results.",
+  "_quickRef": {
+    "nextAction": "Evaluate each rule against your target. Then call run_quality_gate with your boolean results.",
+    "nextTools": [
+      "run_quality_gate"
+    ],
+    "methodology": "quality_gates"
+  }
+}

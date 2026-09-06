@@ -1,0 +1,88 @@
+{
+  "status": "APPROVED_SCOPED_EXTERNAL_NINE_ROW_LOCK_TRIAL_WITH_TWO_HIGH_FINDINGS_OPEN",
+  "mode": "Builder",
+  "requestTrace": "Individual repository usage and developer/coding-agent handoff; independent planner-worker-judge validation.",
+  "reviewerContext": "Reused independent entrypoint judge; nonauthor of dependency trial and original proof.",
+  "wrapper": {
+    "path": "E6l_NODEBENCHBOILERPLATE_SECURITY_TRIAL_FREEZE.json",
+    "bytes": 1542,
+    "sha256": "4e5620f40ac3c3eb25bf3e2d9205b1d2ef929bff719f7cf760645743efe6d36e"
+  },
+  "source": {
+    "candidateDigest": "193ba3feda6209e843dce8c20ed4ff456b95ac1f1d8787b3479508975997dad4",
+    "externalDigest": "e206dc63ebb1198bd6ca15a4bd6030603f340b591d969986fd694fce69b8638f",
+    "proposedLockSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+    "changedRows": 9,
+    "unchangedRows": 350,
+    "addedRows": 0,
+    "removedRows": 0,
+    "manifestUnchanged": true,
+    "candidateSourceFilesUnchanged": 15,
+    "primaryFilesUnchanged": 13,
+    "candidateNamedInstalledFilesUnchanged": 348
+  },
+  "proof": {
+    "frozenPayloads": 695,
+    "frozenPayloadBytes": 17183483,
+    "loadedCanaryBindings": 684,
+    "originalPatchedAssertions": 71,
+    "originalSubcases": 10,
+    "originalFamilies": 8,
+    "independentBaselinePatchedPairs": 4,
+    "independentChildProcesses": 8,
+    "independentPatchedAssertions": 48,
+    "independentExpectedOldFailures": 4,
+    "unchangedDeadlineSeconds": 5,
+    "independentSurvivors": 0,
+    "independentGlobalFetchAttempts": 0,
+    "sqliteReadOnly": true,
+    "sqliteBytesUnchanged": true,
+    "workflowNativeTables": 81,
+    "nativeProbeTableCountBeforeCreate": 81,
+    "nativeProbeTableCountOnReopen": 82,
+    "historyRows": 8,
+    "commandRows": 6,
+    "learningRowsAfter8Updates": 1,
+    "rawProtocolAssertionsVerified": 25,
+    "rawGateAssertionsVerified": 16,
+    "rawToolRepliesVerified": 50,
+    "falseReviewAndReleasePreserved": true,
+    "compiledFilesExact": 4,
+    "ordinarySuitesOrInstallRepeatedByJudge": false
+  },
+  "compatibility": {
+    "incomingDeclarationsSatisfied": 10,
+    "engineRowsSatisfied": 9,
+    "newDirectDependency": false,
+    "overrideOrManualIntegrity": false,
+    "declarationOnlyNode20Proof": true
+  },
+  "audit": {
+    "exitCode": 1,
+    "high": 2,
+    "remaining": [
+      "sharp",
+      "nodebench-mcp"
+    ],
+    "complete": false,
+    "scope": "Presence, not application exploitability; patched Sharp0.35.0 outside unchanged optional ^0.34.5 contract."
+  },
+  "requiredSourceCorrections": [],
+  "transfer": "APPROVED_EXACT_LOCK_ONLY_PENDING_ROOT_TRANSFER_AND_BOUND_PUBLICATION",
+  "sourceGuard": "CLOSED_UNCHANGED",
+  "held": [
+    "Actual candidate transfer and shared integration",
+    "Linux/Node20 native execution",
+    "Sharp/upstream MCP remediation",
+    "Docker/global host activation",
+    "Provider/full-tool/downstream application behavior",
+    "Full product and visual grades"
+  ],
+  "publication": "Operator raw profile/env/DB/cache evidence not approved for indiscriminate publication.",
+  "report": {
+    "path": "E6l_NODEBENCHBOILERPLATE_SECURITY_TRIAL_JUDGE.md",
+    "bytes": 7486,
+    "sha256": "3577221b1440f9fc397d1ab4054733579a64f7ab0696c5b25b33b64f1c4efc68"
+  },
+  "fullDimensionScores": null
+}

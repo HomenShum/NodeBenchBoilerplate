@@ -9,13 +9,13 @@
  * - Quality gate patterns
  *
  * Get started:
- *   1. npm install
+ *   1. npm ci
  *   2. npm run mcp:start (to launch NodeBench MCP)
  *   3. Call bootstrap_project to register with NodeBench
  */
 
 export function hello(name: string): string {
-  return `Hello, ${name}! NodeBench MCP is ready.`;
+  return `Hello, ${name}! Starter ran. Connect NodeBench MCP with npm run mcp:start.`;
 }
 
 console.log(hello("World"));

@@ -1,0 +1,1 @@
+{"family":"hono-static","status":"FAIL","checks":3,"failed":["encoded Windows backslash cannot read static sentinel"]}

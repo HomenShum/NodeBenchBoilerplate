@@ -1,0 +1,2 @@
+[toolsetRegistry] Loaded 23 domain(s) (260 tools): core_workflow, nodebench_research, verification, eval, quality_gate, learning, flywheel, autonomous_delivery, sync_bridge, shared_context, recon, security, boilerplate, skill_update, context_sandbox, observability, execution_trace, mission_harness, deep_sim, founder, scenario_compiler, packet_compiler, entity_temporal
+nodebench-mcp ready (273 tools, 14 prompts [gated: 260 domain + 2 meta], SQLite at ~/.nodebench/ core-runtime)

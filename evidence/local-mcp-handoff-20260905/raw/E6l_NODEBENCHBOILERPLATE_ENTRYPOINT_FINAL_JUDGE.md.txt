@@ -1,0 +1,32 @@
+# Boilerplate local entrypoint repair: independent judgment
+
+**Builder · APPROVED_SCOPED_LOCAL_ENTRYPOINT_REPAIR.** The frozen ten-owner repair works within its named local starter, MCP transport and native-storage scope. No blocking source finding remains. The full dependency audit still fails, and shared CI/host/Docker/provider/application acceptance remain separate.
+
+**Re your request:** make each repo usable by developers and coding agents with planner-worker-judge and real handoff evidence. A new developer can now start the greeting, connect the installed MCP CLI explicitly and prove durable test records. A greeting or a returned gate ID no longer stands in for a connection, persisted state or independent approval.
+
+Source: unchanged base `c7f4ec95deca8facdb0872e705084b74838187b7`; effective fifteen-file source digest `193ba3feda6209e843dce8c20ed4ff456b95ac1f1d8787b3479508975997dad4`. The [final freeze](E6l_NODEBENCHBOILERPLATE_ENTRYPOINT_FINAL_FREEZE.json) explicitly corrects README's assertion count from 24 to the actual 25 while preserving the original freeze and raw proof.
+
+| Claim | Independent observation |
+|---|---|
+| Ten-owner scope | Exact authorized files; five protected originals unchanged; no library fork or new storage layer |
+| Real local checks | Ordinary lint and two existing tests pass; existing compiler/config passes with external output, producing identical JS/declarations |
+| Real MCP entrypoint | Actual `npm run verify:mcp` passes all 25 assertions in fresh owned profiles; no registry fallback |
+| Preset/runtime truth | Starter/core/full load 20/273/567 tools and 14 prompts each; five exact baseline argument sets disable optional runtime flags |
+| Native persistence | SQLite insert/reopen passes; both worker and independent databases reopened read-only and matched to tool-return IDs |
+| Gate failures survive | Fresh 50-call/16-assertion scenario retains failed review/release and phase six, eight distinct history rows and one learning after eight updates |
+| CI boundary | Actual default master added, main retained; lint becomes blocking, protocol proof added; official pinned action refs verified |
+| Dependency audit | **FAIL retained: 11 findings, four moderate and seven high** |
+
+The main causes are closed at their responsible boundaries. Missing `--stdio` caused help output instead of protocol frames; explicit local arguments fix that. Preset defaults could enable embeddings without keys; `--no-embedding` now controls the actual resolver. Missing native SQLite permitted no-op persistence; the explicit compatible adapter plus real insert/readback/restart proves stored rows. Lint was both unavailable and tolerated by CI; it now exists and blocks. The greeting now claims only that the starter ran. [Actual source diff](E6l-nodebenchboilerplate-final-independent-02/actual-source-diff.stdout)
+
+The independent database reads found 81 tables, six records bound to actual retained command stdout/stderr hashes, eight distinct history rows, and one final learning row after eight same-key updates. Failed gate IDs matched the real protocol replies after restart. These checks verify persistence and boolean aggregation; the external recorder references earlier worker command receipts and does not pretend MCP ran a compiler or that those records create human approval. [Worker readback](E6l-nodebenchboilerplate-final-independent-02/worker-sqlite-readback.json), [fresh independent readback](E6l-nodebenchboilerplate-final-independent-02/independent-sqlite-readback.json)
+
+The lock adds 112 rows for the four approved lint/native dependencies. No existing package version, resolved URL or integrity changed; five optional flags become required. Native binary identity and seven original MCP runtime modules are bound. Local Windows Node22 success is not the pending Linux/Node20 CI result. [Lock and actual command observations](E6l-nodebenchboilerplate-final-independent-02/final-observations.json)
+
+Original failures remain available: no-args help, unsupported/missing documented commands, no-op database and embedding preconditions, the TOON-versus-JSON recorder failure, intentional negatives, and the audit failure. Independent custody-reader mistakes were corrected only in external tooling and retained as harness evidence. The original worker normal install/build/test/lint stream hashes were checked; no installation was repeated. The independent compiler changed only its output directory to protect candidate dist. [Replay commands](E6l-nodebenchboilerplate-final-independent-02/replay-commands.json)
+
+The eight backend-reliability points are assessed in the [JSON judgment](E6l_NODEBENCHBOILERPLATE_ENTRYPOINT_FINAL_JUDGE.json). The owned verifier bounds requests/frames/streams and process deadlines, retains errors, and uses honest booleans. It introduces no URL endpoint or CAS contract; this is not an audit of every loaded MCP tool.
+
+The guard is **CLOSED_UNCHANGED**: fifteen effective source files, thirteen primary files, both Git states, 348 installed package-manifest bindings and four dist files match. All new owned processes closed. The worker's 143 operator artifacts and 936 external proof artifacts matched their manifests. This reused nonauthor judge wrote no product/index/ref changes. [Closure](E6l-nodebenchboilerplate-final-independent-02/source-freeze-closure.json), [independent manifest](E6l-nodebenchboilerplate-final-independent-02/artifact-manifest.json)
+
+Root may prepare the portable publication and normal shared integration next. That requires its own exact-byte/publication review. Audit remediation, actual MCP host activation, Docker, provider/background functions and downstream UI remain held; all full readiness dimensions remain null.

@@ -1,0 +1,499 @@
+{
+  "role": "worker",
+  "status": "PASS",
+  "database": "D:\\ProjectRecovery\\nodebenchboilerplate-agents-proof-20260905-02\\agents-state\\data\\nodebench.db",
+  "sha256Before": "b50b0a2473890ed97525cd604296c76b162568567a28e0209bd07300c33a94ce",
+  "sha256After": "b50b0a2473890ed97525cd604296c76b162568567a28e0209bd07300c33a94ce",
+  "sqliteOpenMode": "ro and immutable=1 after confirmed no nonempty WAL",
+  "rows": {
+    "tables": [
+      {
+        "name": "ab_test_sessions"
+      },
+      {
+        "name": "ab_tool_events"
+      },
+      {
+        "name": "account_bindings"
+      },
+      {
+        "name": "agent_mailbox"
+      },
+      {
+        "name": "agent_roles"
+      },
+      {
+        "name": "agent_tasks"
+      },
+      {
+        "name": "content_archive"
+      },
+      {
+        "name": "content_archive_fts"
+      },
+      {
+        "name": "content_archive_fts_config"
+      },
+      {
+        "name": "content_archive_fts_data"
+      },
+      {
+        "name": "content_archive_fts_docsize"
+      },
+      {
+        "name": "content_archive_fts_idx"
+      },
+      {
+        "name": "context_budget_log"
+      },
+      {
+        "name": "device_bindings"
+      },
+      {
+        "name": "engine_reports"
+      },
+      {
+        "name": "engine_workflow_runs"
+      },
+      {
+        "name": "eval_cases"
+      },
+      {
+        "name": "eval_runs"
+      },
+      {
+        "name": "execution_receipts"
+      },
+      {
+        "name": "founder_harness_episodes"
+      },
+      {
+        "name": "gaps"
+      },
+      {
+        "name": "gaps_fts"
+      },
+      {
+        "name": "gaps_fts_config"
+      },
+      {
+        "name": "gaps_fts_data"
+      },
+      {
+        "name": "gaps_fts_docsize"
+      },
+      {
+        "name": "gaps_fts_idx"
+      },
+      {
+        "name": "learnings"
+      },
+      {
+        "name": "learnings_fts"
+      },
+      {
+        "name": "learnings_fts_config"
+      },
+      {
+        "name": "learnings_fts_data"
+      },
+      {
+        "name": "learnings_fts_docsize"
+      },
+      {
+        "name": "learnings_fts_idx"
+      },
+      {
+        "name": "local_artifacts"
+      },
+      {
+        "name": "local_outcomes"
+      },
+      {
+        "name": "object_edges"
+      },
+      {
+        "name": "object_nodes"
+      },
+      {
+        "name": "object_nodes_fts"
+      },
+      {
+        "name": "object_nodes_fts_config"
+      },
+      {
+        "name": "object_nodes_fts_data"
+      },
+      {
+        "name": "object_nodes_fts_docsize"
+      },
+      {
+        "name": "object_nodes_fts_idx"
+      },
+      {
+        "name": "oracle_comparisons"
+      },
+      {
+        "name": "project_context"
+      },
+      {
+        "name": "quality_gate_runs"
+      },
+      {
+        "name": "recon_findings"
+      },
+      {
+        "name": "recon_findings_fts"
+      },
+      {
+        "name": "recon_findings_fts_config"
+      },
+      {
+        "name": "recon_findings_fts_data"
+      },
+      {
+        "name": "recon_findings_fts_docsize"
+      },
+      {
+        "name": "recon_findings_fts_idx"
+      },
+      {
+        "name": "recon_sessions"
+      },
+      {
+        "name": "shared_context_messages"
+      },
+      {
+        "name": "shared_context_packet_acks"
+      },
+      {
+        "name": "shared_context_packets"
+      },
+      {
+        "name": "shared_context_peers"
+      },
+      {
+        "name": "shared_context_tasks"
+      },
+      {
+        "name": "skill_sync_history"
+      },
+      {
+        "name": "skills"
+      },
+      {
+        "name": "sqlite_sequence"
+      },
+      {
+        "name": "subconscious_blocks"
+      },
+      {
+        "name": "subconscious_whisper_log"
+      },
+      {
+        "name": "sync_queue"
+      },
+      {
+        "name": "sync_receipts"
+      },
+      {
+        "name": "test_results"
+      },
+      {
+        "name": "tool_call_log"
+      },
+      {
+        "name": "ui_dive_backend_links"
+      },
+      {
+        "name": "ui_dive_bugs"
+      },
+      {
+        "name": "ui_dive_changelogs"
+      },
+      {
+        "name": "ui_dive_code_locations"
+      },
+      {
+        "name": "ui_dive_code_reviews"
+      },
+      {
+        "name": "ui_dive_components"
+      },
+      {
+        "name": "ui_dive_design_issues"
+      },
+      {
+        "name": "ui_dive_fix_verifications"
+      },
+      {
+        "name": "ui_dive_generated_tests"
+      },
+      {
+        "name": "ui_dive_interaction_tests"
+      },
+      {
+        "name": "ui_dive_interactions"
+      },
+      {
+        "name": "ui_dive_screenshots"
+      },
+      {
+        "name": "ui_dive_sessions"
+      },
+      {
+        "name": "ui_dive_test_steps"
+      },
+      {
+        "name": "verification_cycles"
+      },
+      {
+        "name": "verification_phases"
+      }
+    ],
+    "context": [
+      {
+        "key": "build_commands",
+        "value": "npm run build"
+      },
+      {
+        "key": "conventions",
+        "value": "Synthetic local evidence only; release not approved."
+      },
+      {
+        "key": "project_name",
+        "value": "Owned Boilerplate handoff scenario"
+      },
+      {
+        "key": "tech_stack",
+        "value": "TypeScript, Node.js"
+      },
+      {
+        "key": "test_commands",
+        "value": "npm test"
+      }
+    ],
+    "cycle": [
+      {
+        "id": "cycle_1788659131809_62gmo35t5",
+        "status": "active",
+        "current_phase": 6
+      }
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "status": "passed"
+      },
+      {
+        "phase_number": 2,
+        "status": "passed"
+      },
+      {
+        "phase_number": 3,
+        "status": "passed"
+      },
+      {
+        "phase_number": 4,
+        "status": "passed"
+      },
+      {
+        "phase_number": 5,
+        "status": "passed"
+      },
+      {
+        "phase_number": 6,
+        "status": "failed"
+      }
+    ],
+    "learning": [
+      {
+        "id": 1,
+        "key": "boilerplate-native-handoff",
+        "content": "SQLite native readback and restart are required; synthetic revision 7",
+        "category": "regression",
+        "tags": "[\"handoff\"]",
+        "source_cycle": "cycle_1788659131809_62gmo35t5",
+        "created_at": "2026-09-06T01:45:31.843Z",
+        "updated_at": "2026-09-06T01:45:31.850Z"
+      }
+    ],
+    "gates": [
+      {
+        "id": "gate_1788659131837_zk6mw72uy",
+        "gate_name": "owned-negative",
+        "passed": 0,
+        "failures": "[\"known_false_fixture\"]",
+        "total_rules": 2
+      },
+      {
+        "id": "gate_1788659131838_fm2d41sp6",
+        "gate_name": "closed_loop",
+        "passed": 0,
+        "failures": "[\"lint\"]",
+        "total_rules": 4
+      },
+      {
+        "id": "gate_1788659131839_n0wyrc8bi",
+        "gate_name": "closed_loop",
+        "passed": 1,
+        "failures": "[]",
+        "total_rules": 4
+      },
+      {
+        "id": "gate_1788659131840_n5vddbpju",
+        "gate_name": "code_review",
+        "passed": 0,
+        "failures": "[\"independent_review\"]",
+        "total_rules": 2
+      },
+      {
+        "id": "gate_1788659131841_g4qrdgdvm",
+        "gate_name": "mandatory_flywheel",
+        "passed": 0,
+        "failures": "[\"deploy_and_document\"]",
+        "total_rules": 6
+      },
+      {
+        "id": "gate_1788659131853_prnqgniu2",
+        "gate_name": "owned-history",
+        "passed": 1,
+        "failures": "[]",
+        "total_rules": 1
+      },
+      {
+        "id": "gate_1788659131854_xa2tu77r7",
+        "gate_name": "owned-history",
+        "passed": 0,
+        "failures": "[\"fixture_expected\"]",
+        "total_rules": 1
+      },
+      {
+        "id": "gate_1788659131855_ny67g7u5f",
+        "gate_name": "owned-history",
+        "passed": 1,
+        "failures": "[]",
+        "total_rules": 1
+      },
+      {
+        "id": "gate_1788659131856_0p9pai88o",
+        "gate_name": "owned-history",
+        "passed": 0,
+        "failures": "[\"fixture_expected\"]",
+        "total_rules": 1
+      },
+      {
+        "id": "gate_1788659131857_govjuczge",
+        "gate_name": "owned-history",
+        "passed": 1,
+        "failures": "[]",
+        "total_rules": 1
+      },
+      {
+        "id": "gate_1788659131858_iufu2q8fl",
+        "gate_name": "owned-history",
+        "passed": 0,
+        "failures": "[\"fixture_expected\"]",
+        "total_rules": 1
+      },
+      {
+        "id": "gate_1788659131859_33qho29dj",
+        "gate_name": "owned-history",
+        "passed": 1,
+        "failures": "[]",
+        "total_rules": 1
+      },
+      {
+        "id": "gate_1788659131860_8gfz6s1vk",
+        "gate_name": "owned-history",
+        "passed": 0,
+        "failures": "[\"fixture_expected\"]",
+        "total_rules": 1
+      }
+    ],
+    "tests": [
+      {
+        "layer": "static",
+        "label": "build-01",
+        "passed": 1,
+        "output": "{\"command\":[\"C:/nvm4w/nodejs/node.exe\",\"C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js\",\"run\",\"build\"],\"exitCode\":0,\"stdoutSha256\":\"01c7440f712c9658fe51ea15d697422ffa942c9a8710a7304ed7694cacf9fa14\",\"stderrSha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}"
+      },
+      {
+        "layer": "static",
+        "label": "lint-final",
+        "passed": 1,
+        "output": "{\"command\":[\"C:/nvm4w/nodejs/node.exe\",\"C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js\",\"run\",\"lint\"],\"exitCode\":0,\"stdoutSha256\":\"6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585\",\"stderrSha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}"
+      },
+      {
+        "layer": "unit",
+        "label": "tests-01",
+        "passed": 1,
+        "output": "{\"command\":[\"C:/nvm4w/nodejs/node.exe\",\"C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js\",\"test\"],\"exitCode\":0,\"stdoutSha256\":\"6b61daf627c2af9fcb8e61c854ad5f03c64a6e883b2c3af8cb09b7bddf3eda2b\",\"stderrSha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}"
+      },
+      {
+        "layer": "integration",
+        "label": "protocol-01",
+        "passed": 1,
+        "output": "{\"command\":[\"C:/nvm4w/nodejs/node.exe\",\"C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js\",\"run\",\"verify:mcp\",\"--\",\"D:/ProjectRecovery/nodebenchboilerplate-protocol-20260905-01\"],\"exitCode\":0,\"stdoutSha256\":\"2e0d049e419a7d2bff9293449611c55f84b1c6b5be13a928afcc6eb8999fff1d\",\"stderrSha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}"
+      },
+      {
+        "layer": "integration",
+        "label": "lint-knockout",
+        "passed": 1,
+        "output": "{\"command\":[\"C:/nvm4w/nodejs/node.exe\",\"C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6l-lint-knockout.mjs\"],\"exitCode\":0,\"stdoutSha256\":\"11de6e389e3ffe1f3f1d1157468b7c30ea778cac73aa5a8a66bb777e46168078\",\"stderrSha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}"
+      },
+      {
+        "layer": "manual",
+        "label": "compiled-starter",
+        "passed": 1,
+        "output": "{\"command\":[\"C:/nvm4w/nodejs/node.exe\",\"dist/index.js\"],\"exitCode\":0,\"stdoutSha256\":\"56236ae6074b24096622d816037bd66a5aad5d54592f09f6ed428160793bf250\",\"stderrSha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}"
+      }
+    ]
+  },
+  "actualCommandBindings": [
+    {
+      "label": "build-01",
+      "exitCode": 0,
+      "stdoutSha256": "01c7440f712c9658fe51ea15d697422ffa942c9a8710a7304ed7694cacf9fa14",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "lint-final",
+      "exitCode": 0,
+      "stdoutSha256": "6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "tests-01",
+      "exitCode": 0,
+      "stdoutSha256": "6b61daf627c2af9fcb8e61c854ad5f03c64a6e883b2c3af8cb09b7bddf3eda2b",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "protocol-01",
+      "exitCode": 0,
+      "stdoutSha256": "2e0d049e419a7d2bff9293449611c55f84b1c6b5be13a928afcc6eb8999fff1d",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "lint-knockout",
+      "exitCode": 0,
+      "stdoutSha256": "11de6e389e3ffe1f3f1d1157468b7c30ea778cac73aa5a8a66bb777e46168078",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "compiled-starter",
+      "exitCode": 0,
+      "stdoutSha256": "56236ae6074b24096622d816037bd66a5aad5d54592f09f6ed428160793bf250",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "counts": {
+    "nativeTables": 81,
+    "historyRows": 8,
+    "upsertedLearningRows": 1,
+    "commandRows": 6,
+    "protocolToolCalls": 50
+  },
+  "scope": "Durable synthetic evidence aggregation; no independent human/code-review approval is created by persisted booleans."
+}

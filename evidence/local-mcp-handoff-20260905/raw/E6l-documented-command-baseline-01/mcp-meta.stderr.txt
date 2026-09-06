@@ -1,0 +1,8 @@
+npm error Missing script: "mcp:meta"
+npm error
+npm error Did you mean this?
+npm error   npm run mcp:lite # run the "mcp:lite" package script
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: D:\ProjectRecovery\nodebenchboilerplate-mcp-20260905\npm-cache\_logs\2026-09-06T00_53_17_363Z-debug-0.log

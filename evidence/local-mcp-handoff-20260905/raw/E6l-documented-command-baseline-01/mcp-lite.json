@@ -1,0 +1,34 @@
+{
+  "script": "mcp:lite",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+    "run",
+    "mcp:lite"
+  ],
+  "candidate": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+  "seconds": 1.406,
+  "exitCode": 1,
+  "naturalExit": true,
+  "controllerError": null,
+  "ownedProcesses": {
+    "10796": 1788655995.849887,
+    "66396": 1788655996.0395763,
+    "40708": 1788655996.072752,
+    "27440": 1788655996.099969,
+    "50320": 1788655996.1976037,
+    "52040": 1788655996.95302,
+    "33044": 1788655996.9798481
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 75,
+    "stderr": 214
+  },
+  "stdoutSha256": "94fc16435a886d59eca285f429c36da0b25d9efb000047e0cb73bfdf50989232",
+  "stderrSha256": "038ca8f0296a692fe5bea667da853fe0918898051d157a9c038812441fdf5982",
+  "toolsCalled": 0,
+  "stdin": "closed; no protocol or tool messages sent",
+  "environment": "Exact prior approved isolated child environment; no inherited credential values",
+  "environmentFileSha256": "a706c6eca724a8f2ece266c5d8c4531cf123b3eb95c27fbde08ef466ed72aa21"
+}

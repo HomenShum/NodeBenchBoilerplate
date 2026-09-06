@@ -1,0 +1,97 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "path": "node_modules/@hono/node-server",
+      "fields": [
+        "resolved",
+        "version",
+        "integrity"
+      ],
+      "beforeVersion": "1.19.14",
+      "afterVersion": "1.19.15"
+    },
+    {
+      "path": "node_modules/@toon-format/toon",
+      "fields": [
+        "version",
+        "resolved",
+        "integrity"
+      ],
+      "beforeVersion": "2.3.0",
+      "afterVersion": "2.3.1"
+    },
+    {
+      "path": "node_modules/@xmldom/xmldom",
+      "fields": [
+        "resolved",
+        "version",
+        "integrity"
+      ],
+      "beforeVersion": "0.8.13",
+      "afterVersion": "0.8.15"
+    },
+    {
+      "path": "node_modules/fast-uri",
+      "fields": [
+        "resolved",
+        "version",
+        "integrity"
+      ],
+      "beforeVersion": "3.1.3",
+      "afterVersion": "3.1.6"
+    },
+    {
+      "path": "node_modules/hono",
+      "fields": [
+        "resolved",
+        "version",
+        "integrity"
+      ],
+      "beforeVersion": "4.12.28",
+      "afterVersion": "4.12.34"
+    },
+    {
+      "path": "node_modules/ip-address",
+      "fields": [
+        "resolved",
+        "version",
+        "integrity"
+      ],
+      "beforeVersion": "10.2.0",
+      "afterVersion": "10.3.1"
+    },
+    {
+      "path": "node_modules/nanoid",
+      "fields": [
+        "resolved",
+        "version",
+        "integrity"
+      ],
+      "beforeVersion": "3.3.15",
+      "afterVersion": "3.3.18"
+    },
+    {
+      "path": "node_modules/postcss",
+      "fields": [
+        "resolved",
+        "dependencies",
+        "version",
+        "integrity"
+      ],
+      "beforeVersion": "8.5.16",
+      "afterVersion": "8.5.23"
+    },
+    {
+      "path": "node_modules/qs",
+      "fields": [
+        "version",
+        "resolved",
+        "integrity"
+      ],
+      "beforeVersion": "6.15.3",
+      "afterVersion": "6.16.0"
+    }
+  ]
+}

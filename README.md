@@ -1,137 +1,111 @@
 # NodeBenchBoilerplate
 
-Production-ready boilerplate for AI agent projects using [NodeBench MCP](https://www.npmjs.com/package/nodebench-mcp).
+A small TypeScript source template for a developer or coding agent who needs a
+local MCP connection, verification records, and ordinary build/test/lint gates.
+The starter prints a greeting. It does not generate an application or prove an
+MCP connection merely by running. NodeKit remains the separate project factory.
 
-Pre-configured with **134 MCP tools**, quality gates, parallel agent infrastructure, GitHub Actions CI, and Docker.
+## First use
 
-## What's Included
+Use Node.js 22.13 or newer within major 22; the local proof uses 22.22.2.
+The retained CI matrix also supports Node 20.19 or newer within major 20.
+Run these commands from this repository's root after cloning or using the template:
 
-| File | Purpose |
-|------|---------|
-| `AGENTS.md` | Agent instructions — every AI session starts here |
-| `.mcp.json` | NodeBench MCP server configuration |
-| `package.json` | Pre-wired scripts: `mcp:start`, `mcp:meta`, `mcp:lite`, `mcp:core`, `mcp:full` |
-| `.github/workflows/ci.yml` | GitHub Actions CI (Node 20 + 22, build, test, lint) |
-| `Dockerfile` | Multi-stage production Docker build |
-| `tsconfig.json` | Strict TypeScript with ESM |
-| `src/index.ts` | Starter entry point |
-| `src/index.test.ts` | Example test (Vitest) |
-
-## Quick Start
-
-```bash
-# Clone this template
-gh repo create my-project --template HomenShum/NodeBenchBoilerplate --clone
-cd my-project
-
-# Install
-npm install
-
-# Start NodeBench MCP (full — 134 tools)
-npm run mcp:start
-
-# Or use presets
-npm run mcp:meta    #   5 tools — discovery-only front door
-npm run mcp:lite    #  36 tools — lightweight
-npm run mcp:core    #  84 tools — recommended
-npm run mcp:full    # 134 tools — everything
+```sh
+npm ci
+npm run build
+node dist/index.js
+npm test
+npm run lint
+npm run verify:mcp
 ```
 
-## Presets
+Install the full locked dependencies. MCP is development tooling here, so an
+`--omit=dev` install removes the actual tool runtime. The explicit
+`better-sqlite3` dependency supplies the native database adapter that the MCP
+package otherwise silently replaces with nonpersistent no-op storage. Native
+installation requires a compatible platform binary or normal local build tools.
 
-| Preset | Tools | Use Case |
-|--------|-------|----------|
-| `meta` | 5 | Discovery-first / front door — only meta + discovery tools. Agent self-escalates. |
-| `lite` | 36 | Solo dev, standard tasks — fast, low token overhead |
-| `core` | 84 | Team with methodology needs — full flywheel loop |
-| `full` | 134 | Multi-agent / full pipeline — parallel + self-eval + everything |
+`verify:mcp` creates a new isolated profile and database under the OS temporary
+directory, preserves its raw protocol records, and prints the output location.
+To retain a named run, use `npm run verify:mcp -- /path/to/new-proof-directory`.
+It checks real JSON-RPC initialization, lists, unsupported input, concurrent and
+repeated reads, EOF/restart, and a native SQLite insert/readback/reopen. It does
+not call model providers or mutation tools, and it does not certify every loaded
+tool. A missing local installation fails instead of downloading another CLI.
 
-## For AI Agents
+## Connect your coding agent
 
-Once MCP is running, agents should:
+After `npm ci`, configure your MCP host with [`.mcp.json`](.mcp.json) and set its
+working directory to this project root. The configuration calls the locked local
+`node_modules/nodebench-mcp/dist/index.js` directly. It has no global/cache or
+automatic-install fallback. Starting a stdio server in a terminal waits for an
+MCP client; it is not an HTTP page. EOF closes the session.
 
-1. **`discover_tools("what you want to do")`** — Multi-modal search across 134 tools
-2. **`getMethodology("mandatory_flywheel")`** — Get step-by-step methodology
-3. **`get_workflow_chain("new_feature")`** — Get pre-built tool sequences
-4. **`findTools("keyword")`** — Search loaded tools by keyword
+| Command | Preset and purpose |
+| --- | --- |
+| `npm run mcp:start` | Core, the default with the methods required by AGENTS.md |
+| `npm run mcp:starter` | Smaller discovery surface; does not satisfy every agent gate |
+| `npm run mcp:core` | Explicit core surface |
+| `npm run mcp:full` | Wider local tool surface; verify a tool's side effects before use |
 
-With `--preset meta`, the agent starts with only these 5 tools and discovers what it needs via `discover_tools`, then requests the user escalate to a larger preset.
+All four commands select stdio and disable embeddings explicitly. The baseline
+also leaves the background engine, dashboards, watchdog, and profiling disabled.
+Optional embeddings and provider integrations require separate setup and proof.
+The installed MCP version is locked to 3.2.1. Read the current `tools/list` and
+`prompts/list` results instead of relying on historical marketing tool counts.
+The retained local run observed 20 starter tools, 273 core tools and 567 full
+tools, with 14 prompts in each. These are loaded inventories, not a claim that
+every tool has been exercised.
+The old `lite` preset is unsupported and the old `mcp:meta` script did not exist.
 
-### Search Modes
+Normal host sessions use the MCP package's configured data location (by default
+the user's profile). Set `NODEBENCH_DATA_DIR` and an appropriate isolated host
+profile when recording synthetic work. The verification command isolates both;
+it never uses the user's existing NodeBench database.
 
-The `discover_tools` search engine supports 7 modes:
+## Agent handoff and evidence
 
-| Mode | What it does |
-|------|-------------|
-| `hybrid` (default) | Runs all 10 strategies: keyword, fuzzy, n-gram, prefix, semantic, TF-IDF, regex, bigram, domain-boost, dense |
-| `fuzzy` | Tolerates typos (Levenshtein distance) |
-| `regex` | Pattern matching against tool names/descriptions |
-| `prefix` | Matches tool names starting with query |
-| `semantic` | Expands synonyms (e.g., "check" also searches "verify", "validate") |
-| `exact` | Exact name/tag match only |
-| `dense` | TF-IDF cosine similarity for vector-like semantic search |
+For the runnable developer sequence, retained evidence, and current holds, read
+[HANDOFF.md](HANDOFF.md).
 
-### Quality Gates
+Read [AGENTS.md](AGENTS.md) before changing code. Run the actual command or
+interaction first, then record its outcome with the verification and quality
+tools. Those tools persist and aggregate caller-supplied booleans; a generated
+record ID is not proof of a command, native storage, or independent approval.
+Keep missing release evidence false and preserve failure history.
 
-Every change should pass through:
+For a feature handoff, start from the
+[feature proof storyboard](docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md). Bind the
+real persona, commands, artifacts and observed failures before claiming success.
 
-```
-search_all_knowledge → start_verification_cycle → [phases 1-6] → run_mandatory_flywheel → record_learning
-```
+## Current scope and limits
 
-### Feature Proof Storyboards
+The repaired local contract is starter guidance, keyless stdio, native storage,
+and blocking development checks. Normal installation, build, greeting tests,
+lint, compiled starter, and the 25-assertion protocol/storage scenario passed
+locally on Node 22.22.2. A separate owned-state journey retained failed gates
+across restart and one learning after eight updates. Its review/release steps
+remain false; those records are not independent approval.
+Shared CI and host integration require their
+own actual results. CI covers pushes and pull requests targeting `master` or
+`main`, with the existing Node 20/22 matrix and a finite ten-minute job.
 
-Before recording README clips or claiming a feature works, copy
-[`docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md`](docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md)
-to `docs/FEATURE_PROOF_STORYBOARD.md` and bind the demo to concrete commands,
-receipts, screenshots, or external judge output.
+The original full audit reported 11 findings (4 moderate, 7 high). Nine compatible
+lockfile patches reduced it to two high entries: Sharp and its inherited MCP
+entry. The full audit still fails. Patched Sharp 0.35.0 is outside MCP 3.2.1's
+optional `^0.34.5` range and requires an upstream package change. No override or
+optional-capability removal was used. MCP is used at runtime and the Docker image
+copies its dependencies; dev labels do not dismiss the remaining findings.
+The patched dependency set passed the same local protocol/storage proof and
+eight targeted regression families. Review the full audit before using untrusted
+tool inputs; this is not complete security certification.
 
-### Parallel Agents
-
-For multi-agent work (Anthropic C-Compiler pattern):
-
-```
-bootstrap_parallel_agents → assign_agent_role → claim_agent_task → [work] → release_agent_task
-```
-
-## Available Scripts
-
-| Script | Command |
-|--------|---------|
-| `npm run build` | TypeScript compilation |
-| `npm test` | Run tests (Vitest) |
-| `npm run dev` | Watch mode development |
-| `npm run mcp:start` | Launch NodeBench MCP (full preset) |
-| `npm run mcp:meta` | Launch with meta preset (5 tools — discovery only) |
-| `npm run mcp:lite` | Launch with lite preset (36 tools) |
-| `npm run mcp:core` | Launch with core preset (84 tools) |
-
-### Agent Contract (Front-Door Pattern)
-
-Every agent session should follow this contract:
-
-```
-# 1. FRONT DOOR — always start here
-search_all_knowledge("<task>")
-getMethodology("mandatory_flywheel")
-discover_tools("<task>", { explain: true })
-get_workflow_chain("fix_bug" | "new_feature" | ...)
-
-# 2. BEFORE IMPLEMENTATION
-run_recon + assess_risk
-
-# 3. BEFORE SHIP
-log_test_result → run_quality_gate → run_mandatory_flywheel → record_learning
-```
-
-Use the `agent-contract` prompt for the full behavioral specification.
-
-## Docker
-
-```bash
-docker build -t my-project .
-docker run my-project
-```
+The existing Dockerfile builds and runs the greeting; Docker execution, provider
+tools, global IDE activation, and downstream generated applications are not
+certified by the local proof. This repository owns no browser UI, so visual,
+responsive and interaction grades for an application cannot be inferred from
+these CLI checks. No complete product/readiness grade is claimed.
 
 ## License
 

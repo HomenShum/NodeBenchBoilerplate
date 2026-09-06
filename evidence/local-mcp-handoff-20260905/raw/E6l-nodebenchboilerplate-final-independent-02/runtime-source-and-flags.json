@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "bindings": [
+    {
+      "path": "node_modules/nodebench-mcp/dist/index.js",
+      "sha256": "73ecea3aa41c0e0346885ba7696b47c16eb0aa06968323db9fa705dfbcee42b4",
+      "bytes": 171913,
+      "baselineUnchanged": true
+    },
+    {
+      "path": "node_modules/nodebench-mcp/dist/db.js",
+      "sha256": "58dcd9c748171a5239830f68cd3d997be30a2c6d807a26fee2a32ebaa13e8463",
+      "bytes": 53803,
+      "baselineUnchanged": true
+    },
+    {
+      "path": "node_modules/nodebench-mcp/dist/runtimeConfig.js",
+      "sha256": "ebe3e2c07695acf518d81280063c2e7d3102a4580758c07bcbaf4d55f0499fcf",
+      "bytes": 1276,
+      "baselineUnchanged": true
+    },
+    {
+      "path": "node_modules/nodebench-mcp/dist/analytics/schema.js",
+      "sha256": "aab2400250439b39449429f18c278c08b38a083bd918c5cc34f8163a4bf2211a",
+      "bytes": 7014,
+      "baselineUnchanged": true
+    },
+    {
+      "path": "node_modules/nodebench-mcp/dist/analytics/toolTracker.js",
+      "sha256": "f6fbcf012beb4edd05cd4800f30b1d19350a594f890192cf88728b9371872c0b",
+      "bytes": 6650,
+      "baselineUnchanged": true
+    },
+    {
+      "path": "node_modules/nodebench-mcp/dist/analytics/projectDetector.js",
+      "sha256": "7cc35a6be44fcdb61f517e2f7bed7887ce43e7eb419b6596f95f4d8b7e43ce19",
+      "bytes": 8003,
+      "baselineUnchanged": true
+    },
+    {
+      "path": "node_modules/nodebench-mcp/dist/tools/embeddingProvider.js",
+      "sha256": "0e26b12c1ced6284a009d8078c2c0f8ad00d343b71ae8438bdd711134c82fc70",
+      "bytes": 10893,
+      "baselineUnchanged": true
+    }
+  ],
+  "native": {
+    "path": "node_modules/better-sqlite3/build/Release/better_sqlite3.node",
+    "bytes": 1721344,
+    "sha256": "c6770a96c516d2b3e78308ecfcc146c38c0eb0875e180c8028d77f1e93914c6d"
+  },
+  "actualArgumentSets": [
+    {
+      "name": "config",
+      "argv": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "flags": {
+        "requestedPreset": "core",
+        "enableAdminRuntime": false,
+        "enableDashboards": false,
+        "enableWatchdog": false,
+        "enableEmbedding": false,
+        "enableEngine": false,
+        "enableProfiling": false
+      }
+    },
+    {
+      "name": "mcp:start",
+      "argv": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "flags": {
+        "requestedPreset": "core",
+        "enableAdminRuntime": false,
+        "enableDashboards": false,
+        "enableWatchdog": false,
+        "enableEmbedding": false,
+        "enableEngine": false,
+        "enableProfiling": false
+      }
+    },
+    {
+      "name": "mcp:core",
+      "argv": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
+      "flags": {
+        "requestedPreset": "core",
+        "enableAdminRuntime": false,
+        "enableDashboards": false,
+        "enableWatchdog": false,
+        "enableEmbedding": false,
+        "enableEngine": false,
+        "enableProfiling": false
+      }
+    },
+    {
+      "name": "mcp:full",
+      "argv": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "full"
+      ],
+      "flags": {
+        "requestedPreset": "full",
+        "enableAdminRuntime": false,
+        "enableDashboards": false,
+        "enableWatchdog": false,
+        "enableEmbedding": false,
+        "enableEngine": false,
+        "enableProfiling": false
+      }
+    },
+    {
+      "name": "mcp:starter",
+      "argv": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "starter"
+      ],
+      "flags": {
+        "requestedPreset": "starter",
+        "enableAdminRuntime": false,
+        "enableDashboards": false,
+        "enableWatchdog": false,
+        "enableEmbedding": false,
+        "enableEngine": false,
+        "enableProfiling": false
+      }
+    }
+  ],
+  "scope": "Pure installed flag resolver and exact named runtime bytes; no MCP server or tool call in this read."
+}

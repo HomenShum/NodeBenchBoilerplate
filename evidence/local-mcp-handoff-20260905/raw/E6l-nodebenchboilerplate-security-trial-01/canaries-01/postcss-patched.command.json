@@ -1,0 +1,32 @@
+{
+  "name": "postcss-patched",
+  "family": "postcss",
+  "lane": "patched",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=128",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905",
+    "postcss",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\postcss-patched.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\postcss-patched"
+  ],
+  "exitCode": 0,
+  "seconds": 1.015,
+  "budgetSeconds": 5,
+  "timedOut": false,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "62456": 1788661171.161192
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 60,
+    "stderr": 0
+  },
+  "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "stdoutSha256": "6cc720dc76b567e966866971901899f8aa5e614f95ae4a6503e2f6e4c733d992",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\postcss-patched.result.json",
+  "resultSha256": "88ae0cd4f12487f6378000a833818febfcbeac9a8058a1bdbb5b638934f32935"
+}

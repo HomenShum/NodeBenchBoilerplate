@@ -1,0 +1,133 @@
+{
+  "at": "2026-09-06T02:38:49.548059+00:00",
+  "status": "EXACT_REVIEWED_LOCK_TRANSFERRED_NORMAL_CI_PASS",
+  "candidate": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+  "beforeLockSha256": "ba3cde2b48ccef8973046720afd9cf9166de427c6a8728d0d80d33d6117e9c45",
+  "afterLockSha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+  "effectiveSource": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 854,
+      "sha256": "0b5d5aff94cb206be53dc7ab858e0556eb2c5405d84a4eb534ea8c43ccf3edf8",
+      "rawGitBlob": "83fc2474890804afab4c02badd24f978bbb8176f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 100,
+      "sha256": "26f4c3e8a6919051f672006a17fef16752963b6f0f4bb06ed17f272fe7e3ac96",
+      "rawGitBlob": "80f73d855ac7c29ce719213f51e1b672087ae06a"
+    },
+    {
+      "path": ".mcp.json",
+      "bytes": 251,
+      "sha256": "450f2c2468472c1054a4d2aea8aae8be1b2ef2ca6ca8f6a29af4bd2175d9cc85",
+      "rawGitBlob": "2725cb57d2023c0f0c0ec4e4a12d20954b8c3ad4"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4831,
+      "sha256": "8e90661e352628d2f2383725462c90528e7603981b7da7d8fd0783dc31a37757",
+      "rawGitBlob": "1c9472152b90a042fa053bb9924b99cb4aa528cd"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 338,
+      "sha256": "1b3025d1b803dc2269cc99dc52320576c10969cbc5e7574ac2c2592b84eacadc",
+      "rawGitBlob": "5ec234511f46ce57ba6fa0fa424e637b85636594"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1088,
+      "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789",
+      "rawGitBlob": "42daf5141a040f4dc5e680fd43782c14c59c90ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5429,
+      "sha256": "b15fe1c0a1f22940d97e3564f7ac31273e615752da9381f69fe1a9b04e08e682",
+      "rawGitBlob": "3252909150a231c6659466813a39ce4ee149873c"
+    },
+    {
+      "path": "docs/FEATURE_PROOF_STORYBOARD_TEMPLATE.md",
+      "bytes": 1489,
+      "sha256": "e7fbd66872ea96adf3c5fec850b56f717c537a5574f769d154b937b77cc24782",
+      "rawGitBlob": "cbdb5038cace293d7f0714c3465d5b6cbfc81092"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 321,
+      "sha256": "869fb0cca73aeaec727fa81f2dde5e970d312c0c4309842ca5166c4c94134802",
+      "rawGitBlob": "99c17c4e461845a3f80c24117fbd0919eaa43644"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 162440,
+      "sha256": "446e1c6e93405884c418fa594fd0092e92e24451d1a90341d72c18a88a7ec15c",
+      "rawGitBlob": "9323746ce7363ab144a8412c04be2fd32b80a89f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1290,
+      "sha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "rawGitBlob": "ba5249dc47c40218922731039c7e8043225b3eec"
+    },
+    {
+      "path": "scripts/verify-mcp.mjs",
+      "bytes": 12213,
+      "sha256": "c2ffbe141a3e38cb474dc4224f1bd37e890a5f01781287d0799b19ebd7583727",
+      "rawGitBlob": "df69e886ba8f720efb9227a829f9364c229be168"
+    },
+    {
+      "path": "src/index.test.ts",
+      "bytes": 427,
+      "sha256": "541759ce2a5970ce620bdbc14dd18b6cd666890a14080867ebbff1f3a9adaee9",
+      "rawGitBlob": "f6030a08fe65658a34fb4181198a7d67610be1d9"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 595,
+      "sha256": "1cda9aeeccdfe8493373591a7a25273f7b7e31dd1d1dcaf39fffde28937a45cc",
+      "rawGitBlob": "097a1ff37c0790afe5948d12be834120faf7ea46"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 490,
+      "sha256": "4d781db1f30fe8088c47ee54f90b4c92bcb0e10d2751b3f944977a6d66a6e05a",
+      "rawGitBlob": "999e1b7892b743086bb09e027767ad322d373551"
+    }
+  ],
+  "commands": [
+    {
+      "name": "normal-ci",
+      "argv": [
+        "C:/nvm4w/nodejs/node.EXE",
+        "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+        "ci"
+      ],
+      "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+      "exit": 0,
+      "seconds": 14.344,
+      "timedOutOrOutputCapped": false,
+      "ownedPids": [
+        51952,
+        67844,
+        14928,
+        26668,
+        53936,
+        12108,
+        6668,
+        52780,
+        52900,
+        20380,
+        5588
+      ],
+      "survivors": [],
+      "stdout": "normal-ci.stdout",
+      "stderr": "normal-ci.stderr"
+    }
+  ],
+  "primaryUnchanged": true,
+  "remainingAudit": "Two high findings remain; external audit exit1 is retained. No new audit or full protocol replay claimed.",
+  "newProviderCalls": 0,
+  "commitPush": "NOT_DONE"
+}

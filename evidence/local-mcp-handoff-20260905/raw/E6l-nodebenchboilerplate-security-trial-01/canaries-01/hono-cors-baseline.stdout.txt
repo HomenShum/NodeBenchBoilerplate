@@ -1,0 +1,2 @@
+{"stage":"before-bounded-whitespace-call","length":40010,"normalChecks":[{"name":"ordinary CORS request header trim preserved","passed":true,"actual":{"status":204,"allow":"x-one,x-two"}}]}
+{"family":"hono-cors","status":"PASS","checks":3,"failed":[]}

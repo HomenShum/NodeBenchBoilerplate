@@ -1,0 +1,65 @@
+{
+  "inventorySessions": [
+    {
+      "session": "configured",
+      "tools": 273,
+      "prompts": 14,
+      "rawReplies": 3
+    },
+    {
+      "session": "npm-start",
+      "tools": 273,
+      "prompts": 14,
+      "rawReplies": 3
+    },
+    {
+      "session": "npm-starter",
+      "tools": 20,
+      "prompts": 14,
+      "rawReplies": 12
+    },
+    {
+      "session": "npm-core",
+      "tools": 273,
+      "prompts": 14,
+      "rawReplies": 3
+    },
+    {
+      "session": "npm-full",
+      "tools": 567,
+      "prompts": 14,
+      "rawReplies": 3
+    },
+    {
+      "session": "configured-restart",
+      "tools": 273,
+      "prompts": 14,
+      "rawReplies": 3
+    }
+  ],
+  "nativeSessions": [
+    {
+      "session": "native-write",
+      "adapter": "package-local",
+      "tables": 81,
+      "sqlite": {
+        "version": "3.49.2"
+      },
+      "readback": true
+    },
+    {
+      "session": "native-reopen",
+      "adapter": "package-local",
+      "tables": 82,
+      "sqlite": {
+        "version": "3.49.2"
+      },
+      "readback": true
+    }
+  ],
+  "nativeWriteAndReopen": true,
+  "unknownMethodCode": -32601,
+  "eightRepeatedToolLists": true,
+  "all50SavedRepliesInActualStdout": true,
+  "returnedIdsPresentInRaw": true
+}

@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-06T01:49:26.190386+00:00",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "scripts/verify-mcp.mjs",
+    "D:/ProjectRecovery/nodebenchboilerplate-protocol-20260905-final"
+  ],
+  "exitCode": 1,
+  "seconds": 0.062,
+  "ownedProcesses": {
+    "60164": 1788659366.116182
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 0,
+    "stderr": 791
+  },
+  "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderrSha256": "accd1ec7d51eeeb9f1180ed9678aab2ad88a74201caf33d67095e6e6c1c9938d",
+  "environmentFileSha256": "a706c6eca724a8f2ece266c5d8c4531cf123b3eb95c27fbde08ef466ed72aa21",
+  "timeoutSeconds": 120
+}

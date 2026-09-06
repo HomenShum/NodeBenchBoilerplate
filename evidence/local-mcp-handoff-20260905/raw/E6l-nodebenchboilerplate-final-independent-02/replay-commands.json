@@ -1,0 +1,276 @@
+[
+  {
+    "name": "node-version",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "--version"
+    ],
+    "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "exitCode": 0,
+    "seconds": 0.078,
+    "timedOut": false,
+    "outputLimitExceeded": false,
+    "ownedPidCreationTimes": {
+      "48332": 1788660117.9863832,
+      "59384": 1788660117.9988923
+    },
+    "survivors": [],
+    "stdout": {
+      "path": "node-version.stdout.txt",
+      "bytes": 10,
+      "sha256": "99149e35f76aa1efc846f029c3d2733b3541fe76ac97b74d33883481c0ce8dd9"
+    },
+    "stderr": {
+      "path": "node-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "normal-lint",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "C:\\nvm4w\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "lint"
+    ],
+    "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "exitCode": 0,
+    "seconds": 1.813,
+    "timedOut": false,
+    "outputLimitExceeded": false,
+    "ownedPidCreationTimes": {
+      "38612": 1788660118.0816145,
+      "16444": 1788660118.0903344,
+      "22108": 1788660118.2733705,
+      "31576": 1788660118.3003712
+    },
+    "survivors": [],
+    "stdout": {
+      "path": "normal-lint.stdout.txt",
+      "bytes": 48,
+      "sha256": "6a72e103d9a4a3bd602d1c1dce52fcb9a0f0aa3fc1392a365addaae31068c585"
+    },
+    "stderr": {
+      "path": "normal-lint.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "normal-tests",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "C:\\nvm4w\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "test"
+    ],
+    "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "exitCode": 0,
+    "seconds": 1.281,
+    "timedOut": false,
+    "outputLimitExceeded": false,
+    "ownedPidCreationTimes": {
+      "63536": 1788660119.892891,
+      "7600": 1788660119.9038415,
+      "41160": 1788660120.082383,
+      "18548": 1788660120.11229,
+      "57792": 1788660120.257346,
+      "7232": 1788660120.2720609,
+      "23476": 1788660120.4644675,
+      "34876": 1788660120.4808705,
+      "24888": 1788660120.4879682,
+      "17640": 1788660120.4948213,
+      "52728": 1788660120.5016167,
+      "47836": 1788660120.509333,
+      "13472": 1788660120.5163212,
+      "52616": 1788660120.5235696,
+      "53208": 1788660120.5341997,
+      "19376": 1788660120.5453205,
+      "67496": 1788660120.5567677,
+      "24792": 1788660120.5681062,
+      "40700": 1788660120.5786383,
+      "38892": 1788660120.5877612,
+      "30792": 1788660120.5980988,
+      "45756": 1788660120.6099503,
+      "8108": 1788660120.6201108,
+      "14292": 1788660120.6317027,
+      "43724": 1788660120.643874,
+      "32840": 1788660120.6536968,
+      "62200": 1788660120.664565,
+      "49168": 1788660120.6788187,
+      "42756": 1788660120.6880515,
+      "42348": 1788660120.6989584,
+      "40788": 1788660120.709708,
+      "7792": 1788660120.7216132,
+      "51660": 1788660120.731043,
+      "28960": 1788660120.7403395,
+      "26764": 1788660120.756714,
+      "48960": 1788660120.7720397,
+      "26660": 1788660120.785674,
+      "53896": 1788660120.8959117,
+      "32680": 1788660120.918429,
+      "14100": 1788660120.9281464,
+      "42996": 1788660120.987141
+    },
+    "survivors": [],
+    "stdout": {
+      "path": "normal-tests.stdout.txt",
+      "bytes": 505,
+      "sha256": "7c7a6c1fabaae45d5bc8d65e42e9b6531998f773c8bfc1caaa177389885bfdf8"
+    },
+    "stderr": {
+      "path": "normal-tests.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "isolated-output-build",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\typescript\\bin\\tsc",
+      "--outDir",
+      "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\compiled"
+    ],
+    "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "exitCode": 0,
+    "seconds": 0.61,
+    "timedOut": false,
+    "outputLimitExceeded": false,
+    "ownedPidCreationTimes": {
+      "7440": 1788660121.2010393,
+      "38276": 1788660121.2119746
+    },
+    "survivors": [],
+    "stdout": {
+      "path": "isolated-output-build.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "isolated-output-build.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "compiled-starter",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\compiled\\index.js"
+    ],
+    "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "exitCode": 0,
+    "seconds": 0.078,
+    "timedOut": false,
+    "outputLimitExceeded": false,
+    "ownedPidCreationTimes": {
+      "20708": 1788660121.8014877,
+      "3616": 1788660121.8112662
+    },
+    "survivors": [],
+    "stdout": {
+      "path": "compiled-starter.stdout.txt",
+      "bytes": 73,
+      "sha256": "56236ae6074b24096622d816037bd66a5aad5d54592f09f6ed428160793bf250"
+    },
+    "stderr": {
+      "path": "compiled-starter.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "native-protocol",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "C:\\nvm4w\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "verify:mcp",
+      "--",
+      "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\protocol"
+    ],
+    "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "exitCode": 0,
+    "seconds": 4.312,
+    "timedOut": false,
+    "outputLimitExceeded": false,
+    "ownedPidCreationTimes": {
+      "14588": 1788660121.8822663,
+      "49580": 1788660121.8980613,
+      "59724": 1788660122.0941136,
+      "45828": 1788660122.1139915,
+      "23060": 1788660122.168128,
+      "43608": 1788660122.2576773,
+      "24612": 1788660122.3513856,
+      "29672": 1788660122.35976,
+      "5448": 1788660122.4369276,
+      "33108": 1788660122.4450655,
+      "44476": 1788660122.8213494,
+      "44536": 1788660122.833414,
+      "16228": 1788660123.0427089,
+      "21736": 1788660123.0757568,
+      "29924": 1788660123.4874544,
+      "35192": 1788660123.4954047,
+      "53472": 1788660123.6976058,
+      "60632": 1788660123.7275012,
+      "35184": 1788660124.114502,
+      "66356": 1788660124.1222992,
+      "48780": 1788660124.3310127,
+      "59324": 1788660124.3550236,
+      "1496": 1788660124.7611256,
+      "49024": 1788660124.769052,
+      "36064": 1788660124.9659724,
+      "64060": 1788660124.9917889,
+      "56748": 1788660125.473868,
+      "19536": 1788660125.480746,
+      "61312": 1788660125.8094573,
+      "26104": 1788660125.8172958,
+      "48948": 1788660126.0915864,
+      "57232": 1788660126.0973732
+    },
+    "survivors": [],
+    "stdout": {
+      "path": "native-protocol.stdout.txt",
+      "bytes": 263,
+      "sha256": "8e47aadf58c8935bc83e1db067cd9cb209919b7e46834bafc0e690fd3acea4c8"
+    },
+    "stderr": {
+      "path": "native-protocol.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "owned-gates",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-implementation-01\\agents-proof-02.mjs",
+      "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\gates"
+    ],
+    "cwd": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "exitCode": 0,
+    "seconds": 1.031,
+    "timedOut": false,
+    "outputLimitExceeded": false,
+    "ownedPidCreationTimes": {
+      "65884": 1788660126.2087867,
+      "59524": 1788660126.21786,
+      "16344": 1788660126.2757268,
+      "8736": 1788660126.2844117,
+      "17752": 1788660126.7811573,
+      "33112": 1788660126.7872577
+    },
+    "survivors": [],
+    "stdout": {
+      "path": "owned-gates.stdout.txt",
+      "bytes": 114,
+      "sha256": "7daa152e57fdbac98594c834b6d868bb805358b20256e9aba958f0dad855dcd6"
+    },
+    "stderr": {
+      "path": "owned-gates.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "ip-address-baseline",
+  "family": "ip-address",
+  "lane": "baseline",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "--max-old-space-size=128",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-security-canary.mjs",
+    "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+    "ip-address",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-baseline.result.json",
+    "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905-state\\canaries-01\\ip-address-baseline"
+  ],
+  "exitCode": 1,
+  "seconds": 0.437,
+  "budgetSeconds": 5,
+  "timedOut": false,
+  "streamCapExceeded": false,
+  "ownedProcesses": {
+    "34820": 1788661184.5404568
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 215,
+    "stderr": 0
+  },
+  "sourceSha256": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "stdoutSha256": "f0ddc579e416d61f3b3d1211017ed6cae90c913e7a4f456643ae4269d6dfefab",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6l-nodebenchboilerplate-security-trial-01\\canaries-01\\ip-address-baseline.result.json",
+  "resultSha256": "cc690aba5847a6e78a01068f39c2bfcee6111849b890d39a980d9f5f1a6e91b2"
+}

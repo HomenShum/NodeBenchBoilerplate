@@ -1,0 +1,2985 @@
+{
+  "status": "PASS_SCOPED_AFTER_WITH_PRESERVED_BASELINE_FAILURES",
+  "families": 8,
+  "subcases": 10,
+  "patchedAssertions": 71,
+  "cases": [
+    {
+      "family": "toon",
+      "baseline": {
+        "command": "canaries-01\\toon-baseline.command.json",
+        "exitCode": 1,
+        "timedOut": false,
+        "seconds": 0.063,
+        "status": "FAIL",
+        "failedAssertions": [
+          "prototype key is own data, not an inherited object"
+        ],
+        "result": "canaries-01\\toon-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-01\\toon-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.078,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\toon-patched.result.json"
+      }
+    },
+    {
+      "family": "fast-uri",
+      "baseline": {
+        "command": "canaries-01\\fast-uri-baseline.command.json",
+        "exitCode": 1,
+        "timedOut": false,
+        "seconds": 0.125,
+        "status": "FAIL",
+        "failedAssertions": [
+          "malformed IPv6 reports an error and does not equal itself",
+          "nested host encoding stays encoded",
+          "userinfo cannot change parsed host"
+        ],
+        "result": "canaries-01\\fast-uri-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-01\\fast-uri-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.125,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\fast-uri-patched.result.json"
+      }
+    },
+    {
+      "family": "postcss",
+      "baseline": {
+        "command": "canaries-01\\postcss-baseline.command.json",
+        "exitCode": 1,
+        "timedOut": false,
+        "seconds": 1.844,
+        "status": "FAIL",
+        "failedAssertions": [
+          "absent CSS origin performs zero map sentinel reads"
+        ],
+        "result": "canaries-01\\postcss-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-01\\postcss-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 1.015,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\postcss-patched.result.json"
+      }
+    },
+    {
+      "family": "nanoid-negative",
+      "baseline": {
+        "command": "canaries-01\\nanoid-negative-baseline.command.json",
+        "exitCode": 134,
+        "timedOut": false,
+        "seconds": 0.281,
+        "status": "NO_COMPLETED_RESULT",
+        "failedAssertions": [],
+        "result": null
+      },
+      "patched": {
+        "command": "canaries-01\\nanoid-negative-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.062,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\nanoid-negative-patched.result.json"
+      }
+    },
+    {
+      "family": "nanoid-zero",
+      "baseline": {
+        "command": "canaries-01\\nanoid-zero-baseline.command.json",
+        "exitCode": 15,
+        "timedOut": true,
+        "seconds": 2.032,
+        "status": "NO_COMPLETED_RESULT",
+        "failedAssertions": [],
+        "result": null
+      },
+      "patched": {
+        "command": "canaries-01\\nanoid-zero-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.063,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\nanoid-zero-patched.result.json"
+      }
+    },
+    {
+      "family": "xmldom",
+      "baseline": {
+        "command": "canaries-xlsx-02\\xmldom-baseline.command.json",
+        "exitCode": 1,
+        "timedOut": false,
+        "seconds": 0.313,
+        "status": "FAIL",
+        "failedAssertions": [
+          "invalid entity name rejects well-formed serialization"
+        ],
+        "result": "canaries-xlsx-02\\xmldom-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-xlsx-02\\xmldom-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.187,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-xlsx-02\\xmldom-patched.result.json"
+      }
+    },
+    {
+      "family": "qs",
+      "baseline": {
+        "command": "canaries-01\\qs-baseline.command.json",
+        "exitCode": 1,
+        "timedOut": false,
+        "seconds": 1.453,
+        "status": "FAIL",
+        "failedAssertions": [
+          "bracket-comma array obeys configured limit",
+          "benign non-callable isBuffer-shaped value does not crash"
+        ],
+        "result": "canaries-01\\qs-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-01\\qs-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.516,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\qs-patched.result.json"
+      }
+    },
+    {
+      "family": "ip-address",
+      "baseline": {
+        "command": "canaries-01\\ip-address-baseline.command.json",
+        "exitCode": 1,
+        "timedOut": false,
+        "seconds": 0.437,
+        "status": "FAIL",
+        "failedAssertions": [
+          "host loopback classification ignores wide CIDR mask",
+          "host private classification ignores wide CIDR mask",
+          "IPv4-mapped loopback classified as loopback"
+        ],
+        "result": "canaries-01\\ip-address-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-01\\ip-address-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.297,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\ip-address-patched.result.json"
+      }
+    },
+    {
+      "family": "hono-static",
+      "baseline": {
+        "command": "canaries-01\\hono-static-baseline.command.json",
+        "exitCode": 1,
+        "timedOut": false,
+        "seconds": 1.235,
+        "status": "FAIL",
+        "failedAssertions": [
+          "encoded Windows backslash cannot read static sentinel"
+        ],
+        "result": "canaries-01\\hono-static-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-01\\hono-static-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.5,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\hono-static-patched.result.json"
+      }
+    },
+    {
+      "family": "hono-cors",
+      "baseline": {
+        "command": "canaries-01\\hono-cors-baseline.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.578,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\hono-cors-baseline.result.json"
+      },
+      "patched": {
+        "command": "canaries-01\\hono-cors-patched.command.json",
+        "exitCode": 0,
+        "timedOut": false,
+        "seconds": 0.156,
+        "status": "PASS",
+        "failedAssertions": [],
+        "result": "canaries-01\\hono-cors-patched.result.json"
+      }
+    }
+  ],
+  "sourceBindings": [
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@hono\\node-server\\dist\\serve-static.js",
+      "sha256": "a953e0ff0a1cc39668e2581b42a1c8a7243be917dabccababf22861a0569a53a"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@toon-format\\toon\\dist\\index.mjs",
+      "sha256": "3cc9a2bf7c7c66d9f8cb8e2d41a6c8fa7b333071f0bd5a456b6919b57d995653"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\conventions.js",
+      "sha256": "9ceee011f51db3a4581029a7dce1e9bf1fa5c37ad928b63c3625dda9a907fd55"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\dom-parser.js",
+      "sha256": "03915c54c4bf44cfee38807af253abaabb022c27652918e8a233fae2d92fe1d2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\dom.js",
+      "sha256": "eae57ba1588b8c025a71cdbb31edd0a87a4d14c1cb00e19155b2cdba44f7548b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\entities.js",
+      "sha256": "332cda4081c610fdadc0266867ee5ed9f945c99d471ea7234ec61ba00cbf0e40"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\index.js",
+      "sha256": "9deb4e9d6d730a51c1c2b05238f8684d01e87f72b9861ba2adcad537ffc56586"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\@xmldom\\xmldom\\lib\\sax.js",
+      "sha256": "b2592fbf6993b04576c7ffbd78d63cecdf6495ff1f7a43c2516a0482e69736e9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\ajv.js",
+      "sha256": "edaed56fc546f5551b0d6dc2ff2a9cc25c2d6c83318a086eaa8c3ad0b2479297"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\codegen\\code.js",
+      "sha256": "1287153722f1fc3c5342647de7ae1d7b6fb68bdb3378a0776a937d273fc97e0d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\codegen\\index.js",
+      "sha256": "f03b2b72597ef86878d1d4030580c2d0964046efad4867f3d05aa91065ba034c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\codegen\\scope.js",
+      "sha256": "d2a0a97af2faa2cad88702314fe421e235ab17f11e0d62883d58d8d4dc734286"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\errors.js",
+      "sha256": "53990f8f2cc05922bba410ae68231d3f869de4f8343277ede5b4834fa564c6c2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\index.js",
+      "sha256": "05b34da22814f3787bfa3ac68dad59c9047f56e55a607e0a20719ebf5afe69ac"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\names.js",
+      "sha256": "3cab37a2240b996b9bed92fe7a041d91689cfe3ad2e9ae4c0ab99e4146408493"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\ref_error.js",
+      "sha256": "81c98fdf34c3037c91bfcc02277ec32156c71e34048f36cfe4e084416e916cb7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\resolve.js",
+      "sha256": "df75af0e0cf03fa1c6452e8dc61019f5aec645a8a5f6f494dc4e13cb5502d2d9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\rules.js",
+      "sha256": "ec1d86500f497aa8e20f9f0c1695951159d9a909669d00a261ce1bb22b3cf0a9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\util.js",
+      "sha256": "fa911f5631f29d4d6420adfe086cb693b94b08de2719475c78c54bcb82f831a5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\validate\\applicability.js",
+      "sha256": "50c5cba5894a7fb9874b3432355b46ec71b73c9368dafb1323ded8567cca8fc0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\validate\\boolSchema.js",
+      "sha256": "c08abdbdbd3d8b1dcc0552a20fbc7d837ed44f4ca6abb2e464985590ac94377f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\validate\\dataType.js",
+      "sha256": "697bd7005361ec7066a23c18830a10b0ef28aec1a33138b4e3098bf78c4fae52"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\validate\\defaults.js",
+      "sha256": "05721971df94faa57b09c8cfd60c2eef81b6d14910a7dea5f539d693a029c428"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\validate\\index.js",
+      "sha256": "cb2103e5f890e04592c10d24b45857dad91155bae9f9460138a2459bdaaea2cd"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\validate\\keyword.js",
+      "sha256": "ab8f070c75c25eee9be5c837f364748909b58f5db66149a2beccbd2f66afeb76"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\compile\\validate\\subschema.js",
+      "sha256": "ca783d6052af91e65ebb59a5b48b47fb459a2241d37ca6a042f767d4ce451bdc"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\core.js",
+      "sha256": "51be29c7ed7288622f755c0f1bebd3da4a9907d77aa2c33b0f2a0a5b6b339603"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\refs\\data.json",
+      "sha256": "d24ab8a97c18b3f5afdde7d7024a0e0ac1df0614a16a41cb88f81379edcc2db3"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\refs\\json-schema-draft-07.json",
+      "sha256": "f7e8b13cad4fecff9771f3626fef33e20e59027b90938a28fd9d2f6c17cd0773"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\runtime\\equal.js",
+      "sha256": "c94467da09ee94e5d194483a7ab821b9bb3bf1c04397270f2ab53dea9de59274"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\runtime\\ucs2length.js",
+      "sha256": "1df012dd3d23fced07255a7204798004509687cb1f431ae0ab976db436bbd890"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\runtime\\uri.js",
+      "sha256": "d1d61baf97ed87d7310df847a78ed73d19c8cc003207bf5aaec977500bdb1578"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\runtime\\validation_error.js",
+      "sha256": "11bf5b4affc8114e5e7cdf65b93006c2d997ab60ada1152c22e136f9b828b815"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\additionalItems.js",
+      "sha256": "7beb0fbda5e349907067c8398bb8cc3260a6267b6e5dff9793a5ab2171934099"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\additionalProperties.js",
+      "sha256": "e237cb180cd2e3f2e676feb714d7dcc6a42116640f9db2ad830cd20d9dfc540a"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\allOf.js",
+      "sha256": "98f46a6434ebe5f851b406480e18b776dd7f1bcc275e28c16a13bfef3cc067c7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\anyOf.js",
+      "sha256": "8d7368d4aebad0514b713191b934993b4f0bf570e1bab93b07dc69712db2cec5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\contains.js",
+      "sha256": "56165dc93cd8b0b4611db50a97f1e7d7f9af6c5ffe95a7a5b054d6eeaa7f6a8c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\dependencies.js",
+      "sha256": "c1a83bf484b6fde4d268935f079ddba5e74a2f589dfc6d15ca2e20ba4d06ee5b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\if.js",
+      "sha256": "42374ee5dc681433579cc689b0c4ae5343f5bf78d4d6a561722b9277c5335ec4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\index.js",
+      "sha256": "5a61978f6d81bbabfa8b9ccb71d7de816ed6dd1fd7de5c72657439a76c2a7cb3"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\items.js",
+      "sha256": "fa87f74adc3aac1f1b5e3e7dddf73294e6850e1dd49ed131fca4352e9645c54e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\items2020.js",
+      "sha256": "c449ef64aec16263c7935293ed450cfc2da3ba66f6df5f99c3198c05f169838f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\not.js",
+      "sha256": "ab2f2758d4ea97ac8763fe5540dd0f4d877859676fe5d6c750a18deca387f718"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\oneOf.js",
+      "sha256": "e2aeb6c22d49fd5f348bedcf7f5c4d7b31f5a05dd7ff1a0c531374c6968792a2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\patternProperties.js",
+      "sha256": "0d43da49a82452c439ba990de7372ad5cedb663717918a5f6dae07025abff655"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\prefixItems.js",
+      "sha256": "16264f7b3233a6dcb98b48700643efbd3ebc4d11e27b3eacffc83ccb5f44fb23"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\properties.js",
+      "sha256": "c896873ae7251093a2c8880545b69b6e8cb55c44817a53ec830a49818d74104f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\propertyNames.js",
+      "sha256": "b3411cfeaff8efd5e6de12971bb5dc339e64b61fbe62d3b950794c077315c2e7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\thenElse.js",
+      "sha256": "9bc42eb8699d57188a7ec2a710d3f38052f92bd78c5d4d0442cf98cf2ebbe22d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\code.js",
+      "sha256": "9212ddf8bd0a4c3b1c4b44cdadd141183b2b36f561b91d13df53c83911e3bf63"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\core\\id.js",
+      "sha256": "49c8eff694ce4371450c1f9986e934fcbf4bd143311caef5332113f29175bc11"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\core\\index.js",
+      "sha256": "f420e1011b95e27b54c58323a7ed4ffbd0a88cdb4496f771bb6782c2aa22d23e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\core\\ref.js",
+      "sha256": "1422c1454b3621d890066042048f37746fe1cf213088307099816199889bbfd1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\discriminator\\index.js",
+      "sha256": "b58b58025d2dbe5a6967376faec9295b860a338664c47037e9a1035c1e8fb88e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\discriminator\\types.js",
+      "sha256": "2365341d1f30dc72cece7703e908e47aacb8f904b9f66ec4019fe889ae1e57fa"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\draft7.js",
+      "sha256": "8c62022c6c3aa302c3ea6f6709a697fc9eb6385d243fa7c2156dbe9f02228170"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\format\\format.js",
+      "sha256": "6fae0d5124fd821b1a9959492f7d6d7b528bee8830d49a7a4759fc9a9ab81d5f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\format\\index.js",
+      "sha256": "d5dad5f95c9c5f48f8ca956cdbb927aafc7b56baabfca8c0b0403d92c5ebeb67"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\metadata.js",
+      "sha256": "45c178744a7ec57e20c85ceeaea8d9f36b5663636ab7e495ea2c3c1bf4a58609"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\const.js",
+      "sha256": "ace994e9ab97a70899a9484794794f4be5ee03bfb3cf32242d3f091d77f0329a"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\enum.js",
+      "sha256": "61062b318a40eb52fc5a8283e7f4781db98349841744961ef4fe04a4722ebf22"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\index.js",
+      "sha256": "4a1839832de5f10ff423c1c0c6cb232b5b6e1b34980a28862cf56b2763136de4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitItems.js",
+      "sha256": "49f0427d29b38aef2fa8aead26e68bda12deb9a2da22f7a7804ba0fed44e1fec"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitLength.js",
+      "sha256": "379c28317faaf7784680b6049c3562692d3df6d65cce33f48e6c6c723beeeec2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitNumber.js",
+      "sha256": "3dd4bd41dbfc76c522078ff54b6479683485c4e97faa04cfcfaf2d8cb0fb8e65"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitProperties.js",
+      "sha256": "8523a3f7b36c34882ca32b0ec71a2157d7930907cb86b778a97c1514fa6258ac"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\multipleOf.js",
+      "sha256": "df128c2a6ca74ae57c65fbfe3aea8a101447a3ae8c41fd53cfc5693fa23cc8bd"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\pattern.js",
+      "sha256": "86e84206bfc6a66ef18bf1fe43fbc56ebe7f7f4d57841197b6d044c529e0c195"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\required.js",
+      "sha256": "b953bc18d94274bd73374dd5b4282d7a21159cec8c0e7a357e1eaf3f326b9054"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\uniqueItems.js",
+      "sha256": "666d1a2aa25c0dfe3cf41312d0f9d40e9f99eb2c19be7469134ad89005aadd52"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\any.js",
+      "sha256": "bbfe88f1a68351302da229bf667fbee8b264c0fd034ac4990507d4482e713161"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\async.js",
+      "sha256": "2bd6c88aec3118d1803e85d2df99de5a7218a96a01f094d52c988265422fcf4f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\bind.js",
+      "sha256": "027add87d1c0065356c6342a2d13b16379fedc72c8a6c418681be3a6a8b46638"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\bluebird.js",
+      "sha256": "f1bd09cb349c59ace5126a4997b35d4e67785cf35886fe6a7112ac7142e526c4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\call_get.js",
+      "sha256": "4235f9f702503faf32903d2fa0d454279ab01c27497e4d7469720e33df6990a9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\cancel.js",
+      "sha256": "ec055832b95e24e25411386a789a4c0f93e7623a118e451e30d1ee5843c689b2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\catch_filter.js",
+      "sha256": "11da610579c2289aa0b5e59fd772ac8b30d24d748a0092a20753db6d703bb9e0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\context.js",
+      "sha256": "5d8d6bc5941153a0756f61a807e84b1ddf60eb2b9d57227263d12fbca1b70a5e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\debuggability.js",
+      "sha256": "4702ca8443b7989aec697e104c7c8be4a36388d443505e33e24ad5199b9a403c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\direct_resolve.js",
+      "sha256": "7dd03025ad5580294f5b8f062f7141ca60fd84817ffa58367ddca53aad185afb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\each.js",
+      "sha256": "e5a9bf63cf9e9a81525ee2ae015bed8d66e081c4fceceb60d1791fdcf38a1b14"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\errors.js",
+      "sha256": "f1537f1b41673a75a0b9c60a0647c628561eaed4f2fae3d8188bb24abf333edc"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\es5.js",
+      "sha256": "c510d8dab4de97c1f460d54ea79014c283841625148dc50073981300005dd42d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\filter.js",
+      "sha256": "5b52d1f2e402abca8e1e203687a3157f4b2c2a2ed1a9bee69b6c51c1b44e4992"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\finally.js",
+      "sha256": "0e4fc9127e68b0b9d942bef674a0352f73f0874c6f66f3402d05a7a11db67b98"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\generators.js",
+      "sha256": "ec685635bd9420319eac3959b8f44657f66545fb350d1be402c48c955a57032f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\join.js",
+      "sha256": "4052ccd7ee41d565b3a8944f5f95f0f473c866e649a981804c1cb7f3055b4980"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\map.js",
+      "sha256": "9e332673acc9c81d82e75147b8c2f90134c9e59b3dc4d1bb538249751c087ea5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\method.js",
+      "sha256": "f115e74eac654538838eb7fb971bf39d2548b28ae90e25b758c67f16450484f6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\nodeback.js",
+      "sha256": "4888e4fe1fd7d1e1eeb7552e5158bec0f7b7ec538180780941289a55aa1172b5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\nodeify.js",
+      "sha256": "045087125fdb791c743850f717a2f64091577cdd658cf89d169921c65fcb1f82"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\promise.js",
+      "sha256": "22641fab9aa4c7f2962f21aa652b685ded8a9ec88b0f0915b524948bfa644415"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\promise_array.js",
+      "sha256": "e7440944ec46fb2efcea9fe0a7d7e11d1fc1612e56d5169aebe8d5aa6e77d858"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\promisify.js",
+      "sha256": "26e51d82eb41aaaafef54ca34b350bd00a4e2bd6648417371386e7bc0614895e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\props.js",
+      "sha256": "041f70b6ea4793666240c3e1943e698280ae14bf4ee4145929f426897e2aa1e5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\queue.js",
+      "sha256": "683aab2037414e069b2a5f48d39fb4ee5e1ab808c97b2b218ec12c2520b10c82"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\race.js",
+      "sha256": "524ac44ed8e2f7f767d7ab197296dbb99e99c0497e99b22a296e36e881563168"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\reduce.js",
+      "sha256": "ea786fef0636a22d8936bdde491befb2bcedc61c233ca5c5cde765a44336e24e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\schedule.js",
+      "sha256": "a3eb3623c5859a27ccf24706b5210c1107dc65aab572a202513bba9a1ebec906"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\settle.js",
+      "sha256": "dd417954d705db69eac3045f6dfb55e26af071d8dbe5392a7f36cee86f2404d9"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\some.js",
+      "sha256": "b098cf5e52f0351dae1c99f60a40c601dee9e28bfde356af1b5454e1f2c36c7d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\synchronous_inspection.js",
+      "sha256": "b26a61e1dfe74d2118dbd230071fcd7877b63f987639e00daea43c8a5fdfc50a"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\thenables.js",
+      "sha256": "dbe1c7d0731e45596e20684a0e0ab0309c3cb29f57089169f3a375079affda6d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\timers.js",
+      "sha256": "d75e79fa2a4be7887178ee21462a37bc609ee40105ab2150f48436ece4c2d8af"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\using.js",
+      "sha256": "f36839cef0b9fd56d9a1a2908b475511c4c821e33fff7937ab5704a83f2632eb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\bluebird\\js\\release\\util.js",
+      "sha256": "dfd00225b097b2731d9091749be37c18c418e2da59045e54e11d4df80b3ccae5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\actualApply.js",
+      "sha256": "1cbe921bb00b03294815ff0ece4212f276870466961773ce238802bc71474540"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\functionApply.js",
+      "sha256": "6170e997fbe03c6f8ff48946ada7d54c7aadc01531509af81f0edfdb7be00e27"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\functionCall.js",
+      "sha256": "22d50c812748973250e9aa1994882a880c6e3bfc90d45e41f609cab97beee3fe"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\index.js",
+      "sha256": "6a7ff51e964c2f1e24e3f3a90f41895bec230f07c3001eb29f45741ff99d7a83"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bind-apply-helpers\\reflectApply.js",
+      "sha256": "e3ee45fb4c54bdb5f76ad4ef42780da004412ddb6d668993de4b9014efe246ff"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\call-bound\\index.js",
+      "sha256": "aaf524d09b5a4f8f732a516aa1c81e6e8c5d65ae3d01bce392e8fc1ac55c14ff"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\core-util-is\\lib\\util.js",
+      "sha256": "7427f16d9bd9185e409baff3e4b1ed6e3d8dfca84d367f4b8b351eb921618652"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\dunder-proto\\get.js",
+      "sha256": "9671388b2fa2cbce2f4b8645cc1dedae2f182113a78c93dd142d987c2517dacf"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\duplexer2\\index.js",
+      "sha256": "cd2fd870d088bd543de42fcfc5fed1c9b896409ef4b734a9495b3fe84c0d6421"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-define-property\\index.js",
+      "sha256": "92d23d0217808c68692a1881369c207db1a35fc09dd24b98dd5f1a07d6bb3ed0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\eval.js",
+      "sha256": "d3161a97f162b483206e9849e41bb17fd54166810c76ebaa1df068133e54caae"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\index.js",
+      "sha256": "28fee350e89561019cf27ea37a313b4b4995f521fd087198fa235a8f135962de"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\range.js",
+      "sha256": "e376220f3a0226bd5b09b6d5a1411bbac274db8d2d9f7eb723142b7e676374be"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\ref.js",
+      "sha256": "31945f1740a0a2143fb8c38943afc6cce5de5ba6fab7af42d17b7874a19a0900"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\syntax.js",
+      "sha256": "56574ecd3eb54c06efd319080cc8923992791e430c914520b85e92c2f5e373f5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\type.js",
+      "sha256": "c71b2f41c15edb3824f50dd24df900495c8caaba5b6e9a80851b82bb2309827b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-errors\\uri.js",
+      "sha256": "e1e5591bde037a2ffeda822fa03fac22ff7c93c7b269ed9adf1cbea0e21614b0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\es-object-atoms\\index.js",
+      "sha256": "44ee7a57ed1c50c4c5fd2a6fcaee8772f4b7d0869326eed0aadcef87bc305212"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fast-deep-equal\\index.js",
+      "sha256": "eb469e206280321a3878f2335ec98aa2104a155079d8ed83a23029098dccd215"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fast-uri\\index.js",
+      "sha256": "45b52d2d77365bcc8a41bfac0223482bf73e3bedf7d232027b4b27544f40097b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fast-uri\\lib\\schemes.js",
+      "sha256": "c2c61d3fd0bc63a587100928a399e75be8c420d210c439d75f7346da4aa4f3c3"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fast-uri\\lib\\utils.js",
+      "sha256": "a523a2da0a4cc3354d6d171107ee9af303ba6437d6db228be0a629e9698d1602"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fflate\\lib\\node.cjs",
+      "sha256": "befa44cd80a1da830179db9e57930050a2e460ca3df13f0b05f83f52b1491818"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\copy\\copy-sync.js",
+      "sha256": "c842776451f6a4562d0f5867335090e509dbf4fd1dcf8adc13306a64278510c1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\copy\\copy.js",
+      "sha256": "39b3aafebce52106e8e6ec35d401edd6043cf5758045072f317eb0337bcdae73"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\copy\\index.js",
+      "sha256": "d935e170aa9a282a5fcf796cf2d21306cbeb8822c92c8e7ef73182b9e32b3f82"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\empty\\index.js",
+      "sha256": "1096edcb5ec0ed015b36914beff0826f6cd5d7ce2645ee9dee60c0b272e57856"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\file.js",
+      "sha256": "f97c89606abb7c256eefd7acf35fc37a60a002768696125905df3944ac792d07"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\index.js",
+      "sha256": "77ccb9b4d1eab607ce7ba8d3d5bed59b0cb9cc4748d02aa896a2413b71dbfe60"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\link.js",
+      "sha256": "5da74de6915fee9da90b8c53628f7fad95547d140a6506ee84fe7aa586345549"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink-paths.js",
+      "sha256": "25cdbbe6724088ddd28fe8ac10dfab9f18a93cf6fdb14e7be41fdc29e13767d5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink-type.js",
+      "sha256": "ef80c7221f923205bd4472d166d79d4f75f683dd1f32d342f2fef5ee64fb2796"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink.js",
+      "sha256": "1e41eab4a4a111d3e9a77db76e66aedbb0a68d681d66e98ca4a1a65cdd5e93cd"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\fs\\index.js",
+      "sha256": "62ceb1a4526cf820140c4d7fbf86ca0a330108a1d7929daa3db69e565fd58367"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\index.js",
+      "sha256": "4967e903b3dc290f2b401b81bfcad8b2d94fd68c1bf4563df63ac082af0e1dae"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\index.js",
+      "sha256": "c5ac6a8005308e5bb36619fed225c987872300d356fa95d0d56878029ebbdc45"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\jsonfile.js",
+      "sha256": "a986ad3c13166f3bf8f30b18140bfc8ea1754760ab3802aa7c8c3780d54f07ba"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\output-json-sync.js",
+      "sha256": "a68fde22ad1a194755de03e90861805248f883342e05bd685258e76a90e7a6ab"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\json\\output-json.js",
+      "sha256": "b738aaf8ff9aae265b0512cb2554e1f8ce8605d21dc6230189a9be6980079fc8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\index.js",
+      "sha256": "adcd576e2e3868b94adb1bad6d1e3cf2312ffdfa71e49a57fe6247e116e75ecf"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\make-dir.js",
+      "sha256": "23c7ce8a3d6b39d1c7cf5d16ba6447c1690a6fdaa8c5f41e6b76526b7afe96f3"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\utils.js",
+      "sha256": "5372a36f4b2c5023788c23dbc6639155cb016a1b111e8fc1d6bf97cbaf11b1f8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\move\\index.js",
+      "sha256": "ee7ac772c9ed6ca64adf993498c1199fb72bc9a05b49b7b4b8185ac71dacf930"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\move\\move-sync.js",
+      "sha256": "639191af40bebf2a1dc76ee0c5317282d352461ece1d165537bc7096b80818c5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\move\\move.js",
+      "sha256": "81fca78408ac2a838f6c7f75c871b5b5b9649b7260addf0c21464eb9d8b32a9b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\output-file\\index.js",
+      "sha256": "5226ff89a2c66941f0aa322d81c68e199b5d554a99fe71cbd7a740663e541722"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\path-exists\\index.js",
+      "sha256": "5ce096c95daec0259817248921b39a9e0df4d342db171138ccb62440cc7a0cbe"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\remove\\index.js",
+      "sha256": "0ac7807ffba679e0d8fee03d3879da7f3d99bc16e8db6c6494c8eaf9ec5608b6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\util\\stat.js",
+      "sha256": "7c85bd418d9fe3e2dc8a6925772726ce7538092baf01cade518c7f65aca94a61"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\fs-extra\\lib\\util\\utimes.js",
+      "sha256": "0a9ffc68208394202e5ef3d37a687968b224df07facdbc0b31c1e0679e005979"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\function-bind\\implementation.js",
+      "sha256": "5c52eb40601e0716dafff9759cf28d8d4af3e2fc2e2c96384f43dbfd0f7370b5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\function-bind\\index.js",
+      "sha256": "12fa1b92429db25599f6fe118cbbb877f7f62b83cb9bfe2fc896b2d6a8110647"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-intrinsic\\index.js",
+      "sha256": "c3bc7278af37cede0da2db32724fa0b89a07c44205c44c4f5db0e4d8d497d49c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-proto\\Object.getPrototypeOf.js",
+      "sha256": "66d51243588d269eb28f5bc8236e111a9a36e010e9b5b9b496be2963882a9e28"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-proto\\Reflect.getPrototypeOf.js",
+      "sha256": "bab0332997a67c0eb3d2ab24ee9ae5d106d275a8ef5bde2a711faa1c96899c59"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\get-proto\\index.js",
+      "sha256": "ee310261ff252b6d90c1a9fc4b9eceb63ddb963e7eec5125631cf169daad38c1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\gopd\\gOPD.js",
+      "sha256": "48a04dcb3fb5cccb6c8541a3a8227b8d9f881ea3ffef3177ac4bb0338556b839"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\gopd\\index.js",
+      "sha256": "8f8092ee3aaa2932a71e9f264a9b273dc33f7c52f4cdb0815956fccf80230d8c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\clone.js",
+      "sha256": "7258eca52e65d69845759503f9fdd66c252f40e5eafb76db5d481172e31ac9ed"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\graceful-fs.js",
+      "sha256": "7da35669b6b6b0e4aafee31674c033f2cebb0c8f9ae010f709dcc185d3f17786"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\legacy-streams.js",
+      "sha256": "60a6a7ecf7c3e55a3ffaae13433b6cff388b7205bba6daf393c863f77a949e36"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\graceful-fs\\polyfills.js",
+      "sha256": "66ea1687ed5edf39d67296d26edccc8da695d9a869303a78d0e580cd770aca27"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\has-symbols\\index.js",
+      "sha256": "fd9bef8dd0d913bc8beac3156a0019d1a83a6e091498d1af1cbdbd536776e189"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\has-symbols\\shams.js",
+      "sha256": "41277ab2db4a31094dc6f4ca2c3cbbe5576da5e5bddac4bda6c1f0d9c0e0c417"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hasown\\index.js",
+      "sha256": "8f875520f41a3d711566013882af290c840969316cc72cd6b35f7e81d7dfc6d2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\compose.js",
+      "sha256": "e7f034ed32a8f28716f36660b9fd0df1a413beea55758962453acfac5a8174d1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\context.js",
+      "sha256": "bcc1f58914d437dc6199f8c71310028fb5fa287925137e262dc6a070803e12c3"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\hono-base.js",
+      "sha256": "01a648a2fff6fbd7245f6ce184036dae0385dc183844c89c343cf39633a65030"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\hono.js",
+      "sha256": "18c424b3cf76e0f051c283426115583b619e6bf43ba4d68a9e75bbc0df5a2a7e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\http-exception.js",
+      "sha256": "36f3e585385d81cd4de3ef1b00e498b785cd19fcb2256a6945a420f4243b80a2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\index.js",
+      "sha256": "8c2080aea84c7e06b0c3c51f37757c2702b0fa57bdbb0c366f9a965c123dda75"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\middleware\\cors\\index.js",
+      "sha256": "5640027c8b2ceaf418f60f89775147fe2618793af02a931e43657adc7a18cc50"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\request.js",
+      "sha256": "19b76e50ad6f061fde703ed2752649f5df7c6b3ef88aa182fb2f34ab3d0ffca6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\request\\constants.js",
+      "sha256": "098c33ef6b49823396aa4c16a7d3a8d3b58574df8b9aa37cf996ce329754441c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router.js",
+      "sha256": "b8d1142cbf6dd79fdc902f0295e04a757c2d5c5a997ce9d614a62ec87b28f467"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\index.js",
+      "sha256": "a4fd05597d16fedcfd936be0ebb420757fc9b224a0116e14b618e01810208155"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\matcher.js",
+      "sha256": "ce9aeced0ae397aa4866c256a27083cf3e4179f3dd582c0a1cee577536aaa259"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\node.js",
+      "sha256": "0fa2aa03782bdae14b18ce90e8831d2921f99590b73c81f255cccb99c71d19d4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\prepared-router.js",
+      "sha256": "61bcc9982761c0cab6e64f00a4f3f760c0ad1cfa0fab2e330765615be5b96b74"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\router.js",
+      "sha256": "2077df4e20b0966faabbc5dbd938697848e826e20b8a6b3a5cf1b43ab5416b7f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\trie.js",
+      "sha256": "af21dd6cbc230040c7bb85c45b478bd966e6b2d49b2a45b140627429a0ae4558"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\smart-router\\index.js",
+      "sha256": "2ee5a4b792c06927d5a7e55ce194427023d247398e039238e1ed5eb1ac4f4d8f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\smart-router\\router.js",
+      "sha256": "020c2c459c83ef0330822f89731c06e2fac51d8c98b55c43b1892177b0945f4e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\index.js",
+      "sha256": "928e83d877a8d2749919fd8db4a0197f0ed2baa0edc8c123c1abd3a1310168b8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\node.js",
+      "sha256": "650b5d43b91dc9e0ce9f47796953efe64b7261ff6a819cc48513d093802cbd06"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\router.js",
+      "sha256": "2aeeaad5a1b0aaa8575d636a7b1568749f2b53886e40f22daddc116b05db058d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\utils\\body.js",
+      "sha256": "78259320b8c28c2cec8b35d943a3ed9771c5c6f5bdac137fda38ec721d88214b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\utils\\buffer.js",
+      "sha256": "0b2e26854564941957b9865d94335632f845384272d4f18332827da2bfd74234"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\utils\\constants.js",
+      "sha256": "6b1b755e7262160f9d5507f6761340a59f3265147b677b031e13ae901d6e7ecc"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\utils\\crypto.js",
+      "sha256": "baddc675d9ddbdae11a18da384d0afe50f229f1ea9e92fccf816ff18b2ac5138"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\utils\\html.js",
+      "sha256": "59da9093e229011411debd929b054422eb54577a3dbeab2bcbfa8644830dcc18"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\utils\\mime.js",
+      "sha256": "e0c57da0aa2d92e9d2f7ddb04ac86de8ecb7493611a7ebb0b5f83f7148c25f09"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\hono\\dist\\cjs\\utils\\url.js",
+      "sha256": "7e79e500b3c7fe23df66522ba05515dd46d042c864a6ce00e1f3cd65a34d24be"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\inherits\\inherits.js",
+      "sha256": "bb380f32bef5feb18678f0f45f88073fed5d7a0069a309132cb2080cd553d5c7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\address-error.js",
+      "sha256": "d0bb8495a78ce2a1e2c1ad231c15b3a8146fec8c8ea32b121fcbe1e032b9cc0e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\common.js",
+      "sha256": "830fbb3afd49b6bedf8f7c1019370547f1b1ae507569f352a364fda5b4441182"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\ip-address.js",
+      "sha256": "3e38a4b349282e67a811aece46e273b1b24abbba2897bea707a00170ebdfc200"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\ipv4.js",
+      "sha256": "ce0177ddc59f757fc79aaea75c54cab368693f9fb1af66c6d7e6c1117dd2cb2d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\ipv6.js",
+      "sha256": "e6141bbb7c6d02b5fd10fb1c0ef9ff4acfba0ad020438d273b8bc79d701fa6d7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\v4\\constants.js",
+      "sha256": "1b1b9c5faf45d551c82e5321bbe06fc5eba2d89bcf0f95bbe7e5ff7937af1d48"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\v6\\constants.js",
+      "sha256": "0e65bc3554afc387d509f4ad7157fd765deaaf25e96ef9257fe01f67702a6738"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\v6\\helpers.js",
+      "sha256": "80660cbe876ed3e7224268638582db8def929a53bc8822c5a5d8a0c321cca50f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\ip-address\\dist\\v6\\regular-expressions.js",
+      "sha256": "31f99f670ac43ebe9694dc84b6cc9a00eb5af08f90c0ca0d2d8c5c63e5b67415"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\isarray\\index.js",
+      "sha256": "9b8c691372802da788c9c5f4e1ca2f1ed0b88ab8722176c2aea15e38ec86d249"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\json-schema-traverse\\index.js",
+      "sha256": "024191b747afac01b28ff11d744e9f82720bbad5f716163ba5c962eb62aa2350"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\jsonfile\\index.js",
+      "sha256": "ec5a9f1f45014486f1df4a8c11a5b078671e9936c0651e035b67cb5e763954e8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\jsonfile\\utils.js",
+      "sha256": "3a37b4b21c2cd8f75b850f1373f68a39bcaab3ac58d75ab44e62674cdb0d4cad"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\abs.js",
+      "sha256": "276961e4323370f3632410c6da81dda018b78c0cfb2a83ea72d48c80a3eaaeb1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\floor.js",
+      "sha256": "ea904c30b45d6fbbc1780f4db7d78c360bbecf98ecd789f0c817156102714c3f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\isNaN.js",
+      "sha256": "1aa84179527aef8df84457dd8d4e828d76d58fd9170e7a9893ee7e0e774534e8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\max.js",
+      "sha256": "92326f3eab1e40148bd68fb65a85d2c3f18fc32a03be27353b2054ba27ba7409"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\min.js",
+      "sha256": "b78c68ab96cb2764df12ff8038f5b05b05376b4c39608a7a25b3b0b168e7c2e2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\pow.js",
+      "sha256": "8dd625bd4c7b31b7656ab99babc9fea1617f36c35f5dbd339ebdc2d0f4bd97d2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\round.js",
+      "sha256": "1d4794c5869d554732cdc82208f954df348e4035f3cbd09ab758c553a207dc1e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\math-intrinsics\\sign.js",
+      "sha256": "aef51335e4671ddd0f55a81e2e4395b1d96afee20102b50e33e2b485f7cd2598"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\nanoid\\index.cjs",
+      "sha256": "d345287b9f05a55b79c4e74b9a0f0d87e3acad5b01160e307b3345ad0e654918"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\nanoid\\non-secure\\index.cjs",
+      "sha256": "73b3dc5bf17d98fc9b9894748907e338c536f47412ae495a5f8052565381ddb2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\nanoid\\url-alphabet\\index.cjs",
+      "sha256": "fdb8efafe73e611c45d1fffb25360888e139d5be3ab7982783db22aba2f21518"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\node-int64\\Int64.js",
+      "sha256": "2fa1049844b05abdc7bf43803089afe9886f8f1f4ce413922ea2ddcede5b51fb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\object-inspect\\index.js",
+      "sha256": "9aad508be54fbe29d82145d54352e7a19c01e19b70e1202b0123449fe9afcde6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\object-inspect\\util.inspect.js",
+      "sha256": "bb49299375c82d8d22983b76f6c25cd9ac923dc61cd25fffe9b3f71dad26dc40"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\picocolors\\picocolors.js",
+      "sha256": "213bb870fcaad4def0215fe34fbb0f529836cc4d2462e02f14f1a49d09781625"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\at-rule.js",
+      "sha256": "33b932bda8f304e9838a70232673326b6c0fd5fa030df35071bf36c127042a0b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\comment.js",
+      "sha256": "674385438f42526f2c05c19dfb66fcc521f5cf180ccc85b3215ad5c07ac21a40"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\container.js",
+      "sha256": "e2fc6a559238ac8186ef56d13d340b7c62c04ba9551e2edc027e761eb393ddd0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\css-syntax-error.js",
+      "sha256": "904b4bb371539a6303e4e211f0a8991fde7bc94d8674253d627389ff291d0ec1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\declaration.js",
+      "sha256": "2ccb78406c7a45aab26fc463a0fe5e3e855caf3ab1ba283616ae867046aa3b54"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\document.js",
+      "sha256": "f66f02fde48389fe1a361a8f71da7ee0236a49c94cf22378e70ba6a2e9f4fab1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\fromJSON.js",
+      "sha256": "2d9efb16f305c45f05d30e6727ad3d475c89e08ef893d913c3839f5ce899db17"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\input.js",
+      "sha256": "52358502e6ea455d421d21a98fc0a3be3b974ca624b96f43b318780f3e150bc2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\lazy-result.js",
+      "sha256": "a4fdeb2ff9d738f58120bf1927543018793e64f823108864e2d0120670f3453d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\list.js",
+      "sha256": "6df35bac40d4c449ae8e9078776e5c17c529337830a01472761902a546032f52"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\map-generator.js",
+      "sha256": "feccbc87472d5d1cc660c2bfd4958cbe5442173f03cbfa518808725f684a313c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\no-work-result.js",
+      "sha256": "11e06a9b30ab844b877f489ad7870e2a319507aed4554a58a757b7dfd7699505"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\node.js",
+      "sha256": "1cc8d56d0c77783fa7fecf702321129936efa3dc504eb4528042a103fe54770d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\parse.js",
+      "sha256": "7662c5ad1fd5f97a7c1615f0e5e7bc268e762916bcf6fb7bf9dda45537493764"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\parser.js",
+      "sha256": "5ac73eb5da16ec8f998a1a5aac28b15815c892c2a3957ab06ee8333f8718be6e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\postcss.js",
+      "sha256": "8314c843f5dfa922e6f3fb9b8d8bf3e4b0be0d94b08075e1b4f3599f4276fb67"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\previous-map.js",
+      "sha256": "5ff94015422fc77cc8b68428aa4ccf255d57d0d0be18fe81bc52590e3136433e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\processor.js",
+      "sha256": "0b37c2514c8ba33545a1eac9cf7898314bc93c808457818b2f4a7745887f920b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\result.js",
+      "sha256": "b4239438538d41187fc9a572c83bb89b09524301764ebd4f46c71fe31edd04dd"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\root.js",
+      "sha256": "872a512fa232b23f5231070bd981d3eb390316d8776ba5ccb64f723e4b7088bb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\rule.js",
+      "sha256": "216ca23a33b1a0145c7925daa442a34e33a9ea41c6f3bb58fca7c4fb355e0166"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\stringifier.js",
+      "sha256": "b0b1e184834d00fddaf30c0f7cdbc98f2bcc86e674b2bb59b28f05036c60b504"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\stringify.js",
+      "sha256": "99229cdda200513f88f7fee46004d5c39c1492a73451509e66164d26dff34abc"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\symbols.js",
+      "sha256": "eb8ab8b9648d400ec3e8e37e75dc159734b97ba21137f12da11b4afc2547a1b4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\terminal-highlight.js",
+      "sha256": "27f1eb6cc633f3947e053c96f16b1754bcffcda2742ecc9a1e11cc2a75d70d9b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\tokenize.js",
+      "sha256": "ddfcaaa01f5eac9e4e8652044df1401ce6cc70295fd3f9fbb214ca66fb2bec72"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\warn-once.js",
+      "sha256": "5683ff69eeb8e77373a4bd0e0b9da611c7575ee434ba3c458c0552ab4806464a"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\postcss\\lib\\warning.js",
+      "sha256": "eb7656e1b8501c7b7c3b925b3875363e30b5d23477424bc444dc6289993c16b7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\process-nextick-args\\index.js",
+      "sha256": "90ba524851f721e8aced79870d6d6a733cd3939b293a83e2d04417812a8ba330"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\formats.js",
+      "sha256": "d4e3de8b5a4c94865d8acd6f1c7538144732d466769661160bc0bf6ec9db3f4f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\index.js",
+      "sha256": "8f4e02eef6ccc43f2b7448c18ae209281c8e9af9807cad491df67450e3817a95"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\parse.js",
+      "sha256": "e78105814d5f66b4ce1d874b4d7bbb3a4c8c2b4cd7bcc8df3d761b4ab076673c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\stringify.js",
+      "sha256": "96d17e8ad2c6fdf124f6a3a2a50b43412acbc67f0343b4ea782623cbf4de3253"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\qs\\lib\\utils.js",
+      "sha256": "d1d1d5c915493d399388b8ea340a412e87c8421514c6a0d5b45dc07fcebe86ef"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\convertInputToNodeStream.js",
+      "sha256": "66af2c6bc87d630627af496364c44a47c7ea36bfeecfd5a5c1b14495db1594ff"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\convertValuesFromUint8ArraysToStrings.js",
+      "sha256": "74dff5546d623dec5411df8ea535461d8808fc155b3d7591b7c3eb4d38032c48"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\filterZipArchiveEntry.js",
+      "sha256": "5130c9a0d34827bea44eb8b9b8046017d14c61b86f1a5e1055e79e63761724d7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\parseSheet.js",
+      "sha256": "6e0852e32dadb906236aa162e7097bd37616477b8dcb4b83efecc5007c247f98"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\readSheetNode.js",
+      "sha256": "9847d582e1766ee2adc879ea1f84d7aa65efec14582788898b96a6d91f7707b0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\readXlsxFileNode.js",
+      "sha256": "f875fe32c28f77617e83ee9231c0b37fa9c33b32ebdf66b88e4fc45b238aa1d6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\export\\unpackXlsxFileNode.js",
+      "sha256": "b2dcbf6bfa05636a36ba621540278ff64c0a16857ce6717bba7f951b35fadb8e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\InvalidError.js",
+      "sha256": "0abb50eb10c9cb6d53a19cbd7783b2f2633094009f1c34ead5034edbb878c598"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\parseData.js",
+      "sha256": "8b6e976a147abed9862e766048393abad6f90a67d88ff1bef9775a4147c087d6"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Boolean.js",
+      "sha256": "f218314154a17f19ccc4a86f60e72fd67043cce42fb3e8af2728cd27b710a55f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Date.js",
+      "sha256": "a5c1301982532c154b646eabda8ed5b8f48e5594d2443e3e4d334c6f4f1bd95e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Number.js",
+      "sha256": "2b776b393cf3fa7e5e22a8dd42b24b574156b851b57a43842bc6a398762115ba"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\String.js",
+      "sha256": "4a8b7f52d60b117edefaba7ff5dad3e9bb970ec0c44a1fb7baa2d3a7fe2c0ef2"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\Email.js",
+      "sha256": "b7f1f620e620d598f8bfaa45d8fcfbf5f79cb5b8df896d4af1370febd477d320"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\Integer.js",
+      "sha256": "22e8ffaaa93b19af28a4038b29b19a6d990baf2492add2c7ff8949c14cf05a19"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\URL.js",
+      "sha256": "4c10ac53196960357862ff6b38d5c7c9d789df17455376d5751e175daa3f62bf"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\convertCellsToData2dArray.js",
+      "sha256": "fadf53176130534122f186b9dbe2fd20f662fa885750f620e2bc1e83870a15a1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\dropEmptyColumns.js",
+      "sha256": "5dc3fac7bf931fb17a320f9cde335f0dbd5b854ce4a330742aec34809436e946"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\dropEmptyRows.js",
+      "sha256": "b60e5c382c9a9b393916d9287f3cc19a31d81c140f7c639f11c087f0a296e9a4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\isDateFormat.js",
+      "sha256": "207bb94105e06ccd019511879f5cb40547f18cd7488449bef49bc3458a1893e8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\isDateFormatStyle.js",
+      "sha256": "b474329ec0d2ef29dde9c59eb2873ce14f8e2b74ee82627c02d340eb2a34ced5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCell.js",
+      "sha256": "7f4ee4f639fe7507a35b32d4edf3a0313dd28a012b33f04fad8ae5bd74b03996"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCellCoordinates.js",
+      "sha256": "a003c6a696cf8d8d78afe958a984eb6c5c46e717d9f1b73253bda4e9be7655c4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCellValue.js",
+      "sha256": "58ad319fae3ce0a4447c161a44c35378a5186dc2ad63674896ecfd36fb3a3e42"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCells.js",
+      "sha256": "a3f329f88c57c0d985ae838ec33df4bc0499d1518d9c5a9581104c5fe70cffdf"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseExcelDate.js",
+      "sha256": "bbbdbbbea2c5d011e0c0ba9fae24ab1eb176e98a26601ecdfa2ef80249300a80"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseFilePaths.js",
+      "sha256": "53d59c8558d572b7dfc051d76ed8f28df11959816d2b1773fa938cb2137cbe55"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSharedStrings.js",
+      "sha256": "ba584c149b8ec84957054e1d243fd2d277ab650d851a835158961fb132dd7403"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSheet.js",
+      "sha256": "d97c02cd371b8ecf1d84ac06d0971b160f88cc23ba6c6f181a3095a04e6d6bb0"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSheetDimensions.js",
+      "sha256": "ff9969e950f83f4443dcf73787dbce92de45d6b7a34d804a290bcf8fbdbdce01"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSpreadsheetContents.js",
+      "sha256": "1289194ac48f794580d74c0971aef1c07981a84841fc0e6a7d2cd85f53c7ba21"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSpreadsheetInfo.js",
+      "sha256": "936399e775c6019f2bb6d559eef737b8809d10c5784db60516bc19e8dfceb00b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseStyles.js",
+      "sha256": "5f97e1ad52215a799d003d299770b9aba9e5fe1eb3a80c4e80b2c7eadd8c3b8c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\reconstructSheetDimensionsFromSheetCells.js",
+      "sha256": "b9f9ae6ae1b3891310ec9d7b2c94cc019edd659ee3de9ebe41efb0bf31107415"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\dom.js",
+      "sha256": "96c4656e240cef61714b5b8972fe5eda1198d14a090438f8c870cf58c517515e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\xlsx.js",
+      "sha256": "8fc5fee3e3b5ae6b4564fd9e6e5d704c619242284a698a26b84f4c8906cef736"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\xml.js",
+      "sha256": "88a54fe68a599c6837cdca1dabea075b3768a7996b167b281abe75a1ca48dd6e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\commonjs\\zip\\unzipFromStream.js",
+      "sha256": "53701e0f42f58f3a3704ba6fad7ff995e00e2e1c4963bee7ef91c563b8d66139"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\node\\index.cjs",
+      "sha256": "51d9713f1886d4bf2b1bfeb68f2a75deab2b50324289db9b2fd0d4f6ed358c77"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+      "sha256": "fd17d6a92dd9ba004c85f8e364b2771af10d012a83766437447dbae63879fa6b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+      "sha256": "bf61450b1ff5f94fea9d46665e931119642034c903e63cc224b4c96472eed4d4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+      "sha256": "216e051224eff89a5d5eec76bef25addac078d9ebd2e88bd0a3d73a0e605091d"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+      "sha256": "56220d9dd58b976f1739bfc85948b267d79772ba23672ff402d13b6b3fcf4e40"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+      "sha256": "e6359ac652ed97f5f328c586c7a6b8f163782a9ca13da476e609a981c75e0469"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+      "sha256": "387991bfee34bbb7938e0c0a3f345c3e5e4c37d5b0cb600e6d432c9995321fa7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+      "sha256": "a59f90daec030125875a6028b32f93e2e2bc9fafd703991dbc36244f5cb21176"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+      "sha256": "1e7903927df33aadb3659ecce55266c9c851da65ce6c8b723a60a305c1c5422c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\readable-stream\\readable.js",
+      "sha256": "a1efa3fa06393aff652f3529ea1b1bc32134d49eb794b23272fb0ba13d214550"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\safe-buffer\\index.js",
+      "sha256": "d58af21cb0518864d0c505742d1af71e5b5e1f142f4c0f27353aa0f431a616d4"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel-list\\index.js",
+      "sha256": "5d7ba64286b290cc1ebc2a04fba4c3f1cb319b3e174cc9d5e3ae5a1d9bec170b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel-map\\index.js",
+      "sha256": "0d3a0ec34cd376a23fa4a2a159913f527f990b5541fbd513212615e910ae2ba7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel-weakmap\\index.js",
+      "sha256": "4421d4533c6e1585d01da3ad592c53dd427b0367f81474c59590b6153f119010"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\side-channel\\index.js",
+      "sha256": "54f0fec2ecb069f39b17455cc77a86e5ad135138a6e6ab5f7b33dc44ed157e86"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\array-set.js",
+      "sha256": "163bb3055aaea7140167740036a83161fd912c344b14f992754b80f21477d754"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\base64-vlq.js",
+      "sha256": "f3407e528f54ec0787bd0a71eeac0c99fffd98445916fcbe116dc69ca3be928b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\base64.js",
+      "sha256": "651bf433cf05e9ec8cee0b94639483236a605d48279e83d3d5c5de81c21d6599"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\binary-search.js",
+      "sha256": "c7f4a47a125af0bd860443dfd71d2f412d1a97dcb53ab7038189d63b91dc32bd"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\mapping-list.js",
+      "sha256": "35ddb82861f11a70ab84cb47d620fcb28d7f884bb444644e06bde815b836ef9e"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\quick-sort.js",
+      "sha256": "72ed4911cdc72232cac53cac995e28e865cd4302186173bba74ff6436c089915"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\source-map-consumer.js",
+      "sha256": "78f7a8f6d20f51a99a9cbd8d552321b1a72de9b9fb9c39dbeb27dc84eb2eade5"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\source-map-generator.js",
+      "sha256": "645482e8d23fd49cd025a0ad07c2e2beb173995138370d6a73e596e18e889bd8"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\source-node.js",
+      "sha256": "b45db8183550ca1e6259976f6ceee89f6764360c56cf206701bd2f7471144e31"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\lib\\util.js",
+      "sha256": "0629f3ae2f3049cda3a2e87ea651dcf0cc71108f4681795ab989a8ac1573fc03"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\source-map-js\\source-map.js",
+      "sha256": "dc098456c2d9ab90a4c0a17cca9be16665b9813df20906553a98b0088a157be7"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\universalify\\index.js",
+      "sha256": "83b02adb3872f6c482db4e57c300fa39b5cad65e317fc2f70b9de7d305c035a1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\BufferStream.js",
+      "sha256": "f01dc346966200d0dd48f7f36d6da983dd9b8f2f6412e11310bdc40434081b9c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Decrypt.js",
+      "sha256": "f4c0dd7dd7e21071546ce68f9d162516d3c0db2d11910cb24b92f89bd5d1171f"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\NoopStream.js",
+      "sha256": "2cdff27c0081f6f069d6f95d61820aee575d8d9eadc01a5d03a3fc27420f2246"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Open\\directory.js",
+      "sha256": "47c63bcd159d1facc02375aec9916bfee1a3ebfd3ae5338e10f6db2846a16645"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Open\\index.js",
+      "sha256": "96efb25d42199c632d31901560b003d32c49d2c209bb39ba4073a381ef6b5c38"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\Open\\unzip.js",
+      "sha256": "ff4e158c81ceecfa1c52f93afd9e6c4d257340bda14c51b8ae54e5eb029106ec"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\PullStream.js",
+      "sha256": "d1d2cd0ae31e0b306ca3aad1e40c27fa940e142c4784182d6149e4826837692b"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\extract.js",
+      "sha256": "45894edaa4fb188ed5696501f4618f7187fa3cd4d35ffc79a0987c5132954a02"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parse.js",
+      "sha256": "e216439288d7133d9081956ec5f4556e4d12753c45c2910a98a3b4ed635950ab"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseBuffer.js",
+      "sha256": "3e8d4b0ef3488f29315ebbfb3580929f0935d12650e7e5bd09a511d5a1480c65"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseDateTime.js",
+      "sha256": "566d7d51054a62db83a422298c5f4c198b6ae4cab91dc70f97c9e00ab15cfb89"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseExtraField.js",
+      "sha256": "a3143f1fccd98b956d40bdcb78c5d5b422f52fa6bb105ddc9f97aa581768a4c1"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\lib\\parseOne.js",
+      "sha256": "374d36a72d6827268871addbc381ea5cd0145cef24a8cbe32fda7d91049fcbdb"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\unzipper\\unzip.js",
+      "sha256": "3fd698ea80132b19fdbe6bbac61f52fd4d82412e2e279428c696d11458cffc1c"
+    },
+    {
+      "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\util-deprecate\\node.js",
+      "sha256": "9a86a29fa34a99b861e707345fb1d1e2e55a6c23edb8f992bed57cc607f42d8e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@hono\\node-server\\dist\\serve-static.js",
+      "sha256": "d0156679f773b58a0151bb06c9e368af9f43a4ceb40631eea22631878dd20d67"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@toon-format\\toon\\dist\\index.mjs",
+      "sha256": "f9af24dd26cb728a40e0b21aad73d0e6a9fad9f64580f6b3264971a5ea3c085c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@xmldom\\xmldom\\lib\\conventions.js",
+      "sha256": "fca02624b9b84b1709b73afd83a4d1c4dbc99baacc5b5f74a56e5999fbeaac49"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@xmldom\\xmldom\\lib\\dom-parser.js",
+      "sha256": "03915c54c4bf44cfee38807af253abaabb022c27652918e8a233fae2d92fe1d2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@xmldom\\xmldom\\lib\\dom.js",
+      "sha256": "158effa6032e9ae3d030926c3ca4781bb8f3828bc25c85e4a885bdf843be0c19"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@xmldom\\xmldom\\lib\\entities.js",
+      "sha256": "332cda4081c610fdadc0266867ee5ed9f945c99d471ea7234ec61ba00cbf0e40"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@xmldom\\xmldom\\lib\\index.js",
+      "sha256": "9deb4e9d6d730a51c1c2b05238f8684d01e87f72b9861ba2adcad537ffc56586"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@xmldom\\xmldom\\lib\\sax.js",
+      "sha256": "b12589c4f672a9ae1e03de837f574d6cdf6b41f270b7efb85cec89c31e157f0b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\ajv.js",
+      "sha256": "edaed56fc546f5551b0d6dc2ff2a9cc25c2d6c83318a086eaa8c3ad0b2479297"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\codegen\\code.js",
+      "sha256": "1287153722f1fc3c5342647de7ae1d7b6fb68bdb3378a0776a937d273fc97e0d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\codegen\\index.js",
+      "sha256": "f03b2b72597ef86878d1d4030580c2d0964046efad4867f3d05aa91065ba034c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\codegen\\scope.js",
+      "sha256": "d2a0a97af2faa2cad88702314fe421e235ab17f11e0d62883d58d8d4dc734286"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\errors.js",
+      "sha256": "53990f8f2cc05922bba410ae68231d3f869de4f8343277ede5b4834fa564c6c2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\index.js",
+      "sha256": "05b34da22814f3787bfa3ac68dad59c9047f56e55a607e0a20719ebf5afe69ac"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\names.js",
+      "sha256": "3cab37a2240b996b9bed92fe7a041d91689cfe3ad2e9ae4c0ab99e4146408493"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\ref_error.js",
+      "sha256": "81c98fdf34c3037c91bfcc02277ec32156c71e34048f36cfe4e084416e916cb7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\resolve.js",
+      "sha256": "df75af0e0cf03fa1c6452e8dc61019f5aec645a8a5f6f494dc4e13cb5502d2d9"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\rules.js",
+      "sha256": "ec1d86500f497aa8e20f9f0c1695951159d9a909669d00a261ce1bb22b3cf0a9"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\util.js",
+      "sha256": "fa911f5631f29d4d6420adfe086cb693b94b08de2719475c78c54bcb82f831a5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\validate\\applicability.js",
+      "sha256": "50c5cba5894a7fb9874b3432355b46ec71b73c9368dafb1323ded8567cca8fc0"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\validate\\boolSchema.js",
+      "sha256": "c08abdbdbd3d8b1dcc0552a20fbc7d837ed44f4ca6abb2e464985590ac94377f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\validate\\dataType.js",
+      "sha256": "697bd7005361ec7066a23c18830a10b0ef28aec1a33138b4e3098bf78c4fae52"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\validate\\defaults.js",
+      "sha256": "05721971df94faa57b09c8cfd60c2eef81b6d14910a7dea5f539d693a029c428"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\validate\\index.js",
+      "sha256": "cb2103e5f890e04592c10d24b45857dad91155bae9f9460138a2459bdaaea2cd"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\validate\\keyword.js",
+      "sha256": "ab8f070c75c25eee9be5c837f364748909b58f5db66149a2beccbd2f66afeb76"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\compile\\validate\\subschema.js",
+      "sha256": "ca783d6052af91e65ebb59a5b48b47fb459a2241d37ca6a042f767d4ce451bdc"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\core.js",
+      "sha256": "51be29c7ed7288622f755c0f1bebd3da4a9907d77aa2c33b0f2a0a5b6b339603"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\refs\\data.json",
+      "sha256": "d24ab8a97c18b3f5afdde7d7024a0e0ac1df0614a16a41cb88f81379edcc2db3"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\refs\\json-schema-draft-07.json",
+      "sha256": "f7e8b13cad4fecff9771f3626fef33e20e59027b90938a28fd9d2f6c17cd0773"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\runtime\\equal.js",
+      "sha256": "c94467da09ee94e5d194483a7ab821b9bb3bf1c04397270f2ab53dea9de59274"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\runtime\\ucs2length.js",
+      "sha256": "1df012dd3d23fced07255a7204798004509687cb1f431ae0ab976db436bbd890"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\runtime\\uri.js",
+      "sha256": "d1d61baf97ed87d7310df847a78ed73d19c8cc003207bf5aaec977500bdb1578"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\runtime\\validation_error.js",
+      "sha256": "11bf5b4affc8114e5e7cdf65b93006c2d997ab60ada1152c22e136f9b828b815"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\additionalItems.js",
+      "sha256": "7beb0fbda5e349907067c8398bb8cc3260a6267b6e5dff9793a5ab2171934099"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\additionalProperties.js",
+      "sha256": "e237cb180cd2e3f2e676feb714d7dcc6a42116640f9db2ad830cd20d9dfc540a"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\allOf.js",
+      "sha256": "98f46a6434ebe5f851b406480e18b776dd7f1bcc275e28c16a13bfef3cc067c7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\anyOf.js",
+      "sha256": "8d7368d4aebad0514b713191b934993b4f0bf570e1bab93b07dc69712db2cec5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\contains.js",
+      "sha256": "56165dc93cd8b0b4611db50a97f1e7d7f9af6c5ffe95a7a5b054d6eeaa7f6a8c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\dependencies.js",
+      "sha256": "c1a83bf484b6fde4d268935f079ddba5e74a2f589dfc6d15ca2e20ba4d06ee5b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\if.js",
+      "sha256": "42374ee5dc681433579cc689b0c4ae5343f5bf78d4d6a561722b9277c5335ec4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\index.js",
+      "sha256": "5a61978f6d81bbabfa8b9ccb71d7de816ed6dd1fd7de5c72657439a76c2a7cb3"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\items.js",
+      "sha256": "fa87f74adc3aac1f1b5e3e7dddf73294e6850e1dd49ed131fca4352e9645c54e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\items2020.js",
+      "sha256": "c449ef64aec16263c7935293ed450cfc2da3ba66f6df5f99c3198c05f169838f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\not.js",
+      "sha256": "ab2f2758d4ea97ac8763fe5540dd0f4d877859676fe5d6c750a18deca387f718"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\oneOf.js",
+      "sha256": "e2aeb6c22d49fd5f348bedcf7f5c4d7b31f5a05dd7ff1a0c531374c6968792a2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\patternProperties.js",
+      "sha256": "0d43da49a82452c439ba990de7372ad5cedb663717918a5f6dae07025abff655"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\prefixItems.js",
+      "sha256": "16264f7b3233a6dcb98b48700643efbd3ebc4d11e27b3eacffc83ccb5f44fb23"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\properties.js",
+      "sha256": "c896873ae7251093a2c8880545b69b6e8cb55c44817a53ec830a49818d74104f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\propertyNames.js",
+      "sha256": "b3411cfeaff8efd5e6de12971bb5dc339e64b61fbe62d3b950794c077315c2e7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\applicator\\thenElse.js",
+      "sha256": "9bc42eb8699d57188a7ec2a710d3f38052f92bd78c5d4d0442cf98cf2ebbe22d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\code.js",
+      "sha256": "9212ddf8bd0a4c3b1c4b44cdadd141183b2b36f561b91d13df53c83911e3bf63"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\core\\id.js",
+      "sha256": "49c8eff694ce4371450c1f9986e934fcbf4bd143311caef5332113f29175bc11"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\core\\index.js",
+      "sha256": "f420e1011b95e27b54c58323a7ed4ffbd0a88cdb4496f771bb6782c2aa22d23e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\core\\ref.js",
+      "sha256": "1422c1454b3621d890066042048f37746fe1cf213088307099816199889bbfd1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\discriminator\\index.js",
+      "sha256": "b58b58025d2dbe5a6967376faec9295b860a338664c47037e9a1035c1e8fb88e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\discriminator\\types.js",
+      "sha256": "2365341d1f30dc72cece7703e908e47aacb8f904b9f66ec4019fe889ae1e57fa"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\draft7.js",
+      "sha256": "8c62022c6c3aa302c3ea6f6709a697fc9eb6385d243fa7c2156dbe9f02228170"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\format\\format.js",
+      "sha256": "6fae0d5124fd821b1a9959492f7d6d7b528bee8830d49a7a4759fc9a9ab81d5f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\format\\index.js",
+      "sha256": "d5dad5f95c9c5f48f8ca956cdbb927aafc7b56baabfca8c0b0403d92c5ebeb67"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\metadata.js",
+      "sha256": "45c178744a7ec57e20c85ceeaea8d9f36b5663636ab7e495ea2c3c1bf4a58609"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\const.js",
+      "sha256": "ace994e9ab97a70899a9484794794f4be5ee03bfb3cf32242d3f091d77f0329a"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\enum.js",
+      "sha256": "61062b318a40eb52fc5a8283e7f4781db98349841744961ef4fe04a4722ebf22"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\index.js",
+      "sha256": "4a1839832de5f10ff423c1c0c6cb232b5b6e1b34980a28862cf56b2763136de4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitItems.js",
+      "sha256": "49f0427d29b38aef2fa8aead26e68bda12deb9a2da22f7a7804ba0fed44e1fec"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitLength.js",
+      "sha256": "379c28317faaf7784680b6049c3562692d3df6d65cce33f48e6c6c723beeeec2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitNumber.js",
+      "sha256": "3dd4bd41dbfc76c522078ff54b6479683485c4e97faa04cfcfaf2d8cb0fb8e65"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\limitProperties.js",
+      "sha256": "8523a3f7b36c34882ca32b0ec71a2157d7930907cb86b778a97c1514fa6258ac"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\multipleOf.js",
+      "sha256": "df128c2a6ca74ae57c65fbfe3aea8a101447a3ae8c41fd53cfc5693fa23cc8bd"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\pattern.js",
+      "sha256": "86e84206bfc6a66ef18bf1fe43fbc56ebe7f7f4d57841197b6d044c529e0c195"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\required.js",
+      "sha256": "b953bc18d94274bd73374dd5b4282d7a21159cec8c0e7a357e1eaf3f326b9054"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ajv\\dist\\vocabularies\\validation\\uniqueItems.js",
+      "sha256": "666d1a2aa25c0dfe3cf41312d0f9d40e9f99eb2c19be7469134ad89005aadd52"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\any.js",
+      "sha256": "bbfe88f1a68351302da229bf667fbee8b264c0fd034ac4990507d4482e713161"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\async.js",
+      "sha256": "2bd6c88aec3118d1803e85d2df99de5a7218a96a01f094d52c988265422fcf4f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\bind.js",
+      "sha256": "027add87d1c0065356c6342a2d13b16379fedc72c8a6c418681be3a6a8b46638"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\bluebird.js",
+      "sha256": "f1bd09cb349c59ace5126a4997b35d4e67785cf35886fe6a7112ac7142e526c4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\call_get.js",
+      "sha256": "4235f9f702503faf32903d2fa0d454279ab01c27497e4d7469720e33df6990a9"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\cancel.js",
+      "sha256": "ec055832b95e24e25411386a789a4c0f93e7623a118e451e30d1ee5843c689b2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\catch_filter.js",
+      "sha256": "11da610579c2289aa0b5e59fd772ac8b30d24d748a0092a20753db6d703bb9e0"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\context.js",
+      "sha256": "5d8d6bc5941153a0756f61a807e84b1ddf60eb2b9d57227263d12fbca1b70a5e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\debuggability.js",
+      "sha256": "4702ca8443b7989aec697e104c7c8be4a36388d443505e33e24ad5199b9a403c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\direct_resolve.js",
+      "sha256": "7dd03025ad5580294f5b8f062f7141ca60fd84817ffa58367ddca53aad185afb"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\each.js",
+      "sha256": "e5a9bf63cf9e9a81525ee2ae015bed8d66e081c4fceceb60d1791fdcf38a1b14"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\errors.js",
+      "sha256": "f1537f1b41673a75a0b9c60a0647c628561eaed4f2fae3d8188bb24abf333edc"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\es5.js",
+      "sha256": "c510d8dab4de97c1f460d54ea79014c283841625148dc50073981300005dd42d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\filter.js",
+      "sha256": "5b52d1f2e402abca8e1e203687a3157f4b2c2a2ed1a9bee69b6c51c1b44e4992"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\finally.js",
+      "sha256": "0e4fc9127e68b0b9d942bef674a0352f73f0874c6f66f3402d05a7a11db67b98"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\generators.js",
+      "sha256": "ec685635bd9420319eac3959b8f44657f66545fb350d1be402c48c955a57032f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\join.js",
+      "sha256": "4052ccd7ee41d565b3a8944f5f95f0f473c866e649a981804c1cb7f3055b4980"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\map.js",
+      "sha256": "9e332673acc9c81d82e75147b8c2f90134c9e59b3dc4d1bb538249751c087ea5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\method.js",
+      "sha256": "f115e74eac654538838eb7fb971bf39d2548b28ae90e25b758c67f16450484f6"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\nodeback.js",
+      "sha256": "4888e4fe1fd7d1e1eeb7552e5158bec0f7b7ec538180780941289a55aa1172b5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\nodeify.js",
+      "sha256": "045087125fdb791c743850f717a2f64091577cdd658cf89d169921c65fcb1f82"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\promise.js",
+      "sha256": "22641fab9aa4c7f2962f21aa652b685ded8a9ec88b0f0915b524948bfa644415"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\promise_array.js",
+      "sha256": "e7440944ec46fb2efcea9fe0a7d7e11d1fc1612e56d5169aebe8d5aa6e77d858"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\promisify.js",
+      "sha256": "26e51d82eb41aaaafef54ca34b350bd00a4e2bd6648417371386e7bc0614895e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\props.js",
+      "sha256": "041f70b6ea4793666240c3e1943e698280ae14bf4ee4145929f426897e2aa1e5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\queue.js",
+      "sha256": "683aab2037414e069b2a5f48d39fb4ee5e1ab808c97b2b218ec12c2520b10c82"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\race.js",
+      "sha256": "524ac44ed8e2f7f767d7ab197296dbb99e99c0497e99b22a296e36e881563168"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\reduce.js",
+      "sha256": "ea786fef0636a22d8936bdde491befb2bcedc61c233ca5c5cde765a44336e24e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\schedule.js",
+      "sha256": "a3eb3623c5859a27ccf24706b5210c1107dc65aab572a202513bba9a1ebec906"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\settle.js",
+      "sha256": "dd417954d705db69eac3045f6dfb55e26af071d8dbe5392a7f36cee86f2404d9"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\some.js",
+      "sha256": "b098cf5e52f0351dae1c99f60a40c601dee9e28bfde356af1b5454e1f2c36c7d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\synchronous_inspection.js",
+      "sha256": "b26a61e1dfe74d2118dbd230071fcd7877b63f987639e00daea43c8a5fdfc50a"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\thenables.js",
+      "sha256": "dbe1c7d0731e45596e20684a0e0ab0309c3cb29f57089169f3a375079affda6d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\timers.js",
+      "sha256": "d75e79fa2a4be7887178ee21462a37bc609ee40105ab2150f48436ece4c2d8af"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\using.js",
+      "sha256": "f36839cef0b9fd56d9a1a2908b475511c4c821e33fff7937ab5704a83f2632eb"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\bluebird\\js\\release\\util.js",
+      "sha256": "dfd00225b097b2731d9091749be37c18c418e2da59045e54e11d4df80b3ccae5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\call-bind-apply-helpers\\actualApply.js",
+      "sha256": "1cbe921bb00b03294815ff0ece4212f276870466961773ce238802bc71474540"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\call-bind-apply-helpers\\functionApply.js",
+      "sha256": "6170e997fbe03c6f8ff48946ada7d54c7aadc01531509af81f0edfdb7be00e27"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\call-bind-apply-helpers\\functionCall.js",
+      "sha256": "22d50c812748973250e9aa1994882a880c6e3bfc90d45e41f609cab97beee3fe"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\call-bind-apply-helpers\\index.js",
+      "sha256": "6a7ff51e964c2f1e24e3f3a90f41895bec230f07c3001eb29f45741ff99d7a83"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\call-bind-apply-helpers\\reflectApply.js",
+      "sha256": "e3ee45fb4c54bdb5f76ad4ef42780da004412ddb6d668993de4b9014efe246ff"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\call-bound\\index.js",
+      "sha256": "aaf524d09b5a4f8f732a516aa1c81e6e8c5d65ae3d01bce392e8fc1ac55c14ff"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\core-util-is\\lib\\util.js",
+      "sha256": "7427f16d9bd9185e409baff3e4b1ed6e3d8dfca84d367f4b8b351eb921618652"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\dunder-proto\\get.js",
+      "sha256": "9671388b2fa2cbce2f4b8645cc1dedae2f182113a78c93dd142d987c2517dacf"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\duplexer2\\index.js",
+      "sha256": "cd2fd870d088bd543de42fcfc5fed1c9b896409ef4b734a9495b3fe84c0d6421"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-define-property\\index.js",
+      "sha256": "92d23d0217808c68692a1881369c207db1a35fc09dd24b98dd5f1a07d6bb3ed0"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-errors\\eval.js",
+      "sha256": "d3161a97f162b483206e9849e41bb17fd54166810c76ebaa1df068133e54caae"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-errors\\index.js",
+      "sha256": "28fee350e89561019cf27ea37a313b4b4995f521fd087198fa235a8f135962de"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-errors\\range.js",
+      "sha256": "e376220f3a0226bd5b09b6d5a1411bbac274db8d2d9f7eb723142b7e676374be"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-errors\\ref.js",
+      "sha256": "31945f1740a0a2143fb8c38943afc6cce5de5ba6fab7af42d17b7874a19a0900"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-errors\\syntax.js",
+      "sha256": "56574ecd3eb54c06efd319080cc8923992791e430c914520b85e92c2f5e373f5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-errors\\type.js",
+      "sha256": "c71b2f41c15edb3824f50dd24df900495c8caaba5b6e9a80851b82bb2309827b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-errors\\uri.js",
+      "sha256": "e1e5591bde037a2ffeda822fa03fac22ff7c93c7b269ed9adf1cbea0e21614b0"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\es-object-atoms\\index.js",
+      "sha256": "44ee7a57ed1c50c4c5fd2a6fcaee8772f4b7d0869326eed0aadcef87bc305212"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fast-deep-equal\\index.js",
+      "sha256": "eb469e206280321a3878f2335ec98aa2104a155079d8ed83a23029098dccd215"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fast-uri\\index.js",
+      "sha256": "44c999f7f1470664259e3027bf890d0fd7c0c5563c4030bb660c9bdda06568d6"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fast-uri\\lib\\schemes.js",
+      "sha256": "0f9497f8e43c9b002d79c8a916709daa4ae8a6462735b1b5dc6ad587a28a5064"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fast-uri\\lib\\utils.js",
+      "sha256": "3394986f9670b821493943faafe5d83ccc15109aba908f1b5dd017e27b0d0ea7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fflate\\lib\\node.cjs",
+      "sha256": "befa44cd80a1da830179db9e57930050a2e460ca3df13f0b05f83f52b1491818"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\copy\\copy-sync.js",
+      "sha256": "c842776451f6a4562d0f5867335090e509dbf4fd1dcf8adc13306a64278510c1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\copy\\copy.js",
+      "sha256": "39b3aafebce52106e8e6ec35d401edd6043cf5758045072f317eb0337bcdae73"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\copy\\index.js",
+      "sha256": "d935e170aa9a282a5fcf796cf2d21306cbeb8822c92c8e7ef73182b9e32b3f82"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\empty\\index.js",
+      "sha256": "1096edcb5ec0ed015b36914beff0826f6cd5d7ce2645ee9dee60c0b272e57856"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\ensure\\file.js",
+      "sha256": "f97c89606abb7c256eefd7acf35fc37a60a002768696125905df3944ac792d07"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\ensure\\index.js",
+      "sha256": "77ccb9b4d1eab607ce7ba8d3d5bed59b0cb9cc4748d02aa896a2413b71dbfe60"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\ensure\\link.js",
+      "sha256": "5da74de6915fee9da90b8c53628f7fad95547d140a6506ee84fe7aa586345549"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink-paths.js",
+      "sha256": "25cdbbe6724088ddd28fe8ac10dfab9f18a93cf6fdb14e7be41fdc29e13767d5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink-type.js",
+      "sha256": "ef80c7221f923205bd4472d166d79d4f75f683dd1f32d342f2fef5ee64fb2796"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\ensure\\symlink.js",
+      "sha256": "1e41eab4a4a111d3e9a77db76e66aedbb0a68d681d66e98ca4a1a65cdd5e93cd"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\fs\\index.js",
+      "sha256": "62ceb1a4526cf820140c4d7fbf86ca0a330108a1d7929daa3db69e565fd58367"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\index.js",
+      "sha256": "4967e903b3dc290f2b401b81bfcad8b2d94fd68c1bf4563df63ac082af0e1dae"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\json\\index.js",
+      "sha256": "c5ac6a8005308e5bb36619fed225c987872300d356fa95d0d56878029ebbdc45"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\json\\jsonfile.js",
+      "sha256": "a986ad3c13166f3bf8f30b18140bfc8ea1754760ab3802aa7c8c3780d54f07ba"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\json\\output-json-sync.js",
+      "sha256": "a68fde22ad1a194755de03e90861805248f883342e05bd685258e76a90e7a6ab"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\json\\output-json.js",
+      "sha256": "b738aaf8ff9aae265b0512cb2554e1f8ce8605d21dc6230189a9be6980079fc8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\index.js",
+      "sha256": "adcd576e2e3868b94adb1bad6d1e3cf2312ffdfa71e49a57fe6247e116e75ecf"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\make-dir.js",
+      "sha256": "23c7ce8a3d6b39d1c7cf5d16ba6447c1690a6fdaa8c5f41e6b76526b7afe96f3"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\mkdirs\\utils.js",
+      "sha256": "5372a36f4b2c5023788c23dbc6639155cb016a1b111e8fc1d6bf97cbaf11b1f8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\move\\index.js",
+      "sha256": "ee7ac772c9ed6ca64adf993498c1199fb72bc9a05b49b7b4b8185ac71dacf930"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\move\\move-sync.js",
+      "sha256": "639191af40bebf2a1dc76ee0c5317282d352461ece1d165537bc7096b80818c5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\move\\move.js",
+      "sha256": "81fca78408ac2a838f6c7f75c871b5b5b9649b7260addf0c21464eb9d8b32a9b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\output-file\\index.js",
+      "sha256": "5226ff89a2c66941f0aa322d81c68e199b5d554a99fe71cbd7a740663e541722"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\path-exists\\index.js",
+      "sha256": "5ce096c95daec0259817248921b39a9e0df4d342db171138ccb62440cc7a0cbe"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\remove\\index.js",
+      "sha256": "0ac7807ffba679e0d8fee03d3879da7f3d99bc16e8db6c6494c8eaf9ec5608b6"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\util\\stat.js",
+      "sha256": "7c85bd418d9fe3e2dc8a6925772726ce7538092baf01cade518c7f65aca94a61"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\fs-extra\\lib\\util\\utimes.js",
+      "sha256": "0a9ffc68208394202e5ef3d37a687968b224df07facdbc0b31c1e0679e005979"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\function-bind\\implementation.js",
+      "sha256": "5c52eb40601e0716dafff9759cf28d8d4af3e2fc2e2c96384f43dbfd0f7370b5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\function-bind\\index.js",
+      "sha256": "12fa1b92429db25599f6fe118cbbb877f7f62b83cb9bfe2fc896b2d6a8110647"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\get-intrinsic\\index.js",
+      "sha256": "c3bc7278af37cede0da2db32724fa0b89a07c44205c44c4f5db0e4d8d497d49c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\get-proto\\Object.getPrototypeOf.js",
+      "sha256": "66d51243588d269eb28f5bc8236e111a9a36e010e9b5b9b496be2963882a9e28"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\get-proto\\Reflect.getPrototypeOf.js",
+      "sha256": "bab0332997a67c0eb3d2ab24ee9ae5d106d275a8ef5bde2a711faa1c96899c59"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\get-proto\\index.js",
+      "sha256": "ee310261ff252b6d90c1a9fc4b9eceb63ddb963e7eec5125631cf169daad38c1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\gopd\\gOPD.js",
+      "sha256": "48a04dcb3fb5cccb6c8541a3a8227b8d9f881ea3ffef3177ac4bb0338556b839"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\gopd\\index.js",
+      "sha256": "8f8092ee3aaa2932a71e9f264a9b273dc33f7c52f4cdb0815956fccf80230d8c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\graceful-fs\\clone.js",
+      "sha256": "7258eca52e65d69845759503f9fdd66c252f40e5eafb76db5d481172e31ac9ed"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\graceful-fs\\graceful-fs.js",
+      "sha256": "7da35669b6b6b0e4aafee31674c033f2cebb0c8f9ae010f709dcc185d3f17786"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\graceful-fs\\legacy-streams.js",
+      "sha256": "60a6a7ecf7c3e55a3ffaae13433b6cff388b7205bba6daf393c863f77a949e36"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\graceful-fs\\polyfills.js",
+      "sha256": "66ea1687ed5edf39d67296d26edccc8da695d9a869303a78d0e580cd770aca27"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\has-symbols\\index.js",
+      "sha256": "fd9bef8dd0d913bc8beac3156a0019d1a83a6e091498d1af1cbdbd536776e189"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\has-symbols\\shams.js",
+      "sha256": "41277ab2db4a31094dc6f4ca2c3cbbe5576da5e5bddac4bda6c1f0d9c0e0c417"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hasown\\index.js",
+      "sha256": "8f875520f41a3d711566013882af290c840969316cc72cd6b35f7e81d7dfc6d2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\compose.js",
+      "sha256": "e7f034ed32a8f28716f36660b9fd0df1a413beea55758962453acfac5a8174d1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\context.js",
+      "sha256": "bcc1f58914d437dc6199f8c71310028fb5fa287925137e262dc6a070803e12c3"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\hono-base.js",
+      "sha256": "01a648a2fff6fbd7245f6ce184036dae0385dc183844c89c343cf39633a65030"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\hono.js",
+      "sha256": "18c424b3cf76e0f051c283426115583b619e6bf43ba4d68a9e75bbc0df5a2a7e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\http-exception.js",
+      "sha256": "36f3e585385d81cd4de3ef1b00e498b785cd19fcb2256a6945a420f4243b80a2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\index.js",
+      "sha256": "8c2080aea84c7e06b0c3c51f37757c2702b0fa57bdbb0c366f9a965c123dda75"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\middleware\\cors\\index.js",
+      "sha256": "caae774dc475354756d960e7eb1d3c97e9bc7a835738fa441a50cb808a775a17"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\request.js",
+      "sha256": "b2bd27b59e669cd5249ae65c1a7c9b7b74bd2c40f9490f113461758ecd20d127"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\request\\constants.js",
+      "sha256": "098c33ef6b49823396aa4c16a7d3a8d3b58574df8b9aa37cf996ce329754441c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router.js",
+      "sha256": "b8d1142cbf6dd79fdc902f0295e04a757c2d5c5a997ce9d614a62ec87b28f467"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\index.js",
+      "sha256": "a4fd05597d16fedcfd936be0ebb420757fc9b224a0116e14b618e01810208155"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\matcher.js",
+      "sha256": "ce9aeced0ae397aa4866c256a27083cf3e4179f3dd582c0a1cee577536aaa259"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\node.js",
+      "sha256": "0fa2aa03782bdae14b18ce90e8831d2921f99590b73c81f255cccb99c71d19d4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\prepared-router.js",
+      "sha256": "61bcc9982761c0cab6e64f00a4f3f760c0ad1cfa0fab2e330765615be5b96b74"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\router.js",
+      "sha256": "2077df4e20b0966faabbc5dbd938697848e826e20b8a6b3a5cf1b43ab5416b7f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\trie.js",
+      "sha256": "af21dd6cbc230040c7bb85c45b478bd966e6b2d49b2a45b140627429a0ae4558"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\smart-router\\index.js",
+      "sha256": "2ee5a4b792c06927d5a7e55ce194427023d247398e039238e1ed5eb1ac4f4d8f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\smart-router\\router.js",
+      "sha256": "020c2c459c83ef0330822f89731c06e2fac51d8c98b55c43b1892177b0945f4e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\index.js",
+      "sha256": "928e83d877a8d2749919fd8db4a0197f0ed2baa0edc8c123c1abd3a1310168b8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\node.js",
+      "sha256": "e6368b104415df53b38564fc2cebc3de9a6890ea32b81f812f47478ac0dfb63f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\router.js",
+      "sha256": "2aeeaad5a1b0aaa8575d636a7b1568749f2b53886e40f22daddc116b05db058d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\body.js",
+      "sha256": "aa7dc16bed23555acdc93b6d09dd205646d334bcc834ddd877d7885d8faef6d3"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\buffer.js",
+      "sha256": "0b2e26854564941957b9865d94335632f845384272d4f18332827da2bfd74234"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\constants.js",
+      "sha256": "6b1b755e7262160f9d5507f6761340a59f3265147b677b031e13ae901d6e7ecc"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\crypto.js",
+      "sha256": "baddc675d9ddbdae11a18da384d0afe50f229f1ea9e92fccf816ff18b2ac5138"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\html.js",
+      "sha256": "59da9093e229011411debd929b054422eb54577a3dbeab2bcbfa8644830dcc18"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\mime.js",
+      "sha256": "e0c57da0aa2d92e9d2f7ddb04ac86de8ecb7493611a7ebb0b5f83f7148c25f09"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\url.js",
+      "sha256": "830c5a034862dd142d3fa1ff16c00fdce89ad2277224acf9c44119275de68190"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\inherits\\inherits.js",
+      "sha256": "bb380f32bef5feb18678f0f45f88073fed5d7a0069a309132cb2080cd553d5c7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\address-error.js",
+      "sha256": "d0bb8495a78ce2a1e2c1ad231c15b3a8146fec8c8ea32b121fcbe1e032b9cc0e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\common.js",
+      "sha256": "5339ca7ec4283cb1a56e3cc3cea6c289e269912ba74b9458fb891522991651bf"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\ip-address.js",
+      "sha256": "3e38a4b349282e67a811aece46e273b1b24abbba2897bea707a00170ebdfc200"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\ipv4.js",
+      "sha256": "1812fa4768e431c77425d90c5d3cd29581a6643636001be22141d86b173299c1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\ipv6.js",
+      "sha256": "e11657022ac5347ef5e6044a4b6d4bf22d1b8b792fda1c75a75d297df54af116"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v4\\constants.js",
+      "sha256": "db6c8d9507342ed5a3ac4ef1ee228388624e341750e4a9091e538d474871c8a1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v6\\constants.js",
+      "sha256": "3457615e0d9eba7735133c438cc89f6c97730960ff5f1b3a5b0ccd9b1486ce51"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v6\\helpers.js",
+      "sha256": "80660cbe876ed3e7224268638582db8def929a53bc8822c5a5d8a0c321cca50f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\ip-address\\dist\\v6\\regular-expressions.js",
+      "sha256": "31f99f670ac43ebe9694dc84b6cc9a00eb5af08f90c0ca0d2d8c5c63e5b67415"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\isarray\\index.js",
+      "sha256": "9b8c691372802da788c9c5f4e1ca2f1ed0b88ab8722176c2aea15e38ec86d249"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\json-schema-traverse\\index.js",
+      "sha256": "024191b747afac01b28ff11d744e9f82720bbad5f716163ba5c962eb62aa2350"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\jsonfile\\index.js",
+      "sha256": "ec5a9f1f45014486f1df4a8c11a5b078671e9936c0651e035b67cb5e763954e8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\jsonfile\\utils.js",
+      "sha256": "3a37b4b21c2cd8f75b850f1373f68a39bcaab3ac58d75ab44e62674cdb0d4cad"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\abs.js",
+      "sha256": "276961e4323370f3632410c6da81dda018b78c0cfb2a83ea72d48c80a3eaaeb1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\floor.js",
+      "sha256": "ea904c30b45d6fbbc1780f4db7d78c360bbecf98ecd789f0c817156102714c3f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\isNaN.js",
+      "sha256": "1aa84179527aef8df84457dd8d4e828d76d58fd9170e7a9893ee7e0e774534e8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\max.js",
+      "sha256": "92326f3eab1e40148bd68fb65a85d2c3f18fc32a03be27353b2054ba27ba7409"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\min.js",
+      "sha256": "b78c68ab96cb2764df12ff8038f5b05b05376b4c39608a7a25b3b0b168e7c2e2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\pow.js",
+      "sha256": "8dd625bd4c7b31b7656ab99babc9fea1617f36c35f5dbd339ebdc2d0f4bd97d2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\round.js",
+      "sha256": "1d4794c5869d554732cdc82208f954df348e4035f3cbd09ab758c553a207dc1e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\math-intrinsics\\sign.js",
+      "sha256": "aef51335e4671ddd0f55a81e2e4395b1d96afee20102b50e33e2b485f7cd2598"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\nanoid\\non-secure\\index.cjs",
+      "sha256": "95b71f6806545bf0443c0d62a911720ad33993da15795e6131d44f4682d23c74"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\node-int64\\Int64.js",
+      "sha256": "2fa1049844b05abdc7bf43803089afe9886f8f1f4ce413922ea2ddcede5b51fb"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\object-inspect\\index.js",
+      "sha256": "9aad508be54fbe29d82145d54352e7a19c01e19b70e1202b0123449fe9afcde6"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\object-inspect\\util.inspect.js",
+      "sha256": "bb49299375c82d8d22983b76f6c25cd9ac923dc61cd25fffe9b3f71dad26dc40"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\picocolors\\picocolors.js",
+      "sha256": "213bb870fcaad4def0215fe34fbb0f529836cc4d2462e02f14f1a49d09781625"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\at-rule.js",
+      "sha256": "33b932bda8f304e9838a70232673326b6c0fd5fa030df35071bf36c127042a0b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\comment.js",
+      "sha256": "674385438f42526f2c05c19dfb66fcc521f5cf180ccc85b3215ad5c07ac21a40"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\container.js",
+      "sha256": "0f8aaa013a910e142be706c3d6f54a3ce04751a08df3f17ed3a61bb91f863c39"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\css-syntax-error.js",
+      "sha256": "904b4bb371539a6303e4e211f0a8991fde7bc94d8674253d627389ff291d0ec1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\declaration.js",
+      "sha256": "2ccb78406c7a45aab26fc463a0fe5e3e855caf3ab1ba283616ae867046aa3b54"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\document.js",
+      "sha256": "f66f02fde48389fe1a361a8f71da7ee0236a49c94cf22378e70ba6a2e9f4fab1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\fromJSON.js",
+      "sha256": "95cfc688a45c418f831d433d36b59223ca3e3fba93cda50b0a3cd1aa49f9bdfd"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\input.js",
+      "sha256": "0e89674a33ee97536293c1c1e70a2758995bd5fe9ac347840a30df187027e533"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\lazy-result.js",
+      "sha256": "16c1305def71004a5feff77b5b4c38f2e9c2148b29460df65c078d12889227dd"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\list.js",
+      "sha256": "6df35bac40d4c449ae8e9078776e5c17c529337830a01472761902a546032f52"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\map-generator.js",
+      "sha256": "feccbc87472d5d1cc660c2bfd4958cbe5442173f03cbfa518808725f684a313c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\no-work-result.js",
+      "sha256": "11e06a9b30ab844b877f489ad7870e2a319507aed4554a58a757b7dfd7699505"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\node.js",
+      "sha256": "52c8d992e881f0d40d3dc4610039d3cc19b1dfdf0fc32aef8923b5537d161eae"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\parse.js",
+      "sha256": "7662c5ad1fd5f97a7c1615f0e5e7bc268e762916bcf6fb7bf9dda45537493764"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\parser.js",
+      "sha256": "5ac73eb5da16ec8f998a1a5aac28b15815c892c2a3957ab06ee8333f8718be6e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\postcss.js",
+      "sha256": "8314c843f5dfa922e6f3fb9b8d8bf3e4b0be0d94b08075e1b4f3599f4276fb67"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\previous-map.js",
+      "sha256": "a4ab645c175790e5461aa2218852f9cdcdb88cc3ec1062eb452086ce00f9cf1c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\processor.js",
+      "sha256": "d81bbd7f5b09dae101f7b1e14d12b86757535d4cdb7c95b31cbbe87c7f9059f2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\result.js",
+      "sha256": "b4239438538d41187fc9a572c83bb89b09524301764ebd4f46c71fe31edd04dd"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\root.js",
+      "sha256": "66bf461dbd984702272d737e8dc86a254b0481ae7934162f4ce0b32d9a19ec76"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\rule.js",
+      "sha256": "216ca23a33b1a0145c7925daa442a34e33a9ea41c6f3bb58fca7c4fb355e0166"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\stringifier.js",
+      "sha256": "d068c9038a6f7f4b24b9a4252f6c71bde3e84dc8378707ee12d950395d9e074b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\stringify.js",
+      "sha256": "99229cdda200513f88f7fee46004d5c39c1492a73451509e66164d26dff34abc"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\symbols.js",
+      "sha256": "eb8ab8b9648d400ec3e8e37e75dc159734b97ba21137f12da11b4afc2547a1b4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\terminal-highlight.js",
+      "sha256": "27f1eb6cc633f3947e053c96f16b1754bcffcda2742ecc9a1e11cc2a75d70d9b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\tokenize.js",
+      "sha256": "ddfcaaa01f5eac9e4e8652044df1401ce6cc70295fd3f9fbb214ca66fb2bec72"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\warn-once.js",
+      "sha256": "5683ff69eeb8e77373a4bd0e0b9da611c7575ee434ba3c458c0552ab4806464a"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\postcss\\lib\\warning.js",
+      "sha256": "a969d1ec8a5025c028278ee037cc21c5c7b8129e80269ea3bd8d831a957474fa"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\process-nextick-args\\index.js",
+      "sha256": "90ba524851f721e8aced79870d6d6a733cd3939b293a83e2d04417812a8ba330"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\qs\\lib\\formats.js",
+      "sha256": "d4e3de8b5a4c94865d8acd6f1c7538144732d466769661160bc0bf6ec9db3f4f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\qs\\lib\\index.js",
+      "sha256": "8f4e02eef6ccc43f2b7448c18ae209281c8e9af9807cad491df67450e3817a95"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\qs\\lib\\parse.js",
+      "sha256": "28a66634f3f61e9f501f838f6e98dbf067633b068cb17f0bded574032c8559ea"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\qs\\lib\\stringify.js",
+      "sha256": "5c830a072ecc7ff49859116b09fa840fa7e053317dcf5e0d2fb6e55452221286"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\qs\\lib\\utils.js",
+      "sha256": "50c7b4480a9c784d2c061c57472b0eaac020865d82bb0790a5f700db5f29523e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\export\\convertInputToNodeStream.js",
+      "sha256": "66af2c6bc87d630627af496364c44a47c7ea36bfeecfd5a5c1b14495db1594ff"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\export\\convertValuesFromUint8ArraysToStrings.js",
+      "sha256": "74dff5546d623dec5411df8ea535461d8808fc155b3d7591b7c3eb4d38032c48"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\export\\filterZipArchiveEntry.js",
+      "sha256": "5130c9a0d34827bea44eb8b9b8046017d14c61b86f1a5e1055e79e63761724d7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\export\\parseSheet.js",
+      "sha256": "6e0852e32dadb906236aa162e7097bd37616477b8dcb4b83efecc5007c247f98"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\export\\readSheetNode.js",
+      "sha256": "9847d582e1766ee2adc879ea1f84d7aa65efec14582788898b96a6d91f7707b0"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\export\\readXlsxFileNode.js",
+      "sha256": "f875fe32c28f77617e83ee9231c0b37fa9c33b32ebdf66b88e4fc45b238aa1d6"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\export\\unpackXlsxFileNode.js",
+      "sha256": "b2dcbf6bfa05636a36ba621540278ff64c0a16857ce6717bba7f951b35fadb8e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\InvalidError.js",
+      "sha256": "0abb50eb10c9cb6d53a19cbd7783b2f2633094009f1c34ead5034edbb878c598"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\parseData.js",
+      "sha256": "8b6e976a147abed9862e766048393abad6f90a67d88ff1bef9775a4147c087d6"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Boolean.js",
+      "sha256": "f218314154a17f19ccc4a86f60e72fd67043cce42fb3e8af2728cd27b710a55f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Date.js",
+      "sha256": "a5c1301982532c154b646eabda8ed5b8f48e5594d2443e3e4d334c6f4f1bd95e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\Number.js",
+      "sha256": "2b776b393cf3fa7e5e22a8dd42b24b574156b851b57a43842bc6a398762115ba"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\String.js",
+      "sha256": "4a8b7f52d60b117edefaba7ff5dad3e9bb970ec0c44a1fb7baa2d3a7fe2c0ef2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\Email.js",
+      "sha256": "b7f1f620e620d598f8bfaa45d8fcfbf5f79cb5b8df896d4af1370febd477d320"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\Integer.js",
+      "sha256": "22e8ffaaa93b19af28a4038b29b19a6d990baf2492add2c7ff8949c14cf05a19"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\parseData\\types\\additional\\URL.js",
+      "sha256": "4c10ac53196960357862ff6b38d5c7c9d789df17455376d5751e175daa3f62bf"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\convertCellsToData2dArray.js",
+      "sha256": "fadf53176130534122f186b9dbe2fd20f662fa885750f620e2bc1e83870a15a1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\dropEmptyColumns.js",
+      "sha256": "5dc3fac7bf931fb17a320f9cde335f0dbd5b854ce4a330742aec34809436e946"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\dropEmptyRows.js",
+      "sha256": "b60e5c382c9a9b393916d9287f3cc19a31d81c140f7c639f11c087f0a296e9a4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\isDateFormat.js",
+      "sha256": "207bb94105e06ccd019511879f5cb40547f18cd7488449bef49bc3458a1893e8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\isDateFormatStyle.js",
+      "sha256": "b474329ec0d2ef29dde9c59eb2873ce14f8e2b74ee82627c02d340eb2a34ced5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCell.js",
+      "sha256": "7f4ee4f639fe7507a35b32d4edf3a0313dd28a012b33f04fad8ae5bd74b03996"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCellCoordinates.js",
+      "sha256": "a003c6a696cf8d8d78afe958a984eb6c5c46e717d9f1b73253bda4e9be7655c4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCellValue.js",
+      "sha256": "58ad319fae3ce0a4447c161a44c35378a5186dc2ad63674896ecfd36fb3a3e42"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseCells.js",
+      "sha256": "a3f329f88c57c0d985ae838ec33df4bc0499d1518d9c5a9581104c5fe70cffdf"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseExcelDate.js",
+      "sha256": "bbbdbbbea2c5d011e0c0ba9fae24ab1eb176e98a26601ecdfa2ef80249300a80"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseFilePaths.js",
+      "sha256": "53d59c8558d572b7dfc051d76ed8f28df11959816d2b1773fa938cb2137cbe55"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSharedStrings.js",
+      "sha256": "ba584c149b8ec84957054e1d243fd2d277ab650d851a835158961fb132dd7403"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSheet.js",
+      "sha256": "d97c02cd371b8ecf1d84ac06d0971b160f88cc23ba6c6f181a3095a04e6d6bb0"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSheetDimensions.js",
+      "sha256": "ff9969e950f83f4443dcf73787dbce92de45d6b7a34d804a290bcf8fbdbdce01"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSpreadsheetContents.js",
+      "sha256": "1289194ac48f794580d74c0971aef1c07981a84841fc0e6a7d2cd85f53c7ba21"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseSpreadsheetInfo.js",
+      "sha256": "936399e775c6019f2bb6d559eef737b8809d10c5784db60516bc19e8dfceb00b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\parseStyles.js",
+      "sha256": "5f97e1ad52215a799d003d299770b9aba9e5fe1eb3a80c4e80b2c7eadd8c3b8c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xlsx\\reconstructSheetDimensionsFromSheetCells.js",
+      "sha256": "b9f9ae6ae1b3891310ec9d7b2c94cc019edd659ee3de9ebe41efb0bf31107415"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\dom.js",
+      "sha256": "96c4656e240cef61714b5b8972fe5eda1198d14a090438f8c870cf58c517515e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\xlsx.js",
+      "sha256": "8fc5fee3e3b5ae6b4564fd9e6e5d704c619242284a698a26b84f4c8906cef736"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\xml\\xml.js",
+      "sha256": "88a54fe68a599c6837cdca1dabea075b3768a7996b167b281abe75a1ca48dd6e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\commonjs\\zip\\unzipFromStream.js",
+      "sha256": "53701e0f42f58f3a3704ba6fad7ff995e00e2e1c4963bee7ef91c563b8d66139"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\read-excel-file\\node\\index.cjs",
+      "sha256": "51d9713f1886d4bf2b1bfeb68f2a75deab2b50324289db9b2fd0d4f6ed358c77"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+      "sha256": "fd17d6a92dd9ba004c85f8e364b2771af10d012a83766437447dbae63879fa6b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+      "sha256": "bf61450b1ff5f94fea9d46665e931119642034c903e63cc224b4c96472eed4d4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+      "sha256": "216e051224eff89a5d5eec76bef25addac078d9ebd2e88bd0a3d73a0e605091d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+      "sha256": "56220d9dd58b976f1739bfc85948b267d79772ba23672ff402d13b6b3fcf4e40"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+      "sha256": "e6359ac652ed97f5f328c586c7a6b8f163782a9ca13da476e609a981c75e0469"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+      "sha256": "387991bfee34bbb7938e0c0a3f345c3e5e4c37d5b0cb600e6d432c9995321fa7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+      "sha256": "a59f90daec030125875a6028b32f93e2e2bc9fafd703991dbc36244f5cb21176"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+      "sha256": "1e7903927df33aadb3659ecce55266c9c851da65ce6c8b723a60a305c1c5422c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\readable-stream\\readable.js",
+      "sha256": "a1efa3fa06393aff652f3529ea1b1bc32134d49eb794b23272fb0ba13d214550"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\safe-buffer\\index.js",
+      "sha256": "d58af21cb0518864d0c505742d1af71e5b5e1f142f4c0f27353aa0f431a616d4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\side-channel-list\\index.js",
+      "sha256": "5d7ba64286b290cc1ebc2a04fba4c3f1cb319b3e174cc9d5e3ae5a1d9bec170b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\side-channel-map\\index.js",
+      "sha256": "0d3a0ec34cd376a23fa4a2a159913f527f990b5541fbd513212615e910ae2ba7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\side-channel-weakmap\\index.js",
+      "sha256": "4421d4533c6e1585d01da3ad592c53dd427b0367f81474c59590b6153f119010"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\side-channel\\index.js",
+      "sha256": "54f0fec2ecb069f39b17455cc77a86e5ad135138a6e6ab5f7b33dc44ed157e86"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\array-set.js",
+      "sha256": "163bb3055aaea7140167740036a83161fd912c344b14f992754b80f21477d754"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\base64-vlq.js",
+      "sha256": "f3407e528f54ec0787bd0a71eeac0c99fffd98445916fcbe116dc69ca3be928b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\base64.js",
+      "sha256": "651bf433cf05e9ec8cee0b94639483236a605d48279e83d3d5c5de81c21d6599"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\binary-search.js",
+      "sha256": "c7f4a47a125af0bd860443dfd71d2f412d1a97dcb53ab7038189d63b91dc32bd"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\mapping-list.js",
+      "sha256": "35ddb82861f11a70ab84cb47d620fcb28d7f884bb444644e06bde815b836ef9e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\quick-sort.js",
+      "sha256": "72ed4911cdc72232cac53cac995e28e865cd4302186173bba74ff6436c089915"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\source-map-consumer.js",
+      "sha256": "78f7a8f6d20f51a99a9cbd8d552321b1a72de9b9fb9c39dbeb27dc84eb2eade5"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\source-map-generator.js",
+      "sha256": "645482e8d23fd49cd025a0ad07c2e2beb173995138370d6a73e596e18e889bd8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\source-node.js",
+      "sha256": "b45db8183550ca1e6259976f6ceee89f6764360c56cf206701bd2f7471144e31"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\lib\\util.js",
+      "sha256": "0629f3ae2f3049cda3a2e87ea651dcf0cc71108f4681795ab989a8ac1573fc03"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\source-map-js\\source-map.js",
+      "sha256": "dc098456c2d9ab90a4c0a17cca9be16665b9813df20906553a98b0088a157be7"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\universalify\\index.js",
+      "sha256": "83b02adb3872f6c482db4e57c300fa39b5cad65e317fc2f70b9de7d305c035a1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\BufferStream.js",
+      "sha256": "f01dc346966200d0dd48f7f36d6da983dd9b8f2f6412e11310bdc40434081b9c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\Decrypt.js",
+      "sha256": "f4c0dd7dd7e21071546ce68f9d162516d3c0db2d11910cb24b92f89bd5d1171f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\NoopStream.js",
+      "sha256": "2cdff27c0081f6f069d6f95d61820aee575d8d9eadc01a5d03a3fc27420f2246"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\Open\\directory.js",
+      "sha256": "47c63bcd159d1facc02375aec9916bfee1a3ebfd3ae5338e10f6db2846a16645"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\Open\\index.js",
+      "sha256": "96efb25d42199c632d31901560b003d32c49d2c209bb39ba4073a381ef6b5c38"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\Open\\unzip.js",
+      "sha256": "ff4e158c81ceecfa1c52f93afd9e6c4d257340bda14c51b8ae54e5eb029106ec"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\PullStream.js",
+      "sha256": "d1d2cd0ae31e0b306ca3aad1e40c27fa940e142c4784182d6149e4826837692b"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\extract.js",
+      "sha256": "45894edaa4fb188ed5696501f4618f7187fa3cd4d35ffc79a0987c5132954a02"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\parse.js",
+      "sha256": "e216439288d7133d9081956ec5f4556e4d12753c45c2910a98a3b4ed635950ab"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\parseBuffer.js",
+      "sha256": "3e8d4b0ef3488f29315ebbfb3580929f0935d12650e7e5bd09a511d5a1480c65"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\parseDateTime.js",
+      "sha256": "566d7d51054a62db83a422298c5f4c198b6ae4cab91dc70f97c9e00ab15cfb89"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\parseExtraField.js",
+      "sha256": "a3143f1fccd98b956d40bdcb78c5d5b422f52fa6bb105ddc9f97aa581768a4c1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\lib\\parseOne.js",
+      "sha256": "374d36a72d6827268871addbc381ea5cd0145cef24a8cbe32fda7d91049fcbdb"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\unzipper\\unzip.js",
+      "sha256": "3fd698ea80132b19fdbe6bbac61f52fd4d82412e2e279428c696d11458cffc1c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\util-deprecate\\node.js",
+      "sha256": "9a86a29fa34a99b861e707345fb1d1e2e55a6c23edb8f992bed57cc607f42d8e"
+    }
+  ],
+  "preservedObserverFailures": [
+    "canaries-01/xmldom-patched.result.json: bare-row expectation contradicted installed all-sheet API.",
+    "canaries-01/xmldom-baseline.command.json: first 5-second child deadline; no completion result, no phase attribution."
+  ],
+  "scopeLimits": [
+    "Hono CORS finite case completed on both versions; no denial-of-service reproduction or timing certification.",
+    "Windows static case proves rejection of encoded backslash at a controlled same-root sentinel, not an outside-root disclosure exploit.",
+    "Nano ID old negative-size case hit its child-only 64 MB heap limit (exit134); zero custom generator hit the fixed2-second deadline.",
+    "Zero global fetch calls applies to completed canary records; no OS firewall or complete syscall egress trace was claimed."
+  ]
+}

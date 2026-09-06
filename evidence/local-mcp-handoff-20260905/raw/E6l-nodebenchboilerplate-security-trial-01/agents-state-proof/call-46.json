@@ -1,0 +1,17 @@
+{
+  "name": "get_project_context",
+  "args": {},
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "context:\n  build_commands: npm run build\n  conventions: Synthetic local evidence only; release not approved.\n  project_name: Owned Boilerplate handoff scenario\n  tech_stack: \"TypeScript, Node.js\"\n  test_commands: npm test\nknowledgeBase:\n  learnings: 1\n  reconSessions: 0\n  verificationCycles: 1\n  resolvedGaps: 0\n  evalRuns: 0\n_contributeBack:\n  instruction: Keep project context current. Call bootstrap_project to update if your stack or architecture changes.\n  actions[2]: \"bootstrap_project — update tech stack, dependencies, or conventions\",search_all_knowledge — check existing knowledge before starting work\n_quickRef:\n  nextAction: Project context loaded. Use it to inform your current task. Update with bootstrap_project if anything changed.\n  nextTools[2]: bootstrap_project,search_all_knowledge\n  methodology: reconnaissance"
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 2
+  }
+}

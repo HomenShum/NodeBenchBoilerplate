@@ -1,0 +1,23 @@
+{
+  "name": "log_test_result",
+  "args": {
+    "cycleId": "cycle_1788660984085_xe0cqfv92",
+    "layer": "manual",
+    "label": "compiled-starter",
+    "passed": true,
+    "output": "{\"command\":[\"C:/nvm4w/nodejs/node.exe\",\"dist/index.js\"],\"exitCode\":0,\"stdoutSha256\":\"56236ae6074b24096622d816037bd66a5aad5d54592f09f6ed428160793bf250\",\"stderrSha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}"
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "testId: test_1788660984095_6abp3g3pq\nlayer: manual\npassed: true\nlayerSummary:\n  total: 1\n  passed: 1\n  failed: 0\nallLayersPassing: true\n_quickRef:\n  nextAction: \"Test recorded. Ensure all 5 layers pass: static, unit, integration, manual, live_e2e. Then call log_phase_findings for Phase 4.\"\n  nextTools[2]: run_closed_loop,log_phase_findings\n  methodology: verification\n  tip: Use run_closed_loop for the compile→lint→test→debug cycle."
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 12
+  }
+}

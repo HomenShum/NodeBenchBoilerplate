@@ -1,0 +1,30 @@
+{
+  "name": "run_quality_gate",
+  "args": {
+    "gateName": "owned-negative",
+    "target": "Synthetic false-rule test, not approval",
+    "rules": [
+      {
+        "name": "known_true_fixture",
+        "passed": true
+      },
+      {
+        "name": "known_false_fixture",
+        "passed": false
+      }
+    ]
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "gateRunId: gate_1788660984113_xyyfl2fot\ngateName: owned-negative\npassed: false\nscore: 0.5\ntotalRules: 2\npassedCount: 1\nfailures[1]: known_false_fixture\nruleResults:\n  known_true_fixture: true\n  known_false_fixture: false\n_quickRef:\n  nextAction: Gate evaluated. Fix any failures before proceeding. Record patterns with record_learning.\n  nextTools[3]: record_learning,get_gate_history,run_mandatory_flywheel\n  methodology: quality_gates\n  tip: \"Use get_gate_preset for built-in rule sets: engagement, code_review, deploy_readiness, ui_ux_qa.\""
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 23
+  }
+}

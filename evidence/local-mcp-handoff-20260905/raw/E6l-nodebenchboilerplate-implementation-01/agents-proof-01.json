@@ -1,0 +1,26 @@
+{
+  "at": "2026-09-06T01:44:13.987196+00:00",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6l-nodebenchboilerplate-implementation-01/agents-proof.mjs",
+    "D:/ProjectRecovery/nodebenchboilerplate-agents-proof-20260905-01"
+  ],
+  "exitCode": 1,
+  "seconds": 2.0,
+  "ownedProcesses": {
+    "13108": 1788659051.98235,
+    "67004": 1788659052.1260724,
+    "36368": 1788659052.2165258,
+    "59020": 1788659052.564077,
+    "30360": 1788659052.5752747
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 1026,
+    "stderr": 0
+  },
+  "stdoutSha256": "22fb39f6b74239271e482a00105ef9c3a141ac12b2d1a1f966aeacf7252710ba",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "environmentFileSha256": "a706c6eca724a8f2ece266c5d8c4531cf123b3eb95c27fbde08ef466ed72aa21",
+  "timeoutSeconds": 90
+}

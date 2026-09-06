@@ -1,0 +1,4 @@
+
+> nodebench-boilerplate@0.1.0 mcp:lite
+> npx nodebench-mcp --preset lite
+

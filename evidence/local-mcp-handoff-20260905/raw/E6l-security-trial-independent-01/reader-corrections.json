@@ -1,0 +1,7 @@
+{
+  "scope": "Independent read-only recorder corrections, no application failure or re-execution",
+  "corrections": [
+    "An exploratory terminal diff print failed under cp1252; repeated UTF-8 display exposed only the XLSX expectation and three phase markers.",
+    "Initial native stdout reader assumed 81 tables on both sessions. Actual native-write counts 81 before creating handoff_probe; native-reopen correctly counts 82. The separate AGENTS database has 81. Raw reports are unchanged."
+  ]
+}

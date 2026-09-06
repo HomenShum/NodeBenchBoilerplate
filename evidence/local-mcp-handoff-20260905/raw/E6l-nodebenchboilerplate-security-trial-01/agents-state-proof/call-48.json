@@ -1,0 +1,20 @@
+{
+  "name": "get_gate_history",
+  "args": {
+    "gateName": "mandatory_flywheel",
+    "limit": 5
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "gateName: mandatory_flywheel\nruns[1]:\n  - gateRunId: gate_1788660984117_yg1acds9l\n    passed: false\n    score: 0.83\n    failures[1]: deploy_and_document\n    createdAt: \"2026-09-06T02:16:24.117Z\"\ntrend:\n  totalRuns: 1\n  passRate: 0\n_quickRef:\n  nextAction: \"Review pass/fail trends. If quality is dropping, investigate with start_verification_cycle.\"\n  nextTools[2]: run_quality_gate,start_verification_cycle\n  methodology: quality_gates"
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 4
+  }
+}

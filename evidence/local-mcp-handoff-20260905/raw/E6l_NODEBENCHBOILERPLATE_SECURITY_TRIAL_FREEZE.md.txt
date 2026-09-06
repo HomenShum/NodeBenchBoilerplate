@@ -1,0 +1,36 @@
+The external Boilerplate dependency trial passed its scoped checks. A developer can still run the compiled starter, connect the configured local MCP service, and retain truthful workflow records after the nine compatible dependency patches. The full audit fell from 11 entries to two high entries; it still fails and does not establish a security-complete handoff.
+
+This fulfills the current bounded part of the request to make each repository usable and ready for another developer or coding agent. The original candidate and its installed dependencies were preserved. This receipt is an external proposal for independent review, not a repository transfer or shared release.
+
+The only changed source file in `D:/ProjectRecovery/nodebenchboilerplate-security-trial-20260905` is `package-lock.json`. Native npm resolution changed exactly nine existing rows, added none, removed none, and preserved the other 350 rows. `package.json` was restored byte-for-byte before the normal installation. No override, peer bypass, forced audit repair, or manually authored integrity was used. [Exact delta](E6l-nodebenchboilerplate-security-trial-01/resolution-delta.json), [raw lock diff](E6l-nodebenchboilerplate-security-trial-01/package-lock.diff.txt)
+
+| Package | Before | Proposed |
+| --- | --- | --- |
+| `@hono/node-server` | 1.19.14 | 1.19.15 |
+| `@toon-format/toon` | 2.3.0 | 2.3.1 |
+| `@xmldom/xmldom` | 0.8.13 | 0.8.15 |
+| `fast-uri` | 3.1.3 | 3.1.6 |
+| `hono` | 4.12.28 | 4.12.34 |
+| `ip-address` | 10.2.0 | 10.3.1 |
+| `nanoid` | 3.3.15 | 3.3.18 |
+| `postcss` | 8.5.16 | 8.5.23 |
+| `qs` | 6.15.3 | 6.16.0 |
+
+NodeBench MCP 3.2.1, Sharp 0.34.5, SQLite 11.10.0, and the entire lint cohort remain exact. Sharp 0.35.0 is outside MCP's current `^0.34.5` optional dependency range. The remaining audit entries are Sharp/libvips and its inherited MCP parent entry. They remain open for the separately scoped upstream package work. [Actual full audit](E6l-nodebenchboilerplate-security-trial-01/audit-summary.json), [approved compatibility plan](E6l_NODEBENCHBOILERPLATE_SECURITY_FOLLOWUP_PLAN.md)
+
+Observed verification:
+
+- Normal `npm ci`, `npm run build`, `npm test` (two existing tests), `npm run lint`, compiled greeting, and the deliberate lint rejection/recovery scenario passed. The four generated files are byte-identical to the original candidate's compiled output. [Command receipts and exact source](E6l-nodebenchboilerplate-security-trial-01/freeze.json)
+- Unchanged `npm run verify:mcp -- <new-owned-output>` passed all 25 assertions: exact configured transport and disabled embedding arguments, starter/core/full inventories, failure responses, concurrent and repeated reads, native insert `changes: 1`, readback, restart, and EOF closure. [Protocol report](E6l-nodebenchboilerplate-security-trial-01/protocol-proof/report.json)
+- The owned workflow passed 16 assertions across 50 actual tool calls. A subsequent read-only SQLite inspection found 81 tables, six records bound to actual command outputs, eight distinct history rows, and one final learning row after eight updates. Failed review/release values and exact returned identifiers survived restart. These tools record supplied evidence; they did not run the compiler or create human approval. [Workflow report](E6l-nodebenchboilerplate-security-trial-01/agents-state-proof/report.json), [SQLite readback](E6l-nodebenchboilerplate-security-trial-01/sqlite-readback.json)
+- Eight canary families, split into ten child scenarios, passed 71 patched assertions. They used ordinary inputs plus bounded malformed/prototype/size/path cases, owned map/static/XLSX files, local AJV validation, and in-process HTTP requests. No model, OCR, private data, or provider action was used. [Before/after results and exact loaded sources](E6l-nodebenchboilerplate-security-trial-01/canary-final.json)
+
+The retained old-library results include a decoded object prototype change (not global prototype pollution), URI host changes, a no-origin source-map file read, invalid XML serialization, query-limit/type-shaped input failures, host classification errors, and a noncanonical Windows separator read of the owned same-root sentinel. The old negative-size Nano ID process hit its explicit 64 MB child heap limit; its zero-size custom generator hit the fixed two-second deadline. The Hono CORS input completed on both versions, so this proof does not claim to reproduce its denial of service or measure performance.
+
+Two recorder failures are preserved. The first XLSX observer expected bare rows even though the installed reader's documented default returns sheet objects; its failed result remains intact. The first old-library XML/XLSX child reached its five-second budget without a result, with no phase attribution. After correcting only the external expected shape and adding phase markers, the same-budget focused replay returned the exact workbook on both versions and reproduced the old XML serializer defect. No package or source change was made for this correction. [Correction and retained origins](E6l-nodebenchboilerplate-security-trial-01/xlsx-observer-correction.json)
+
+The original candidate's 15 source files, 348 named installed bindings, Git HEAD/refs/index/status, and the primary checkout's 13 source files were checked again and remained exact. All tracked owned process identities were closed. The library HTTP cases started no listener. The complete operator packet contains 695 payload files with hashes; profiles, databases, caches, and environment receipts are synthetic operator-local evidence and must not be published indiscriminately. [Freeze](E6l_NODEBENCHBOILERPLATE_SECURITY_TRIAL_FREEZE.json), [payload manifest](E6l-nodebenchboilerplate-security-trial-01/manifest.json)
+
+The normal commands are reproducible from the external trial root with Node 22.22.2 and the restored manifest. The finite scenario controllers and exact command arguments are retained under `E6l-nodebenchboilerplate-security-trial-01/controllers/`; each run requires a new owned output/state directory and must retain its current deadlines. The current packet is immutable; do not rerun a controller into it. The unchanged README describes the original 11-entry candidate audit and is historical in this external proposal. A later reviewed transfer needs a truthful handoff update, not an overwrite of earlier evidence.
+
+Independent review of this trial is pending. Linux/Node 20 native execution, Docker, provider/global-host activation, all full MCP tools, and downstream application behavior are unverified. No stage, commit, push, deployment, or candidate transfer occurred. Full product and visual grades remain null.

@@ -1,0 +1,1 @@
+{"family":"qs","status":"FAIL","checks":4,"failed":["bracket-comma array obeys configured limit","benign non-callable isBuffer-shaped value does not crash"]}

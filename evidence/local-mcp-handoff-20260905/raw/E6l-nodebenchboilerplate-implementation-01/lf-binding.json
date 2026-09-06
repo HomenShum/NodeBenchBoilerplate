@@ -1,0 +1,75 @@
+{
+  "reason": "Final raw-source guard found CRLF retained by apply_patch in three existing owners. Normalize only authored line endings; original raw inputs remain exact in before-lf. Prior proof raw-byte applicability is historical with exact LF equivalence for these three, others unchanged.",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "beforeSha256": "3e14c5d21eba31f60c9048afceca7b86a32e919def46ebbe9c73b64bcc463854",
+      "afterSha256": "0b5d5aff94cb206be53dc7ab858e0556eb2c5405d84a4eb534ea8c43ccf3edf8",
+      "onlyCRLFToLF": true,
+      "changed": true
+    },
+    {
+      "path": ".mcp.json",
+      "beforeSha256": "450f2c2468472c1054a4d2aea8aae8be1b2ef2ca6ca8f6a29af4bd2175d9cc85",
+      "afterSha256": "450f2c2468472c1054a4d2aea8aae8be1b2ef2ca6ca8f6a29af4bd2175d9cc85",
+      "onlyCRLFToLF": true,
+      "changed": false
+    },
+    {
+      "path": "AGENTS.md",
+      "beforeSha256": "8e90661e352628d2f2383725462c90528e7603981b7da7d8fd0783dc31a37757",
+      "afterSha256": "8e90661e352628d2f2383725462c90528e7603981b7da7d8fd0783dc31a37757",
+      "onlyCRLFToLF": true,
+      "changed": false
+    },
+    {
+      "path": "README.md",
+      "beforeSha256": "483af46c1ddd40822ab80744e9f7dbfffd59e45a235459ea2a3a7ad91048efeb",
+      "afterSha256": "483af46c1ddd40822ab80744e9f7dbfffd59e45a235459ea2a3a7ad91048efeb",
+      "onlyCRLFToLF": true,
+      "changed": false
+    },
+    {
+      "path": "package-lock.json",
+      "beforeSha256": "ba3cde2b48ccef8973046720afd9cf9166de427c6a8728d0d80d33d6117e9c45",
+      "afterSha256": "ba3cde2b48ccef8973046720afd9cf9166de427c6a8728d0d80d33d6117e9c45",
+      "onlyCRLFToLF": true,
+      "changed": false
+    },
+    {
+      "path": "package.json",
+      "beforeSha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "afterSha256": "9d68ec80cadb9b8646625d9c352037de6caf9b3242e1a4ddfeef910c9822fa8c",
+      "onlyCRLFToLF": true,
+      "changed": false
+    },
+    {
+      "path": "src/index.test.ts",
+      "beforeSha256": "5d26c75588ca0ec71bd8936ed4bf257aa27584f0689ba25a550f777864f76253",
+      "afterSha256": "541759ce2a5970ce620bdbc14dd18b6cd666890a14080867ebbff1f3a9adaee9",
+      "onlyCRLFToLF": true,
+      "changed": true
+    },
+    {
+      "path": "src/index.ts",
+      "beforeSha256": "2a2810bd8ce398a6845afbf408260712c4f56b2cfd22a355f75a9080c116b1cf",
+      "afterSha256": "1cda9aeeccdfe8493373591a7a25273f7b7e31dd1d1dcaf39fffde28937a45cc",
+      "onlyCRLFToLF": true,
+      "changed": true
+    },
+    {
+      "path": "eslint.config.mjs",
+      "beforeSha256": "869fb0cca73aeaec727fa81f2dde5e970d312c0c4309842ca5166c4c94134802",
+      "afterSha256": "869fb0cca73aeaec727fa81f2dde5e970d312c0c4309842ca5166c4c94134802",
+      "onlyCRLFToLF": true,
+      "changed": false
+    },
+    {
+      "path": "scripts/verify-mcp.mjs",
+      "beforeSha256": "c2ffbe141a3e38cb474dc4224f1bd37e890a5f01781287d0799b19ebd7583727",
+      "afterSha256": "c2ffbe141a3e38cb474dc4224f1bd37e890a5f01781287d0799b19ebd7583727",
+      "onlyCRLFToLF": true,
+      "changed": false
+    }
+  ]
+}

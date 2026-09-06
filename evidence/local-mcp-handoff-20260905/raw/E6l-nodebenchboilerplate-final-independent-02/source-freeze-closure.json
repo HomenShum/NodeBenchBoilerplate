@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "workerEffectiveFreezeExact": true,
+  "workerGitReceiptExact": true,
+  "beforeAfterExact": true,
+  "protectedOriginalFilesExact": 5,
+  "ownersExact": [
+    ".github/workflows/ci.yml",
+    ".mcp.json",
+    "AGENTS.md",
+    "README.md",
+    "package-lock.json",
+    "package.json",
+    "src/index.test.ts",
+    "src/index.ts",
+    "eslint.config.mjs",
+    "scripts/verify-mcp.mjs"
+  ],
+  "sourceDigest": "193ba3feda6209e843dce8c20ed4ff456b95ac1f1d8787b3479508975997dad4",
+  "note": "Guard closes all source/Git/installed-manifest/dist reads. Runtime writes were only in the newly owned independent recovery root; normal Vitest may use ignored cache, which is outside these source bindings."
+}

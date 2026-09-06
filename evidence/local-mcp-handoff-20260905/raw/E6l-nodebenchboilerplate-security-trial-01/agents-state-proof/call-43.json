@@ -1,0 +1,26 @@
+{
+  "name": "run_quality_gate",
+  "args": {
+    "gateName": "owned-history",
+    "target": "Finite synthetic history 6",
+    "rules": [
+      {
+        "name": "fixture_expected",
+        "passed": true
+      }
+    ]
+  },
+  "reply": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "gateRunId: gate_1788660984138_917q9vafz\ngateName: owned-history\npassed: true\nscore: 1\ntotalRules: 1\npassedCount: 1\nfailures: []\nruleResults:\n  fixture_expected: true\n_quickRef:\n  nextAction: Gate evaluated. Fix any failures before proceeding. Record patterns with record_learning.\n  nextTools[3]: record_learning,get_gate_history,run_mandatory_flywheel\n  methodology: quality_gates\n  tip: \"Use get_gate_preset for built-in rule sets: engagement, code_review, deploy_readiness, ui_ux_qa.\""
+        }
+      ],
+      "isError": false
+    },
+    "jsonrpc": "2.0",
+    "id": 44
+  }
+}

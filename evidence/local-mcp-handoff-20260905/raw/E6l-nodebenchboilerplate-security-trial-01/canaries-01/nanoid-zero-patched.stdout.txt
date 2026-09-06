@@ -1,0 +1,2 @@
+{"stage":"before-bounded-edge-call","family":"nanoid-zero","normalChecks":[{"name":"64 normal IDs are unique and bounded","passed":true}]}
+{"family":"nanoid-zero","status":"PASS","checks":3,"failed":[]}

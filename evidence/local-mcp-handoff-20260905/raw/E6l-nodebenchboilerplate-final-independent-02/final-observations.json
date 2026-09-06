@@ -1,0 +1,189 @@
+{
+  "at": "2026-09-06T02:04:03.279727+00:00",
+  "sqlite": [
+    {
+      "role": "worker",
+      "status": "PASS",
+      "database": "D:\\ProjectRecovery\\nodebenchboilerplate-agents-proof-20260905-02\\agents-state\\data\\nodebench.db",
+      "sha256Before": "b50b0a2473890ed97525cd604296c76b162568567a28e0209bd07300c33a94ce",
+      "sha256After": "b50b0a2473890ed97525cd604296c76b162568567a28e0209bd07300c33a94ce",
+      "sqliteOpenMode": "ro and immutable=1 after confirmed no nonempty WAL",
+      "counts": {
+        "nativeTables": 81,
+        "historyRows": 8,
+        "upsertedLearningRows": 1,
+        "commandRows": 6,
+        "protocolToolCalls": 50
+      },
+      "scope": "Durable synthetic evidence aggregation; no independent human/code-review approval is created by persisted booleans."
+    },
+    {
+      "role": "independent",
+      "status": "PASS",
+      "database": "D:\\ProjectRecovery\\nodebenchboilerplate-independent-20260906-01\\gates\\agents-state\\data\\nodebench.db",
+      "sha256Before": "6b8e5b3bfd84cbf3df0abd8379a717a11bd5366694179a8a5fa80e248b157dac",
+      "sha256After": "6b8e5b3bfd84cbf3df0abd8379a717a11bd5366694179a8a5fa80e248b157dac",
+      "sqliteOpenMode": "ro and immutable=1 after confirmed no nonempty WAL",
+      "counts": {
+        "nativeTables": 81,
+        "historyRows": 8,
+        "upsertedLearningRows": 1,
+        "commandRows": 6,
+        "protocolToolCalls": 50
+      },
+      "scope": "Durable synthetic evidence aggregation; no independent human/code-review approval is created by persisted booleans."
+    }
+  ],
+  "officialActionPins": [
+    {
+      "repository": "actions/checkout",
+      "currentV4Commit": "11d5960a326750d5838078e36cf38b85af677262",
+      "exitCode": 0,
+      "stdoutSha256": "b4be54231ed94c642aaca0da52e6aa598a58f041b39bb887da8efa6e9e9c5826"
+    },
+    {
+      "repository": "actions/setup-node",
+      "currentV4Commit": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "exitCode": 0,
+      "stdoutSha256": "1df25dbbf6d38cec60df0c4bacebab32df2297df52139d661786ad46ddefc6f0"
+    }
+  ],
+  "lock": {
+    "newRows": 112,
+    "removedRows": 0,
+    "oldVersionResolvedIntegrityChanges": 0,
+    "oldOptionalFlagOnlyRows": [
+      "node_modules/semver",
+      "node_modules/detect-libc",
+      "node_modules/safe-buffer",
+      "node_modules/util-deprecate",
+      "node_modules/string_decoder"
+    ]
+  },
+  "audit": {
+    "metadata": {
+      "info": 0,
+      "low": 0,
+      "moderate": 4,
+      "high": 7,
+      "critical": 0,
+      "total": 11
+    },
+    "affectedEntries": [
+      "@hono/node-server",
+      "@toon-format/toon",
+      "@xmldom/xmldom",
+      "fast-uri",
+      "hono",
+      "ip-address",
+      "nanoid",
+      "nodebench-mcp",
+      "postcss",
+      "qs",
+      "sharp"
+    ]
+  },
+  "workerCommands": [
+    {
+      "record": "agents-proof-01.json",
+      "exitCode": 1,
+      "seconds": 2.0
+    },
+    {
+      "record": "agents-proof-02.json",
+      "exitCode": 0,
+      "seconds": 1.141
+    },
+    {
+      "record": "audit-final.json",
+      "exitCode": 1,
+      "seconds": 1.594
+    },
+    {
+      "record": "build-01.json",
+      "exitCode": 0,
+      "seconds": 5.016
+    },
+    {
+      "record": "build-final-lf.json",
+      "exitCode": 0,
+      "seconds": 0.75
+    },
+    {
+      "record": "compiled-starter.json",
+      "exitCode": 0,
+      "seconds": 0.078
+    },
+    {
+      "record": "existing-proof-refusal.json",
+      "exitCode": 1,
+      "seconds": 0.062
+    },
+    {
+      "record": "final-runtime-preflight.json",
+      "exitCode": 0,
+      "seconds": 0.062
+    },
+    {
+      "record": "lint-01.json",
+      "exitCode": 0,
+      "seconds": 40.344
+    },
+    {
+      "record": "lint-final-02.json",
+      "exitCode": 0,
+      "seconds": 1.125
+    },
+    {
+      "record": "lint-final-lf.json",
+      "exitCode": 0,
+      "seconds": 1.078
+    },
+    {
+      "record": "lint-final.json",
+      "exitCode": 0,
+      "seconds": 1.141
+    },
+    {
+      "record": "lint-knockout.json",
+      "exitCode": 0,
+      "seconds": 1.703
+    },
+    {
+      "record": "lock-resolution.json",
+      "exitCode": 0,
+      "seconds": 4.61
+    },
+    {
+      "record": "normal-install.json",
+      "exitCode": 0,
+      "seconds": 14.453
+    },
+    {
+      "record": "protocol-01.json",
+      "exitCode": 0,
+      "seconds": 17.313
+    },
+    {
+      "record": "protocol-final.json",
+      "exitCode": 0,
+      "seconds": 4.234
+    },
+    {
+      "record": "tests-01.json",
+      "exitCode": 0,
+      "seconds": 6.125
+    },
+    {
+      "record": "tests-final-lf.json",
+      "exitCode": 0,
+      "seconds": 1.328
+    }
+  ],
+  "knownReaderFailures": [
+    "Initial independent custody reader treated dist-relative index.d.ts as repository-relative; preserved initial recorder/source snapshots, corrected dist root before runtime.",
+    "Initial PowerShell lock reader rejected the empty root package property; authoritative Python parsed it successfully.",
+    "One read used an incorrect sqlite-readback.json directory; no application or database mutation occurred."
+  ],
+  "allWorkerCommandStreamHashesExact": true
+}

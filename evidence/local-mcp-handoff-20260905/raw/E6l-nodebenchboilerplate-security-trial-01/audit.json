@@ -1,0 +1,24 @@
+{
+  "at": "2026-09-06T02:08:52.611162+00:00",
+  "args": [
+    "C:/nvm4w/nodejs/node.exe",
+    "C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js",
+    "audit",
+    "--json",
+    "--offline=false"
+  ],
+  "exitCode": 1,
+  "seconds": 1.0,
+  "ownedProcesses": {
+    "39108": 1788660531.6063707
+  },
+  "survivors": [],
+  "streamBytes": {
+    "stdout": 1441,
+    "stderr": 0
+  },
+  "stdoutSha256": "c0853e64820e08cabb944dd4a980f0a0f3de614ceddd3d73042d3fbad2201942",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "environmentFileSha256": "d8584d20a007b071681df8ab5e685aca8bf88038222cf8384c27399179b2c547",
+  "timeoutSeconds": 120
+}

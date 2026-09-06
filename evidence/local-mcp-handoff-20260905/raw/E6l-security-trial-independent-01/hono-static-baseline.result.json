@@ -1,0 +1,141 @@
+{
+  "family": "hono-static",
+  "root": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905",
+  "fixture": "D:\\ProjectRecovery\\nodebenchboilerplate-security-independent-20260906-01\\hono-static-baseline",
+  "checks": [
+    {
+      "name": "ordinary owned static path returns expected content",
+      "passed": true
+    },
+    {
+      "name": "encoded Windows backslash cannot read static sentinel",
+      "passed": false,
+      "actual": {
+        "status": 200,
+        "body": "owned-static-sentinel"
+      }
+    },
+    {
+      "name": "no fetch attempted",
+      "passed": true,
+      "actual": 0
+    }
+  ],
+  "observations": {},
+  "fetchAttempts": 0,
+  "sourceBindings": [
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\index.js",
+      "sha256": "8c2080aea84c7e06b0c3c51f37757c2702b0fa57bdbb0c366f9a965c123dda75"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\hono.js",
+      "sha256": "18c424b3cf76e0f051c283426115583b619e6bf43ba4d68a9e75bbc0df5a2a7e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\hono-base.js",
+      "sha256": "01a648a2fff6fbd7245f6ce184036dae0385dc183844c89c343cf39633a65030"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\compose.js",
+      "sha256": "e7f034ed32a8f28716f36660b9fd0df1a413beea55758962453acfac5a8174d1"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\context.js",
+      "sha256": "bcc1f58914d437dc6199f8c71310028fb5fa287925137e262dc6a070803e12c3"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\request.js",
+      "sha256": "b2bd27b59e669cd5249ae65c1a7c9b7b74bd2c40f9490f113461758ecd20d127"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\http-exception.js",
+      "sha256": "36f3e585385d81cd4de3ef1b00e498b785cd19fcb2256a6945a420f4243b80a2"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\request\\constants.js",
+      "sha256": "098c33ef6b49823396aa4c16a7d3a8d3b58574df8b9aa37cf996ce329754441c"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\body.js",
+      "sha256": "aa7dc16bed23555acdc93b6d09dd205646d334bcc834ddd877d7885d8faef6d3"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\buffer.js",
+      "sha256": "0b2e26854564941957b9865d94335632f845384272d4f18332827da2bfd74234"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\crypto.js",
+      "sha256": "baddc675d9ddbdae11a18da384d0afe50f229f1ea9e92fccf816ff18b2ac5138"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\url.js",
+      "sha256": "830c5a034862dd142d3fa1ff16c00fdce89ad2277224acf9c44119275de68190"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\html.js",
+      "sha256": "59da9093e229011411debd929b054422eb54577a3dbeab2bcbfa8644830dcc18"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router.js",
+      "sha256": "b8d1142cbf6dd79fdc902f0295e04a757c2d5c5a997ce9d614a62ec87b28f467"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\constants.js",
+      "sha256": "6b1b755e7262160f9d5507f6761340a59f3265147b677b031e13ae901d6e7ecc"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\index.js",
+      "sha256": "a4fd05597d16fedcfd936be0ebb420757fc9b224a0116e14b618e01810208155"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\router.js",
+      "sha256": "2077df4e20b0966faabbc5dbd938697848e826e20b8a6b3a5cf1b43ab5416b7f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\matcher.js",
+      "sha256": "ce9aeced0ae397aa4866c256a27083cf3e4179f3dd582c0a1cee577536aaa259"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\node.js",
+      "sha256": "0fa2aa03782bdae14b18ce90e8831d2921f99590b73c81f255cccb99c71d19d4"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\trie.js",
+      "sha256": "af21dd6cbc230040c7bb85c45b478bd966e6b2d49b2a45b140627429a0ae4558"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\reg-exp-router\\prepared-router.js",
+      "sha256": "61bcc9982761c0cab6e64f00a4f3f760c0ad1cfa0fab2e330765615be5b96b74"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\smart-router\\index.js",
+      "sha256": "2ee5a4b792c06927d5a7e55ce194427023d247398e039238e1ed5eb1ac4f4d8f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\smart-router\\router.js",
+      "sha256": "020c2c459c83ef0330822f89731c06e2fac51d8c98b55c43b1892177b0945f4e"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\index.js",
+      "sha256": "928e83d877a8d2749919fd8db4a0197f0ed2baa0edc8c123c1abd3a1310168b8"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\router.js",
+      "sha256": "2aeeaad5a1b0aaa8575d636a7b1568749f2b53886e40f22daddc116b05db058d"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\router\\trie-router\\node.js",
+      "sha256": "e6368b104415df53b38564fc2cebc3de9a6890ea32b81f812f47478ac0dfb63f"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\@hono\\node-server\\dist\\serve-static.js",
+      "sha256": "d0156679f773b58a0151bb06c9e368af9f43a4ceb40631eea22631878dd20d67"
+    },
+    {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodebenchboilerplate-current-consumer-20260905\\node_modules\\hono\\dist\\cjs\\utils\\mime.js",
+      "sha256": "e0c57da0aa2d92e9d2f7ddb04ac86de8ecb7493611a7ebb0b5f83f7148c25f09"
+    }
+  ],
+  "status": "FAIL"
+}

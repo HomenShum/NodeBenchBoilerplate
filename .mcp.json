@@ -1,8 +1,14 @@
 {
   "mcpServers": {
     "nodebench": {
-      "command": "npx",
-      "args": ["nodebench-mcp"],
+      "command": "node",
+      "args": [
+        "./node_modules/nodebench-mcp/dist/index.js",
+        "--stdio",
+        "--no-embedding",
+        "--preset",
+        "core"
+      ],
       "env": {}
     }
   }

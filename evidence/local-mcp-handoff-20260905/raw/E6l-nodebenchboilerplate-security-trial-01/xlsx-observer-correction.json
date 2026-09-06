@@ -1,0 +1,19 @@
+{
+  "cause": "The installed default export returns an array of sheet objects, not bare rows. Correct only the external expected value; workbook, library and deadline remain unchanged.",
+  "before": "2c94d6158d622fcc2ed729680fd6a510ba927feebaeaca46ad68f184ac8b8b06",
+  "after": "2207912c559d4c7e927641943a5c439d225aa8614467d773e6df619e9331c329",
+  "contract": {
+    "path": "D:\\ProjectRecovery\\nodebenchboilerplate-security-trial-20260905\\node_modules\\read-excel-file\\README.md",
+    "sha256": "aa8842e1f6c6ef7f46c03e6e5b015dd520d15cdc1af1785e4456c7b04fcd365c",
+    "lines": [
+      31,
+      99
+    ]
+  },
+  "preserved": [
+    "canaries-01/xmldom-patched.result.json",
+    "canaries-01/xmldom-baseline.command.json"
+  ],
+  "deadlineSeconds": 5,
+  "additionalMarkers": "Stage logs identify import/read phase if the existing baseline time cap recurs."
+}
