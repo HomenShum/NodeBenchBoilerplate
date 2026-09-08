@@ -83,7 +83,7 @@ acceptance; the local result is not a substitute. The active byte verifier now
 binds this handoff and corrected lock, while the supplement preserves the old
 5b0181d source bindings and manifest without rewriting historical proof.
 
-## Open limits
+## Historical dependency and platform limits, September 5–6
 
 The retained full audit exits 1 with **two high findings**, Sharp and the MCP
 package's inherited Sharp entry. Sharp 0.35.0 lies outside MCP 3.2.1's optional
@@ -99,20 +99,59 @@ unverified here. This repository owns no browser UI; visual, responsive and
 interaction grades for an application are not applicable to the greeting and
 cannot be inferred from these checks. No complete readiness grade is assigned.
 
-## Verify the portable bytes
+## Current consumer-only Sharp patch
+
+The package now overrides Sharp to 0.35.4 only under `nodebench-mcp`; all direct
+dependency declarations and MCP 3.2.1 remain unchanged. The lock replaces 26
+Sharp-family/runtime records and adds two optional WASM wrappers; 392 existing
+records remain exact. The full scratch lock audit reports zero findings. The
+starter's Node20.19+/22.13+ floors satisfy Sharp's >=20.9 requirement. Upstream
+source already changes the range, but the published MCP still selects ^0.34.5
+and retains its separate unresolved Node18 metadata contract.
+
+This patch extends the existing `verify:mcp` full-preset session while keeping
+all 25 original protocol/SQLite checks and time/read limits. A deterministic
+64x32 PNG is resized to32x16 and cropped to8x8 through actual tools/call; returned
+bytes, saved captures and decoded pixels must agree. Small malformed bytes must
+produce an error body with no new image/capture, followed by a valid same-session
+recovery. All files stay under the proof's owned profile.
+
+The September 8, 2026 Windows x64 Node 22.22.2 run passed a fresh npm ci, complete
+installed inventory, full audit with zero findings, build, compiled greeting,
+two tests, lint and all 33 protocol/storage/image checks. Sharp 0.35.4 loaded
+libvips 8.18.6. The package-local SQLite adapter retained an actual inserted row
+across process reopen. Resize and recovery returned the same 138-byte PNG;
+the 8x8 crop returned 95 bytes. Returned images, saved captures and decoded pixels
+agreed, and malformed input created no capture. All four compiled starter
+files match the prior build. Source, index and refs stayed unchanged during
+the native run; the previous installation and output remain preserved.
+
+The root reviewed the delegated worker's six-file implementation and ran these
+checks after delegated review capacity became unavailable. Only this factual
+results update was authored by the root after that source review. This is
+local Windows evidence; the existing Linux 20/22 jobs must pass on the exact
+proposed commit before integration. Use the normal commands above for a new
+local receipt and the commit's CI checks for shared-platform evidence.
+
+The published malformed-image handler returns an error body while its raw
+content dispatcher emits isError:false and logs array results as success. The
+verifier records that concrete upstream HONEST_STATUS hold, rather than treating
+the false-success envelope as desired behavior. Full image-tool readiness,
+other formats/OCR, Docker, provider/host integration and application grades
+remain outside this proof.
+
+## Verify the historical portable bytes
 
 Python 3 uses only its standard library; no pip installation is needed:
 
 ```sh
 python evidence/local-mcp-handoff-20260905/verify.py
-python evidence/local-mcp-handoff-20260905/verify.py --source-root .
 ```
 
-The first command checks the finite packet byte for byte. The second also
-checks the sixteen publication source files, including this handoff and the
-README link, against their canonical Git content. Only source CRLF pairs are
-converted to LF, so ordinary Windows or Linux checkout endings are accepted;
-other content changes still fail. Raw source identities remain recorded beside
-the canonical byte counts, SHA256 hashes and actual Git blob IDs. Historical
-source digests stay historical, and raw evidence is never normalized. Neither
-command reruns tests or opens the omitted private databases.
+This command checks the finite historical packet byte for byte; it does not
+rerun tests or open omitted private databases. Its optional `--source-root`
+argument binds the sixteen historical publication sources, including README,
+HANDOFF and the old lock. Use it only with that exact historical checkout:
+current changed sources intentionally fail this old binding. Source CRLF pairs
+are normalized to LF by that historical verifier; raw evidence is never
+normalized. The old manifest and raw identities remain unchanged.

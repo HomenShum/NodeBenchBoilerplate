@@ -2,15 +2,16 @@ import assert from 'node:assert/strict';
 import { Buffer } from 'node:buffer';
 import { spawn, spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, realpathSync, statSync, writeFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
 import { tmpdir } from 'node:os';
-import { dirname, join, resolve } from 'node:path';
+import { dirname, isAbsolute, join, relative, resolve } from 'node:path';
 import process from 'node:process';
 import { StringDecoder } from 'node:string_decoder';
 import { setTimeout, clearTimeout } from 'node:timers';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-// A finite local consumer check, not a provider or tool-execution test.
+// A finite local consumer check with owned images, not a provider test.
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const output = process.argv[2] ? resolve(process.argv[2]) : mkdtempSync(join(tmpdir(), 'nodebench-mcp-proof-'));
 if (process.argv[2]) mkdirSync(output); // Refuse an existing run before touching its state.
@@ -168,6 +169,83 @@ async function inventory(rpc, expectedCore, repeated = false) {
   return shape;
 }
 
+async function imageConsumer(rpc, env) {
+  const inventory = json(join(output, rpc.entry.name + '.inventory.json'));
+  check('full preset image tool exists', inventory.tools.result.tools.some((tool) => tool.name === 'manipulate_screenshot'));
+  const mcpRequire = createRequire(join(root, 'node_modules/nodebench-mcp/package.json'));
+  const sharpEntry = mcpRequire.resolve('sharp');
+  const sharpPackage = json(resolve(dirname(sharpEntry), '../package.json'));
+  const sharp = (await import(pathToFileURL(sharpEntry).href)).default;
+  check('MCP resolves selected Sharp', sharpPackage.name === 'sharp' && sharpPackage.version === pkg.overrides['nodebench-mcp'].sharp);
+  const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
+  // A 64x32 RGB PNG: left half (200,40,30), right half (20,70,210).
+  const fixture = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAIAAAAt/+nTAAAAPklEQVR4nO3PMQ0AMAgAMETs5p6Sad+NIjRw8DWpgca/ueq8WhUCAgICAgICAgICAgICAgICAgICAgICAlMNEqLoeU+/I80AAAAASUVORK5CYII=', 'base64');
+  writeFileSync(join(output, 'image-input.png'), fixture, { flag: 'wx' });
+  const input = await sharp(fixture).metadata();
+  check('image fixture is 64x32 PNG', input.format === 'png' && input.width === 64 && input.height === 32);
+  const captures = join(env.HOME, '.nodebench', 'captures');
+  const captureState = () => {
+    const names = existsSync(captures) ? readdirSync(captures).sort() : [];
+    assert(names.length <= 8, 'Finite owned capture inventory');
+    return names.map((name) => {
+      const path = join(captures, name);
+      assert(statSync(path).size <= 2 * 1024 * 1024, '2 MB capture limit');
+      return { name, sha256: hash(readFileSync(path)) };
+    });
+  };
+  report.images = { sharpEntry, version: sharpPackage.version, versions: sharp.versions, platform: process.platform, arch: process.arch,
+    inputSHA256: hash(fixture), results: [], scope: 'PNG resize/crop/rejection/recovery; other formats and tools unverified' };
+  const transform = async (label, bytes, args, width, height, solid = false) => {
+    const reply = await rpc.request('tools/call', { name: 'manipulate_screenshot', arguments: { imageBase64: bytes.toString('base64'), label, ...args } });
+    save(label + '.reply.json', reply);
+    assert(!reply.error && reply.result?.isError === false, 'Successful image response envelope');
+    const content = reply.result.content;
+    assert.equal(content.length, 2);
+    const body = JSON.parse(content.find((item) => item.type === 'text').text);
+    const image = content.find((item) => item.type === 'image');
+    assert(!body.error && body.operation === args.operation && body.label === label);
+    assert.equal(image.mimeType, 'image/png');
+    const result = Buffer.from(image.data, 'base64');
+    assert(result.length <= 2 * 1024 * 1024);
+    assert.equal(result.subarray(0, 8).toString('hex'), '89504e470d0a1a0a');
+    const destination = realpathSync(body.filepath);
+    const local = relative(realpathSync(captures), destination);
+    assert(local && !isAbsolute(local) && local !== '..' && !local.startsWith('..' + (process.platform === 'win32' ? '\\' : '/')), 'Capture stays inside owned profile');
+    assert.equal(statSync(destination).size, result.length);
+    assert.deepEqual(readFileSync(destination), result);
+    assert.equal(body.outputSizeBytes, result.length);
+    const decoded = await sharp(result).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    assert.equal(decoded.info.width, width); assert.equal(decoded.info.height, height); assert.equal(decoded.info.channels, 4);
+    const pixel = (x, y) => [...decoded.data.subarray((y * width + x) * 4, (y * width + x) * 4 + 4)];
+    if (solid) {
+      for (let y = 0; y < height; y++) for (let x = 0; x < width; x++) assert.deepEqual(pixel(x, y), [200, 40, 30, 255]);
+    } else {
+      assert.deepEqual(pixel(4, 4), [200, 40, 30, 255]);
+      assert.deepEqual(pixel(width - 5, height - 5), [20, 70, 210, 255]);
+    }
+    report.images.results.push({ label, width, height, bytes: result.length, sha256: hash(result), filepath: destination });
+    check(label + ' actual pixels, transport and saved bytes', true);
+    return result;
+  };
+  const resized = await transform('sharp-consumer-resize', fixture, { operation: 'resize', width: 32, height: 16 }, 32, 16);
+  await transform('sharp-consumer-crop', resized, { operation: 'crop', x: 2, y: 2, cropWidth: 8, cropHeight: 8 }, 8, 8, true);
+  const beforeMalformed = captureState();
+  const malformed = await rpc.request('tools/call', { name: 'manipulate_screenshot', arguments: {
+    imageBase64: Buffer.from('not-a-png').toString('base64'), operation: 'resize', width: 32, height: 16, label: 'sharp-consumer-malformed' } });
+  save('sharp-consumer-malformed.reply.json', malformed);
+  assert(!malformed.error && Array.isArray(malformed.result?.content));
+  assert.equal(malformed.result.content.length, 1);
+  assert.equal(malformed.result.content[0].type, 'text');
+  const rejected = JSON.parse(malformed.result.content[0].text);
+  check('malformed image rejects body without image output', rejected.error === true && rejected.operation === 'resize' && /^Image manipulation failed:/.test(rejected.message) && !rejected.filepath);
+  assert.deepEqual(captureState(), beforeMalformed);
+  check('malformed image creates no capture', true);
+  report.images.malformed = { body: rejected, isError: malformed.result.isError, capturesBefore: beforeMalformed, capturesAfter: captureState(),
+    protocolStatus: malformed.result.isError === true ? 'ERROR_ENVELOPE_OBSERVED' : 'OPEN_UPSTREAM_HONEST_STATUS_DEFECT',
+    telemetry: 'Published raw-content arrays are logged as success by upstream source; telemetry not queried by this proof' };
+  await transform('sharp-consumer-recovery', fixture, { operation: 'resize', width: 32, height: 16 }, 32, 16);
+}
+
 try {
   const nativeEnv = isolatedEnv('native');
   const dbUrl = pathToFileURL(join(root, 'node_modules/nodebench-mcp/dist/db.js')).href;
@@ -192,7 +270,11 @@ try {
   for (const preset of ['start', 'starter', 'core', 'full']) {
     const actual = preset === 'start' ? 'core' : preset;
     assert.equal(pkg.scripts['mcp:' + preset], `node ${bin} --stdio --no-embedding --preset ${actual}`);
-    await session('npm-' + preset, process.execPath, [process.env.npm_execpath, 'run', '--silent', 'mcp:' + preset], isolatedEnv('npm-' + preset), (rpc) => inventory(rpc, actual !== 'starter', actual === 'starter'));
+    const env = isolatedEnv('npm-' + preset);
+    await session('npm-' + preset, process.execPath, [process.env.npm_execpath, 'run', '--silent', 'mcp:' + preset], env, async (rpc) => {
+      await inventory(rpc, actual !== 'starter', actual === 'starter');
+      if (actual === 'full') await imageConsumer(rpc, env);
+    });
   }
   const restarted = await session('configured-restart', config.command, config.args, isolatedEnv('configured'), (rpc) => inventory(rpc, true));
   check('restart schema identity', configured.inventoryDigest === restarted.inventoryDigest);

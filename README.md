@@ -30,9 +30,11 @@ installation requires a compatible platform binary or normal local build tools.
 directory, preserves its raw protocol records, and prints the output location.
 To retain a named run, use `npm run verify:mcp -- /path/to/new-proof-directory`.
 It checks real JSON-RPC initialization, lists, unsupported input, concurrent and
-repeated reads, EOF/restart, and a native SQLite insert/readback/reopen. It does
-not call model providers or mutation tools, and it does not certify every loaded
-tool. A missing local installation fails instead of downloading another CLI.
+repeated reads, EOF/restart, and a native SQLite insert/readback/reopen. The full
+preset also resizes and crops an owned PNG through the actual MCP image tool,
+checks saved bytes/pixels, rejects malformed input and then recovers in the same
+session. It calls no model provider and does not certify every loaded tool.
+A missing local installation fails instead of downloading another CLI.
 
 ## Connect your coding agent
 
@@ -81,6 +83,26 @@ real persona, commands, artifacts and observed failures before claiming success.
 
 ## Current scope and limits
 
+The starter now selects Sharp 0.35.4 only beneath `nodebench-mcp` through a
+parent-scoped override; MCP remains locked at 3.2.1. This fits the documented
+Node 20/22 floors. The published MCP still requests `^0.34.5`; upstream source
+already requests `^0.35.0` but has not published that dependency repair and
+still declares Node >=18. This starter does not extend support to Node18.
+On September 8, 2026, a fresh Windows x64 Node 22.22.2 installation passed the
+full installed audit with zero findings, build, compiled starter, two tests,
+lint and all 33 protocol/storage/image checks. Sharp reported 0.35.4 with
+libvips 8.18.6; real SQLite write and reopen passed. All four compiled starter
+files match the preceding accepted build. The existing Linux Node 20/22 CI must
+also pass on the proposed commit; inspect that commit's workflow results.
+
+The malformed-image body can contain `error:true` while the published MCP's
+raw-content envelope says `isError:false` and its telemetry records success.
+The verifier preserves that upstream status defect as an open limit; rejected
+body/no output and recovery do not certify honest protocol failure. Other image
+formats, OCR, providers and non-prebuilt architectures remain unverified.
+
+### Historical local evidence, September 5–6
+
 The repaired local contract is starter guidance, keyless stdio, native storage,
 and blocking development checks. Normal installation, build, greeting tests,
 lint, compiled starter, and the 25-assertion protocol/storage scenario passed
@@ -93,9 +115,9 @@ own actual results. CI covers pushes and pull requests targeting `master` or
 
 The original full audit reported 11 findings (4 moderate, 7 high). Nine compatible
 lockfile patches reduced it to two high entries: Sharp and its inherited MCP
-entry. The full audit still fails. Patched Sharp 0.35.0 is outside MCP 3.2.1's
-optional `^0.34.5` range and requires an upstream package change. No override or
-optional-capability removal was used. MCP is used at runtime and the Docker image
+entry. That retained full audit failed. Sharp 0.35.0 is outside MCP 3.2.1's
+published optional `^0.34.5` range. That earlier trial used no override or
+optional-capability removal. MCP is used at runtime and the Docker image
 copies its dependencies; dev labels do not dismiss the remaining findings.
 The patched dependency set passed the same local protocol/storage proof and
 eight targeted regression families. Review the full audit before using untrusted

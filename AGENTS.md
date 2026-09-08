@@ -9,8 +9,12 @@ The lock currently installs NodeBench MCP 3.2.1. The default configuration uses
 method names with `tools/list` before beginning this workflow. Starter is a
 smaller discovery surface and cannot be assumed to expose all of these gates.
 
-`npm run verify:mcp` checks transport and native storage in an owned temporary
-profile. A normal host session has its own persistent data policy. Never record
+`npm run verify:mcp` checks transport, native storage and a bounded PNG
+resize/crop/rejection/recovery sequence in an owned temporary profile. It checks
+actual saved image bytes and pixels without provider calls. Malformed images
+currently return an error body inside a false-success MCP envelope; retain this
+upstream status defect as an open limit rather than claiming full tool readiness.
+A normal host session has its own persistent data policy. Never record
 synthetic tasks into an existing user's database. Embeddings, model providers,
 background engine/watchdog/dashboard activation, and global host setup are
 outside the keyless baseline.
@@ -76,5 +80,6 @@ independent review nor human approval.
   task scope; they are not required to prove this starter's transport.
 - Keep before/after evidence and failure history. Do not claim Docker, a provider,
   a deployed surface, or a downstream application from a lower-layer test.
-- Full dependency findings remain a separate remediation hold; installation of
-  the native adapter or development linter is not an audit waiver.
+- Run the full installed dependency audit; development labels are not a waiver
+  for the MCP runtime. The parent-scoped Sharp override does not certify every
+  image format, the published MCP's Node18 contract, or provider integration.

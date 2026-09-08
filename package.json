@@ -36,5 +36,10 @@
     "quality-gates",
     "parallel-agents",
     "verification"
-  ]
+  ],
+  "overrides": {
+    "nodebench-mcp": {
+      "sharp": "0.35.4"
+    }
+  }
 }
