@@ -8,8 +8,8 @@ The greeting alone does not establish an agent connection or a usable applicatio
 ## Run the local proof
 
 Use Node.js 22.13+ within major 22; retained local runs use 22.22.2 on Windows.
-The CI matrix also targets Node 20.19+ within major 20, but that platform lane
-needs its own shared result. From the repository root:
+The CI matrix also targets Node 20.19+ within major 20; the shared Linux result
+for both majors is recorded below. From the repository root:
 
 ```sh
 npm ci
@@ -139,6 +139,20 @@ verifier records that concrete upstream HONEST_STATUS hold, rather than treating
 the false-success envelope as desired behavior. Full image-tool readiness,
 other formats/OCR, Docker, provider/host integration and application grades
 remain outside this proof.
+
+## Shared Linux CI evidence, September 8
+
+At source [5003d7f](https://github.com/HomenShum/NodeBenchBoilerplate/commit/5003d7f945a46b0c896e879ebe83d70c92bdea3c),
+[CI run 34198555756](https://github.com/HomenShum/NodeBenchBoilerplate/actions/runs/34198555756)
+completed successfully on both Linux Node 20 and Node 22. Each job passed
+installation, build, the two existing tests, lint and all 33 finite
+protocol/storage/PNG consumer checks. A read-only review on October 5 confirmed
+the exact head, both jobs and the supporting log results; no rerun was performed.
+
+The workflow declares no image/report artifact upload step, so its logs do not establish
+cross-platform image-byte identity. The malformed-image status hold above and
+host, provider, Docker and downstream application limits remain open. New source
+changes need their own exact-head checks; this retained result is not their pass.
 
 ## Verify the historical portable bytes
 
