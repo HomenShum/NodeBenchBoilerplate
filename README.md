@@ -11,6 +11,8 @@
 <p align="center"><a href="HANDOFF.md">Handoff</a> · <a href="https://homenshum.github.io/">All&nbsp;projects</a></p>
 <!-- brand:end -->
 
+# NodeBenchBoilerplate
+
 A small TypeScript source template for a developer or coding agent who needs a
 local MCP connection, verification records, and ordinary build/test/lint gates.
 The starter prints a greeting. It does not generate an application or prove an
